@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
+  <style>
    .hr {
-       border-top: 1px dotted #000000 !important;
-       margin-bottom:5px !important;
-       margin-top:5px !important;
+     border-top: 1px dotted #000000 !important;
+     margin-bottom:5px !important;
+     margin-top:5px !important;
    }
-</style>
-  <title>E-Contract</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- bootstrap style -->
-  <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
-  <!-- daterange picker -->
-  <link rel="stylesheet" href="../resources/daterangepicker/daterangepicker.css">
-  <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="../resources/css/bootstrap-datepicker.css">
-  <!-- bootstrap timepicker -->
-  <link rel="stylesheet" href="../resources/css/bootstrap-timepicker.min.css">
-  <!-- font awesome -->
-  <link rel="stylesheet" href="../resources/css/font-awesome.min.css">
-  <!-- ptb style -->
-  <link rel="stylesheet" href="../resources/css/ptbapps.css">
+ </style>
+ <title>E-Contract</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- bootstrap style -->
+ <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+ <!-- daterange picker -->
+ <link rel="stylesheet" href="../resources/daterangepicker/daterangepicker.css">
+ <!-- bootstrap datepicker -->
+ <link rel="stylesheet" href="../resources/css/bootstrap-datepicker.css">
+ <!-- bootstrap timepicker -->
+ <link rel="stylesheet" href="../resources/css/bootstrap-timepicker.min.css">
+ <!-- font awesome -->
+ <link rel="stylesheet" href="../resources/css/font-awesome.min.css">
+ <!-- ptb style -->
+ <link rel="stylesheet" href="../resources/css/ptbapps.css">
 
 
-  <!-- jquery js -->
-  <script src="../resources/js/jquery.min.js"></script>
-  <!-- bootstrap js -->
-  <script src="../resources/js/bootstrap.min.js"></script>
+ <!-- jquery js -->
+ <script src="../resources/js/jquery.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="../resources/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -222,12 +222,12 @@
                           </tr>
                           <tr>
                             <td>4</td>
-                            <td>Form Evatek <a href="#"><span class="label label-info">Download Template</span></a></td>
+                            <td>Form Evaltek</td>
                             <td><input type="file" id="exampleInputFile"></td>
                           </tr>
                           <tr>
                             <td>5</td>
-                            <td>SHE Q Notice <a href="#"><span class="label label-info">Download Template</span></a></td>
+                            <td>SHEQ Notice <a href="#"><span class="label label-info">Download Template</span></a></td>
                             <td><input type="file" id="exampleInputFile"></td>
                           </tr>
                           <tr>
@@ -235,42 +235,25 @@
                             <td>Penilaian Resiko <a href="#"><span class="label label-info">Download Template</span></a></td>
                             <td><input type="file" id="exampleInputFile"></td>
                           </tr>
-                        </tbody>
-                      </table>
-                      <span class="col-md-2">
-                        <button type="button" class="btn btn-block btn-success btn-xs">+ Tambah Lampiran</button>
-                      </span>
-                    </div>
-                  </div>
-
-
-                </div>
-
-                <div class="col-md-12">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <i><b>Disetujui Oleh</b></i>
-                    </div>
-                    <div class="panel-body">
-                      <table class="table table-hover">
-                        <thead>
                           <tr>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
+                            <td>9</td>
+                            <td>Request For Proposal </td>
+                            <td><input type="file" id="exampleInputFile"></td>
                           </tr>
-                        </thead>
-                        <tbody>
                           <tr>
-                            <td>NAMA</td>
-                            <td>NAMA</td>
-                            <td>NAMA</td>
-                            <td>NAMA</td>
-                            <td>NAMA</td>
-                            <td>NAMA</td>
+                            <td>10</td>
+                            <td>Daftar Material </td>
+                            <td><input type="file" id="exampleInputFile"></td>
+                          </tr>
+                          <tr>
+                            <td>11</td>
+                            <td>Gambar </td>
+                            <td><input type="file" id="exampleInputFile"></td>
+                          </tr>
+                          <tr>
+                            <td>12</td>
+                            <td>Spesifikasi Teknis </td>
+                            <td><input type="file" id="exampleInputFile"></td>
                           </tr>
                         </tbody>
                       </table>
@@ -279,10 +262,11 @@
                       </span>
                     </div>
                   </div>
-
-
                 </div>
 
+                <div class="col-md-1 col-md-offset-11">
+                  <button class="btn btn-success btn-lg"> SUBMIT </button>
+                </div>
               </form>
             </div>
           </div>
@@ -309,6 +293,6 @@
     <script type="text/javascript">
     //Date range picker
     $('#reservation').daterangepicker();
-    </script>
-  </body>
-  </html>
+  </script>
+</body>
+</html>
