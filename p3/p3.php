@@ -131,20 +131,23 @@
 												<thead>
 													<tr>
 														<th class="col-md-1">No</th>
-														<th class="col-md-5">Nama Dokumen</th>
-														<th class="col-md-6"></th>
+														<th class="col-md-3">Nama Dokumen</th>
+														<th class="col-md-1"></th>
+														<th class="col-md-6">File</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
 														<td>1</td>
 														<td>Risalah Prebid Meeting</td>
-														<td><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">Choose File</button></td>
+														<td><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#1">Choose File</button></td>
+														<td>belum ada file terpilih</td>
 													</tr>
 													<tr>
 														<td>2</td>
 														<td>Breakdown Penawaran</a></td>
-														<td><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">Choose File</button></td>
+														<td><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#1">Choose File</button></td>
+														<td>belum ada file terpilih</td>
 													</tr>
 												</tbody>
 											</table>
@@ -152,7 +155,7 @@
 											<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#addMoreModal"><span class="glyphicon glyphicon-plus"></span> Add More </button>
 
 											<!-- Modal Choose File-->
-											<div id="myModal" class="modal fade" role="dialog">
+											<div id="1" class="modal fade" role="dialog">
 												<div class="modal-dialog">
 
 													<!-- Modal content-->
@@ -165,14 +168,14 @@
 															<div class="col-md-12">
 																<div class="form-group">
 																	<label class="control-label" for="exampleInputFile">Dokumen : </label>
-																	<input type="file" id="exampleInputFile">
+																	<input type="file" id="inputFile" multiple>
 																</div>
 																<div class="form-group">
 																	<label class="control-label" for="description">Deskripsi : </label>
 																	<textarea class="form-control" rows="5" id="description" name="description" style="resize:none"></textarea>
 																</div>
 															</div>
-															<button type="button" class="btn btn-default btn-md" data-dismiss="modal">Close</button>
+															<button id="okButton" type="button" class="btn btn-primary btn-md" data-dismiss="modal" value="1">Ok</button>
 														</div>
 														
 														
@@ -219,7 +222,7 @@
 
 								<div class="col-md-6">
 									<button class="btn btn-danger btn-lg"> Abort </button>
-									<button class="btn btn-success btn-lg"> Submit </button>
+									<button class="btn btn-success btn-lg"> Upload </button>
 								</div>
 
 							</div>
@@ -271,6 +274,29 @@
 
     	$("#dataTable tr:last").after(data);
 		});
+
+		//ok choose file button
+		$("#okButton").click(function(){
+			//get okButton value
+			var trNum = $("#okButton").val();
+
+			//find td with first column value same as button value
+			var tableRow = $("#dataTable td").filter(function() {
+			    return $(this).text() == trNum;
+			}).closest("tr");
+    	
+			//get 
+			var files = $('#inputFile').prop("files");
+			var names = $.map(files, function(val) { return val.name; });
+
+    	//replace column filename
+    	tableRow.find("td:last").text(names);
+
+    	alert(tableRow.find("td:last").text());
+
+		});
+
+
   </script>
 </body>
 </html>
