@@ -1,2 +1,0 @@
-# econtractview
-Mockup e-Contract
