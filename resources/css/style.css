@@ -1,0 +1,20 @@
+.left-content {
+  border-right: 3px solid #e1e8e3;
+}
+
+.right-content {
+  border-left: 3px solid #e1e8e3;
+}
+
+.up-content {
+  margin-top: 98px;
+}
+
+.logo-content {
+  margin-top: 126px;
+  border-bottom: 3px solid #ce1100;
+}
+
+body {
+  background-color: #f7f9f8;
+}
