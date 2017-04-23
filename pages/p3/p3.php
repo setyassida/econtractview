@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -27,7 +29,7 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-blue fixed sidebar-mini">
+<body class="hold-transition skin-red	 fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
 
@@ -150,7 +152,7 @@
         </li>
 
         <!-- Pre Bid Meeting -->
-        <li class="treeview">
+        <li class="treeview active">
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Pre-Bid Meeting</span>
             <span class="pull-right-container">
@@ -328,17 +330,19 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Judul
-        <small>Sub Judul</small>
+        Pre-Bid Meeting
+        <small></small>
       </h1>
     </section>
 
     <!-- Main content -->
+    
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
-      <div class="box box-default">
+      <div class="box box-danger
+      ">
         <div class="box-header with-border">
-          <h3 class="box-title">Select2</h3>
+          <h3 class="box-title">Daftar Kontrak</h3>
 
           <div class="box-tools pull-right">
             <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -346,67 +350,80 @@
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label>Minimal</label>
-                <select class="form-control select2 input-sm" style="width: 100%;">
-                  <option selected="selected">Alabama</option>
-                  <option>Alaska</option>
-                  <option>California</option>
-                  <option>Delaware</option>
-                  <option>Tennessee</option>
-                  <option>Texas</option>
-                  <option>Washington</option>
-                </select>
-              </div>
-              <!-- /.form-group -->
-              <div class="form-group">
-                <label>Disabled</label>
-                <select class="form-control input-sm select2" disabled="disabled" style="width: 100%;">
-                  <option selected="selected">Alabama</option>
-                  <option>Alaska</option>
-                  <option>California</option>
-                  <option>Delaware</option>
-                  <option>Tennessee</option>
-                  <option>Texas</option>
-                  <option>Washington</option>
-                </select>
-              </div>
-              <!-- /.form-group -->
-            </div>
-            <!-- /.col -->
-            <div class="col-md-6">
-              <div class="form-group">
-                <label>Multiple</label>
-                <select class="form-control input-sm select2" multiple="multiple" data-placeholder="Select a State" style="width: 100%;">
-                  <option>Alabama</option>
-                  <option>Alaska</option>
-                  <option>California</option>
-                  <option>Delaware</option>
-                  <option>Tennessee</option>
-                  <option>Texas</option>
-                  <option>Washington</option>
-                </select>
-              </div>
-              <!-- /.form-group -->
-              <div class="form-group">
-                <label>Disabled Result</label>
-                <select class="form-control input-sm select2" style="width: 100%;">
-                  <option selected="selected">Alabama</option>
-                  <option>Alaska</option>
-                  <option disabled="disabled">California (disabled)</option>
-                  <option>Delaware</option>
-                  <option>Tennessee</option>
-                  <option>Texas</option>
-                  <option>Washington</option>
-                </select>
-              </div>
-              <!-- /.form-group -->
-            </div>
-            <!-- /.col -->
-          </div>
-          <!-- /.row -->
+          
+            
+            <!-- main column-->
+            
+        	<table id="dataTable" class="table table-bordered table-condensed table-hover">
+            <thead>
+            <tr>
+              <th style="width:150px">No. Risalah Pre-Bid Meeting</th>
+              <th style="width:100px">Tanggal</th>
+              <th style="width:100px">Nomor Kontrak</th>
+              <th>Judul Proyek</th>
+              <th style="width:50px">Status</th>
+              <th style="width:10px">Download</th>
+              <th style="width:50px">Upload</th>
+              <th style="width:50px">Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td><a href="#">0001/BB41/2017-041</a></td>
+              <td>01-01-2017</td>
+              <td>CA-17001</td>
+              <td>Pengadaan Sistem Informasi</td>
+              <td>Waiting</td>
+              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
+              <td>
+              	<a href="#" data-toggle="hold" title="Hold Pre-Bid Meeting"><button type="button" class="btn btn-warning btn-xs"><span class="glyphicon glyphicon-pause"></span></button></a>
+              	<a href="#" data-toggle="abort" title="Abort This Contract"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button></a>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">0001/BB41/2016-789</a></td>
+              <td>25-03-2018</td>
+              <td>CC-167321</td>
+              <td>Perbaikan Infrastruktur</td>
+              <td>Waiting</td>
+              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
+              <td>
+              	<a href="#" data-toggle="hold" title="Hold Pre-Bid Meeting"><button type="button" class="btn btn-warning btn-xs"><span class="glyphicon glyphicon-pause"></span></button></a>
+              	<a href="#" data-toggle="abort" title="Abort This Contract"<button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button></a>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">0001/BB41/2017-041</a></td>
+              <td>17-02-2018</td>
+              <td>CB-18121</td>
+              <td>Pengadaan Perangkat Lunak</td>
+              <td>Hold</td>
+              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
+              <td>
+              	<a href="#" data-toggle="resume" title="Resume"><button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span></button></a>
+              	<a href="#" data-toggle="abort" title="Abort This Contract"<button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button></a>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">0001/BB41/2017-532</a></td>
+              <td>28-01-2018</td>
+              <td>CA-17001</td>
+              <td>Pemeliharaan</td>
+              <td>Hold</td>
+              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
+              <td>
+              	<button data-toggle="resume" title="Resume" type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span></button>
+              	<button data-toggle="abort" title="Abort This Contract" type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button>
+              </td>
+            </tr>
+            <tbody>
+          </table>
+
+            
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
@@ -415,183 +432,8 @@
         </div>
       </div>
       <!-- /.box -->
+	</section> 
 
-      <!-- Default box -->
-      <div class="box box-danger">
-        <div class="box-header with-border">
-          <h3 class="box-title">Title</h3>
-
-          <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-              <i class="fa fa-minus"></i></button>
-          </div>
-        </div>
-        <div class="box-body">
-
-          <!-- form start -->
-          <form class="form-horizontal">
-            <div class="box-body">
-              <div class="form-group">
-                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-
-                <div class="col-sm-10">
-                  <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-
-                <div class="col-sm-10">
-                  <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Remember me
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <button type="submit" class="btn btn-default">Cancel</button>
-              <button type="submit" class="btn btn-info pull-right">Sign in</button>
-            </div>
-            <!-- /.box-footer -->
-          </form>
-        </div>
-        <!-- /.box-body -->
-        <div class="box-footer">
-          Footer
-        </div>
-        <!-- /.box-footer-->
-      </div>
-      <!-- /.box -->
-
-      <div class="row">
-        <div class="col-md-6">
-          <!-- Default box -->
-          <div class="box box-danger">
-            <div class="box-header with-border">
-              <h3 class="box-title">Title</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                  <i class="fa fa-minus"></i></button>
-              </div>
-            </div>
-            <div class="box-body">
-
-              <!-- form start -->
-              <form class="form-horizontal">
-                <div class="box-body">
-                  <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-
-                    <div class="col-sm-10">
-                      <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> Remember me
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /.box-body -->
-                <div class="box-footer">
-                  <button type="submit" class="btn btn-default">Cancel</button>
-                  <button type="submit" class="btn btn-info pull-right">Sign in</button>
-                </div>
-                <!-- /.box-footer -->
-              </form>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              Footer
-            </div>
-            <!-- /.box-footer-->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!--/.col (left) -->
-        <!-- right column -->
-        <div class="col-md-6">
-
-          <!-- Default box -->
-          <div class="box box-danger">
-            <div class="box-header with-border">
-              <h3 class="box-title">Title</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                  <i class="fa fa-minus"></i></button>
-              </div>
-            </div>
-            <div class="box-body">
-
-              <!-- form start -->
-              <form class="form-horizontal">
-                <div class="box-body">
-                  <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-
-                    <div class="col-sm-10">
-                      <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> Remember me
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /.box-body -->
-                <div class="box-footer">
-                  <button type="submit" class="btn btn-default">Cancel</button>
-                  <button type="submit" class="btn btn-info pull-right">Sign in</button>
-                </div>
-                <!-- /.box-footer -->
-              </form>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              Footer
-            </div>
-            <!-- /.box-footer-->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!--/.col (right) -->
-
-      </div>
-
-    </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -801,6 +643,9 @@
 <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="../../bootstrap/js/bootstrap.min.js"></script>
+<!-- DataTables -->
+<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -809,5 +654,26 @@
 <script src="../../dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="hold"]').tooltip();
+    $('[data-toggle="resume"]').tooltip();
+    $('[data-toggle="abort"]').tooltip(); 
+  });
+  $(function () {
+    $("#dataTable").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+    });
+  });
+</script>
+
+
 </body>
 </html>
