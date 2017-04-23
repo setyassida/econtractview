@@ -374,8 +374,8 @@
               <td>CA-17001</td>
               <td>Pengadaan Sistem Informasi</td>
               <td>Waiting</td>
-              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
+              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td></a>
               <td>
               	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
               	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
@@ -388,10 +388,10 @@
               <td>CC-167321</td>
               <td>Perbaikan Infrastruktur</td>
               <td>Waiting</td>
-              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
               <td>
-              	<button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button>
+              	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
               	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
               </td>
             </tr>
@@ -401,10 +401,10 @@
               <td>CB-18121</td>
               <td>Pengadaan Perangkat Lunak</td>
               <td>Hold</td>
-              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
               <td>
-              	<button type="button" class="btn btn-info btn-xs" data-toggle="resume" title="Resume"><span class="glyphicon glyphicon-play"></span></button>
+              	<a href="p3-resume.php?no=CO-17001"><button type="button" class="btn btn-info btn-xs" data-toggle="resume" title="Resume"><span class="glyphicon glyphicon-play"></span></button></a>
               	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
               </td>
             </tr>
@@ -414,10 +414,10 @@
               <td>CA-17001</td>
               <td>Pemeliharaan</td>
               <td>Hold</td>
-              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
               <td>
-              	<button data-toggle="resume" title="Resume" type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span></button>
+              	<a href="p3-resume.php?no=CO-17001"><button data-toggle="resume" title="Resume" type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span></button></a>
               	<button data-toggle="abort" title="Abort This Contract" type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button>
               </td>
             </tr>
@@ -427,7 +427,7 @@
               <td>CB-17555</td>
               <td>Kebersihan</td>
               <td>Uploaded</td>
-              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
               <td>
               </td>
