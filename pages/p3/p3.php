@@ -377,8 +377,9 @@
               <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
               <td>
-              	<a href="#" data-toggle="hold" title="Hold Pre-Bid Meeting"><button type="button" class="btn btn-warning btn-xs"><span class="glyphicon glyphicon-pause"></span></button></a>
-              	<a href="#" data-toggle="abort" title="Abort This Contract"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button></a>
+              	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
+              	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
+			  </div>
               </td>
             </tr>
             <tr>
@@ -390,8 +391,8 @@
               <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
               <td>
-              	<a href="#" data-toggle="hold" title="Hold Pre-Bid Meeting"><button type="button" class="btn btn-warning btn-xs"><span class="glyphicon glyphicon-pause"></span></button></a>
-              	<a href="#" data-toggle="abort" title="Abort This Contract"<button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button></a>
+              	<button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button>
+              	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
               </td>
             </tr>
             <tr>
@@ -403,8 +404,8 @@
               <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
               <td>
-              	<a href="#" data-toggle="resume" title="Resume"><button type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span></button></a>
-              	<a href="#" data-toggle="abort" title="Abort This Contract"<button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button></a>
+              	<button type="button" class="btn btn-info btn-xs" data-toggle="resume" title="Resume"><span class="glyphicon glyphicon-play"></span></button>
+              	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
               </td>
             </tr>
             <tr>
@@ -418,6 +419,17 @@
               <td>
               	<button data-toggle="resume" title="Resume" type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span></button>
               	<button data-toggle="abort" title="Abort This Contract" type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">0001/BB41/2018-123</a></td>
+              <td>28-01-2018</td>
+              <td>CB-17555</td>
+              <td>Kebersihan</td>
+              <td>Uploaded</td>
+              <td><button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
+              <td>
               </td>
             </tr>
             <tbody>
