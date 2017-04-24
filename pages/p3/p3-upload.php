@@ -417,7 +417,7 @@
                           Maksimum ukuran tiap file yang diupload adalah <span class="text-red">50MB</span>!    
                         </p>
 
-                        <table class="table table-bordered table-condensed table-striped">
+                        <table id="dataTable" class="table table-bordered table-condensed table-striped">
                           <thead>
                             <tr>
                               <th>Judul Dokumen</th>
@@ -427,11 +427,11 @@
                           <tbody>
                             <tr>
                               <td>Risalah Pre-Bid Meeting</td>
-                              <td><input type="file" id="inputFile" accept=".pdf" data-fv-file-maxsize="50000000" multiple></td>
+                              <td><input type="file" id="" accept=".pdf" data-fv-file-maxsize="50000000" multiple></td>
                             </tr>
                             <tr>
                               <td>Breakdown Penawaran</td>
-                              <td><input type="file" id="inputFile" accept=".pdf" multiple></td>
+                              <td><input type="file" id="" accept=".pdf" multiple></td>
                             </tr>
                           </tbody>
                         </table>
@@ -445,22 +445,22 @@
                         <div class="form-group">
                           <label class="control-label col-md-4">Judul Dokumen : </label>
                           <div class="col-md-8">
-                            <input type="text" class="input-sm form-control">
+                            <input id="inputJudulDokumen" type="text" class="input-sm form-control">
                           </div>
                         </div>
                         <div class="form-group">
                           <label class="control-label col-md-4">Filename : </label>
                           <div class="col-md-8">
-                            <input type="file" class="input-sm">
+                            <input id="inputFile" type="file" class="input-sm">
                           </div>
                         </div>
                         <div class="form-group">
                           <label class="control-label col-md-4">Keterangan : </label>
                           <div class="col-md-8">
-                            <textarea rows="5" placeholder="Type Here.." class="form-control" style="resize:none"></textarea>
+                            <textarea id="inputKeterangan" rows="5" placeholder="Type Here.." class="form-control" style="resize:none"></textarea>
                           </div>
                         </div>
-                        <button type="button" class="btn btn-primary btn-xs pull-right"><span class="glyphicon glyphicon-plus"></span>Tambah</button>
+                        <button type="button" class="btn btn-primary btn-xs pull-right" id="btnAdd"><span class="glyphicon glyphicon-plus"></span> Add</button>
                         
                         
 
@@ -725,6 +725,43 @@
   //Date picker
   $('#datepicker').datepicker({
     autoclose: true
+  });
+
+  //jQuery for add dokumen tambahan
+  $("#btnAdd").click(function(){
+    //get all value of add form
+    var judulDokumen = $("#inputJudulDokumen").val();
+    var $inputFile = $("#inputFile");
+    var keterangan = $("#inputKeterangan").val();
+
+    //clone input file
+    var $cloneFile = $inputFile.clone();
+    $cloneFile.attr({id:"1", class:""});
+
+    //clear add form
+    $("#inputJudulDokumen").val("");
+
+    var $e = $("#inputFile");
+
+    $e.wrap('<form>').closest('form').get(0).reset();
+    $e.unwrap();
+
+    $("#inputKeterangan").val("");
+
+
+    //create object tr
+    var $tr = $("<tr />");
+    var $td1 = $("<td />");
+    $td1.html(judulDokumen);
+    var $td2 = $("<td />");
+    $td2.append($cloneFile)
+
+    $tr.append($td1);
+    $tr.append($td2);
+
+    //menambahnkan objeck
+    $("#dataTable tr:last").after($tr);
+
   });
 </script>
 
