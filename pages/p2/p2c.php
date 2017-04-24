@@ -348,41 +348,45 @@
               <div class="row">
                 <div class="col-xs-4">
                   <dl>
-                    <dt>Description lists</dt>
-                    <dd>A description list is perfect for defining terms.</dd>
-                    <dt>Euismod</dt>
-                    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-                    <dd>Donec id elit non mi porta gravida at eget metus.</dd>
-                    <dt>Malesuada porta</dt>
-                    <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-                    <dt>Malesuada porta</dt>
-                    <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                    <dt>Contract Order</dt>
+                    <dd>CA001</dd>
+                    <dt>Judul Pekerjaan</dt>
+                    <dd>REGULAR INSPECTION OF LIFTING GEARS</dd>
+                    <dt>Durasi</dt>
+                    <dd>2 Bulan</dd>
+                    <dt>Jenis Jasa</dt>
+                    <dd>Pemborongan Pekerjaan</dd>
+                    <dt>Kualifikasi Syarat Peserta Pengadaan</dt>
+                    <dd>M</dd>
                   </dl>
                 </div>
                 <div class="col-xs-4">
                   <dl>
-                    <dt>Description lists</dt>
-                    <dd>A description list is perfect for defining terms.</dd>
-                    <dt>Euismod</dt>
-                    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-                    <dd>Donec id elit non mi porta gravida at eget metus.</dd>
-                    <dt>Malesuada porta</dt>
-                    <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-                    <dt>Malesuada porta</dt>
-                    <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                    <dt>Nomor Bidder List</dt>
+                    <dd>BL17001</dd>
+                    <dt>Tanggal Dibuat</dt>
+                    <dd>22-Apr-2017</dd>
+                    <dt>Waktu Dibuat</dt>
+                    <dd>13:30</dd>
+                    <dt>Klasifikasi</dt>
+                    <dd>M</dd>
+                    <dt>Kualifikasi</dt>
+                    <dd>Kecil</dd>
+                    <dt>
                   </dl>
                 </div>
                 <div class="col-xs-4">
                   <dl>
-                    <dt>Description lists</dt>
-                    <dd>A description list is perfect for defining terms.</dd>
-                    <dt>Euismod</dt>
-                    <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-                    <dd>Donec id elit non mi porta gravida at eget metus.</dd>
-                    <dt>Malesuada porta</dt>
-                    <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-                    <dt>Malesuada porta</dt>
-                    <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                    <dt>Tingkat Risiko</dt>
+                    <dd>Sedang</dd>
+                    <dt>Kuota Area Bontang</dt>
+                    <dd>2</dd>
+                    <dt>Kuota Area Kalimantan Timur</dt>
+                    <dd>3</dd>
+                    <dt>Kuota Area Domestik</dt>
+                    <dd>4</dd>
+                    <dt>Published Date</dt>
+                    <dd>22-Sep-2017</dd>
                   </dl>
                 </div>
               </div>
@@ -395,7 +399,55 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              
+              <!-- /.box-header -->
+              <div class="box-body">
+                <table id="example1" class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                    <th>No</th>
+                    <th>Penawar</th>
+                    <th>Masa SIO</th>
+                    <th>Penalti Poin</th>
+                    <th>Sanksi</th>
+                    <th>Added By</th>
+                    <th>Added Date</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Perusahaan A</td>
+                    <td>1 Bulan</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>System</td>
+                    <td>22-Apr-2017</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Perusahaan B</td>
+                    <td>1 Bulan</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>Approver</td>
+                    <td>22-Apr-2017</td>
+                  </tr>
+                  <tr>
+                    <td>3 </td>
+                    <td>Perusahaan C</td>
+                    <td>1 Bulan</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>CE</td>
+                    <td>22-Apr-2017</td>
+                  </tr>
+                  
+                </table>
+                <div class="pull-right">
+                  <a href="#" class="btn btn-info pull-right"><span class="fa fa-plus"></span>Add Bidder</a>
+                </div>
+              </div>
+              <!-- /.box-body -->
             </div>
             <!-- /.box-body -->
           </div>
@@ -408,7 +460,54 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-             
+              <!-- /.box-header -->
+              <div class="box-body">
+                <table id="example2" class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                    <th>No</th>
+                    <th>Penawar</th>
+                    <th>Added By</th>
+                    <th>Added Date</th>
+                    <th>Removed By</th>
+                    <th>Removed Date</th>
+                    <th>Alasan Removed</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Perusahaan D</td>
+                    <td>CE</td>
+                    <td>22-Apr-2017</td>
+                    <td>Approver</td>
+                    <td>23-Apr-2017</td>
+                    <td>Terkena Sanksi</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Perusahaan E</td>
+                    <td>CE</td>
+                    <td>22-Apr-2017</td>
+                    <td>Approver</td>
+                    <td>23-Apr-2017</td>
+                    <td>Terkena Sanksi</td>
+                  </tr>
+                </table>
+                <div class="pull-right" style="margin-left: 1rem">
+                  <a href="#" class="btn btn-success pull-right">Approve</a>
+                </div>
+                <div class="pull-right" style="margin-left: 1rem">
+                  <a href="#" class="btn btn-danger pull-right">Abort</a>
+                </div>
+                <div class="pull-right" style="margin-left: 1rem">
+                  <a href="#" class="btn btn-primary pull-right">Resume</a>
+                </div>
+                <div class="pull-right" style="margin-left: 1rem">
+                  <a href="#" class="btn btn-warning pull-right">Hold</a>
+                </div>
+              </div>
+              <!-- /.box-body -->
             </div>
             <!-- /.box-body -->
           </div>
@@ -643,14 +742,7 @@
 <script>
   $(function () {
     $("#example1").DataTable();
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false
-    });
+    $('#example2').DataTable();
   });
 </script>
 </body>
