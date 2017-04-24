@@ -348,8 +348,8 @@
 
       <div class="pad margin no-print">
         <div class="callout callout-info" style="margin-bottom: 0!important;">
-          <h4><i class="fa fa-info"></i> Note:</h4>
-          Halaman ini digunakan untuk proses Resume Pre-Bid Meeting.
+          <h4><i class="fa fa-info"></i> Note: <small style="color:white">Halaman ini digunakan untuk proses Resume Pre-Bid Meeting.</small></h4>
+          
         </div>
       </div>
 
@@ -392,14 +392,6 @@
                       <p class="form-control-static">17-01-2016</p>
                     </div>
                   </div>
-                  
-                </div>
-                <!-- /left column -->
-
-                <!-- right column -->
-                <div class="col-md-6">
-                  
-                  
                   <div class="form-group">
                     <label class="control-label col-md-3" for="noKontrak">Judul Kontrak:</label>
                     <div class="col-md-9">
@@ -412,16 +404,32 @@
                       <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Extend Opening Date:</label>
-                    <div class="input-group date col-md-6">
-                      <div class="input-group-addon">
-                        <i class="fa fa-calendar"></i>
+                  
+                </div>
+                <!-- /left column -->
+
+                <!-- right column -->
+                <div class="col-md-6">
+                  <div class="box box-info">
+                    <div class="box-body">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                            Anda perlu melakukan <span class="text-red">Extend Opening Date</span> pada kolom berikut.    
+                          </p>
+                          <div class="form-group">
+                            <label class="control-label col-md-3" for="noKontrak">Extend Opening Date:</label>
+                            <div class="input-group date col-md-6">
+                              <div class="input-group-addon">
+                                <i class="fa fa-calendar"></i>
+                              </div>
+                              <input type="text" class="form-control" id="datepicker" required>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      <input type="text" class="form-control" id="datepicker" required>
                     </div>
                   </div>
-                  
                 </div>
                 <!-- /right column -->
               </div>
@@ -432,9 +440,31 @@
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              <button type="submit" class="btn btn-info pull-right" style="margin-right: 5px;">
-                <span class="glyphicon glyphicon-play"></span> Resume Contract
+              <button type="button" class="btn btn-info pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#resumeModal">
+                <span class="glyphicon glyphicon-play"></span> Resume Pre-Bid Meeting
               </button>
+              <div id="resumeModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Are you sure?</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Proses ini akan mengirimkan notifikasi kepada :</p>
+                      <li>Contract Organisator</li>
+                      <li>Contract Engineer</li>
+                      <li>Lead Contract Engineer</li>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                      <button type="subtim" class="btn btn-info">Yes, Resume Now</button>
+                    </div>
+                  </div>
+                    <!-- /.modal-content -->
+                </div>
+              </div>
               <a href="p3.php">
                 <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
                   Back

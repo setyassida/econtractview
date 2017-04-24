@@ -348,8 +348,8 @@
 
       <div class="pad margin no-print">
         <div class="callout callout-success" style="margin-bottom: 0!important;">
-          <h4><i class="fa fa-info"></i> Note:</h4>
-          Halaman ini digunakan untuk unggah Dokumen Hasil Pre-Bid Meeting
+          <h4><i class="fa fa-info"></i> Note: <small style="color:white">Halaman ini digunakan untuk unggah Dokumen Hasil Pre-Bid Meeting</small></h4>
+          
         </div>
       </div>
 
@@ -414,28 +414,45 @@
                   <div class="box box-success">
                     <div class="row">
                       <div class="col-md-12">
+                        <div class="box-body">
+                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                          Maksimum ukuran tiap file yang diupload adalah <span class="text-red">50MB</span>!    
+                        </p>
+
                         <table class="table table-bordered table-condensed table-striped">
                           <thead>
                             <tr>
-                              <th>Nama Dokumen</th>
+                              <th>Judul Dokumen</th>
                               <th>Filename</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
                               <td>Risalah Pre-Bid Meeting</td>
-                              <td><input type="file" id="inputFile" multiple></td>
+                              <td><input type="file" id="inputFile" accept=".pdf" data-fv-file-maxsize="50000000" multiple></td>
                             </tr>
                             <tr>
                               <td>Breakdown Penawaran</td>
-                              <td><input type="file" id="inputFile" multiple></td>
-                            </tr>
-                            <tr>
-                              <td>Dokumen Tambahan</td>
-                              <td><input type="file" id="inputFile" multiple></td>
+                              <td><input type="file" id="inputFile" accept=".pdf" multiple></td>
                             </tr>
                           </tbody>
                         </table>
+
+                        <div style="height:20px">
+                        </div>
+
+                        <div class="col-md-12">
+                          <h5><label class="control-lable">Dokumen Tambahan</label></h5>
+                          <div class="form-group">
+                            <label class="control-label col-md-4">Judul Dokumen : </label>
+                            <div class="col-md-8">
+                              <input type="text" class="input-sm form-control"></div>
+                            </div>
+                        </div>
+                        
+
+
+                        </div>
                       </div>
                     </div>
                   </div>

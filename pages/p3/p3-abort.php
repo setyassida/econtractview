@@ -348,8 +348,8 @@
 
       <div class="pad margin no-print">
         <div class="callout callout-danger" style="margin-bottom: 0!important;">
-          <h4><i class="fa fa-info"></i> Note:</h4>
-          Halaman ini digunakan untuk melakukan proses Abort Kontrak
+          <h4><i class="fa fa-info"></i> Note: <small style="color:white">Halaman ini digunakan untuk melakukan proses Abort Kontrak</small></h4>
+          
         </div>
       </div>
 

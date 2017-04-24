@@ -336,7 +336,7 @@
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-          <li><a href="#">Pre-Bid Meeting</a></li>
+          <li><a href="p3.php">Pre-Bid Meeting</a></li>
           <li><a href="#">0001/BB41/2017-041</a></li>
           <li class="active">Hold</li>
         </ol>
@@ -347,8 +347,8 @@
 
       <div class="pad margin no-print">
         <div class="callout callout-warning" style="margin-bottom: 0!important;">
-          <h4><i class="fa fa-info"></i> Note:</h4>
-          Halaman ini digunakan untuk proses Hold Pre-Bid Meeting.
+          <h4><i class="fa fa-info"></i> Note: <small style="color:white">Halaman ini digunakan untuk proses Hold Pre-Bid Meeting.</small></h4>
+          
         </div>
       </div>
 
@@ -359,11 +359,9 @@
         <div class="box box-default">
           <form class="form-horizontal">
             <div class="box-header with-border">
-              <h3 class="box-title">Informasi Kontrak</h3>
+              <h3 class="box-title">Informasi Risalah Pre-Bid Meeting</h3>
 
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-              </div>
+              
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -391,14 +389,6 @@
                       <p class="form-control-static">17-01-2016</p>
                     </div>
                   </div>
-                  
-                </div>
-                <!-- /left column -->
-
-                <!-- right column -->
-                <div class="col-md-6">
-                  
-                  
                   <div class="form-group">
                     <label class="control-label col-md-3" for="noKontrak">Judul Kontrak:</label>
                     <div class="col-md-9">
@@ -413,6 +403,29 @@
                   </div>
                   
                 </div>
+                <!-- /left column -->
+
+                <!-- right column -->
+                <div class="col-md-6">
+                  <div class="box box-warning">
+                    <div class="box-body">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                            Anda dapat melakukan <span class="text-red">Extend Opening Date</span> saat melakukan Resume Pre-Bid Meeting.  
+                          </p>
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3">Alsan Hold :</label>
+                            <div class="col-md-9">
+                              <textarea rows="5" placeholder="Type here..." class="form-control" style="resize:none" required></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <!-- /right column -->
               </div>
 
@@ -423,9 +436,32 @@
             <!-- /.box-body -->
             <div class="box-footer">
               
-              <button type="submit" class="btn btn-warning pull-right" style="margin-right: 5px;">
-                <span class="glyphicon glyphicon-pause"></span> Hold Contract
+              <button type="button" class="btn btn-warning pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#holdModal">
+                <span class="glyphicon glyphicon-pause"></span> Hold Pre-Bid Meeting
               </button>
+              <div id="holdModal" class="modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Are you sure?</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Proses ini akan mengirimkan notifikasi kepada :</p>
+                    <li>Contract Organisator</li>
+                    <li>Contract Engineer</li>
+                    <li>Lead Contract Engineer</li>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                    <button type="subtim" class="btn btn-warning">Yes, Hold It</button>
+                  </div>
+                </div>
+                  <!-- /.modal-content -->
+              </div>
+                <!-- /.modal-dialog -->
+              </div>
               <a href="p3.php">
                 <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
                   Back
