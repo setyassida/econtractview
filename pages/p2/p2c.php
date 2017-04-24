@@ -29,7 +29,7 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-blue fixed sidebar-mini">
+<body class="hold-transition skin-red fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
 
@@ -444,7 +444,7 @@
                   
                 </table>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span>Add Bidder</a>
+                  <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span> Add Bidder</a>
                 </div>
               </div>
               <!-- /.box-body -->
