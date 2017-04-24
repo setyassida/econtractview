@@ -46,9 +46,9 @@ body {
 }
 
 .image-left {
-	width: 100%;
-	height: auto;
-	background-size: cover;
+	width: 5%;
+	height: 1%;
+	margin-left: 151px;
 }
 
 .image-right {
@@ -58,8 +58,21 @@ body {
 }
 
 .image-footer {
+	position: absolute;
 	width: 100%;
 	height: auto;
-	margin-top: 92px;
+	margin-top: 88px;
 	background-size: cover;
+	z-index: -1;
+}
+
+.text-footer {
+	z-index: 100;
+	position: relative;
+	margin-top: 110px;
+	margin-left: 400px;
+}
+
+.text-footer-w {
+	font-size: 80%;
 }
