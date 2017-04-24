@@ -333,6 +333,10 @@
         Pre-Bid Meeting
         <small></small>
       </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Pre-Bid Meeting</li>
+      </ol>
     </section>
 
     <!-- Main content -->
@@ -369,7 +373,7 @@
             </thead>
             <tbody>
             <tr>
-              <td><a href="#">0001/BB41/2017-041</a></td>
+              <td><a href="p3-detail.php?no=CO-17001">0001/BB41/2017-041</a></td>
               <td>01-01-2017</td>
               <td>CA-17001</td>
               <td>Pengadaan Sistem Informasi</td>
@@ -383,7 +387,7 @@
               </td>
             </tr>
             <tr>
-              <td><a href="#">0001/BB41/2016-789</a></td>
+              <td><a href="p3-detail.php?no=CO-17001">0001/BB41/2016-789</a></td>
               <td>25-03-2018</td>
               <td>CC-167321</td>
               <td>Perbaikan Infrastruktur</td>
@@ -396,7 +400,7 @@
               </td>
             </tr>
             <tr>
-              <td><a href="#">0001/BB41/2017-041</a></td>
+              <td><a href="p3-detail.php?no=CO-17001">0001/BB41/2017-041</a></td>
               <td>17-02-2018</td>
               <td>CB-18121</td>
               <td>Pengadaan Perangkat Lunak</td>
@@ -409,7 +413,7 @@
               </td>
             </tr>
             <tr>
-              <td><a href="#">0001/BB41/2017-532</a></td>
+              <td><a href="p3-detail.php?no=CO-17001">0001/BB41/2017-532</a></td>
               <td>28-01-2018</td>
               <td>CA-17001</td>
               <td>Pemeliharaan</td>
@@ -422,7 +426,7 @@
               </td>
             </tr>
             <tr>
-              <td><a href="#">0001/BB41/2018-123</a></td>
+              <td><a href="p3-detail.php?no=CO-17001">0001/BB41/2018-123</a></td>
               <td>28-01-2018</td>
               <td>CB-17555</td>
               <td>Kebersihan</td>

@@ -336,6 +336,12 @@
           Pre-Bid Meeting
           <small>Upload</small>
         </h1>
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li><a href="#">Pre-Bid Meeting</a></li>
+          <li><a href="#">0001/BB41/2017-041</a></li>
+          <li class="active">Upload</li>
+        </ol>
       </section>
 
       <!-- iNote-->
