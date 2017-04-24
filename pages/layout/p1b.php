@@ -39,7 +39,7 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-blue fixed sidebar-mini">
+<body class="hold-transition skin-red fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
 
@@ -347,30 +347,187 @@
 
     <!-- Main content -->
     <section class="content">
-      <div class="box box-info">
-        <div class="box-body">
-          <!-- /.box-header -->
+      <div class="box box-danger">
           <div class="box-body">
             <dl class="dl-horizontal">
               <div class="col-md-6">
-                <dt>Description lists</dt>
-                <dd>A description list is perfect for defining terms.</dd>
+                <dt>Nomor PR Service :</dt>
+                <dd>CO-17001</dd>
               </div>
-
-              <dt>Euismod</dt>
-              <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-              <dd>Donec id elit non mi porta gravida at eget metus.</dd>
-              <dt>Malesuada porta</dt>
-              <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-              <dt>Felis euismod semper eget lacinia</dt>
-              <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                sit amet risus.
-              </dd>
+              <div class="col-md-6">
+                <dt>Tanggal :</dt>
+                <dd>Senin, 24 April 2017</dd>
+              </div>
             </dl>
           </div>
           <!-- /.box-body -->
-        </div>
       </div>
+
+      <div class="box box-danger">
+        <div class="box-header with-border">
+          <h3 class="box-title"></h3>
+
+          <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+          </div>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+          <div class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab_1" data-toggle="tab">Detail</a></li>
+              <li><a href="#tab_2" data-toggle="tab">Lampiran</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab_1">
+                <form class="form-horizontal">
+                  <div class="box-body">
+                    <div class="form-group">
+                      <label for="" class="col-sm-2 control-label">Kontrak Rutin</label>
+                      <div class="col-sm-8">
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                            Ya
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                            Tidak
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="" class="col-sm-2 control-label">Referensi Nomor Kontrak</label>
+
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Cari data">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-2 control-label">Kode Pembebanan Biaya</label>
+
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Cari data">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-2 control-label">Judul Pekerjaan</label>
+
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Judul pekerjaan maksimal 255 char">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-2 control-label">Date:</label>
+
+                      <div class="col-sm-10">
+                      <div class="input-group date">
+                        <div class="input-group-addon">
+                          <i class="fa fa-calendar"></i>
+                        </div>
+                        <input type="text" class="form-control pull-right input-sm" id="datepicker">
+                      </div>
+                      <!-- /.input group -->
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-2 control-label">Durasi</label>
+
+                      <div class="col-sm-4">
+                        <input type="number" class="form-control input-sm" id="inputEmail3" placeholder="Lama Pengerjaan (Dalam Hari/Bulan/Tahun)">
+                      </div>
+                      <div class="col-sm-6">
+                        <select class="form-control input-sm">
+                          <option>Hari</option>
+                          <option>Bulan</option>
+                          <option>Tahun</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-2 control-label">Tanggal Selesai :</label>
+                      <label for="inputEmail3" class="col-sm-10 form-control-static ">Minggu, 23 April 2017</label>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-2 control-label">Perkiraan Nilai Kontrak:</label>
+
+                      <div class="col-sm-10">
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="radiolama" id="optionsRadios1" value="option1" checked>&#8804 Rp. 5M
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="radiolama" id="optionsRadios2" value="option2">
+                            Rp 5 M &#8804 Rp 10 M
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="radiolama" id="optionsRadios2" value="option2">
+                            Rp 10 M &#8804 Rp 20 M
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="radiolama" id="optionsRadios2" value="option2">
+                            Rp 20 M &#8804 Rp 30 M
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="radiolama" id="optionsRadios2" value="option2">
+                            > Rp 30 M
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.box-body -->
+                  <div class="box-footer">
+                    <button type="submit" class="btn btn-info pull-right">Simpan</button>
+                  </div>
+                  <!-- /.box-footer -->
+                </form>
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="tab_2">
+                The European languages are members of the same family. Their separate existence is a myth.
+                For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ
+                in their grammar, their pronunciation and their most common words. Everyone realizes why a
+                new common language would be desirable: one could refuse to pay expensive translators. To
+                achieve this, it would be necessary to have uniform grammar, pronunciation and more common
+                words. If several languages coalesce, the grammar of the resulting language is more simple
+                and regular than that of the individual languages.
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="tab_3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                like Aldus PageMaker including versions of Lorem Ipsum.
+              </div>
+              <!-- /.tab-pane -->
+            </div>
+            <!-- /.tab-content -->
+          </div>
+
+        </div>
+        <!-- /.box-body -->
     </section>
     <!-- /.content -->
   </div>
