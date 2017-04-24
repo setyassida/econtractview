@@ -415,10 +415,9 @@
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              Visit <a href="https://select2.github.io/">Select2 documentation</a> for more examples and information about
-              the plugin.
+              
               <button type="submit" class="btn btn-warning pull-right" style="margin-right: 5px;">
-                Hold Contract
+                <span class="glyphicon glyphicon-pause"></span> Hold Contract
               </button>
               <a href="p3.php">
                 <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">

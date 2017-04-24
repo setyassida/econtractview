@@ -398,6 +398,7 @@
                       <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
                     </div>
                   </div>
+                  
 
                 </div>
                 <!-- /left column -->
@@ -417,15 +418,15 @@
                           <tbody>
                             <tr>
                               <td>Risalah Pre-Bid Meeting</td>
-                              <td><input type="file" id="inputFile"></td>
+                              <td><input type="file" id="inputFile" multiple></td>
                             </tr>
                             <tr>
                               <td>Breakdown Penawaran</td>
-                              <td><input type="file" id="inputFile"></td>
+                              <td><input type="file" id="inputFile" multiple></td>
                             </tr>
                             <tr>
                               <td>Dokumen Tambahan</td>
-                              <td><input type="file" id="inputFile"></td>
+                              <td><input type="file" id="inputFile" multiple></td>
                             </tr>
                           </tbody>
                         </table>
@@ -446,10 +447,9 @@
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              Visit <a href="https://select2.github.io/">Select2 documentation</a> for more examples and information about
-              the plugin.
+              
               <button type="submit" class="btn btn-success pull-right" style="margin-right: 5px;">
-              Upload
+              <span class="glyphicon glyphicon-cloud-upload"></span> Upload
               </button>
               <a href="p3.php">
                 <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">

@@ -10,14 +10,12 @@
   <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
-  <!-- iCheck for checkboxes and radio inputs -->
-  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -30,10 +28,11 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
+  
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-red fixed sidebar-mini">
+<body class="hold-transition skin-red	 fixed sidebar-mini">
   <!-- Site wrapper -->
   <div class="wrapper">
 
@@ -118,12 +117,12 @@
             <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
           </div>
           <div class="pull-left info">
-            <p>Alexander Pierce </p>
+            <p>Alexander Pierce</p>
             <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
           </div>
         </div>
 
-        <!-- sidebar menu: : style can be found in <sidebar class="l"></sidebar>ess -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
           <li class="header">Process Menu</li>
 
@@ -142,7 +141,7 @@
           </li>
 
           <!-- BIDDER LIST -->
-          <li class="treeview active">
+          <li class="treeview">
             <a href="#">
               <i class="fa fa-dashboard"></i> <span>Bidder List</span>
               <span class="pull-right-container">
@@ -150,13 +149,13 @@
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><a href="p2a.php"><i class="fa fa-circle-o"></i> View Bidder List</a></li>
-              <li class="active"><a href="p2b.php"><i class="fa fa-circle-o"></i> Create Bidder List</a></li>
+              <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+              <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
             </ul>
           </li>
 
           <!-- Pre Bid Meeting -->
-          <li class="treeview">
+          <li class="treeview active">
             <a href="#">
               <i class="fa fa-dashboard"></i> <span>Pre-Bid Meeting</span>
               <span class="pull-right-container">
@@ -334,377 +333,318 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Bidder List
-          <small>Create Bidder List</small>
+          Pre-Bid Meeting
+          <small>Upload</small>
         </h1>
       </section>
 
+      <!-- iNote-->
+
+      <div class="pad margin no-print">
+        <div class="callout callout-danger" style="margin-bottom: 0!important;">
+          <h4><i class="fa fa-info"></i> Note:</h4>
+          Halaman ini digunakan untuk melakukan proses Abort Kontrak
+        </div>
+      </div>
+
       <!-- Main content -->
+
       <section class="content">
-
-
-        <div class="row">
+        <!-- SELECT2 EXAMPLE -->
+        <div class="box box-default">
           <form class="form-horizontal">
-            <!-- right column -->
-            <div class="col-md-12">
-              <!-- Horizontal Form -->
-              <div class="box box-info">
-                <div class="box-header with-border">
-                  <h3 class="box-title">Contract Order Reference</h3>
-                </div>
-                <!-- /.box-header -->
-                <!-- form start -->
+            <div class="box-header with-border">
+              <h3 class="box-title">Informasi Kontrak</h3>
 
-                <div class="box-body">
-
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="pickedByCE1">Contract Order</label>
-                      <div class="input-group">
-                        <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="pickedByCE2">Judul Pekerjaan</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="REGULAR INSPECTION OF LIFTING GEARS" disabled>
-                    </div>
-                  </div>
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="pickedByCE3">Durasi</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE3" placeholder="2 Bulan" disabled>
-                    </div>
-                    <div class="form-group">
-                      <label for="pickedByCE4">Jenis Jasa</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="Pemborongan Pekerjaan" disabled>
-                    </div>
-                  </div>
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="pickedByCE4">Kualifikasi Syarat Peserta Pengadaan</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="M" disabled>
-                    </div>
-                  </div>                      
-                  
-                </div>
-                <!-- /.box-body -->
-
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
               </div>
-              <!-- /.box -->
             </div>
-            <!--/.col (right) -->
+            <!-- /.box-header -->
+            <div class="box-body">
 
-            <div class="col-md-12">
-              <!-- Horizontal Form -->
-              <div class="box box-danger">
-                <div class="box-header with-border">
-                  <h3 class="box-title">Bidder List Form</h3>
+
+              <div class="row">
+                <!-- left column -->
+                <div class="col-md-6">
+
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Nomor Risalah Pre-Bid Meeting:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">0001/BB41/2017-532</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">CO-17001</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Tanggal:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">17-01-2016</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Judul Kontrak:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">Pengadaan Sistem Informasi Kepegawaian</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Jenis Kontrak:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
+                    </div>
+                  </div>
+
                 </div>
-                <!-- /.box-header -->
-                <!-- form start -->
+                <!-- /left column -->
 
-                <div class="box-body">
+                <!-- right column -->
+                <div class="col-md-6">
+                  <div class="box box-danger">
+                      <div class="box-body">
+                      <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                        Untuk melakukan proses Abort, Anda wajib menyertakan Alasan Abort dan Dokumen Pendukung Proses Abort pada kolom berikut.    
+                      </p>
+                      <div class="col-md-12">
 
-                  <!-- kol 1 -->
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="generatedBySystem1">Nomor Bidder List</label>
-                      <input type="text" class="form-control input-sm" id="generatedBySystem1" placeholder="BL17001" disabled>
-                    </div>
-                    <div class="form-group">
-                      <label for="generatedBySystem2">Tanggal Dibuat</label>
-                      <input type="text" class="form-control input-sm" id="generatedBySystem2" placeholder="17-Feb-2017" disabled>
-                    </div>
-                    <!-- <div class="form-group">
-                      <label for="generatedBySystem3">Waktu</label>
-                      <input type="text" class="form-control input-sm" id="generatedBySystem3" placeholder="13:30" disabled>
-                    </div> -->
-                    <!-- Date -->
-                    <div class="form-group">
-                      <label>Publish Date Bidder List</label>
-                      <div class="input-group date">
-                        <input type="text" class="form-control pull-right input-sm" id="datepicker">
-                        <div class="input-group-addon">
-                          <i class="fa fa-calendar"></i>
+                        <div class="form-group">
+                          <label>Alasan Abort :</label>
+                          <textarea class="form-control" rows="5" placeholder="Enter ..." required></textarea>
                         </div>
+                        <div class="form-group">
+                          <label>Dokumen Pendukung Proses Abort:</label>
+                          <input type="file" id="inputFile" multiple required>
+                        </div>
+                        
                       </div>
-                      <!-- /.input group -->
-                    </div>
-                    <!-- /.form group -->
+                      </div>
                   </div>
-                  <!-- kol 1 end -->
 
-                  <!-- kol 2 -->
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                   <div class="form-group">
-                     <label for="inputByCE1">Klasifikasi</label>
-                     <input type="text" class="form-control input-sm" id="inputByCE1" placeholder="M-Z">
-                   </div>
-
-                   <div class="form-group">
-                    <label>Kualifikasi</label>
-                    <div class="col-md-12">
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio1">Kecil
-                      </label>
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio1">Non-Kecil
-                      </label>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label>Tingkat Risiko</label>
-                    <div class="col-md-12">
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio2">Rendah
-                      </label>
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio2">Sedang
-                      </label>
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio2">Tinggi
-                      </label>
-                    </div>
-                  </div>
                 </div>
-                <!-- kol 2 end -->
-
-                <!-- kol 3 -->
-                <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                  <div class="form-group">
-                    <label for="pickedByCE4">Kuota Area Bontang</label>
-                    <input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" >
-                  </div>
-                  <div class="form-group">
-                   <label for="pickedByCE5">Kuota Area Kalimantan Timur</label>
-                   <input type="number" min="0" class="form-control input-sm" id="pickedByCE5" placeholder="0" >
-                 </div>
-                 <div class="form-group">
-                  <label for="pickedByCE6">Kuota Area Domestik</label>
-                  <input type="number" min="0" class="form-control input-sm" id="pickedByCE" placeholder="0" >
-                 </div>
-                </div>     
-              <!-- kol 3 end-->
+                <!-- /right column -->
+              </div>
 
             </div>
             <!-- /.box-body -->
-
-            <div class="box-footer ">
-              <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
-              <a href="p2c.php" class="btn btn-success pull-right btn-sm">Generate Bidder List</a>
+            <div class="box-footer">
+              
+              <button type="submit" class="btn btn-danger pull-right" style="margin-right: 5px;">
+              <span class="glyphicon glyphicon-remove"></span> Abort
+              </button>
+              <a href="p3.php">
+                <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
+                  Back
+                </button>
+              </a>
             </div>
-            <!-- /.box-footer -->
- 
-          </div>
-          <!-- /.box -->
+          </form>
         </div>
-        <!--/.col (right) -->
+        <!-- /.box -->
+      </section> 
 
-      </form>
+      <!-- /.content -->
     </div>
-    <!-- /.row -->
+    <!-- /.content-wrapper -->
 
-  </section>
-  <!-- /.content -->
-</div>
-<!-- /.content-wrapper -->
+    <footer class="main-footer">
+      <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
+      reserved.
+    </footer>
 
-<footer class="main-footer">
-  <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
-  reserved.
-</footer>
-
-<!-- Control Sidebar -->
-<aside class="control-sidebar control-sidebar-dark">
-  <!-- Create the tabs -->
-  <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-    <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
-    <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
-  </ul>
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <!-- Home tab content -->
-    <div class="tab-pane" id="control-sidebar-home-tab">
-      <h3 class="control-sidebar-heading">Recent Activity</h3>
-      <ul class="control-sidebar-menu">
-        <li>
-          <a href="javascript:void(0)">
-            <i class="menu-icon fa fa-birthday-cake bg-red"></i>
-
-            <div class="menu-info">
-              <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
-
-              <p>Will be 23 on April 24th</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="javascript:void(0)">
-            <i class="menu-icon fa fa-user bg-yellow"></i>
-
-            <div class="menu-info">
-              <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
-
-              <p>New phone +1(800)555-1234</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="javascript:void(0)">
-            <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
-
-            <div class="menu-info">
-              <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
-
-              <p>nora@example.com</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="javascript:void(0)">
-            <i class="menu-icon fa fa-file-code-o bg-green"></i>
-
-            <div class="menu-info">
-              <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
-
-              <p>Execution time 5 seconds</p>
-            </div>
-          </a>
-        </li>
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+      <!-- Create the tabs -->
+      <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+        <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+        <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
       </ul>
-      <!-- /.control-sidebar-menu -->
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <!-- Home tab content -->
+        <div class="tab-pane" id="control-sidebar-home-tab">
+          <h3 class="control-sidebar-heading">Recent Activity</h3>
+          <ul class="control-sidebar-menu">
+            <li>
+              <a href="javascript:void(0)">
+                <i class="menu-icon fa fa-birthday-cake bg-red"></i>
 
-      <h3 class="control-sidebar-heading">Tasks Progress</h3>
-      <ul class="control-sidebar-menu">
-        <li>
-          <a href="javascript:void(0)">
-            <h4 class="control-sidebar-subheading">
-              Custom Template Design
-              <span class="label label-danger pull-right">70%</span>
-            </h4>
+                <div class="menu-info">
+                  <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
 
-            <div class="progress progress-xxs">
-              <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+                  <p>Will be 23 on April 24th</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <i class="menu-icon fa fa-user bg-yellow"></i>
+
+                <div class="menu-info">
+                  <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
+
+                  <p>New phone +1(800)555-1234</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
+
+                <div class="menu-info">
+                  <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
+
+                  <p>nora@example.com</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <i class="menu-icon fa fa-file-code-o bg-green"></i>
+
+                <div class="menu-info">
+                  <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
+
+                  <p>Execution time 5 seconds</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <!-- /.control-sidebar-menu -->
+
+          <h3 class="control-sidebar-heading">Tasks Progress</h3>
+          <ul class="control-sidebar-menu">
+            <li>
+              <a href="javascript:void(0)">
+                <h4 class="control-sidebar-subheading">
+                  Custom Template Design
+                  <span class="label label-danger pull-right">70%</span>
+                </h4>
+
+                <div class="progress progress-xxs">
+                  <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <h4 class="control-sidebar-subheading">
+                  Update Resume
+                  <span class="label label-success pull-right">95%</span>
+                </h4>
+
+                <div class="progress progress-xxs">
+                  <div class="progress-bar progress-bar-success" style="width: 95%"></div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <h4 class="control-sidebar-subheading">
+                  Laravel Integration
+                  <span class="label label-warning pull-right">50%</span>
+                </h4>
+
+                <div class="progress progress-xxs">
+                  <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <h4 class="control-sidebar-subheading">
+                  Back End Framework
+                  <span class="label label-primary pull-right">68%</span>
+                </h4>
+
+                <div class="progress progress-xxs">
+                  <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <!-- /.control-sidebar-menu -->
+
+        </div>
+        <!-- /.tab-pane -->
+        <!-- Stats tab content -->
+        <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+        <!-- /.tab-pane -->
+        <!-- Settings tab content -->
+        <div class="tab-pane" id="control-sidebar-settings-tab">
+          <form method="post">
+            <h3 class="control-sidebar-heading">General Settings</h3>
+
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
+                Report panel usage
+                <input type="checkbox" class="pull-right" checked>
+              </label>
+
+              <p>
+                Some information about this general settings option
+              </p>
             </div>
-          </a>
-        </li>
-        <li>
-          <a href="javascript:void(0)">
-            <h4 class="control-sidebar-subheading">
-              Update Resume
-              <span class="label label-success pull-right">95%</span>
-            </h4>
+            <!-- /.form-group -->
 
-            <div class="progress progress-xxs">
-              <div class="progress-bar progress-bar-success" style="width: 95%"></div>
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
+                Allow mail redirect
+                <input type="checkbox" class="pull-right" checked>
+              </label>
+
+              <p>
+                Other sets of options are available
+              </p>
             </div>
-          </a>
-        </li>
-        <li>
-          <a href="javascript:void(0)">
-            <h4 class="control-sidebar-subheading">
-              Laravel Integration
-              <span class="label label-warning pull-right">50%</span>
-            </h4>
+            <!-- /.form-group -->
 
-            <div class="progress progress-xxs">
-              <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
+                Expose author name in posts
+                <input type="checkbox" class="pull-right" checked>
+              </label>
+
+              <p>
+                Allow the user to show his name in blog posts
+              </p>
             </div>
-          </a>
-        </li>
-        <li>
-          <a href="javascript:void(0)">
-            <h4 class="control-sidebar-subheading">
-              Back End Framework
-              <span class="label label-primary pull-right">68%</span>
-            </h4>
+            <!-- /.form-group -->
 
-            <div class="progress progress-xxs">
-              <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
+            <h3 class="control-sidebar-heading">Chat Settings</h3>
+
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
+                Show me as online
+                <input type="checkbox" class="pull-right" checked>
+              </label>
             </div>
-          </a>
-        </li>
-      </ul>
-      <!-- /.control-sidebar-menu -->
+            <!-- /.form-group -->
 
-    </div>
-    <!-- /.tab-pane -->
-    <!-- Stats tab content -->
-    <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
-    <!-- /.tab-pane -->
-    <!-- Settings tab content -->
-    <div class="tab-pane" id="control-sidebar-settings-tab">
-      <form method="post">
-        <h3 class="control-sidebar-heading">General Settings</h3>
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
+                Turn off notifications
+                <input type="checkbox" class="pull-right">
+              </label>
+            </div>
+            <!-- /.form-group -->
 
-        <div class="form-group">
-          <label class="control-sidebar-subheading">
-            Report panel usage
-            <input type="checkbox" class="pull-right" checked>
-          </label>
-
-          <p>
-            Some information about this general settings option
-          </p>
+            <div class="form-group">
+              <label class="control-sidebar-subheading">
+                Delete chat history
+                <a href="javascript:void(0)" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
+              </label>
+            </div>
+            <!-- /.form-group -->
+          </form>
         </div>
-        <!-- /.form-group -->
-
-        <div class="form-group">
-          <label class="control-sidebar-subheading">
-            Allow mail redirect
-            <input type="checkbox" class="pull-right" checked>
-          </label>
-
-          <p>
-            Other sets of options are available
-          </p>
-        </div>
-        <!-- /.form-group -->
-
-        <div class="form-group">
-          <label class="control-sidebar-subheading">
-            Expose author name in posts
-            <input type="checkbox" class="pull-right" checked>
-          </label>
-
-          <p>
-            Allow the user to show his name in blog posts
-          </p>
-        </div>
-        <!-- /.form-group -->
-
-        <h3 class="control-sidebar-heading">Chat Settings</h3>
-
-        <div class="form-group">
-          <label class="control-sidebar-subheading">
-            Show me as online
-            <input type="checkbox" class="pull-right" checked>
-          </label>
-        </div>
-        <!-- /.form-group -->
-
-        <div class="form-group">
-          <label class="control-sidebar-subheading">
-            Turn off notifications
-            <input type="checkbox" class="pull-right">
-          </label>
-        </div>
-        <!-- /.form-group -->
-
-        <div class="form-group">
-          <label class="control-sidebar-subheading">
-            Delete chat history
-            <a href="javascript:void(0)" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
-          </label>
-        </div>
-        <!-- /.form-group -->
-      </form>
-    </div>
-    <!-- /.tab-pane -->
-  </div>
-</aside>
-<!-- /.control-sidebar -->
+        <!-- /.tab-pane -->
+      </div>
+    </aside>
+    <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed
   immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
@@ -718,10 +658,6 @@
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<!-- iCheck 1.0.1 -->
-<script src="../../plugins/iCheck/icheck.min.js"></script>
-<!-- bootstrap datepicker -->
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -730,15 +666,16 @@
 <script src="../../dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
-<!-- page script -->
+<!-- bootstrap datepicker -->
+<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+
 <script>
-  $(function () {
-    $("#example1").DataTable();
-    //Date picker
-    $('#datepicker').datepicker({
-      autoclose: true
-    });
+  //Date picker
+  $('#datepicker').datepicker({
+    autoclose: true
   });
 </script>
+
+
 </body>
 </html>

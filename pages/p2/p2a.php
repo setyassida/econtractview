@@ -29,7 +29,7 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-blue fixed sidebar-mini">
+<body class="hold-transition skin-red fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
 
@@ -341,7 +341,7 @@
         <div class="col-md-12">
 
         <!-- box bidder list -->
-          <div class="box">
+          <div class="box box-danger">
             <div class="box-header">
               <h3 class="box-title">Result</h3>
             </div>
