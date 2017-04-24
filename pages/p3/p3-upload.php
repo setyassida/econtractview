@@ -362,9 +362,7 @@
             <div class="box-header with-border">
               <h3 class="box-title">Informasi Kontrak</h3>
 
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-              </div>
+              
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -441,14 +439,29 @@
                         <div style="height:20px">
                         </div>
 
-                        <div class="col-md-12">
-                          <h5><label class="control-lable">Dokumen Tambahan</label></h5>
-                          <div class="form-group">
-                            <label class="control-label col-md-4">Judul Dokumen : </label>
-                            <div class="col-md-8">
-                              <input type="text" class="input-sm form-control"></div>
-                            </div>
+                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                          Tambahkan dokumen pendukung lainnya melalui kolom berikut.   
+                        </p>
+                        <div class="form-group">
+                          <label class="control-label col-md-4">Judul Dokumen : </label>
+                          <div class="col-md-8">
+                            <input type="text" class="input-sm form-control">
+                          </div>
                         </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-4">Filename : </label>
+                          <div class="col-md-8">
+                            <input type="file" class="input-sm">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-4">Keterangan : </label>
+                          <div class="col-md-8">
+                            <textarea rows="5" placeholder="Type Here.." class="form-control" style="resize:none"></textarea>
+                          </div>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-xs pull-right"><span class="glyphicon glyphicon-plus"></span>Tambah</button>
+                        
                         
 
 

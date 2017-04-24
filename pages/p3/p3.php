@@ -366,7 +366,7 @@
               <th style="width:100px">Nomor Kontrak</th>
               <th>Judul Proyek</th>
               <th style="width:50px">Status</th>
-              <th style="width:10px">Template</th>
+              <th style="width:10px">Template Risalah</th>
               <th style="width:50px">Upload</th>
               <th style="width:50px">Action</th>
             </tr>

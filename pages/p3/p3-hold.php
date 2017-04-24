@@ -416,7 +416,7 @@
                           </p>
 
                           <div class="form-group">
-                            <label class="control-label col-md-3">Alsan Hold :</label>
+                            <label class="control-label col-md-3">Alasan Hold :</label>
                             <div class="col-md-9">
                               <textarea rows="5" placeholder="Type here..." class="form-control" style="resize:none" required></textarea>
                             </div>
