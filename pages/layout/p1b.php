@@ -12,8 +12,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- DataTables -->
-  <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
+  <!-- Bootstrap Color Picker -->
+  <link rel="stylesheet" href="../../plugins/colorpicker/bootstrap-colorpicker.min.css">
+  <!-- Bootstrap time Picker -->
+  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="../../plugins/select2/select2.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -29,7 +39,7 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-red	 fixed sidebar-mini">
+<body class="hold-transition skin-blue fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
 
@@ -152,7 +162,7 @@
         </li>
 
         <!-- Pre Bid Meeting -->
-        <li class="treeview active">
+        <li class="treeview">
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Pre-Bid Meeting</span>
             <span class="pull-right-container">
@@ -330,122 +340,44 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Pre-Bid Meeting
+        Form Pemilihan Langsung
         <small></small>
       </h1>
     </section>
 
     <!-- Main content -->
-    
     <section class="content">
-      <!-- SELECT2 EXAMPLE -->
-      <div class="box box-danger
-      ">
-        <div class="box-header with-border">
-          <h3 class="box-title">Daftar Kontrak</h3>
-
-          <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-          </div>
-        </div>
-        <!-- /.box-header -->
+      <!-- Default box -->
+      <div class="box box-danger">
         <div class="box-body">
-          
-            
-            <!-- main column-->
-            
-        	<table id="dataTable" class="table table-bordered table-condensed table-hover">
-            <thead>
-            <tr>
-              <th style="width:150px">No. Risalah Pre-Bid Meeting</th>
-              <th style="width:100px">Tanggal</th>
-              <th style="width:100px">Nomor Kontrak</th>
-              <th>Judul Proyek</th>
-              <th style="width:50px">Status</th>
-              <th style="width:10px">Download</th>
-              <th style="width:50px">Upload</th>
-              <th style="width:50px">Action</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td><a href="#">0001/BB41/2017-041</a></td>
-              <td>01-01-2017</td>
-              <td>CA-17001</td>
-              <td>Pengadaan Sistem Informasi</td>
-              <td>Waiting</td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td></a>
-              <td>
-              	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
-              	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
-			  </div>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="#">0001/BB41/2016-789</a></td>
-              <td>25-03-2018</td>
-              <td>CC-167321</td>
-              <td>Perbaikan Infrastruktur</td>
-              <td>Waiting</td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
-              <td>
-              	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
-              	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="#">0001/BB41/2017-041</a></td>
-              <td>17-02-2018</td>
-              <td>CB-18121</td>
-              <td>Pengadaan Perangkat Lunak</td>
-              <td>Hold</td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
-              <td>
-              	<a href="p3-resume.php?no=CO-17001"><button type="button" class="btn btn-info btn-xs" data-toggle="resume" title="Resume"><span class="glyphicon glyphicon-play"></span></button></a>
-              	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="#">0001/BB41/2017-532</a></td>
-              <td>28-01-2018</td>
-              <td>CA-17001</td>
-              <td>Pemeliharaan</td>
-              <td>Hold</td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
-              <td>
-              	<a href="p3-resume.php?no=CO-17001"><button data-toggle="resume" title="Resume" type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span></button></a>
-              	<button data-toggle="abort" title="Abort This Contract" type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="#">0001/BB41/2018-123</a></td>
-              <td>28-01-2018</td>
-              <td>CB-17555</td>
-              <td>Kebersihan</td>
-              <td>Uploaded</td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
-              <td>
-              </td>
-            </tr>
-            <tbody>
-          </table>
+          <!-- form start -->
+          <form class="form-horizontal">
+            <div class="box-body">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
 
-            
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
         <!-- /.box-body -->
-        <div class="box-footer">
-          Visit <a href="https://select2.github.io/">Select2 documentation</a> for more examples and information about
-          the plugin.
-        </div>
       </div>
       <!-- /.box -->
-	</section> 
-
+    </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -655,37 +587,98 @@
 <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="../../bootstrap/js/bootstrap.min.js"></script>
-<!-- DataTables -->
-<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<!-- SlimScroll -->
+<!-- Select2 -->
+<script src="../../plugins/select2/select2.full.min.js"></script>
+<!-- InputMask -->
+<script src="../../plugins/input-mask/jquery.inputmask.js"></script>
+<script src="../../plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+<script src="../../plugins/input-mask/jquery.inputmask.extensions.js"></script>
+<!-- date-range-picker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
+<!-- bootstrap datepicker -->
+<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- bootstrap color picker -->
+<script src="../../plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
+<!-- bootstrap time picker -->
+<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
+<!-- SlimScroll 1.3.0 -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- iCheck 1.0.1 -->
+<script src="../../plugins/iCheck/icheck.min.js"></script>
 <!-- FastClick -->
 <script src="../../plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
 <script src="../../dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
-
+<!-- Page script -->
 <script>
-  $(document).ready(function(){
-    $('[data-toggle="hold"]').tooltip();
-    $('[data-toggle="resume"]').tooltip();
-    $('[data-toggle="abort"]').tooltip(); 
-  });
   $(function () {
-    $("#dataTable").DataTable();
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false
+    //Initialize Select2 Elements
+    $(".select2").select2();
+
+    //Datemask dd/mm/yyyy
+    $("#datemask").inputmask("dd/mm/yyyy", {"placeholder": "dd/mm/yyyy"});
+    //Datemask2 mm/dd/yyyy
+    $("#datemask2").inputmask("mm/dd/yyyy", {"placeholder": "mm/dd/yyyy"});
+    //Money Euro
+    $("[data-mask]").inputmask();
+
+    //Date range picker
+    $('#reservation').daterangepicker();
+    //Date range picker with time picker
+    $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A'});
+    //Date range as a button
+    $('#daterange-btn').daterangepicker(
+        {
+          ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+          },
+          startDate: moment().subtract(29, 'days'),
+          endDate: moment()
+        },
+        function (start, end) {
+          $('#daterange-btn span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        }
+    );
+
+    //Date picker
+    $('#datepicker').datepicker({
+      autoclose: true
+    });
+
+    //iCheck for checkbox and radio inputs
+    $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+      checkboxClass: 'icheckbox_minimal-blue',
+      radioClass: 'iradio_minimal-blue'
+    });
+    //Red color scheme for iCheck
+    $('input[type="checkbox"].minimal-red, input[type="radio"].minimal-red').iCheck({
+      checkboxClass: 'icheckbox_minimal-red',
+      radioClass: 'iradio_minimal-red'
+    });
+    //Flat red color scheme for iCheck
+    $('input[type="checkbox"].flat-red, input[type="radio"].flat-red').iCheck({
+      checkboxClass: 'icheckbox_flat-green',
+      radioClass: 'iradio_flat-green'
+    });
+
+    //Colorpicker
+    $(".my-colorpicker1").colorpicker();
+    //color picker with addon
+    $(".my-colorpicker2").colorpicker();
+
+    //Timepicker
+    $(".timepicker").timepicker({
+      showInputs: false
     });
   });
 </script>
-
-
 </body>
 </html>

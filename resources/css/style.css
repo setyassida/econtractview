@@ -1,0 +1,22 @@
+/*.left-content {
+  border-right: 3px solid #e1e8e3;
+}
+
+.right-content {
+  border-left: 3px solid #e1e8e3;
+}
+
+.up-content {
+  margin-top: 98px;
+}
+*/
+
+body {
+  background-color: #f7f9f8;
+}
+
+.login-content{
+	z-index: 100;
+	margin-top: 257px;
+	margin-left: 271px;
+}
