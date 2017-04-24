@@ -144,7 +144,7 @@
           <!-- BIDDER LIST -->
           <li class="treeview active">
             <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Bidder List</span>
+              <i class="fa fa-list"></i> <span>Bidder List</span>
               <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
@@ -335,8 +335,13 @@
       <section class="content-header">
         <h1>
           Bidder List
-          <small>Create Bidder List</small>
+          <small>Buat Bidder List</small>
         </h1>
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li ><a href="p2a.php">Bidder List</a></li>
+          <li class="active"><a href="p2b.php">Create Bidder List</a></li>
+        </ol>
       </section>
 
       <!-- Main content -->
@@ -383,7 +388,7 @@
                   <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
                     <div class="form-group">
                       <label for="pickedByCE4">Kualifikasi Syarat Peserta Pengadaan</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="M" disabled>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="M (Rp. 500 Juta <= NK <= Rp. 10 M)" disabled>
                     </div>
                   </div>                      
                   
@@ -410,7 +415,7 @@
                   <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
                     <div class="form-group">
                       <label for="generatedBySystem1">Nomor Bidder List</label>
-                      <input type="text" class="form-control input-sm" id="generatedBySystem1" placeholder="BL17001" disabled>
+                      <input type="text" class="form-control input-sm" id="generatedBySystem1" placeholder="BL-17001" disabled>
                     </div>
                     <div class="form-group">
                       <label for="generatedBySystem2">Tanggal Dibuat</label>
@@ -446,7 +451,7 @@
                     <label>Kualifikasi</label>
                     <div class="col-md-12">
                       <label class="radio-inline" >
-                        <input type="radio" name="optradio1">Kecil
+                        <input type="radio" name="optradio1" checked>Kecil
                       </label>
                       <label class="radio-inline" >
                         <input type="radio" name="optradio1">Non-Kecil
@@ -457,7 +462,7 @@
                     <label>Tingkat Risiko</label>
                     <div class="col-md-12">
                       <label class="radio-inline" >
-                        <input type="radio" name="optradio2">Rendah
+                        <input type="radio" name="optradio2" checked>Rendah
                       </label>
                       <label class="radio-inline" >
                         <input type="radio" name="optradio2">Sedang
@@ -470,22 +475,25 @@
                 </div>
                 <!-- kol 2 end -->
 
-                <!-- kol 3 -->
                 <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                  <div class="form-group">
-                    <label for="pickedByCE4">Kuota Area Bontang</label>
-                    <input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" >
-                  </div>
-                  <div class="form-group">
-                   <label for="pickedByCE5">Kuota Area Kalimantan Timur</label>
-                   <input type="number" min="0" class="form-control input-sm" id="pickedByCE5" placeholder="0" >
-                 </div>
-                 <div class="form-group">
-                  <label for="pickedByCE6">Kuota Area Domestik</label>
-                  <input type="number" min="0" class="form-control input-sm" id="pickedByCE" placeholder="0" >
-                 </div>
-                </div>     
-              <!-- kol 3 end-->
+                  <label>Kuota Area</label>
+                  <table class="table table-condensed table-bordered table-hover">
+                    <tbody>
+                      <tr>
+                        <td>Bontang</td>
+                        <td><input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" ></td>
+                      </tr>
+                      <tr>
+                        <td>Kalimantan Timur</td>
+                        <td><input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" ></td>
+                      </tr>
+                      <tr>
+                        <td>Domestik</td>
+                        <td><input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" ></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
 
             </div>
             <!-- /.box-body -->
