@@ -331,12 +331,12 @@
       <section class="content-header">
         <h1>
           Bidder List
-          <small>BL-17003</small>
+          <small>BL17004</small>
         </h1>
         <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
         <li><a href="p2a.php">Bidder List</a></li>
-        <li class="active"><a href="p2c.php">BL-17003</a></li>
+        <li class="active"><a href="p2c.php">BL-17004</a></li>
       </ol>
       </section>
 
@@ -352,8 +352,6 @@
               <div class="info-box-content">
                 <span class="info-box-text">Approver 1</span>
                 <strong>Scott Summers</strong>
-                <br><br>
-                <div class="text-right text-success"><i class="fa fa-check"></i></div>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -367,8 +365,6 @@
               <div class="info-box-content">
                 <span class="info-box-text">Approver 2</span>
                 <strong>Jean Grey</strong>
-                <br><br>
-                <div class="text-right text-success"><i class="fa fa-check"></i></div>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -386,8 +382,6 @@
               <div class="info-box-content">
                 <span class="info-box-text">Approver 3</span>
                 <strong>Bobby Drake</strong>
-                <br><br>
-                <div class="text-right text-danger"><i class="fa fa-times"></i></div>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -436,14 +430,14 @@
             <div class="box box-info">
               <div class="box-header">
                 <h3 class="box-title">Data Bidder List</h3>
-                <div class="mark pull-right"><strong>Status: </strong>ABORTED</div>
+                <div class="mark pull-right"><strong>Status: </strong>HOLD</div>
               </div>
               <div class="box-body">
                 <div class="row">
                   <div class="col-md-4">
                     <dl>
                       <dt>Nomor Bidder List</dt>
-                      <dd>BL-17003</dd>
+                      <dd>BL-17004</dd>
                       <dt>Tanggal Dibuat</dt>
                       <dd>22-Apr-2017</dd>
                       <dt>Waktu Dibuat</dt>
@@ -481,6 +475,68 @@
                     </dl>
                   </div>
                   </div>
+                </div>
+              <div class="box-footer">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="pull-right" style="margin-left: 1rem">
+                      <button type="button" class="btn btn-danger pull-right btn-sm" data-toggle="modal" data-target="#abortModal">Abort</button>
+                    </div>
+                    <div class="pull-right" style="margin-left: 1rem">
+                      <a href="#"><button class="btn btn-primary pull-right btn-sm">Resume</button></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="abortModal" class="modal fade modal-danger">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Abort Bidder List?</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="form-group">
+                          <label>Alasan abort bidder list:</label>
+                          <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-outline">Save changes</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+                <div id="holdModal" class="modal fade modal-warning">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Hold Bidder List?</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="form-group">
+                          <label>Alasan hold bidder list:</label>
+                          <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-outline">Save changes</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
                 </div>
               </div>
               <!-- box bidder list -->
