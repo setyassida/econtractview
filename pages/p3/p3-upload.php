@@ -398,6 +398,7 @@
                       <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
                     </div>
                   </div>
+                  
 
                 </div>
                 <!-- /left column -->
