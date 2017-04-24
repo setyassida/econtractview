@@ -417,7 +417,7 @@
             <div class="box-footer">
               
               <button type="submit" class="btn btn-warning pull-right" style="margin-right: 5px;">
-                Hold Contract
+                <span class="glyphicon glyphicon-pause"></span> Hold Contract
               </button>
               <a href="p3.php">
                 <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">

@@ -341,9 +341,9 @@
       <!-- iNote-->
 
       <div class="pad margin no-print">
-        <div class="callout callout-success" style="margin-bottom: 0!important;">
+        <div class="callout callout-danger" style="margin-bottom: 0!important;">
           <h4><i class="fa fa-info"></i> Note:</h4>
-          Halaman ini digunakan untuk unggah Dokumen Hasil Pre-Bid Meeting
+          Halaman ini digunakan untuk melakukan proses Abort Kontrak
         </div>
       </div>
 
@@ -404,51 +404,36 @@
 
                 <!-- right column -->
                 <div class="col-md-6">
-                  <div class="box box-success">
-                    <div class="row">
+                  <div class="box box-danger">
+                      <div class="box-body">
+                      <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                        Untuk melakukan proses Abort, Anda wajib menyertakan Alasan Abort dan Dokumen Pendukung Proses Abort pada kolom berikut.    
+                      </p>
                       <div class="col-md-12">
-                        <table class="table table-bordered table-condensed table-striped">
-                          <thead>
-                            <tr>
-                              <th>Nama Dokumen</th>
-                              <th>Filename</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>Risalah Pre-Bid Meeting</td>
-                              <td><input type="file" id="inputFile" multiple></td>
-                            </tr>
-                            <tr>
-                              <td>Breakdown Penawaran</td>
-                              <td><input type="file" id="inputFile" multiple></td>
-                            </tr>
-                            <tr>
-                              <td>Dokumen Tambahan</td>
-                              <td><input type="file" id="inputFile" multiple></td>
-                            </tr>
-                          </tbody>
-                        </table>
+
+                        <div class="form-group">
+                          <label>Alasan Abort :</label>
+                          <textarea class="form-control" rows="5" placeholder="Enter ..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label>Dokumen Pendukung Proses Abort:</label>
+                          <input type="file" id="inputFile" multiple required>
+                        </div>
+                        
                       </div>
-                    </div>
+                      </div>
                   </div>
 
                 </div>
                 <!-- /right column -->
               </div>
 
-
-
-
-
-
-
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
               
-              <button type="submit" class="btn btn-success pull-right" style="margin-right: 5px;">
-              <span class="glyphicon glyphicon-cloud-upload"></span> Upload
+              <button type="submit" class="btn btn-danger pull-right" style="margin-right: 5px;">
+              <span class="glyphicon glyphicon-remove"></span> Abort
               </button>
               <a href="p3.php">
                 <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">

@@ -378,7 +378,7 @@
               <td><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td></a>
               <td>
               	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
-              	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
+              	<a href="p3-abort.php?no=CO-17001"><button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button></a>
 			  </div>
               </td>
             </tr>
@@ -392,7 +392,7 @@
               <td><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
               <td>
               	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
-              	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
+              	<a href="p3-abort.php?no=CO-17001"><button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button></a>
               </td>
             </tr>
             <tr>
@@ -405,7 +405,7 @@
               <td><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
               <td>
               	<a href="p3-resume.php?no=CO-17001"><button type="button" class="btn btn-info btn-xs" data-toggle="resume" title="Resume"><span class="glyphicon glyphicon-play"></span></button></a>
-              	<button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button>
+              	<a href="p3-abort.php?no=CO-17001"><button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button></a>
               </td>
             </tr>
             <tr>
@@ -418,7 +418,7 @@
               <td><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
               <td>
               	<a href="p3-resume.php?no=CO-17001"><button data-toggle="resume" title="Resume" type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span></button></a>
-              	<button data-toggle="abort" title="Abort This Contract" type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span></button>
+              	<a href="p3-abort.php?no=CO-17001"><button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract" ><span class="glyphicon glyphicon-remove"></span></button></a>
               </td>
             </tr>
             <tr>
