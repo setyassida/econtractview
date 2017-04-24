@@ -431,6 +431,18 @@
                   <dd>M (Rp. 500 Juta <= NK <= Rp. 10 M)</dd>
                 </dl>
               </div>
+              <div class="box-footer">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="pull-right" style="margin-left: 1rem">
+                      <button type="button" class="btn btn-danger pull-right btn-sm" data-toggle="modal" data-target="#abortModal">Abort</button>
+                    </div>
+                    <div class="pull-right" style="margin-left: 1rem">
+                      <button type="button" class="btn btn-warning pull-right btn-sm" data-toggle="modal" data-target="#holdModal">Hold</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -857,6 +869,8 @@
       </div>
       <div class="modal-body">
         <div class="form-group">
+          <label for="exampleInputFile">File pendukung:</label>
+          <input type="file" id="exampleInputFile">
           <label>Alasan abort contract order:</label>
           <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
         </div>

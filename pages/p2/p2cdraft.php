@@ -864,6 +864,8 @@
       </div>
       <div class="modal-body">
         <div class="form-group">
+          <label for="exampleInputFile">File pendukung:</label>
+          <input type="file" id="exampleInputFile">
           <label>Alasan abort contract order:</label>
           <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
         </div>
