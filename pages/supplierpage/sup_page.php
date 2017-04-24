@@ -37,7 +37,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>E</b>-Ct</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>E-Contract Supplier</b></span>
+      <span class="logo-lg"><b>E-Contract Supplier  </b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top" style="background-color: #505d72">
