@@ -347,36 +347,30 @@
 
     <!-- Main content -->
     <section class="content">
-      <!-- Default box -->
-      <div class="box box-danger">
+      <div class="box box-info">
         <div class="box-body">
-          <!-- form start -->
-          <form class="form-horizontal">
-            <div class="box-body">
+          <!-- /.box-header -->
+          <div class="box-body">
+            <dl class="dl-horizontal">
               <div class="col-md-6">
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-
-                  <div class="col-sm-10">
-                    <input type="email" class="form-control input-sm" id="inputEmail3" placeholder="Email">
-                  </div>
-                </div>
+                <dt>Description lists</dt>
+                <dd>A description list is perfect for defining terms.</dd>
               </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
 
-                  <div class="col-sm-10">
-                    <input type="password" class="form-control input-sm" id="inputPassword3" placeholder="Password">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
+              <dt>Euismod</dt>
+              <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+              <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+              <dt>Malesuada porta</dt>
+              <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+              <dt>Felis euismod semper eget lacinia</dt>
+              <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                sit amet risus.
+              </dd>
+            </dl>
+          </div>
+          <!-- /.box-body -->
         </div>
-        <!-- /.box-body -->
       </div>
-      <!-- /.box -->
     </section>
     <!-- /.content -->
   </div>
