@@ -401,7 +401,7 @@
             <div class="box-body">
               <!-- /.box-header -->
               <div class="box-body">
-                <table id="example1" class="table table-bordered table-striped">
+                <table id="example1" class="table table-bordered table-striped table-condensed">
                   <thead>
                   <tr>
                     <th>No</th>
@@ -426,7 +426,7 @@
                   <tr>
                     <td>2</td>
                     <td>Perusahaan B</td>
-                    <td>1 Bulan</td>
+                    <td>2 Bulan</td>
                     <td>0</td>
                     <td>-</td>
                     <td>Approver</td>
@@ -444,7 +444,7 @@
                   
                 </table>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-info pull-right"><span class="fa fa-plus"></span>Add Bidder</a>
+                  <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span>Add Bidder</a>
                 </div>
               </div>
               <!-- /.box-body -->
@@ -462,7 +462,7 @@
             <div class="box-body">
               <!-- /.box-header -->
               <div class="box-body">
-                <table id="example2" class="table table-bordered table-striped">
+                <table id="example2" class="table table-bordered table-striped table-condensed">
                   <thead>
                   <tr>
                     <th>No</th>
@@ -495,16 +495,16 @@
                   </tr>
                 </table>
                 <div class="pull-right" style="margin-left: 1rem">
-                  <a href="#" class="btn btn-success pull-right">Approve</a>
+                  <a href="#" class="btn btn-success pull-right btn-sm">Approve</a>
                 </div>
                 <div class="pull-right" style="margin-left: 1rem">
-                  <a href="#" class="btn btn-danger pull-right">Abort</a>
+                  <a href="#" class="btn btn-danger pull-right btn-sm">Abort</a>
                 </div>
                 <div class="pull-right" style="margin-left: 1rem">
-                  <a href="#" class="btn btn-primary pull-right">Resume</a>
+                  <a href="#" class="btn btn-primary pull-right btn-sm">Resume</a>
                 </div>
                 <div class="pull-right" style="margin-left: 1rem">
-                  <a href="#" class="btn btn-warning pull-right">Hold</a>
+                  <a href="#" class="btn btn-warning pull-right btn-sm">Hold</a>
                 </div>
               </div>
               <!-- /.box-body -->
