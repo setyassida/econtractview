@@ -496,55 +496,7 @@
                   </div>
                 </div>
 
-                <div id="abortModal" class="modal fade modal-danger">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Abort Bidder List?</h4>
-                      </div>
-                      <div class="modal-body">
-                        <div class="form-group">
-                          <label>Alasan abort bidder list:</label>
-                          <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-outline">Save changes</button>
-                      </div>
-                    </div>
-                    <!-- /.modal-content -->
-                  </div>
-                  <!-- /.modal-dialog -->
-                </div>
-                <!-- /.modal -->
-
-                <div id="holdModal" class="modal fade modal-warning">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Hold Bidder List?</h4>
-                      </div>
-                      <div class="modal-body">
-                        <div class="form-group">
-                          <label>Alasan hold bidder list:</label>
-                          <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-outline">Save changes</button>
-                      </div>
-                    </div>
-                    <!-- /.modal-content -->
-                  </div>
-                  <!-- /.modal-dialog -->
-                </div>
-                <!-- /.modal -->
+                
                 </div>
               </div>
               <!-- box bidder list -->
@@ -621,7 +573,7 @@
                               <td>
                                 <div class="text-center">
                                   <a href="#">
-                                    <span class="fa fa-times" data-toggle="abort" title="Remove this bidder"></span>
+                                    <button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Remove this bidder"><span class="fa fa-times"></span></button>
                                   </a>
                                 </div>
                               </td>
@@ -659,7 +611,7 @@
                               <th>Added Date</th>
                               <th>Removed By</th>
                               <th>Removed Date</th>
-                              <th>Alasan Removed</th>
+                              <th>Alasan Remove</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -894,6 +846,56 @@
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
+
+<div id="abortModal" class="modal fade modal-danger">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Abort Contract Order?</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Alasan abort contract order:</label>
+          <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-outline">Save changes</button>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<div id="holdModal" class="modal fade modal-warning">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Hold Contract Order?</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Alasan hold contract order:</label>
+          <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-outline">Save changes</button>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
 
 <!-- jQuery 2.2.3 -->
 <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>

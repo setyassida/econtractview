@@ -557,7 +557,7 @@
                               <td>
                                 <div class="text-center">
                                   <a href="#">
-                                    <span class="fa fa-times" data-toggle="abort" title="Remove this bidder"></span>
+                                    <button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Remove this bidder"><span class="fa fa-times"></span></button>
                                   </a>
                                 </div>
                               </td>
@@ -595,7 +595,7 @@
                               <th>Added Date</th>
                               <th>Removed By</th>
                               <th>Removed Date</th>
-                              <th>Alasan Removed</th>
+                              <th>Alasan Remove</th>
                             </tr>
                           </thead>
                           <tbody>

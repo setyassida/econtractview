@@ -500,7 +500,7 @@
 
             <div class="box-footer ">
               <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
-              <a href="p2c.php" class="btn btn-success pull-right btn-sm">Generate Bidder List</a>
+              <a href="p2cdraft.php" class="btn btn-success pull-right btn-sm">Generate Bidder List</a>
             </div>
             <!-- /.box-footer -->
  
