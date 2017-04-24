@@ -360,109 +360,109 @@
                 <tbody>
                 <tr>
                   <td><a href="p2c.php">BL17001</a></td>
-                  <td>CB17001</td>
+                  <td><a href="#">CB17001</a></td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td><span class="label label-primary">Draft</span></td>
                   <td>20-Jan-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17002</a></td>
-                  <td>CC17001</td>
+                  <td><a href="#">CC17001</a></td>
                   <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
                   <td><span class="label label-info">Approved</span></td>
                   <td>21-Feb-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17003</a></td>
-                  <td>CA17003</td>
+                  <td><a href="#">CA17003</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td><span class="label label-danger">Aborted</span></td>
                   <td>22-Feb-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17004</a></td>
-                  <td>CA17002</td>
+                  <td><a href="#">CA17002</a></td>
                   <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
                   <td><span class="label label-warning">Hold</span></td>
                   <td>23-Apr-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17005</a></td>
-                  <td>CA17001</td>
+                  <td><a href="#">CA17001</a></td>
                   <td>STEAM CONDENSATE LINE</td>
                   <td><span class="label label-success">Published</span></td>
                   <td>24-Apr-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17001</a></td>
-                  <td>CB17001</td>
+                  <td><a href="#">CB17001</a></td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td><span class="label label-primary">Draft</span></td>
                   <td>20-Jan-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17002</a></td>
-                  <td>CC17001</td>
+                  <td><a href="#">CC17001</a></td>
                   <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
                   <td><span class="label label-info">Approved</span></td>
                   <td>21-Feb-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17003</a></td>
-                  <td>CA17003</td>
+                  <td><a href="#">CA17003</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td><span class="label label-danger">Aborted</span></td>
                   <td>22-Feb-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17004</a></td>
-                  <td>CA17002</td>
+                  <td><a href="#">CA17002</a></td>
                   <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
                   <td><span class="label label-warning">Hold</span></td>
                   <td>23-Apr-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17005</a></td>
-                  <td>CA17001</td>
+                  <td><a href="#">CA17001</a></td>
                   <td>STEAM CONDENSATE LINE</td>
                   <td><span class="label label-success">Published</span></td>
                   <td>24-Apr-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17001</a></td>
-                  <td>CB17001</td>
+                  <td><a href="#">CB17001</a></td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td><span class="label label-primary">Draft</span></td>
                   <td>20-Jan-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17002</a></td>
-                  <td>CC17001</td>
+                  <td><a href="#">CC17001</a></td>
                   <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
                   <td><span class="label label-info">Approved</span></td>
                   <td>21-Feb-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17003</a></td>
-                  <td>CA17003</td>
+                  <td><a href="#">CA17003</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td><span class="label label-danger">Aborted</span></td>
                   <td>22-Feb-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17004</a></td>
-                  <td>CA17002</td>
+                  <td><a href="#">CA17002</a></td>
                   <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
                   <td><span class="label label-warning">Hold</span></td>
                   <td>23-Apr-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2c.php">BL17005</a></td>
-                  <td>CA17001</td>
+                  <td><a href="#">CA17001</a></td>
                   <td>STEAM CONDENSATE LINE</td>
                   <td><span class="label label-success">Published</span></td>
                   <td>24-Apr-2017</td>
-                </tr>
+                </tr> 
                 </tbody>
                 <tfoot>
                 <!-- <tr>
