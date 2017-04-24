@@ -343,6 +343,7 @@
           <div class="box box-info">
             <div class="box-header">
               <h3 class="box-title">Data Bidder List</h3>
+              <div class="mark pull-right"><strong>Status: </strong>DRAFT</div>
             </div>
             <div class="box-body">
               <div class="row">
@@ -390,9 +391,27 @@
                   </dl>
                 </div>
               </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="pull-right" style="margin-left: 1rem">
+                    <a href="#" class="btn btn-success pull-right btn-sm">Approve</a>
+                  </div>
+                  <div class="pull-right" style="margin-left: 1rem">
+                    <a href="#" class="btn btn-danger pull-right btn-sm">Abort</a>
+                  </div>
+                  <div class="pull-right" style="margin-left: 1rem">
+                    <a href="#" class="btn btn-primary pull-right btn-sm">Resume</a>
+                  </div>
+                  <div class="pull-right" style="margin-left: 1rem">
+                    <a href="#" class="btn btn-warning pull-right btn-sm">Hold</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <!-- box bidder list -->
+
+
           <div class="box box-success">
             <div class="box-header">
               <h3 class="box-title">Active Bidder</h3>
@@ -494,18 +513,6 @@
                     <td>Terkena Sanksi</td>
                   </tr>
                 </table>
-                <div class="pull-right" style="margin-left: 1rem">
-                  <a href="#" class="btn btn-success pull-right btn-sm">Approve</a>
-                </div>
-                <div class="pull-right" style="margin-left: 1rem">
-                  <a href="#" class="btn btn-danger pull-right btn-sm">Abort</a>
-                </div>
-                <div class="pull-right" style="margin-left: 1rem">
-                  <a href="#" class="btn btn-primary pull-right btn-sm">Resume</a>
-                </div>
-                <div class="pull-right" style="margin-left: 1rem">
-                  <a href="#" class="btn btn-warning pull-right btn-sm">Hold</a>
-                </div>
               </div>
               <!-- /.box-body -->
             </div>
