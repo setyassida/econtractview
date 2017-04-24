@@ -334,10 +334,10 @@
           <small>BL17004</small>
         </h1>
         <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p2a.php">Bidder List</a></li>
-        <li class="active"><a href="p2c.php">BL-17004</a></li>
-      </ol>
+          <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
+          <li><a href="p2a.php">Bidder List</a></li>
+          <li class="active"><a href="p2c.php">BL-17004</a></li>
+        </ol>
       </section>
 
       <!-- Main content -->
@@ -423,6 +423,20 @@
                   <dd>M (Rp. 500 Juta <= NK <= Rp. 10 M)</dd>
                 </dl>
               </div>
+              <div class="box-footer">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="pull-right" style="margin-left: 1rem">
+                      <button type="button" class="btn btn-danger pull-right btn-sm" data-toggle="modal" data-target="#abortModal">Abort</button>
+                    </div>
+                    <div class="pull-right" style="margin-left: 1rem">
+                      <a href="#"><button class="btn btn-primary pull-right btn-sm">Resume</button></a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
             </div>
           </div>
 
@@ -447,238 +461,177 @@
                       <dt>Kualifikasi</dt>
                       <dd>Kecil</dd>
                       <dt>
-                    </dl>
-                  </div>
-                  <div class="col-md-4">
-                    <dl>
-                      <dt>Tingkat Risiko</dt>
-                      <dd>Sedang</dd>
-                      <dt>Tanggal Diterbitkan</dt>
-                      <dd>22-Sep-2017</dd>
-                      <dt>Kuota Area</dt>
-                      <table class="table table-condensed table-bordered">
-                        <tbody>
-                          <tr>
-                            <td>Bontang</td>
-                            <td>2</td>
-                          </tr>
-                          <tr>
-                            <td>Kalimantan Timur</td>
-                            <td>1</td>
-                          </tr>
-                          <tr>
-                            <td>Domestik</td>
-                            <td>3</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </dl>
-                  </div>
-                  </div>
-                </div>
-              <div class="box-footer">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="pull-right" style="margin-left: 1rem">
-                      <button type="button" class="btn btn-danger pull-right btn-sm" data-toggle="modal" data-target="#abortModal">Abort</button>
+                      </dl>
                     </div>
-                    <div class="pull-right" style="margin-left: 1rem">
-                      <a href="#"><button class="btn btn-primary pull-right btn-sm">Resume</button></a>
+                    <div class="col-md-4">
+                      <dl>
+                        <dt>Tingkat Risiko</dt>
+                        <dd>Sedang</dd>
+                        <dt>Tanggal Diterbitkan</dt>
+                        <dd>22-Sep-2017</dd>
+                        <dt>Kuota Area</dt>
+                        <table class="table table-condensed table-bordered">
+                          <tbody>
+                            <tr>
+                              <td>Bontang</td>
+                              <td>2</td>
+                            </tr>
+                            <tr>
+                              <td>Kalimantan Timur</td>
+                              <td>1</td>
+                            </tr>
+                            <tr>
+                              <td>Domestik</td>
+                              <td>3</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </dl>
                     </div>
                   </div>
                 </div>
 
-                <div id="abortModal" class="modal fade modal-danger">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Abort Bidder List?</h4>
-                      </div>
-                      <div class="modal-body">
-                        <div class="form-group">
-                          <label>Alasan abort bidder list:</label>
-                          <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-outline">Save changes</button>
-                      </div>
-                    </div>
-                    <!-- /.modal-content -->
-                  </div>
-                  <!-- /.modal-dialog -->
-                </div>
-                <!-- /.modal -->
-
-                <div id="holdModal" class="modal fade modal-warning">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Hold Bidder List?</h4>
-                      </div>
-                      <div class="modal-body">
-                        <div class="form-group">
-                          <label>Alasan hold bidder list:</label>
-                          <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-outline">Save changes</button>
-                      </div>
-                    </div>
-                    <!-- /.modal-content -->
-                  </div>
-                  <!-- /.modal-dialog -->
-                </div>
-                <!-- /.modal -->
-                </div>
               </div>
               <!-- box bidder list -->
 
-              </div>
-                <!-- /.col -->
-              </div>
-              <!-- /.row -->
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="box box-success">
-                    <div class="box-header">
-                      <h3 class="box-title">Active Bidder</h3>
-                      <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                          <i class="fa fa-minus"></i></button>
-                      </div>
+            </div>
+            <!-- /.col -->
+          </div>
+          <!-- /.row -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="box box-success">
+                <div class="box-header">
+                  <h3 class="box-title">Active Bidder</h3>
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                      <i class="fa fa-minus"></i></button>
                     </div>
+                  </div>
+                  <div class="box-body">
+                    <!-- /.box-header -->
                     <div class="box-body">
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table id="example1" class="table table-bordered table-striped table-condensed">
-                          <thead>
-                            <tr>
-                              <th>No</th>
-                              <th>Penawar</th>
-                              <th>Masa SIO</th>
-                              <th>Penalti Poin</th>
-                              <th>Sanksi</th>
-                              <th>Added By</th>
-                              <th>Added Date</th>
-                              <th></th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td>Perusahaan A</td>
-                              <td>1 Bulan</td>
-                              <td>0</td>
-                              <td>-</td>
-                              <td>System</td>
-                              <td>22-Apr-2017</td>
-                              <td>
-                                <div class="text-center">
-                                  <span class="fa fa-ban"></span>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>2</td>
-                              <td>Perusahaan B</td>
-                              <td>2 Bulan</td>
-                              <td>0</td>
-                              <td>-</td>
-                              <td>Approver</td>
-                              <td>22-Apr-2017</td>
-                              <td>
-                                <div class="text-center">
-                                  <a href="#">
-                                    <button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Remove this bidder"><span class="fa fa-times"></span></button>
-                                  </a>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>3 </td>
-                              <td>Perusahaan C</td>
-                              <td>1 Bulan</td>
-                              <td>0</td>
-                              <td>-</td>
-                              <td>CE</td>
-                              <td>22-Apr-2017</td>
-                              <td>
-                                <div class="text-center">
-                                  <a href="#">
-                                    <span class="fa fa-times" data-toggle="abort" title="Remove this bidder"></span>
-                                  </a>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                      <!-- /.box-body -->
-                    <div class="box-footer">
-                      <div class="pull-right">
-                        <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span> Add Bidder</a>
-                      </div>
+                      <table id="example1" class="table table-bordered table-striped table-condensed">
+                        <thead>
+                          <tr>
+                            <th>No</th>
+                            <th>Penawar</th>
+                            <th>Masa SIO</th>
+                            <th>Penalti Poin</th>
+                            <th>Sanksi</th>
+                            <th>Added By</th>
+                            <th>Added Date</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Perusahaan A</td>
+                            <td>1 Bulan</td>
+                            <td>0</td>
+                            <td>-</td>
+                            <td>System</td>
+                            <td>22-Apr-2017</td>
+                            <td>
+                              <div class="text-center">
+                                <span class="fa fa-ban"></span>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>Perusahaan B</td>
+                            <td>2 Bulan</td>
+                            <td>0</td>
+                            <td>-</td>
+                            <td>Approver</td>
+                            <td>22-Apr-2017</td>
+                            <td>
+                              <div class="text-center">
+                                <a href="#">
+                                  <button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Remove this bidder"><span class="fa fa-times"></span></button>
+                                </a>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>3 </td>
+                            <td>Perusahaan C</td>
+                            <td>1 Bulan</td>
+                            <td>0</td>
+                            <td>-</td>
+                            <td>CE</td>
+                            <td>22-Apr-2017</td>
+                            <td>
+                              <div class="text-center">
+                                <a href="#">
+                                  <button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Remove this bidder"><span class="fa fa-times"></span></button>
+                                </a>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
-                    <!-- /.box -->
+                  <!-- /.box-body -->
+                  <div class="box-footer">
+                    <div class="pull-right">
+                      <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span> Add Bidder</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.box -->
 
-                    <!-- box bidder list -->
-                  <div class="box box-danger">
-                      <div class="box-header">
-                        <h3 class="box-title">Removed Bidder</h3>
-                        <div class="box-tools pull-right">
-                          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                            <i class="fa fa-minus"></i></button>
-                        </div>
+                <!-- box bidder list -->
+                <div class="box box-danger">
+                  <div class="box-header">
+                    <h3 class="box-title">Removed Bidder</h3>
+                    <div class="box-tools pull-right">
+                      <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                        <i class="fa fa-minus"></i></button>
                       </div>
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table id="example2" class="table table-bordered table-striped table-condensed">
-                          <thead>
-                            <tr>
-                              <th>No</th>
-                              <th>Penawar</th>
-                              <th>Added By</th>
-                              <th>Added Date</th>
-                              <th>Removed By</th>
-                              <th>Removed Date</th>
-                              <th>Alasan Removed</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td>Perusahaan D</td>
-                              <td>CE</td>
-                              <td>22-Apr-2017</td>
-                              <td>Approver</td>
-                              <td>23-Apr-2017</td>
-                              <td>Terkena Sanksi</td>
-                            </tr>
-                            <tr>
-                              <td>2</td>
-                              <td>Perusahaan E</td>
-                              <td>CE</td>
-                              <td>22-Apr-2017</td>
-                              <td>Approver</td>
-                              <td>23-Apr-2017</td>
-                              <td>Terkena Sanksi</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                      <table id="example2" class="table table-bordered table-striped table-condensed">
+                        <thead>
+                          <tr>
+                            <th>No</th>
+                            <th>Penawar</th>
+                            <th>Added By</th>
+                            <th>Added Date</th>
+                            <th>Removed By</th>
+                            <th>Removed Date</th>
+                            <th>Alasan Remove</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Perusahaan D</td>
+                            <td>CE</td>
+                            <td>22-Apr-2017</td>
+                            <td>Approver</td>
+                            <td>23-Apr-2017</td>
+                            <td>Terkena Sanksi</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>Perusahaan E</td>
+                            <td>CE</td>
+                            <td>22-Apr-2017</td>
+                            <td>Approver</td>
+                            <td>23-Apr-2017</td>
+                            <td>Terkena Sanksi</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <!-- /.box-body -->
                   </div>
-                    <!-- /.box -->
+                  <!-- /.box -->
                 </div>
               </div>
             </section>
@@ -887,30 +840,79 @@
 </div>
 <!-- ./wrapper -->
 
-<!-- jQuery 2.2.3 -->
-<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
-<!-- Bootstrap 3.3.6 -->
-<script src="../../bootstrap/js/bootstrap.min.js"></script>
-<!-- DataTables -->
-<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<!-- SlimScroll -->
-<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<!-- FastClick -->
-<script src="../../plugins/fastclick/fastclick.js"></script>
-<!-- AdminLTE App -->
-<script src="../../dist/js/app.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="../../dist/js/demo.js"></script>
-<!-- page script -->
-<script>
-  $(document).ready(function(){
-    $('[data-toggle="abort"]').tooltip(); 
-  });
-  $(function () {
-    $("#example1").DataTable();
-    $('#example2').DataTable();
-  });
-</script>
-</body>
-</html>
+<div id="abortModal" class="modal fade modal-danger">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Abort Contract Order?</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="exampleInputFile">File pendukung:</label>
+            <input type="file" id="exampleInputFile">
+            <label>Alasan abort contact order:</label>
+            <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline">Save changes</button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <div id="resumeModal" class="modal fade modal-warning">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Resume Contract Order?</h4>
+          </div>
+          <div class="modal-body">
+            <p></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-outline">Save changes</button>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- jQuery 2.2.3 -->
+    <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+    <!-- DataTables -->
+    <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="../../plugins/fastclick/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/app.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js"></script>
+    <!-- page script -->
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="abort"]').tooltip(); 
+      });
+      $(function () {
+        $("#example1").DataTable();
+        $('#example2').DataTable();
+      });
+    </script>
+  </body>
+  </html>
