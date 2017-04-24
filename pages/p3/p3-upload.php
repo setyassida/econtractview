@@ -417,21 +417,27 @@
                           Maksimum ukuran tiap file yang diupload adalah <span class="text-red">50MB</span>!    
                         </p>
 
-                        <table id="dataTable" class="table table-bordered table-condensed table-striped">
+                        <table id="dataTable" class="table table-bordered table-condensed table-hover">
                           <thead>
                             <tr>
                               <th>Judul Dokumen</th>
                               <th>Filename</th>
+                              <th style="width:40px">Act</th>
+                              <th style="display:none">Keterangan</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
                               <td>Risalah Pre-Bid Meeting</td>
-                              <td><input type="file" id="" accept=".pdf" data-fv-file-maxsize="50000000" multiple></td>
+                              <td><input type="file" id="" accept=".pdf"></td>
+                              <td></td>
+                              <td style="display:none"></td>
                             </tr>
                             <tr>
                               <td>Breakdown Penawaran</td>
-                              <td><input type="file" id="" accept=".pdf" multiple></td>
+                              <td><input type="file" id="" accept=".pdf"></td>
+                              <td></td>
+                              <td style="display:none"></td>
                             </tr>
                           </tbody>
                         </table>
@@ -727,6 +733,13 @@
     autoclose: true
   });
 
+  //jquery untuk menghilangkan addded dokumen
+  $("#btnRemove").click(function(){
+    
+  });
+
+  
+
   //jQuery for add dokumen tambahan
   $("#btnAdd").click(function(){
     //get all value of add form
@@ -738,6 +751,30 @@
     var $cloneFile = $inputFile.clone();
     $cloneFile.attr({id:"1", class:""});
 
+    //create object tr
+    var $tr = $("<tr />");
+    var $td1 = $("<td />");
+    $td1.html(judulDokumen);
+    
+    var $td2 = $("<td />");
+    $td2.append($cloneFile);
+    
+    var $td3 = $("<td />");
+    $td3.append("<div class='text-center'><button type='button' class='btn btn-xs btn-default btnRemove'><span class='glyphicon glyphicon-remove'></span></button></div>");
+    
+    var $td4 = $("<td />");
+    $td4.html(keterangan);
+    $td4.attr({style:"display:none"});
+
+
+    $tr.append($td1);
+    $tr.append($td2);
+    $tr.append($td3);
+    $tr.append($td4);
+
+    //menambahnkan objeck
+    $("#dataTable tr:last").after($tr);
+
     //clear add form
     $("#inputJudulDokumen").val("");
 
@@ -748,21 +785,14 @@
 
     $("#inputKeterangan").val("");
 
-
-    //create object tr
-    var $tr = $("<tr />");
-    var $td1 = $("<td />");
-    $td1.html(judulDokumen);
-    var $td2 = $("<td />");
-    $td2.append($cloneFile)
-
-    $tr.append($td1);
-    $tr.append($td2);
-
-    //menambahnkan objeck
-    $("#dataTable tr:last").after($tr);
-
+    //register event
+    $(".btnRemove").click(function(){
+      $(this).closest("tr").remove();
+    });
   });
+
+
+  
 </script>
 
 

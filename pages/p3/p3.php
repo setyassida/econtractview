@@ -348,9 +348,6 @@
         <div class="box-header with-border">
           <h3 class="box-title">Result</h3>
 
-          <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-          </div>
         </div>
         <!-- /.box-header -->
         <div class="box-body">
@@ -451,7 +448,8 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          
+
+          <span class="label label-primary">Waiting</span> : Menunggu proses upload, <span class="label label-warning">Hold</span> : Proses Pre-Bid Meeting sedang di hold, <span class="label label-success">Uploaded</span> : Dokumen Risalah Pre-Bid Meeting telah di-upload</p>
         </div>
       </div>
       <!-- /.box -->

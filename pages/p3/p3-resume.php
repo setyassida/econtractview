@@ -447,7 +447,7 @@
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title">Are you sure?</h4>
+                      <h4 class="modal-title">Are You Sure?</h4>
                     </div>
                     <div class="modal-body">
                       <p>Proses ini akan mengirimkan notifikasi kepada :</p>
@@ -457,7 +457,7 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                      <button type="subtim" class="btn btn-info">Yes, Resume Now</button>
+                      <button type="subtim" class="btn btn-info">Yes, Resume It</button>
                     </div>
                   </div>
                     <!-- /.modal-content -->

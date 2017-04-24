@@ -445,7 +445,7 @@
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Are you sure?</h4>
+                    <h4 class="modal-title">Are You Sure?</h4>
                   </div>
                   <div class="modal-body">
                     <p>Proses ini akan mengirimkan notifikasi kepada :</p>
