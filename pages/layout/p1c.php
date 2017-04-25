@@ -341,7 +341,7 @@
     <section class="content-header">
       <h1>
         Pembuatan Kontrak Baru
-        <small>Metode Pemilihan Langsung</small>
+        <small>Metode Penunjukkan Langsung</small>
       </h1>
       <ol class="breadcrumb">
       <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
@@ -500,7 +500,7 @@
               <!-- /.tab-pane -->
               <div class="tab-pane" id="tab_2">
                 <div class="box-body">
-                  <table id="dataTable" class="table table-bordered table-condensed table-hover">
+                  <table class="table table-bordered table-condensed table-hover">
                         <thead>
                           <tr>
                             <th>No</th>
@@ -526,17 +526,27 @@
                           </tr>
                           <tr>
                             <td>4</td>
-                            <td>Form Evaltek</td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
                             <td>SHEQ Notice <a href="#"><span class="label label-info">Download Template</span></a></td>
                             <td><input type="file" id="exampleInputFile"></td>
                           </tr>
                           <tr>
-                            <td>6</td>
+                            <td>5</td>
                             <td>Penilaian Resiko <a href="#"><span class="label label-info">Download Template</span></a></td>
+                            <td><input type="file" id="exampleInputFile"></td>
+                          </tr>
+                          <tr>
+                            <td>6</td>
+                            <td>Evaluasi Kinerja Kontraktor </td>
+                            <td><input type="file" id="exampleInputFile"></td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>Bidcom Recommendation </td>
+                            <td><input type="file" id="exampleInputFile"></td>
+                          </tr>
+                          <tr>
+                            <td>8</td>
+                            <td>Memo Justifikasi </td>
                             <td><input type="file" id="exampleInputFile"></td>
                           </tr>
                           <tr>
@@ -561,6 +571,10 @@
                           </tr>
                         </tbody>
                       </table>
+                      <br>
+                      <span class="col-md-2">
+                        <button type="button" class="btn btn-block btn-success btn-xs">+ Tambah Lampiran</button>
+                      </span>
                 </div>
                 <div class="box-footer">
                   <button type="submit" class="btn btn-info pull-right">Simpan</button>
