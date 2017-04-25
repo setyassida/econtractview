@@ -421,7 +421,7 @@
                           <thead>
                             <tr>
                               <th>Judul Dokumen</th>
-                              <th>Filename</th>
+                              <th style="width:250px">Filename</th>
                               <th style="width:40px">Act</th>
                               <th style="display:none">Keterangan</th>
                             </tr>
@@ -490,9 +490,30 @@
             <!-- /.box-body -->
             <div class="box-footer">
               
-              <button type="submit" class="btn btn-success pull-right" style="margin-right: 5px;">
+              <button type="button" class="btn btn-success pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#uploadModal">
               <span class="glyphicon glyphicon-cloud-upload"></span> Upload
               </button>
+
+              <div id="uploadModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Are You Sure?</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Pastikan file pendukung yang Anda upload telah sesuai. Anda <span class="text-red">TIDAK DAPAT</span> merubah <i>Dokumen Pre-Bid Meeting</i> dan <i>Breakdown Anggaran</i> setelah melakukan proses ini.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-success">Yes, I Want to Upload It</button>
+                    </div>
+                  </div>
+                    <!-- /.modal-content -->
+                </div>
+              </div>
+
               <a href="p3.php">
                 <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
                   Back

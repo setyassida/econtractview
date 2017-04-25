@@ -344,177 +344,178 @@
       </section>
 
       <!-- Main content -->
+      <section class="content">
+        <!-- SELECT2 EXAMPLE -->
+        <div class="box box-default">
+          <form class="form-horizontal">
+            <div class="box-header with-border">
+              <h3 class="box-title">Informasi Kontrak</h3>
 
-      <section class="invoice">
-      <!-- title row -->
-      <div class="row">
-        <table class="table table-bordered table-condensed">
-          <tr>
-            <td rowspan="5" style="width:150px">
-              <img class="img-responsive" src="../../resources/images/badak_logo.jpg">
-            </td>
-            <td rowspan="5" class="text-center">
-              <h1>RISALAH RAPAT/ MINUTE OF MEETING PREBID</h1>
-            </td>
-          </tr>
-          <tr>
-            <td style="width:30px">No</td>
-            <td style="width:220px">xxxxx</td>
-          </tr>
-          <tr>
-            <td>Ref</td>
-            <td>xxxxx</td>
-          </tr>
-          <tr>
-            <td>Rev</td>
-            <td>xxxxx</td>
-          </tr>
-          <tr>
-            <td>Page</td>
-            <td>xxxxx</td>
-          </tr>
-        </table>
-        <!-- /.col -->
-      </div>
-      <!-- info row -->
-      <div class="row invoice-info">
-        <div class="col-sm-4 invoice-col">
-          From
-          <address>
-            <strong>Admin, Inc.</strong><br>
-            795 Folsom Ave, Suite 600<br>
-            San Francisco, CA 94107<br>
-            Phone: (804) 123-5432<br>
-            Email: info@almasaeedstudio.com
-          </address>
-        </div>
-        <!-- /.col -->
-        <div class="col-sm-4 invoice-col">
-          To
-          <address>
-            <strong>John Doe</strong><br>
-            795 Folsom Ave, Suite 600<br>
-            San Francisco, CA 94107<br>
-            Phone: (555) 539-1037<br>
-            Email: john.doe@example.com
-          </address>
-        </div>
-        <!-- /.col -->
-        <div class="col-sm-4 invoice-col">
-          <b>Invoice #007612</b><br>
-          <br>
-          <b>Order ID:</b> 4F3S8J<br>
-          <b>Payment Due:</b> 2/22/2014<br>
-          <b>Account:</b> 968-34567
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
+              
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
 
-      <!-- Table row -->
-      <div class="row">
-        <div class="col-xs-12 table-responsive">
-          <table class="table table-striped">
-            <thead>
-            <tr>
-              <th>Qty</th>
-              <th>Product</th>
-              <th>Serial #</th>
-              <th>Description</th>
-              <th>Subtotal</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td>1</td>
-              <td>Call of Duty</td>
-              <td>455-981-221</td>
-              <td>El snort testosterone trophy driving gloves handsome</td>
-              <td>$64.50</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Need for Speed IV</td>
-              <td>247-925-726</td>
-              <td>Wes Anderson umami biodiesel</td>
-              <td>$50.00</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Monsters DVD</td>
-              <td>735-845-642</td>
-              <td>Terry Richardson helvetica tousled street art master</td>
-              <td>$10.70</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Grown Ups Blue Ray</td>
-              <td>422-568-642</td>
-              <td>Tousled lomo letterpress</td>
-              <td>$25.99</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
 
-      <div class="row">
-        <!-- accepted payments column -->
-        <div class="col-xs-6">
-          <p class="lead">Payment Methods:</p>
-          <img src="../../dist/img/credit/visa.png" alt="Visa">
-          <img src="../../dist/img/credit/mastercard.png" alt="Mastercard">
-          <img src="../../dist/img/credit/american-express.png" alt="American Express">
-          <img src="../../dist/img/credit/paypal2.png" alt="Paypal">
+              <div class="row">
+                <!-- left column -->
+                <div class="col-md-6">
 
-          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-            Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango imeem plugg
-            dopplr jibjab, movity jajah plickers sifteo edmodo ifttt zimbra.
-          </p>
-        </div>
-        <!-- /.col -->
-        <div class="col-xs-6">
-          <p class="lead">Amount Due 2/22/2014</p>
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Nomor Risalah Pre-Bid Meeting:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">0001/BB41/2017-532</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">CO-17001</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Tanggal:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">17-01-2016</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Judul Kontrak:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">Pengadaan Sistem Informasi Kepegawaian</p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-md-3" for="noKontrak">Jenis Kontrak:</label>
+                    <div class="col-md-9">
+                      <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
+                    </div>
+                  </div>
+                  
 
-          <div class="table-responsive">
-            <table class="table">
-              <tr>
-                <th style="width:50%">Subtotal:</th>
-                <td>$250.30</td>
-              </tr>
-              <tr>
-                <th>Tax (9.3%)</th>
-                <td>$10.34</td>
-              </tr>
-              <tr>
-                <th>Shipping:</th>
-                <td>$5.80</td>
-              </tr>
-              <tr>
-                <th>Total:</th>
-                <td>$265.24</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
+                </div>
+                <!-- /left column -->
 
-      <!-- this row will not appear when printing -->
-      <div class="row no-print">
-        <div class="col-xs-12">
-          <a href="invoice-print.html" target="_blank" class="btn btn-default"><i class="fa fa-print"></i> Print</a>
-          <button type="button" class="btn btn-success pull-right"><i class="fa fa-credit-card"></i> Submit Payment
-          </button>
-          <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
-            <i class="fa fa-download"></i> Generate PDF
-          </button>
+                <!-- right column -->
+                <div class="col-md-6">
+                  <div class="box">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="box-body">
+                        
+
+                        <table id="dataTable" class="table table-bordered table-condensed table-hover">
+                          <thead>
+                            <tr>
+                              <th>Judul Dokumen</th>
+                              <th>Filename</th>
+                              <th style="width:80px"><div class="text-center">Act</div></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Risalah Pre-Bid Meeting</td>
+                              <td>sample-file.pdf</td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button></div></td>
+                              <td style="display:none"></td>
+                            </tr>
+                            <tr>
+                              <td>Breakdown Penawaran</td>
+                              <td>sample-file.pdf</td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> </div></td>
+                              <td style="display:none"></td>
+                            </tr>
+                            <tr>
+                              <td>Dokumen Tambahan 1</td>
+                              <td>sample-file.pdf</td>
+                              <td>
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-xs btn-default" >
+                                    <span class="glyphicon glyphicon-download-alt"></span>
+                                  </button>
+                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
+                                    <span class="fa fa-cog"></span>
+                                  </button>
+                                </div>
+                                <div id="modifyModal" class="modal">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span></button>
+                                          <h4 class="modal-title">Modify Document</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                          
+                                            <div class="form-group">
+                                              <label class="control-label col-md-3">Dokumen Baru :</label>
+                                              <div class="col-md-6">
+                                                <input type="file" accept=".pdf" class="form-control">
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </td>
+                              <td style="display:none"></td>
+                            </tr>
+                            <tr>
+                              <td>Dokumen Tambahan 2</td>
+                              <td>sample-file.pdf</td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
+                              <td style="display:none"></td>
+                            </tr>
+                            <tr>
+                              <td>Dokumen Tambahan 3</td>
+                              <td>sample-file.pdf</td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
+                              <td style="display:none"></td>
+                            </tr>
+                            <tr>
+                              <td>Dokumen Tambahan 4</td>
+                              <td>sample-file.pdf</td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
+                              <td style="display:none"></td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <div style="height:20px">
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- /right column -->
+              </div>
+
+
+
+
+
+
+
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+              <a href="p3.php">
+                <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
+                  Back
+                </button>
+              </a>
+            </div>
+          </form>
         </div>
-      </div>
-    </section>
+        <!-- /.box -->
+      </section> 
+      
     <div class="clearfix"></div>
       <!-- /.content -->
     </div>
@@ -740,6 +741,12 @@
 <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 
 <script>
+  //
+  $(document).ready(function(){
+    $('[data-toggle="download"]').tooltip();
+    $('[data-toggle="ubah"]').tooltip(); 
+  });
+
   //Date picker
   $('#datepicker').datepicker({
     autoclose: true

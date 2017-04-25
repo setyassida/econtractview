@@ -457,7 +457,7 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                      <button type="subtim" class="btn btn-info">Yes, Resume It</button>
+                      <button type="submit" class="btn btn-info">Yes, Resume It</button>
                     </div>
                   </div>
                     <!-- /.modal-content -->
