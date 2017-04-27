@@ -347,7 +347,7 @@
         <div class="row">
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
+              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Approver 1</span>
@@ -362,7 +362,7 @@
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
+              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Approver 2</span>
@@ -381,7 +381,7 @@
 
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
+              <span class="info-box-icon bg-red"><i class="fa fa-user"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Approver 3</span>
@@ -396,18 +396,38 @@
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
+              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Approver 4</span>
                 <strong>Kitty Pryde</strong>
+                <br><br>
+                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
               </div>
               <!-- /.info-box-content -->
             </div>
             <!-- /.info-box -->
           </div>
           <!-- /.col -->
-        </div>
+          <!-- fix for small devices only -->
+          <div class="clearfix visible-sm-block"></div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Approver 5</span>
+                <strong>James Howlett</strong>
+                <br><br>
+                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+        </div><!--row approver-->
 
         <div class="row">
           <div class="col-md-4">
