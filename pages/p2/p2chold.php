@@ -458,7 +458,31 @@
                       <a href="p2-abort.php"><button type="button" class="btn btn-danger pull-right btn-sm">Abort</button></a>
                     </div>
                     <div class="pull-right" style="margin-left: 1rem">
-                      <a href="#"><button class="btn btn-primary pull-right btn-sm">Resume</button></a>
+                      <!-- <a href="#"><button class="btn btn-primary pull-right btn-sm">Resume</button></a> -->
+                      <button type="button" class="btn btn-primary pull-right btn-sm" data-toggle="modal" data-target="#resumeModal">Resume</button>
+                      <div id="resumeModal" class="modal modal-primary">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title">Do you want to resume?</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>Proses ini akan melanjutkan SELURUH DATA yang berkaitan dengan Dokumen ini.</p>
+                              <p>Proses ini akan mengirimkan notifikasi kepada :</p>
+                              <li>Contract Organisator</li>
+                              <li>Contract Engineer</li>
+                              <li>Lead Contract Engineer</li>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+                              <button type="submit" class="btn btn-outline">Yes, Resume Now!</button>
+                            </div>
+                          </div>
+                            <!-- /.modal-content -->
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
