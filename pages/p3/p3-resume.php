@@ -344,20 +344,11 @@
         </ol>
       </section>
 
-      <!-- iNote-->
-
-      <div class="pad margin no-print">
-        <div class="callout callout-info" style="margin-bottom: 0!important;">
-          <h4><i class="fa fa-info"></i> Note: <small style="color:white">Halaman ini digunakan untuk proses Resume Pre-Bid Meeting.</small></h4>
-          
-        </div>
-      </div>
-
       <!-- Main content -->
       
       <section class="content">
         <!-- SELECT2 EXAMPLE -->
-        <div class="box box-default">
+        <div class="box box-info">
           <form class="form-horizontal">
             <div class="box-header with-border">
               <h3 class="box-title">Informasi Kontrak</h3>
@@ -381,7 +372,7 @@
                   <div class="form-group">
                     <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
                     <div class="col-md-9">
-                      <p class="form-control-static">CO-17001</p>
+                      <p class="form-control-static">CA-17001</p>
                     </div>
                   </div>
                   <div class="form-group">
@@ -447,7 +438,7 @@
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title">Are You Sure?</h4>
+                      <h4 class="modal-title">Are You Sure to Resume It?</h4>
                     </div>
                     <div class="modal-body">
                       <p>Proses ini akan mengirimkan notifikasi kepada :</p>

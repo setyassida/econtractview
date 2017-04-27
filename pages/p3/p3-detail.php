@@ -416,13 +416,83 @@
                             <tr>
                               <td>Risalah Pre-Bid Meeting</td>
                               <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button></div></td>
+                              <td>
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-xs btn-default" >
+                                    <span class="glyphicon glyphicon-download-alt"></span>
+                                  </button>
+                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
+                                    <span class="fa fa-cog"></span>
+                                  </button>
+                                </div>
+                                <div id="modifyModal" class="modal">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span></button>
+                                          <h4 class="modal-title">Modify Document</h4>
+                                        </div>
+                                        
+                                        <div class="modal-body">
+                                            <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                                              Dokumen lama yang Anda upload akan otomatis terhapus.    
+                                            </p>
+                                          
+                                            <div class="form-group">
+                                              <label class="control-label col-md-3">Dokumen Baru :</label>
+                                              <div class="col-md-6">
+                                                <input type="file" accept=".pdf" class="form-control">
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </td>
                               <td style="display:none"></td>
                             </tr>
                             <tr>
                               <td>Breakdown Penawaran</td>
                               <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> </div></td>
+                              <td>
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-xs btn-default" >
+                                    <span class="glyphicon glyphicon-download-alt"></span>
+                                  </button>
+                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
+                                    <span class="fa fa-cog"></span>
+                                  </button>
+                                </div>
+                                <div id="modifyModal" class="modal">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span></button>
+                                          <h4 class="modal-title">Modify Document</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                          
+                                            <div class="form-group">
+                                              <label class="control-label col-md-3">Dokumen Baru :</label>
+                                              <div class="col-md-6">
+                                                <input type="file" accept=".pdf" class="form-control">
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </td>
                               <td style="display:none"></td>
                             </tr>
                             <tr>

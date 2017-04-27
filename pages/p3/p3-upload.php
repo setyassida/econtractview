@@ -346,23 +346,20 @@
 
       <!-- iNote-->
 
-      <div class="pad margin no-print">
-        <div class="callout callout-success" style="margin-bottom: 0!important;">
-          <h4><i class="fa fa-info"></i> Note: <small style="color:white">Halaman ini digunakan untuk unggah Dokumen Hasil Pre-Bid Meeting</small></h4>
-          
-        </div>
-      </div>
+      
 
       <!-- Main content -->
 
       <section class="content">
         <!-- SELECT2 EXAMPLE -->
-        <div class="box box-default">
+        <div class="box box-success">
           <form class="form-horizontal">
             <div class="box-header with-border">
               <h3 class="box-title">Informasi Kontrak</h3>
 
-              
+              <div class="col-md-3 pull-right text-right">
+                <small>Lihat dokumen yang telah ter-upload <a href="p3-detail.php">disini</a></small>
+              </div>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -381,7 +378,7 @@
                   <div class="form-group">
                     <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
                     <div class="col-md-9">
-                      <p class="form-control-static">CO-17001</p>
+                      <p class="form-control-static">CA-17001</p>
                     </div>
                   </div>
                   <div class="form-group">

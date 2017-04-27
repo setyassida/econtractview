@@ -343,7 +343,7 @@
     
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
-      <div class="box box-danger
+      <div class="box
       ">
         <div class="box-header with-border">
           <h3 class="box-title">Result</h3>
@@ -359,9 +359,9 @@
             <thead>
             <tr>
               <th style="width:150px">No. Risalah Pre-Bid Meeting</th>
-              <th style="width:100px">Tanggal</th>
+              <th style="width:100px">Tanggal Pre-Bid Meeting</th>
               <th style="width:100px">Nomor Kontrak</th>
-              <th>Judul Proyek</th>
+              <th>Juduk Pekerjaan</th>
               <th style="width:50px">Status</th>
               <th style="width:10px">Template Risalah</th>
               <th style="width:50px">Upload</th>
@@ -373,7 +373,7 @@
               <td>0001/BB41/2017-041</td>
               <td>01-01-2017</td>
               <td>CA-17001</td>
-              <td>Pengadaan Sistem Informasi</td>
+              <td>PENGADAAN SISTEM INFORMASI</td>
               <td><div class="text-center"><span class="label label-primary">Waiting</span></div></td>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
@@ -389,7 +389,7 @@
               <td>0001/BB41/2016-789</td>
               <td>25-03-2018</td>
               <td>CC-167321</td>
-              <td>Perbaikan Infrastruktur</td>
+              <td>PERBAIKAN INFRASTRUKTUR</td>
               <td><div class="text-center"><span class="label label-primary">Waiting</span></div></td>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
@@ -404,7 +404,7 @@
               <td>0001/BB41/2017-041</td>
               <td>17-02-2018</td>
               <td>CB-18121</td>
-              <td>Pengadaan Perangkat Lunak</td>
+              <td>PENGADAAN PERANGKAT LUNAK</td>
               <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
@@ -419,7 +419,7 @@
               <td>0001/BB41/2017-532</td>
               <td>28-01-2018</td>
               <td>CA-17001</td>
-              <td>Pemeliharaan</td>
+              <td>PEMELIHARAAN</td>
               <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
@@ -434,9 +434,9 @@
               <td><a href="p3-detail.php?no=CO-17001">0001/BB41/2018-123</a></td>
               <td>28-01-2018</td>
               <td>CB-17555</td>
-              <td>Kebersihan</td>
+              <td>KEBERSIHAN</td>
               <td><div class="text-center"><span class="label label-success">Uploaded</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs" disabled><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
               <td>
               </td>
@@ -448,8 +448,10 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-
-          <span class="label label-primary">Waiting</span> : Menunggu proses upload, <span class="label label-warning">Hold</span> : Proses Pre-Bid Meeting sedang di hold, <span class="label label-success">Uploaded</span> : Dokumen Risalah Pre-Bid Meeting telah di-upload</p>
+          Keterangan Status : <br>
+          <div class="col-md-1"><span class="label label-primary">Waiting</span></div> <div class="col-md-11">: Menunggu proses upload</div>
+          <div class="col-md-1"><span class="label label-warning">Hold</span></div> <div class="col-md-11">: Proses Pre-Bid Meeting sedang di hold</div>
+          <div class="col-md-1"><span class="label label-success">Uploaded</span></div> <div class="col-md-11">: Dokumen Risalah Pre-Bid Meeting telah di-upload</div>
         </div>
       </div>
       <!-- /.box -->
