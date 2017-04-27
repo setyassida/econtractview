@@ -336,7 +336,7 @@
         <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
         <li><a href="p2a.php">Bidder List</a></li>
-        <li class="active"><a href="p2c.php">BL-17005</a></li>
+        <li class="active"><a href="#">BL-17005</a></li>
       </ol>
       </section>
 
@@ -347,7 +347,7 @@
         <div class="row">
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
+              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Approver 1</span>
@@ -362,7 +362,7 @@
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
+              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Approver 2</span>
@@ -381,7 +381,7 @@
 
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
+              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Approver 3</span>
@@ -396,7 +396,7 @@
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
+              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Approver 4</span>
@@ -409,8 +409,26 @@
             <!-- /.info-box -->
           </div>
           <!-- /.col -->
-        </div>
+          <!-- fix for small devices only -->
+          <div class="clearfix visible-sm-block"></div>
 
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Approver 5</span>
+                <strong>James Howlett</strong>
+                <br><br>
+                <div class="text-right text-success"><i class="fa fa-check"></i></div>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- ./row approver -->
         <div class="row">
           <div class="col-md-4">
             <div class="box box-primary">
@@ -473,7 +491,7 @@
                     <dl>
                       <dt>Tingkat Risiko</dt>
                       <dd>Sedang</dd>
-                      <dt>Tanggal Diterbitkan</dt>
+                      <dt>Publish Date</dt>
                       <dd>22-Sep-2017</dd>
                       <dt>Kuota Area</dt>
                       <table class="table table-condensed table-bordered">

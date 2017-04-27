@@ -346,7 +346,7 @@
       <ol class="breadcrumb">
       <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
       <li><a href="p2a.php">Contract Order</a></li>
-      <li class="active"><a href="p2c.php">Form Cost Commitment</a></li>
+      <li class="active"><a href="p2cdraft.php">Form Cost Commitment</a></li>
     </section>
 
     <!-- Main content -->
