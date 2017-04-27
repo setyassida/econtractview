@@ -400,21 +400,21 @@
                 <div class="col-md-6">
                   <div class="box box-danger">
                       <div class="box-body">
-                      <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                        Untuk melakukan proses Abort, Anda wajib menyertakan Alasan Abort dan Dokumen Pendukung Proses Abort pada kolom berikut.    
-                      </p>
-                      <div class="col-md-12">
+                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                          Untuk melakukan proses Abort, Anda wajib menyertakan Alasan Abort dan Dokumen Pendukung Proses Abort pada kolom berikut.    
+                        </p>
+                        <div class="col-md-12">
 
-                        <div class="form-group">
-                          <label>Alasan Abort :</label>
-                          <textarea class="form-control" rows="5" placeholder="Enter ..." style="resize:none" required></textarea>
+                          <div class="form-group">
+                            <label>Alasan Abort :</label>
+                            <textarea class="form-control" rows="5" placeholder="Enter ..." style="resize:none" required></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label>Dokumen Pendukung Proses Abort:</label>
+                            <input type="file" id="inputFile" multiple required>
+                          </div>
+                          
                         </div>
-                        <div class="form-group">
-                          <label>Dokumen Pendukung Proses Abort:</label>
-                          <input type="file" id="inputFile" multiple required>
-                        </div>
-                        
-                      </div>
                       </div>
                   </div>
 
