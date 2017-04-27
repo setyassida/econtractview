@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>E-Contract</title>
+  <title>AdminLTE 2 | Data Tables</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -340,7 +340,7 @@
     </section>
 
     <!-- Main content -->
-    
+
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
       <div class="box
@@ -351,10 +351,10 @@
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-          
-            
+
+
             <!-- main column-->
-            
+
         	<table id="dataTable" class="table table-bordered table-condensed table-hover">
             <thead>
             <tr>
@@ -444,7 +444,7 @@
             <tbody>
           </table>
 
-            
+
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
@@ -455,7 +455,7 @@
         </div>
       </div>
       <!-- /.box -->
-	</section> 
+	</section>
 
     <!-- /.content -->
   </div>
@@ -682,7 +682,7 @@
   $(document).ready(function(){
     $('[data-toggle="hold"]').tooltip();
     $('[data-toggle="resume"]').tooltip();
-    $('[data-toggle="abort"]').tooltip(); 
+    $('[data-toggle="abort"]').tooltip();
   });
   $(function () {
     $("#dataTable").DataTable();
@@ -692,10 +692,12 @@
       "searching": false,
       "ordering": true,
       "info": true,
-      "autoWidth": false
+      "autoWidth": false,
+      ".responsive.recacl()"
     });
   });
 </script>
+
 
 
 </body>

@@ -341,7 +341,7 @@
     <section class="content-header">
       <h1>
         Pembuatan Kontrak Baru
-        <small>Metode Pemilihan Langsung</small>
+        <small>Metode Pengadaan Langsung</small>
       </h1>
       <ol class="breadcrumb">
       <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
@@ -410,7 +410,9 @@
                       </div>
                       <div class="col-sm-6">
                         <select class="form-control input-sm">
+                          <option>Hari</option>
                           <option>Bulan</option>
+                          <option>Tahun</option>
                         </select>
                       </div>
                     </div>
@@ -500,7 +502,7 @@
               <!-- /.tab-pane -->
               <div class="tab-pane" id="tab_2">
                 <div class="box-body">
-                  <table id="dataTable" class="table table-bordered table-condensed table-hover">
+                  <table class="table table-hover">
                         <thead>
                           <tr>
                             <th>No</th>
@@ -514,53 +516,12 @@
                             <td>Lingkup Kerja</td>
                             <td><input type="file" id="exampleInputFile"></td>
                           </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>Cost Commitment <a href="#"><span class="label label-info">Download Template</span></a></td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>Justifikasi PR Service</td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>Form Evaltek</td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>SHEQ Notice <a href="#"><span class="label label-info">Download Template</span></a></td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>Penilaian Resiko <a href="#"><span class="label label-info">Download Template</span></a></td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>Request For Proposal </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>Daftar Material </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>11</td>
-                            <td>Gambar </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>12</td>
-                            <td>Spesifikasi Teknis </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
                         </tbody>
                       </table>
+                      <br>
+                      <span class="col-md-2">
+                        <button type="button" class="btn btn-block btn-success btn-xs">+ Tambah Lampiran</button>
+                      </span>
                 </div>
                 <div class="box-footer">
                   <button type="submit" class="btn btn-info pull-right">Simpan</button>
