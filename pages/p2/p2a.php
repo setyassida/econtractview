@@ -378,7 +378,7 @@
                   <td>21-Feb-2017</td>
                 </tr>
                 <tr>
-                  <td><a href="p2c.php">BL-17003</a></td>
+                  <td><a href="p2caborted.php">BL-17003</a></td>
                   <td><a href="#">CA-17003</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td class="text-center"><span class="label label-danger">Aborted</span></td>

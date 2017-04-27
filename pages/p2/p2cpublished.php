@@ -336,7 +336,7 @@
         <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
         <li><a href="p2a.php">Bidder List</a></li>
-        <li class="active"><a href="p2c.php">BL-17005</a></li>
+        <li class="active"><a href="#">BL-17005</a></li>
       </ol>
       </section>
 
@@ -491,7 +491,7 @@
                     <dl>
                       <dt>Tingkat Risiko</dt>
                       <dd>Sedang</dd>
-                      <dt>Tanggal Diterbitkan</dt>
+                      <dt>Publish Date</dt>
                       <dd>22-Sep-2017</dd>
                       <dt>Kuota Area</dt>
                       <table class="table table-condensed table-bordered">
