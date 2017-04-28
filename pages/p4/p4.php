@@ -241,7 +241,7 @@
             </thead>
             <tbody>
             <tr>
-              <td><a href="p4-detail.php?no=CO-17001">0001/HPS/2017</a></td>
+              <td><a href="p4-view.php?no=CO-17001">0001/HPS/2017</a></td>
               <td>01-01-2017</td>
               <td>CA-17001</td>
               <td>PENGADAAN SISTEM INFORMASI</td>
@@ -252,7 +252,7 @@
               </td>
             </tr>
             <tr>
-              <td><a href="p4-detail.php?no=CO-17001">0002/HPS/2017</a></td>
+              <td><a href="p4-view.php?no=CO-17001">0002/HPS/2017</a></td>
               <td>25-03-2018</td>
               <td>CC-167321</td>
               <td>PERBAIKAN INFRASTRUKTUR</td>
@@ -261,7 +261,7 @@
               
             </tr>
             <tr>
-              <td><a href="p4-detail.php?no=CO-17001">0003/HPS/2017</a></td>
+              <td><a href="p4-view.php?no=CO-17001">0003/HPS/2017</a></td>
               <td>17-02-2018</td>
               <td>CB-18121</td>
               <td>PENGADAAN PERANGKAT LUNAK</td>
@@ -270,7 +270,7 @@
               
             </tr>
             <tr>
-              <td><a href="p4-detail.php?no=CO-17001">0004/HPS/2017</a></td>
+              <td><a href="p4-view.php?no=CO-17001">0004/HPS/2017</a></td>
               <td>28-01-2018</td>
               <td>CA-17001</td>
               <td>PEMELIHARAAN</td>
@@ -279,7 +279,7 @@
               
             </tr>
             <tr>
-              <td><a href="p3-detail.php?no=CO-17001">0005/HPS/2017</a></td>
+              <td><a href="p3-view.php?no=CO-17001">0005/HPS/2017</a></td>
               <td>28-01-2018</td>
               <td>CB-17555</td>
               <td>KEBERSIHAN</td>

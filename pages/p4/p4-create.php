@@ -306,7 +306,7 @@
                           </thead>
                           <tbody>
                             <tr>
-                              <td>Dokumen Risalah Pre-Bid Meeting</td>
+                              <td>Lampiran Contract Order 1</td>
                               <td>
                                 <div class="text-center">
                                   <button type="button" class="btn btn-xs btn-default" >
@@ -316,7 +316,37 @@
                               </td>
                             </tr>
                             <tr>
-                              <td>Dokumen Breakdown Penawaran</td>
+                              <td>Lampiran Contract Order 2</td>
+                              <td>
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-xs btn-default" >
+                                    <span class="glyphicon glyphicon-download-alt"></span>
+                                  </button>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Lampiran Contract Order 3</td>
+                              <td>
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-xs btn-default" >
+                                    <span class="glyphicon glyphicon-download-alt"></span>
+                                  </button>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Lampiran Contract Order 4</td>
+                              <td>
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-xs btn-default" >
+                                    <span class="glyphicon glyphicon-download-alt"></span>
+                                  </button>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Lampiran Contract Order 5</td>
                               <td>
                                 <div class="text-center">
                                   <button type="button" class="btn btn-xs btn-default" >
