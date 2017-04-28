@@ -442,11 +442,11 @@
                   </div>
                 </div>
 
-                <a href="p3.php">
+                <!-- <a href="p3.php">
                   <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
                     Back
                   </button>
-                </a>
+                </a> -->
               </div>
             </div>
             <!-- /.box -->
