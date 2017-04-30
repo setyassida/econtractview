@@ -265,12 +265,12 @@
       </div>
 
       
-      <div class="box box-danger">
+      <div class="box box-success">
         <form class="form-horizontal">
           <div class="box-header with-border">
             <h4>Informasi HPS</h4>
           </div>
-          <div class="box-content">
+          <div class="box-body">
             <div class="col-md-6">
               <div class="form-group">
                 <label class="control-label col-md-4">Nomor HPS :</label>

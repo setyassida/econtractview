@@ -61,7 +61,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="../../resources/images/avatar/icon1.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">EST</span>
+              <span class="hidden-xs">PO/CO</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -69,7 +69,7 @@
                 <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
 
                 <p>
-                 EST
+                 PO/CO
             
                 </p>
               </li>
@@ -102,7 +102,7 @@
           <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>EST</p>
+          <p>PO/CO</p>
           
         </div>
       </div>
@@ -146,9 +146,9 @@
             <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Contract</a></li>
             <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
-            <li class="active"><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
-             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+             <li class="active"><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
@@ -198,12 +198,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Harga Perkiraan Sendiri
-        <small>Daftar HPS</small>
+        Evalusi Teknis
+        <small>Create</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Harga Perkiraan Sendiri</li>
+        <li><a href="p6.php">Evaluasi Teknis</a></li>
+        <li class="active">Create</li>
       </ol>
     </section>
 
@@ -211,93 +212,32 @@
 
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
-      <div class="box
+      <div class="box box-danger
       ">
-        <div class="box-header with-border">
-          <div class="row">
+        
+          <div class="box-header with-border">
+            <h4>Buat Evaluasi Teknis</h4>
+          </div>
+          <!-- /.box-header -->
+          <div class="box-body">
             <div class="col-md-12">
-              <a href="p4-create.php"><button class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Buat HPS Baru</button></a>
+              <form class="form-horizontal">
+                <div class="form-group"> 
+                  <label class="control-label col-md-2">Nomor Kontrak :</label>
+                  <div class="col-md-3">
+                    <input type="text" class="form-control input-sm" placeholder="LOOKUP..." required>
+                  </div>
+                    <a href="p6-view.php"><button type="button" class="btn btn-success btn-sm">Create</button></a>
+                 </div>
+              </form>
             </div>
+
+          </div>
+          <!-- /.box-body -->
+          <div class="box-footer">
+            
           </div>
 
-        </div>
-        <!-- /.box-header -->
-        <div class="box-body">
-
-
-            <!-- main column-->
-          
-
-          <table id="dataTable" class="table table-bordered table-condensed table-hover">
-            <thead>
-            <tr>
-              <th style="width:100px">Nomor HPS</th>
-              <th style="width:100px">Tanggal Opening</th>
-              <th style="width:100px">Nomor Kontrak</th>
-              <th>Judul Pekerjaan</th>
-              <th style="width:50px">Status</th>
-              <th style="width:10px">Download HPS</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td><a href="p4-view.php?no=CO-17001">0001/HPS/2017</a></td>
-              <td>01-01-2017</td>
-              <td>CA-17001</td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-        </div>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="p4-view.php?no=CO-17001">0002/HPS/2017</a></td>
-              <td>25-03-2018</td>
-              <td>CC-167321</td>
-              <td>PERBAIKAN INFRASTRUKTUR</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="p4-view.php?no=CO-17001">0003/HPS/2017</a></td>
-              <td>17-02-2018</td>
-              <td>CB-18121</td>
-              <td>PENGADAAN PERANGKAT LUNAK</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="p4-view.php?no=CO-17001">0004/HPS/2017</a></td>
-              <td>28-01-2018</td>
-              <td>CA-17001</td>
-              <td>PEMELIHARAAN</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="p3-view.php?no=CO-17001">0005/HPS/2017</a></td>
-              <td>28-01-2018</td>
-              <td>CB-17555</td>
-              <td>KEBERSIHAN</td>
-              <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-            </tr>
-            <tbody>
-          </table>
-
-
-        </div>
-        <!-- /.box-body -->
-        <div class="box-footer">
-          Keterangan Status : <br>
-          <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
-          <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-          <div class="col-md-1"><span class="label label-success">Approved</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
-        </div>
       </div>
       <!-- /.box -->
   </section>
