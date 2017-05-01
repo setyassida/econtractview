@@ -1,366 +1,383 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<style>
-.content-wrapper,
-.right-side,
-.main-footer {
-  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
-  margin-left: 0px;
-  z-index: 820;
-}
-.layout-top-nav .content-wrapper,
-.layout-top-nav .right-side,
-.layout-top-nav .main-footer {
-  margin-left: 0;
-}
-@media (max-width: 767px) {
-  .content-wrapper,
-  .right-side,
-  .main-footer {
-    margin-left: 0;
-  }
-}
-@media (min-width: 768px) {
-  .sidebar-collapse .content-wrapper,
-  .sidebar-collapse .right-side,
-  .sidebar-collapse .main-footer {
-    margin-left: 0;
-  }
-}
-@media (max-width: 767px) {
-  .sidebar-open .content-wrapper,
-  .sidebar-open .right-side,
-  .sidebar-open .main-footer {
-    -webkit-transform: translate(230px, 0);
-    -ms-transform: translate(230px, 0);
-    -o-transform: translate(230px, 0);
-    transform: translate(230px, 0);
-  }
-}
-.content-wrapper,
-.right-side {
-  min-height: 100%;
-  background-color: #ecf0f5;
-  z-index: 800;
-}
-.main-footer {
-  background: #fff;
-  padding: 15px;
-  color: #444;
-  border-top: 1px solid #d2d6de;
-}
-</style>
-  <title>E-Contract</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- bootstrap style -->
-  <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>E-Contract</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- daterange picker -->
-  <link rel="stylesheet" href="../resources/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
   <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="../resources/css/bootstrap-datepicker.css">
-  <!-- bootstrap timepicker -->
-  <link rel="stylesheet" href="../resources/css/bootstrap-timepicker.min.css">
-  <!-- font awesome -->
-  <link rel="stylesheet" href="../resources/css/font-awesome.min.css">
-  <!-- ptb style -->
-  <link rel="stylesheet" href="../resources/css/ptbapps.css">
-  <style>
-   .hr {
-     border-top: 1px dotted #000000 !important;
-     margin-bottom:5px !important;
-     margin-top:5px !important;
-   }
- </style>
- <title>E-Contract</title>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <!-- bootstrap style -->
- <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
- <!-- daterange picker -->
- <link rel="stylesheet" href="../resources/daterangepicker/daterangepicker.css">
- <!-- bootstrap datepicker -->
- <link rel="stylesheet" href="../resources/css/bootstrap-datepicker.css">
- <!-- bootstrap timepicker -->
- <link rel="stylesheet" href="../resources/css/bootstrap-timepicker.min.css">
- <!-- font awesome -->
- <link rel="stylesheet" href="../resources/css/font-awesome.min.css">
- <!-- ptb style -->
- <link rel="stylesheet" href="../resources/css/ptbapps.css">
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
+  <!-- Bootstrap Color Picker -->
+  <link rel="stylesheet" href="../../plugins/colorpicker/bootstrap-colorpicker.min.css">
+  <!-- Bootstrap time Picker -->
+  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="../../plugins/select2/select2.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
 
-
- <!-- jquery js -->
- <script src="../resources/js/jquery.min.js"></script>
- <!-- bootstrap js -->
- <script src="../resources/js/bootstrap.min.js"></script>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-<body>
+<!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
+<!-- the fixed layout is not compatible with sidebar-mini -->
+<body class="hold-transition skin-red fixed sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
 
-  <nav class="navbar navbar-default" style="margin-bottom:2px;" >
-    <div class="container-fluid">
-      <img style="width:20%;" src="../resources/img/badak.png" alt="">
-    </div>
-  </nav>
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="../../index2.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>E</b>-Ct</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>E-Contract</b></span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
 
-  <nav class="navbar navbar-default" style="margin-bottom:2px;">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"><b>E-Contract</b></a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contract Order
-            <span class="caret"></span></a>
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <!-- Notifications: style can be found in dropdown.less -->
+          <li class="dropdown notifications-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-bell-o"></i>
+              <span class="label label-warning">10</span>
+            </a>
             <ul class="dropdown-menu">
-              <li><a href="#">Browse</a></li>
-              <li><a href="#">Buat Contact Order</a></li>
+              <li class="header">You have 10 notifications</li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu">
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer"><a href="#">View all</a></li>
+            </ul>
+          </li>
+          <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="../../dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <span class="hidden-xs">Ibu Nia</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header">
+                <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                <p>
+                  Vice President
+                </p>
+              </li>
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-right">
+                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+              </li>
             </ul>
           </li>
         </ul>
       </div>
     </nav>
+  </header>
 
-    <div class="container">
-      <div class="text-center">
-        <h4 class=""><b>PERMINTAAN PEMBUATAN KONTRAK</b></h4>
-        <p>Purchase Request Service (PR Service).</p>
+  <!-- =============================================== -->
 
+  <!-- Left side column. contains the sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>Alexander Pierce</p>
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h5>
-                <span class="glyphicon glyphicon-pencil"></span>&nbsp;<strong>Form Pemilihan Langsung</strong>
-              </h5>
-            </div>
-            <div class="panel-body">
 
-              <form role="form">
-                <div class="col-md-6">
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu">
+        <li class="header">Menu Process</li>
+        <li class="treeview">
 
-                  <div class="form-group">
-                    <label for="email">Nomor PR Service:</label>
-                    <input type="text" class="form-control" id="email" placeholder="CO17001" disabled="true">
-                  </div>
+          <!-- menu dashboard -->
+      
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
 
-                  <div class="form-group">
-                    <label for="pwd">Tanggal:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="04-19-2017" disabled="true">
-                  </div>
+        </li>
 
-                  <!-- radio -->
-                  <div class="form-group">
-                    <label for="kr">Kontrak Rutin:</label>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Ya
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                        Tidak
-                      </label>
-                    </div>
-                  </div>
+        <!-- menu contract order  -->
+        <li class="active treeview">
+          <a href="#">
+            <i class="fa fa-files-o"></i>
+            <span>Contract Order</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Contract</a></li>
+            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Bidder List</a></li>
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
+            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
+             <li class="active"><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoA</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>     
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li> 
+          </ul>
+        </li>
 
-                  <div class="form-group">
-                    <label for="rnk">Referensi Nomor Kontrak:</label>
-                    <input type="text" class="form-control" id="rnk" placeholder="Referensi nomor kontrak sebelumnnya (LOOKUP)">
-                  </div>
+                <!-- VO menu -->
+        <li>
+          <a href="pages/widgets.html">
+            <i class="fa fa-th"></i> <span>VO</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-green">new</small>
+            </span>
+          </a>
+        </li>
 
-                  <div class="form-group">
-                    <label for="kb">Kode Pembebanan Biaya:</label>
-                    <input type="text" class="form-control" id="kb" placeholder="Kode pembebanan biaya (LOOKUP)">
-                  </div>
-                </div>
 
-                <!-- KOLOM KANAN -->
-                <div class="col-md-6">
-                  <!-- textarea -->
-                  <div class="form-group">
-                    <label>Judul Pekerjaan</label>
-                    <textarea class="form-control" rows="2" placeholder="Enter ..."></textarea>
-                  </div>
+                <!-- Report menu -->
+        <li>
+          <a href="pages/widgets.html">
+            <i class="fa fa-th"></i> <span>Report</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-green">new</small>
+            </span>
+          </a>
+        </li>
 
-                  <div class="form-group">
-                    <label for="dur">Durasi: </label>
-                    <div class="">
-                    </div>
-                    <div class="col-md-2">
-                      <input type="number" min="1" class="form-control col-md-3" id="dur" placeholder="">
-                    </div>
-                    <div class="col-md-2">
-                      <select class="form-control">
-                        <option value="day">Hari</option>
-                        <option value="month">Bulan</option>
-                        <option value="year">Tahun</option>
-                      </select>
-                    </div>
-                    <div class="col-md-8">
-                      <br><br>
-                    </div>
-                  </div>
+        <li>
+          <a href="pages/widgets.html">
+            <i class="fa fa-th"></i> <span>Report</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-green">new</small>
+            </span>
+          </a>
+        </li>
 
-                  <!-- Date range -->
-                  <div class="form-group">
-                    <label  >Tannggal (Mulai-Selesai): </label>
-                    <div class="input-group col-md-6">
-                      <div class="input-group-addon">
-                        <i class="fa fa-calendar"></i>
-                      </div>
-                      <input type="text" class="form-control pull-right" id="reservation">
-                    </div>
-                    <!-- /.input group -->
-                    <br>
-                  </div>
-                  <!-- /.form group -->
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
 
-                  <!-- radio -->
-                  <div class="form-group">
-                    <label for="kr">Perkiraan Nilai Kontrak:</label>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>&#8804 Rp. 5M
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                        Rp 5 M &#8804 Rp 10 M
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                        Rp 10 M &#8804 Rp 20 M
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                        Rp 20 M &#8804 Rp 30 M
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                        > Rp 30 M
-                      </label>
-                    </div>
-                    <br>
-                  </div>
-                </div>
+  <!-- =============================================== -->
 
-                <div class="col-md-12">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <i><b>Lampiran</b></i>
-                    </div>
-                    <div class="panel-body">
-                      <table class="table table-hover">
-                        <thead>
-                          <tr>
-                            <th>No</th>
-                            <th>Keterangan</th>
-                            <th></th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>Lingkup Kerja</td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>Cost Commitment <a href="#"><span class="label label-info">Download Template</span></a></td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>Justifikasi PR Service</td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>Form Evaltek</td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>SHEQ Notice <a href="#"><span class="label label-info">Download Template</span></a></td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>Penilaian Resiko <a href="#"><span class="label label-info">Download Template</span></a></td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>Request For Proposal </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>Daftar Material </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>11</td>
-                            <td>Gambar </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>12</td>
-                            <td>Spesifikasi Teknis </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <span class="col-md-2">
-                        <button type="button" class="btn btn-block btn-success btn-xs">+ Tambah Lampiran</button>
-                      </span>
-                    </div>
-                  </div>
-                </div>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Permintaan Pembuatan Kontrak
+        <small></small>
+      </h1>
+      <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
+      <li><a href="p2a.php">Contract Order</a></li>
+      <li class="active"><a href="p2cdraft.php">Pilih Metode Pengadaan</a></li>
+    </ol>
+    </section>
 
-                <div class="col-md-1 col-md-offset-11">
-                  <button class="btn btn-success btn-lg"> SUBMIT </button>
-                </div>
-              </form>
-            </div>
+    <!-- Main content -->
+    <section class="content">
+      <!-- Default box -->
+      <div class="box box-danger">
+        <div class="box-header with-border">
+          <h3 class="box-title">Pilih Metode Pengadaan</h3>
+        </div>
+        <div class="box-body">
+          <div class="col-md-6">
+            <a href="p1b.php">
+              <div class="callout callout-warning">
+                <h4><b>PEMILIHAN LANGSUNG</b></h4>
+                <ul>
+                  <li>Nilai Kontrak &#8805 25 Juta</li>
+                  <li>Jumlah Bidder > 1</li>
+                </ul>
+              </div>
+            </a>
+
+            <a href="p1d.php">
+              <div class="callout callout-warning">
+                <h4><b>PENGADAAN LANGSUNG</b></h4>
+                <ul>
+                  <li>25 Juta &#8804 Nilai Kontrak < 100 Juta</li>
+                  <li>Jumlah Bidder > 1 (Bisa pilih atau isi nama rekanan)</li>
+                </ul>
+              </div>
+            </a>
+
+
+          </div>
+          <div class="col-md-6">
+            <a href="p1c.php">
+              <div class="callout callout-warning">
+                <h4><b>PENUNJUKKAN LANGSUNG</b></h4>
+                <ul>
+                  <li><b>Nilai Kontrak </b> &#8805 100 Juta</li>
+                  <li><b>Jumlah Bidder =</b> 1 (Pilih Rekanan)</li>
+                </ul>
+              </div>
+            </a>
+
           </div>
         </div>
-
+        <!-- /.box-body -->
       </div>
-    </div>
-    <!-- /.content-wrapper -->
+      <!-- /.box -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
   <footer class="main-footer">
-    <strong>Copyright &copy; 2017 <a style="color:#ab0101" href="http://www.badaklng.co.id">PT Badak NGL</a>.</strong> All rights
+    <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
     reserved.
   </footer>
-    <!-- momment js -->
-    <script src="../resources/js/moment.js"></script>
-    <!-- ptb js -->
-    <script src="../resources/js/ptbapps.js"></script>
-    <!-- daterangepicker js -->
-    <script src="../resources/daterangepicker/daterangepicker.js"></script>
-    <!-- bootstrap datepicker -->
-    <script src="../resources/js/bootstrap-datepicker.js"></script>
-    <!-- bootstrap timepicker -->
-    <script src="../resources/js/bootstrap-timepicker.min.js"></script>
 
-    <script type="text/javascript">
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 2.2.3 -->
+<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
+<!-- Select2 -->
+<script src="../../plugins/select2/select2.full.min.js"></script>
+<!-- InputMask -->
+<script src="../../plugins/input-mask/jquery.inputmask.js"></script>
+<script src="../../plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+<script src="../../plugins/input-mask/jquery.inputmask.extensions.js"></script>
+<!-- date-range-picker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
+<!-- bootstrap datepicker -->
+<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- bootstrap color picker -->
+<script src="../../plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
+<!-- bootstrap time picker -->
+<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
+<!-- SlimScroll 1.3.0 -->
+<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- iCheck 1.0.1 -->
+<script src="../../plugins/iCheck/icheck.min.js"></script>
+<!-- FastClick -->
+<script src="../../plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/app.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+<!-- Page script -->
+<script>
+  $(function () {
+    //Initialize Select2 Elements
+    $(".select2").select2();
+
+    //Datemask dd/mm/yyyy
+    $("#datemask").inputmask("dd/mm/yyyy", {"placeholder": "dd/mm/yyyy"});
+    //Datemask2 mm/dd/yyyy
+    $("#datemask2").inputmask("mm/dd/yyyy", {"placeholder": "mm/dd/yyyy"});
+    //Money Euro
+    $("[data-mask]").inputmask();
+
     //Date range picker
     $('#reservation').daterangepicker();
-  </script>
+    //Date range picker with time picker
+    $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A'});
+    //Date range as a button
+    $('#daterange-btn').daterangepicker(
+        {
+          ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+          },
+          startDate: moment().subtract(29, 'days'),
+          endDate: moment()
+        },
+        function (start, end) {
+          $('#daterange-btn span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        }
+    );
+
+    //Date picker
+    $('#datepicker').datepicker({
+      autoclose: true
+    });
+
+    //iCheck for checkbox and radio inputs
+    $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+      checkboxClass: 'icheckbox_minimal-blue',
+      radioClass: 'iradio_minimal-blue'
+    });
+    //Red color scheme for iCheck
+    $('input[type="checkbox"].minimal-red, input[type="radio"].minimal-red').iCheck({
+      checkboxClass: 'icheckbox_minimal-red',
+      radioClass: 'iradio_minimal-red'
+    });
+    //Flat red color scheme for iCheck
+    $('input[type="checkbox"].flat-red, input[type="radio"].flat-red').iCheck({
+      checkboxClass: 'icheckbox_flat-green',
+      radioClass: 'iradio_flat-green'
+    });
+
+    //Colorpicker
+    $(".my-colorpicker1").colorpicker();
+    //color picker with addon
+    $(".my-colorpicker2").colorpicker();
+
+    //Timepicker
+    $(".timepicker").timepicker({
+      showInputs: false
+    });
+  });
+</script>
 </body>
 </html>
