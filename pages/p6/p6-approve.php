@@ -240,10 +240,10 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="info-box">
+          <div class="info-box" style="box-shadow: 0 0 3px 3px rgba(0, 140, 186, 0.5)">
             <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
 
-            <div class="info-box-content">
+            <div class="info-box-content" >
               <span class="info-box-text">Approver 3</span>
               <strong>Peeta Mellark</strong>
               <br><br>

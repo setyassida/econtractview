@@ -198,8 +198,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evalusi Teknis
-        <small>CA-17001</small>
+        Contract Order
+        <small>Evaluasi Teknis</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -345,6 +345,7 @@
           <div class="box-footer">
 
             <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button>
+            <button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#saveModal" style="margin-right:5px"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
             <a href="p6.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px">Back</button></a>
           
             <div id="submitModal" class="modal">
@@ -356,11 +357,31 @@
                     <h4 class="modal-title">Are You Sure to Submit?</h4>
                   </div>
                   <div class="modal-body">
-                    Proses ini akan memberikan notifikasi kepada seluruh Approver
+                    Proses ini akan memberikan notifikasi kepada seluruh Approver untuk melakukan persetujuan dan merubah status Evaltek ke <span class="text-red">TO BE APPROVE</span>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-success">Yes, I Want Submit It</button>
+                    <button type="submit" value="submit" class="btn btn-success">Yes, I Want to Submit It</button>
+                  </div>
+                </div>
+                  <!-- /.modal-content -->
+              </div>
+            </div>
+
+            <div id="saveModal" class="modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Are You Sure to Save?</h4>
+                  </div>
+                  <div class="modal-body">
+                    Proses ini akan menghapus data Evaluasi Teknis yang lama dengan data baru yang Anda masukan.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                    <button type="submit" value="save" class="btn btn-success">Yes, Save It</button>
                   </div>
                 </div>
                   <!-- /.modal-content -->
