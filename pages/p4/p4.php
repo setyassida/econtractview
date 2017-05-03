@@ -198,8 +198,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Harga Perkiraan Sendiri
-        <small>Daftar HPS</small>
+        Contract Order
+        <small>Harga Perkiraan Sendiri</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -236,7 +236,10 @@
               <th style="width:100px">Nomor Kontrak</th>
               <th>Judul Pekerjaan</th>
               <th style="width:50px">Status</th>
-              <th style="width:10px">Download HPS</th>
+              <th style="width:60px">Lihat HPS <span class="text-red">(Estimator)</span></th>
+              <th style="width:50px">Approve <span class="text-red">(Approver)</span></th>
+              <th style="width:60px">Upload Hasil Scan <span class="text-red">(Estimator)</span></th>
+              <th style="width:60px">Download HPS <span class="text-red">(All)</span></th>
             </tr>
             </thead>
             <tbody>
@@ -246,6 +249,9 @@
               <td>CA-17001</td>
               <td>PENGADAAN SISTEM INFORMASI</td>
               <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
+              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
+              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
         </div>
@@ -257,6 +263,9 @@
               <td>CC-167321</td>
               <td>PERBAIKAN INFRASTRUKTUR</td>
               <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
+              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
+              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
             </tr>
@@ -266,6 +275,9 @@
               <td>CB-18121</td>
               <td>PENGADAAN PERANGKAT LUNAK</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
+              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
             </tr>
@@ -275,6 +287,9 @@
               <td>CA-17001</td>
               <td>PEMELIHARAAN</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
+              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
             </tr>
@@ -284,6 +299,9 @@
               <td>CB-17555</td>
               <td>KEBERSIHAN</td>
               <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
+              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
+              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
             </tr>
             <tbody>

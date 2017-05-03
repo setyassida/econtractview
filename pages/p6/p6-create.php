@@ -198,8 +198,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evalusi Teknis
-        <small>Create</small>
+        Contract Order
+        <small>Evaluasi Teknis</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -227,7 +227,7 @@
                   <div class="col-md-3">
                     <input type="text" class="form-control input-sm" placeholder="LOOKUP..." required>
                   </div>
-                    <a href="p6-view.php"><button type="button" class="btn btn-success btn-sm">Create</button></a>
+                  <a href="p6-view.php"><button type="button" class="btn btn-success btn-sm">Create</button></a>
                  </div>
               </form>
             </div>

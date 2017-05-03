@@ -198,8 +198,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Harga Perkiraan Sendiri
-        <small>Buat HPS Baru</small>
+        Contract Order
+        <small>Harga Perkiraan Sendiri</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -227,189 +227,22 @@
           
             <div class="form-group">
               <label class="control-label col-md-2">Nomor Kontrak :</label>
-              <div class="col-md-9">
-                <span class="col-md-3">
-                  <input type="text" class="form-control input-sm" placeholder="LOOKUP..." required>
-                </span>
+              <div class="col-md-3">
+                <input type="text" class="form-control input-sm" placeholder="LOOKUP...">
               </div>
+              <a href="p4-view.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Create</button></a>
             </div>
 
-            <div class="col-md-12">
-              <div class="box box-solid">
-                <div class="box-header ">
-                 
-                  <div class="callout callout-danger">
-                    <h5><span class="glyphicon glyphicon-info-sign"></span>  Informasi Kontrak</h5>
-                  </div>
-                </div>
-                <div class="box-body">
-                  
-                  <div class="col-md-6">
-                    <div class="box box-solid">
-                      <div class="box-body">
-                        <div class="form-group">
-                          <label class="control-label col-md-4">Metode Pengadaan :</label>
-                          <div class="form-control-static col-md-8">
-                            Pemilihan Langsung
-                          </div>
-                        </div>
-
-                        <div class="form-group">
-                          <label class="control-label col-md-4">Kontrak Rutin :</label>
-                          <div class="form-control-static col-md-8">
-                            Ya
-                          </div>
-                        </div>
-                        
-                        <div class="form-group">
-                          <label class="control-label col-md-4">Jenis Kontrak :</label>
-                          <div class="form-control-static col-md-8">
-                            Lump Sum (LS)/Harga Satuan (HS)/Gabungan LS & HS
-                          </div>
-                        </div>
-
-                        <div class="form-group">
-                          <label class="control-label col-md-4">Klasifikasi Pemilihan :</label>
-                          <div class="form-control-static col-md-8">
-                            nilai antara bidang M-Z
-                          </div>
-                        </div>
-
-                        <div class="form-group">
-                          <label class="control-label col-md-4">Kualifikasi :</label>
-                          <div class="form-control-static col-md-8">
-                            K (kecil) atau NK (non-kecil)
-                          </div>
-                        </div>
-
-                        <div class="form-group">
-                          <label class="control-label col-md-4">Tingkat Risiko :</label>
-                          <div class="form-control-static col-md-8">
-                            Rendah, Sedang, atau Tinggi
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="box box-solid">
-                      <div class="box-body">
-                        <label class="control-label">Dokumen Terkait Contract Order :</label>
-                        <div style="height:20px"></div>
-                        <table class="table table-bordered table-condensed table-hover">
-                          <thead>
-                            <tr>
-                              <th>Judul Dokumen</th>
-                              <th style="width:75px">Download</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>Lampiran Contract Order 1</td>
-                              <td>
-                                <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>Lampiran Contract Order 2</td>
-                              <td>
-                                <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>Lampiran Contract Order 3</td>
-                              <td>
-                                <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>Lampiran Contract Order 4</td>
-                              <td>
-                                <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>Lampiran Contract Order 5</td>
-                              <td>
-                                <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>  
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-12">
-              <div class="form-group"> 
-                <label class="control-label col-md-2">HPS Minimum (Rp) :</label>
-                <div class="col-md-10">
-                  <span class="col-md-3">
-                    <input type="number" class="form-control input-sm" required>
-                  </span>
-                </div>
-              </div>
-              <div class="form-group"> 
-                <label class="control-label col-md-2">HPS Most Likely (Rp) :</label>
-                <div class="col-md-10">
-                  <span class="col-md-3">
-                    <input type="number" class="form-control input-sm" required>
-                  </span>
-                </div>
-              </div>
-              <div class="form-group"> 
-                <label class="control-label col-md-2">HPS Maximum (Rp) :</label>
-                <div class="col-md-10">
-                  <span class="col-md-3">
-                    <input type="number" class="form-control input-sm" required>
-                  </span>
-                </div>
-              </div>
-              <div class="form-group"> 
-                <label class="control-label col-md-2">Dokumen Pendukung :</label>
-                <div class="col-md-10">
-                  <span class="col-md-3">
-                    <input type="file" class="input-sm" required>
-                  </span>
-                </div>
-              </div>
-
-              
-            </div>
+            
 
           
         </div>
         <!-- /.box-body -->
 
         <div class="box-footer">
-          <button type="submit" class="btn btn-success btn-sm pull-right"><span class="glyphicon glyphicon-plus"></span> Create</button>
           
-          <a href="p4.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;"> Back</button></a>
+          
+          
         </div>
       </div>
       </form>
