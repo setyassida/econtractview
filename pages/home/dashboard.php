@@ -35,7 +35,7 @@
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-     
+
       <img src="../../resources/images/logo_mini.png" class="logo-lg">
 
       <!-- logo for regular state and mobile devices -->
@@ -52,9 +52,9 @@
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
-            
+
           <!-- Notifications: style can be found in dropdown.less -->
-          
+
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -68,11 +68,11 @@
 
                 <p>
                  LCE
-            
+
                 </p>
               </li>
               <!-- Menu Body -->
-              
+
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
@@ -101,7 +101,7 @@
         </div>
         <div class="pull-left info">
           <p>LCE</p>
-          
+
         </div>
       </div>
       <!-- search form -->
@@ -121,7 +121,7 @@
         <li class="active treeview">
 
           <!-- menu dashboard -->
-      
+
           <a href="#">
             <i class="fa fa-dashboard active"></i> <span>Dashboard</span>
             <span class="pull-right-container">
@@ -150,9 +150,9 @@
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>     
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li> 
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li>
           </ul>
         </li>
 
@@ -179,7 +179,7 @@
 
         <li>
           <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>Report</span>
+            <i class="fa fa-th"></i> <span>BSO</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span>
@@ -329,7 +329,7 @@
       </div>
       <!-- Main row -->
           <!-- TABLE: LATEST ORDERS -->
-          
+
 
           <div class="box box-info">
             <div class="box-header with-border">
