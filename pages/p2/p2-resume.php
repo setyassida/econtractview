@@ -46,6 +46,7 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
+        <li><a href="p2a.php">Bidder List</a></li>
         <li><a href="#">CA-17001</a></li>
         <li class="active"><a href="p2a.php">Resume</a></li>
       </ol>

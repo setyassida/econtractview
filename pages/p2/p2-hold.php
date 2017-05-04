@@ -46,6 +46,7 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
+        <li><a href="p2a.php">Bidder List</a></li>
         <li><a href="#">CA-17001</a></li>
         <li class="active"><a href="p2a.php">Hold</a></li>
       </ol>
@@ -130,28 +131,28 @@
                 </button>
 
                 <div id="holdModal" class="modal ">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header bg-yellow">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title">Do you want to hold?</h4>
-                        </div>
-                        <div class="modal-body">
-                          <p>Proses ini akan menahan Contract Order yang berkaitan dengan Dokumen ini.</p>
-                          <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                          <li>Contract Organisator</li>
-                          <li>Contract Engineer</li>
-                          <li>Lead Contract Engineer</li>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                          <button type="submit" class="btn btn-warning">Yes, Hold Now!</button>
-                        </div>
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header bg-yellow">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Do you want to hold?</h4>
                       </div>
-                        <!-- /.modal-content -->
+                      <div class="modal-body">
+                        <p>Proses ini akan menahan Contract Order yang berkaitan dengan Dokumen ini.</p>
+                        <p>Proses ini akan mengirimkan notifikasi kepada :</p>
+                        <li>Contract Organisator</li>
+                        <li>Contract Engineer</li>
+                        <li>Lead Contract Engineer</li>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-warning">Yes, Hold Now!</button>
+                      </div>
                     </div>
+                      <!-- /.modal-content -->
                   </div>
+                </div>
                 <!-- <a href="p3.php">
                   <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
                     Back
