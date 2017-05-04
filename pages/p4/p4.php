@@ -37,7 +37,7 @@
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-
+     
       <img src="../../resources/images/logo_mini.png" class="logo-lg">
 
       <!-- logo for regular state and mobile devices -->
@@ -54,27 +54,27 @@
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
-
+            
           <!-- Notifications: style can be found in dropdown.less -->
-
+          
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../resources/images/avatar/icon1.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">EST</span>
+              <img src="../../resources/images/avatar/icon4.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">ESTIMATOR</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
+                <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
 
                 <p>
-                 EST
-
+                 ESTIMATOR
+            
                 </p>
               </li>
               <!-- Menu Body -->
-
+              
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
@@ -99,11 +99,11 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
+          <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>EST</p>
-
+          <p>ESTIMATOR</p>
+          
         </div>
       </div>
       <!-- search form -->
@@ -123,7 +123,7 @@
         <li class="treeview">
 
           <!-- menu dashboard -->
-
+      
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
@@ -143,18 +143,18 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Contract</a></li>
-            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Bidder List</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
-            <li class="active"><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
-             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoA</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li>
+            <li><a href="../p1/p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
+            <li><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
+            <li><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
+            <li class="active"><a href="../p4/p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
+             <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+            <li><a href=""><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
+            <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>     
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li> 
           </ul>
         </li>
 
@@ -226,7 +226,7 @@
 
 
             <!-- main column-->
-
+          
 
           <table id="dataTable" class="table table-bordered table-condensed table-hover">
             <thead>
@@ -239,7 +239,7 @@
               <th style="width:60px">Lihat HPS <span class="text-red">(Estimator)</span></th>
               <th style="width:50px">Approve <span class="text-red">(Approver)</span></th>
               <th style="width:60px">Upload Hasil Scan <span class="text-red">(Estimator)</span></th>
-              <th style="width:60px">Download HPS <span class="text-red">(All)</span></th>
+              <th style="width:60px">Dokumen HPS <span class="text-red">(All)</span></th>
             </tr>
             </thead>
             <tbody>
@@ -253,7 +253,7 @@
               <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
+              
         </div>
               </td>
             </tr>
@@ -267,7 +267,7 @@
               <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
+              
             </tr>
             <tr>
               <td><a href="p4-view.php?no=CO-17001">0003/HPS/2017</a></td>
@@ -279,7 +279,7 @@
               <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
+              
             </tr>
             <tr>
               <td><a href="p4-view.php?no=CO-17001">0004/HPS/2017</a></td>
@@ -291,7 +291,7 @@
               <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
+              
             </tr>
             <tr>
               <td><a href="p3-view.php?no=CO-17001">0005/HPS/2017</a></td>
