@@ -42,13 +42,14 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Contract Order
-        <small>Abort</small>
+        Bidder List
+        <small>Reject</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="#">CA-17001</a></li>
-        <li class="active"><a href="p2a.php">Abort</a></li>
+        <li><a href="#">Bidder List</a></li>
+        <li><a href="#">BL-17001</a></li>
+        <li class="active"><a href="p2a.php">Reject</a></li>
       </ol>
     </section>
 
@@ -60,58 +61,92 @@
             <!-- box bidder list -->
             <div class="box box-danger">
               <div class="box-header">
-                <h3 class="box-title">Informasi Contract Order</h3>
+                <h3 class="box-title">Informasi Bidder List</h3>
               </div>
               <!-- /.box-header -->
               <div class="box-body "> 
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="form-group">
-                      <label class="control-label col-md-3" for="noKontrak">Contract Order:</label>
+                    <div class="form-group" style="margin-bottom: 0">
+                      <label class="control-label col-md-3" for="noKontrak">Bidder List:</label>
                       <div class="col-md-9">
-                        <p class="form-control-static">CA-17001</p>
+                        <p class="form-control-static">BL-17001</p>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <label class="control-label col-md-3" for="">Judul Pekerjaan:</label>   
+                    <div class="form-group" style="margin-bottom: 0">
+                      <label class="control-label col-md-3" for="noKontrak">Tanggal Dibuat:</label>
                       <div class="col-md-9">
-                        <p class="form-control-static">REGULAR INSPECTION OF LIFTING GEARS</p>
+                        <p class="form-control-static">22-Apr-2017</p>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <label class="control-label col-md-3" for="">Durasi:</label>   
+                    <div class="form-group" style="margin-bottom: 0">
+                      <label class="control-label col-md-3" for="noKontrak">Waktu Dibuat:</label>
                       <div class="col-md-9">
-                        <p class="form-control-static">2 Bulan</p>
+                        <p class="form-control-static">13:30</p>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <label class="control-label col-md-3" for="">Jenis Jasa:</label>   
+                    <div class="form-group" style="margin-bottom: 0">
+                      <label class="control-label col-md-3" for="noKontrak">Klasifikasi:</label>
                       <div class="col-md-9">
-                        <p class="form-control-static">Pemborongan Pekerjaan</p>
+                        <p class="form-control-static">M</p>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <label class="control-label col-md-3" for="">Kualifikasi Syarat Peserta Pengadaan:</label>   
+                    <div class="form-group" style="margin-bottom: 0">
+                      <label class="control-label col-md-3" for="noKontrak">Kualifikasi:</label>
                       <div class="col-md-9">
-                        <p class="form-control-static">M (Rp. 500 Juta <= NK <= Rp. 10 M)</p>
+                        <p class="form-control-static">Kecil</p>
                       </div>
                     </div>
+                    <div class="form-group" style="margin-bottom: 0">
+                      <label class="control-label col-md-3" for="noKontrak">Tingkat Risiko:</label>
+                      <div class="col-md-9">
+                        <p class="form-control-static">Sedang</p>
+                      </div>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 0">
+                      <label class="control-label col-md-3" for="noKontrak">Publish Date:</label>
+                      <div class="col-md-9">
+                        <p class="form-control-static">22-Sep-2017</p>
+                      </div>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 0">
+                      <label class="control-label col-md-3" for="noKontrak">Kuota Area:</label>
+                      <div class="col-md-5">
+                        <table class="table table-condensed table-bordered table-hover">
+                          <tbody>
+                            <tr>
+                              <td>Bontang</td>
+                              <td class="text-left form-control-static" id="pickedByCE4" >1</td>
+                            </tr>
+                            <tr>
+                              <td>Kalimantan Timur</td>
+                              <td class="text-left form-control-static" id="pickedByCE4" >3</td>
+                            </tr>
+                            <tr>
+                              <td>Domestik</td>
+                              <td class="text-left form-control-static" id="pickedByCE4" >2</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    
                   </div>
                   <!-- ./col kiri -->
                   <div class="col-md-6">
                     <div class="box box-danger">
                       <div class="box-body">
                         <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                          Untuk melakukan proses Abort, Anda wajib menyertakan Alasan Abort dan Dokumen Pendukung Proses Abort pada kolom berikut.    
+                          Untuk melakukan proses Reject, Anda wajib menyertakan Alasan Reject dan Dokumen Pendukung Proses Reject pada kolom berikut.    
                         </p>
                         <div class="col-md-12">
 
                           <div class="form-group">
-                            <label>Alasan Abort :</label>
+                            <label>Alasan Reject :</label>
                             <textarea class="form-control" rows="5" placeholder="Enter . . ." style="resize:none" required></textarea>
                           </div>
                           <div class="form-group">
-                            <label>Dokumen Pendukung Proses Abort:</label>
+                            <label>Dokumen Pendukung Proses Reject:</label>
                             <input type="file" id="inputFile" multiple required>
                           </div>
                           
@@ -126,20 +161,20 @@
               <!-- /.box-body -->
               <div class="box-footer">
                 
-                <button type="button" class="btn btn-danger pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#abortModal">
-                <span class="glyphicon glyphicon-remove"></span> Abort
+                <button type="button" class="btn btn-danger pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#RejectModal">
+                <span class="glyphicon glyphicon-remove"></span> Reject
                 </button>
 
-                <div id="abortModal" class="modal modal-danger">
+                <div id="RejectModal" class="modal modal-danger">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Do you want to abort?</h4>
+                        <h4 class="modal-title">Do you want to Reject?</h4>
                       </div>
                       <div class="modal-body">
-                        <p>Proses ini akan menghapus SELURUH DATA yang berkaitan dengan Dokumen ini.</p>
+                        <p>Proses ini akan menolak Bidder List yang berkaitan dengan Dokumen ini.</p>
                         <p>Proses ini akan mengirimkan notifikasi kepada :</p>
                         <li>Contract Organisator</li>
                         <li>Contract Engineer</li>
@@ -147,7 +182,7 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-outline">Yes, Abort Now!</button>
+                        <button type="submit" class="btn btn-outline">Yes, Reject Now!</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->
@@ -177,6 +212,7 @@
     reserved.
   </footer>
 
+   
 </div>
 <!-- ./wrapper -->
 
