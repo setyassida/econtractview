@@ -231,6 +231,9 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="pull-right" style="margin-left: 1rem">
+                      <button class="btn btn-sm "><i class="fa fa-print"></i> Print Bidder List</button>
+                    </div>
+                    <div class="pull-right" style="margin-left: 1rem">
                       <a href="p2-extend.php"><button class="btn btn-success pull-right btn-sm">Extend</button></a>
                     </div>
                     <div class="pull-right" style="margin-left: 1rem">
