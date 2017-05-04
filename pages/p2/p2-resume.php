@@ -29,12 +29,11 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-red fixed sidebar-mini">
+<body class="Resume-transition skin-red fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
 
   <?php include "p2headerLCE.php" ?>
-
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -43,12 +42,12 @@
     <section class="content-header">
       <h1>
         Contract Order
-        <small>Abort</small>
+        <small>Resume</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
         <li><a href="#">CA-17001</a></li>
-        <li class="active"><a href="p2a.php">Abort</a></li>
+        <li class="active"><a href="p2a.php">Resume</a></li>
       </ol>
     </section>
 
@@ -58,7 +57,7 @@
         <div class="col-md-12">
           <form class="form-horizontal">
             <!-- box bidder list -->
-            <div class="box box-danger">
+            <div class="box box-primary">
               <div class="box-header">
                 <h3 class="box-title">Informasi Contract Order</h3>
               </div>
@@ -99,19 +98,19 @@
                   </div>
                   <!-- ./col kiri -->
                   <div class="col-md-6">
-                    <div class="box box-danger">
+                    <div class="box box-primary">
                       <div class="box-body">
                         <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                          Untuk melakukan proses Abort, Anda wajib menyertakan Alasan Abort dan Dokumen Pendukung Proses Abort pada kolom berikut.    
+                          Untuk melakukan proses Resume, Anda wajib menyertakan Alasan Resume dan Dokumen Pendukung Proses Resume pada kolom berikut.    
                         </p>
                         <div class="col-md-12">
 
                           <div class="form-group">
-                            <label>Alasan Abort :</label>
-                            <textarea class="form-control" rows="5" placeholder="Enter . . ." style="resize:none" required></textarea>
+                            <label>Alasan Resume :</label>
+                            <textarea class="form-control" rows="5" placeResumeer="Enter . . ." style="resize:none" required></textarea>
                           </div>
                           <div class="form-group">
-                            <label>Dokumen Pendukung Proses Abort:</label>
+                            <label>Dokumen Pendukung Proses Resume:</label>
                             <input type="file" id="inputFile" multiple required>
                           </div>
                           
@@ -126,34 +125,33 @@
               <!-- /.box-body -->
               <div class="box-footer">
                 
-                <button type="button" class="btn btn-danger pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#abortModal">
-                <span class="glyphicon glyphicon-remove"></span> Abort
+                <button type="button" class="btn btn-primary pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#resumeModal">
+                <span class="glyphicon glyphicon-play"></span> Resume
                 </button>
 
-                <div id="abortModal" class="modal modal-danger">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Do you want to abort?</h4>
+                <div id="resumeModal" class="modal modal-primary">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title">Do you want to resume?</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Proses ini akan melanjutkan Contract Order yang berkaitan dengan Dokumen ini.</p>
+                          <p>Proses ini akan mengirimkan notifikasi kepada :</p>
+                          <li>Contract Organisator</li>
+                          <li>Contract Engineer</li>
+                          <li>Lead Contract Engineer</li>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-outline">Yes, Resume Now!</button>
+                        </div>
                       </div>
-                      <div class="modal-body">
-                        <p>Proses ini akan menghapus SELURUH DATA yang berkaitan dengan Dokumen ini.</p>
-                        <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                        <li>Contract Organisator</li>
-                        <li>Contract Engineer</li>
-                        <li>Lead Contract Engineer</li>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-outline">Yes, Abort Now!</button>
-                      </div>
+                        <!-- /.modal-content -->
                     </div>
-                      <!-- /.modal-content -->
                   </div>
-                </div>
-
                 <!-- <a href="p3.php">
                   <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
                     Back
@@ -177,6 +175,7 @@
     reserved.
   </footer>
 
+  
 </div>
 <!-- ./wrapper -->
 
