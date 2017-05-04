@@ -165,10 +165,10 @@
                 <span class="fa fa-check"></span> Approve 
                 </button>
 
-                <div id="ApproveModal" class="modal modal-success">
+                <div id="ApproveModal" class="modal ">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header">
+                      <div class="modal-header bg-green">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Do you want to Approve ?</h4>
@@ -181,8 +181,8 @@
                         <li>Lead Contract Engineer</li>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-outline">Yes, Approve  Now!</button>
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-success">Yes, Approve  Now!</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->

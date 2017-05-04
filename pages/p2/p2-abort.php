@@ -130,10 +130,10 @@
                 <span class="glyphicon glyphicon-remove"></span> Abort
                 </button>
 
-                <div id="abortModal" class="modal modal-danger">
+                <div id="abortModal" class="modal ">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header">
+                      <div class="modal-header bg-red">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Do you want to abort?</h4>
@@ -146,8 +146,8 @@
                         <li>Lead Contract Engineer</li>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-outline">Yes, Abort Now!</button>
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-danger">Yes, Abort Now!</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->

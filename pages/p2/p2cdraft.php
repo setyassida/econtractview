@@ -165,11 +165,9 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="pull-right" style="margin-left: 1rem">
-                      <!-- <button type="button" class="btn btn-danger pull-right btn-sm" data-toggle="modal" data-target="#abortModal">Abort</button> -->
                       <a href="p2-abort.php"><button type="button" class="btn btn-danger pull-right btn-sm">Abort</button></a>
                     </div>
                     <div class="pull-right" style="margin-left: 1rem">
-                      <!-- <button type="button" class="btn btn-warning pull-right btn-sm" data-toggle="modal" data-target="#holdModal">Hold</button> -->
                       <a href="p2-hold.php"><button type="button" class="btn btn-warning pull-right btn-sm">Hold</button></a>
                     </div>
                   </div>
@@ -235,7 +233,6 @@
                       <a href="p2-approve.php"><button class="btn btn-success pull-right btn-sm">Approve</button></a>
                     </div>
                     <div class="pull-right" style="margin-left: 1rem">
-                      <!-- <button type="button" class="btn btn-danger pull-right btn-sm" data-toggle="modal" data-target="#rejectModal">Reject</button> -->
                       <a href="p2-reject.php"><button type="button" class="btn btn-danger pull-right btn-sm">Reject</button></a>
                     </div>
                   </div>
@@ -398,31 +395,6 @@
 </div>
 <!-- ./wrapper -->
 
-
-<div id="rejectModal" class="modal fade modal-danger">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Reject Bidder List?</h4>
-      </div>
-      <div class="modal-body">
-        <div class="form-group">
-          <label>Alasan reject bidder list:</label>
-          <textarea class="form-control" rows="3" placeholder="Isi alasan"></textarea>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-outline">Save changes</button>
-      </div>
-    </div>
-    <!-- /.modal-content -->
-  </div>
-  <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
 
 <!-- jQuery 2.2.3 -->
 <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>

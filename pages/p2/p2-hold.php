@@ -129,10 +129,10 @@
                 <span class="glyphicon glyphicon-pause"></span> Hold
                 </button>
 
-                <div id="holdModal" class="modal modal-warning">
+                <div id="holdModal" class="modal ">
                     <div class="modal-dialog">
                       <div class="modal-content">
-                        <div class="modal-header">
+                        <div class="modal-header bg-yellow">
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span></button>
                           <h4 class="modal-title">Do you want to hold?</h4>
@@ -145,8 +145,8 @@
                           <li>Lead Contract Engineer</li>
                         </div>
                         <div class="modal-footer">
-                          <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                          <button type="submit" class="btn btn-outline">Yes, Hold Now!</button>
+                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-warning">Yes, Hold Now!</button>
                         </div>
                       </div>
                         <!-- /.modal-content -->

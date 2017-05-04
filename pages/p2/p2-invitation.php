@@ -245,10 +245,10 @@
                 <span class="glyphicon glyphicon-send"></span> Send Invitation Note
                 </button>
 
-                <div id="sendModal" class="modal modal-primary">
+                <div id="sendModal" class="modal ">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header">
+                      <div class="modal-header bg-blue">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Do you want to Send Invitation Note?</h4>
@@ -261,8 +261,8 @@
                         <li>Lead Contract Engineer</li>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-outline">Yes, Send Invitation Note Now!</button>
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Yes, Send Invitation Note Now!</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->
