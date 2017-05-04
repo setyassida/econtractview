@@ -61,7 +61,7 @@
             <li class="dropdown user user-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 <img src="../../resources/images/avatar/icon1.png" class="user-image" alt="User Image">
-                <span class="hidden-xs">EST</span>
+                <span class="hidden-xs">CE/LCE</span>
               </a>
               <ul class="dropdown-menu">
                 <!-- User image -->
@@ -69,7 +69,7 @@
                   <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
 
                   <p>
-                    EST
+                    CE/LCE
 
                   </p>
                 </li>
@@ -102,7 +102,7 @@
             <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
           </div>
           <div class="pull-left info">
-            <p>EST</p>
+            <p>CE/LCE</p>
 
           </div>
         </div>
@@ -146,9 +146,9 @@
       <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Contract</a></li>
       <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Bidder List</a></li>
       <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
-      <li class="active"><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+      <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
       <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
-      <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+      <li class="active"><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
       <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
       <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoA</a></li>
       <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
@@ -198,125 +198,88 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Contract Order
-      <small>Harga Perkiraan Sendiri</small>
+      Letter of Intent
+      <small></small>
     </h1>
     <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      <li class="active">Harga Perkiraan Sendiri</li>
+      <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
+      <li>Letter of Intent</li>
+      <li class="active">CA-17001</li>
     </ol>
   </section>
 
   <!-- Main content -->
 
   <section class="content">
-    <!-- SELECT2 EXAMPLE -->
+<div class="row">
+  <div class="col-md-9">
+
+
     <div class="box">
       <div class="box-header with-border">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="p4-create.php"><button class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Buat HPS Baru</button></a>
-          </div>
-        </div>
-
+        <h3 class="box-title">Detail Proyek dan Bidder Pemenang</h3>
       </div>
-      <!-- /.box-header -->
       <div class="box-body">
 
-
-        <!-- main column-->
-
-
-        <table id="dataTable" class="table table-bordered table-condensed table-hover">
-          <thead>
-            <tr>
-              <th style="width:100px">Nomor HPS</th>
-              <th style="width:100px">Tanggal Opening</th>
-              <th style="width:100px">Nomor Kontrak</th>
-              <th>Judul Pekerjaan</th>
-              <th style="width:50px">Status</th>
-              <th style="width:60px">Lihat HPS <span class="text-red">(Estimator)</span></th>
-              <th style="width:50px">Approve <span class="text-red">(Approver)</span></th>
-              <th style="width:60px">Upload Hasil Scan <span class="text-red">(Estimator)</span></th>
-              <th style="width:60px">Download HPS <span class="text-red">(All)</span></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><a href="p4-view.php?no=CO-17001">0001/HPS/2017</a></td>
-              <td>01-01-2017</td>
-              <td>CA-17001</td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
+            <div class="col-md-6">
+              <dt>Nomor PO Service</dt>
+              <dd>098776</dd> <br>
+              <dt>Judul Pekerjaan</dt>
+              <dd>Jasa Pemborongan Pekerjaan Pembuangan Sampah, Drum Bekas, Pemeliharaan Taman dan Kebersihan Lingkungan di Area Zone-I & II di PT Badak NGL Bontang, Paket “B” Tahun 2017” </dd> <br>
+              <dt>Nilai PO Service</dt>
+              <dd>Rp. 400.000.000,- </dd> <br>
+              <dt>Durasi Kontrak</dt>
+              <dd>Durasi : 4 Bulan</dd>
+              <dd>Mulai : 17 September 2016 </dd>
+              <dd>Selesai : 10 Januari 2017 </dd> <br>
             </div>
-          </td>
-        </tr>
-        <tr>
-          <td><a href="p4-view.php?no=CO-17001">0002/HPS/2017</a></td>
-          <td>25-03-2018</td>
-          <td>CC-167321</td>
-          <td>PERBAIKAN INFRASTRUKTUR</td>
-          <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-          <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-          <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-          <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-          <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
 
-        </tr>
-        <tr>
-          <td><a href="p4-view.php?no=CO-17001">0003/HPS/2017</a></td>
-          <td>17-02-2018</td>
-          <td>CB-18121</td>
-          <td>PENGADAAN PERANGKAT LUNAK</td>
-          <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-          <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-          <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-          <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-          <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
-        </tr>
-        <tr>
-          <td><a href="p4-view.php?no=CO-17001">0004/HPS/2017</a></td>
-          <td>28-01-2018</td>
-          <td>CA-17001</td>
-          <td>PEMELIHARAAN</td>
-          <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-          <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-          <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-          <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-          <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
-        </tr>
-        <tr>
-          <td><a href="p3-view.php?no=CO-17001">0005/HPS/2017</a></td>
-          <td>28-01-2018</td>
-          <td>CB-17555</td>
-          <td>KEBERSIHAN</td>
-          <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
-          <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-          <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-          <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-          <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-        </tr>
-        <tbody>
-        </table>
-
+            <div class="col-md-6">
+              <dt>Nama Perusahaan</dt>
+              <dd>PT Nur Maulana</dd> <br>
+              <dt>Alamat Perusahaan </dt>
+              <dd>Jl. Anggrek I RT 37 No 43, Bukit Indah, Bontang – Kalimantan Timur </dd> <br>
+              <dt>Nama Pimpinan</dt>
+              <dd>Setyassid Novian Putra D </dd> <br>
+            </div>
 
       </div>
       <!-- /.box-body -->
       <div class="box-footer">
-        Keterangan Status : <br>
-        <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
-        <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-        <div class="col-md-1"><span class="label label-success">Approved</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
+        <div class="pull-right" style="margin-right: 2rem">
+								<button type="button" class="btn btn-success pull-right btn-sm" data-toggle="modal" data-target="#publishModal">Cetak Letter of Intent</button>
+							</div>
+
       </div>
     </div>
     <!-- /.box -->
+
+  </div>
+  <div class="col-md-3">
+    <div class="box box-danger">
+      <div class="box-header with-border">
+        <h3 class="box-title">Upload Dokumen LoI</h3>
+
+      </div>
+      <div class="box-body">
+        <p>CE mengupload dokumen LoI yang telah ditandatangani oleh CM</p>
+        <input type="file" name="" value="">
+
+      </div>
+      <!-- /.box-body -->
+      <div class="box-footer">
+        <div class="pull-right" style="margin-right: 2rem">
+								<button type="button" class="btn btn-success pull-right btn-sm" data-toggle="modal" data-target="#publishModal">Upload</button>
+							</div>
+
+      </div>
+    </div>
+    <!-- /.box -->
+  </div>
+</div>
+
+
+
   </section>
 
   <!-- /.content -->
@@ -329,6 +292,24 @@
   </div>
   <strong>Copyright &copy; 2017 <a href="http://badaklng.co.id">PT Badak NGL</a>.</strong> All rights reserved.
 </footer>
+
+<div id="publishModal" class="modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					</div>
+					<div class="modal-body">
+						<h4 class="modal-title">Apakah anda yakin untuk mencetak dokumen Letter of Intent ini?</h4>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+						<button type="submit" class="btn btn-success">Ya</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+		</div>
+
 
 <!-- ./wrapper -->
 
@@ -361,6 +342,9 @@
 <script>
 $(function () {
   $("#dataTable").DataTable();
+
+  //Initialize Select2 Elements
+  $(".select2").select2();
 });
 </script>
 

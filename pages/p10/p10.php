@@ -61,7 +61,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="../../resources/images/avatar/icon1.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">CE / LCE</span>
+              <span class="hidden-xs">ALL</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -69,7 +69,7 @@
                 <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
 
                 <p>
-                 CE/LCE
+                 ALL
 
                 </p>
               </li>
@@ -102,7 +102,7 @@
           <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>CE/LCE</p>
+          <p>ALL</p>
 
         </div>
       </div>
@@ -198,7 +198,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Letter of Award
+        Kick of Meeting
         <small></small>
       </h1>
       <ol class="breadcrumb">
@@ -224,44 +224,38 @@
             <tr>
               <th style="width:75px">Nomor Kontrak</th>
               <th >Judul Pekerjaan</th>
-              <th style="width:100px">Status LOA</th>
-              <th style="width:100px">Lihat LOA</th>
+              <th style="width:110px">Action</th>
             </tr>
             </thead>
             <tbody>
             <tr>
               <td><a href="#">CA-17001</a></td>
               <td>PENGADAAN SISTEM INFORMASI</td>
-              <td><div class="text-center"><span class="label label-warning">Waiting</span></div></td>
-              <td><div class="text-center"><a href="p9a.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat LOA</button></a></div></td>
+              <td><div class="text-center"><a href="p9a.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
 
             </tr>
             <tr>
               <td><a href="#">CA-17002</a></td>
               <td>PERBAIKAN INFRASTRUKTUR</td>
-              <td><div class="text-center"><span class="label label-success">Sent</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat LOA</button></a></div></td>
+              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
 
             </tr>
             <tr>
               <td><a href="#">CA-17003</a></td>
               <td>PENGADAAN PERANGKAT LUNAK</td>
-              <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat LOA</button></a></div></td>
+              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
 
             </tr>
             <tr>
               <td><a href="#">CA-17004</a></td>
               <td>PEMELIHARAAN</td>
-              <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat LOA</button></a></div></td>
+              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
 
             </tr>
             <tr>
               <td><a href="#">CA-17005</a></td>
               <td>KEBERSIHAN</td>
-              <td><div class="text-center"><span class="label label-danger">Sanggah</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat LOA</button></a></div></td>
+              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
 
             </tr>
             <tbody>
@@ -271,11 +265,6 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          Keterangan Status : <br>
-          <div class="col-md-1"><span class="label label-success">Sent</span></div> <div class="col-md-11"> : LOA sudah dikirim kepada seluruh Lose Bidder</div>
-          <div class="col-md-1"><span class="label label-warning">Hold</span></div> <div class="col-md-11">: LOA sedang dalam tahap Hold oleh CE (Contract Engineer)</div>
-          <div class="col-md-1"><span class="label label-warning">Waiting</span></div> <div class="col-md-11">: LOA belum dikirim kepada Lose Bidder</div>
-          <div class="col-md-1"><span class="label label-danger">Sanggah</span></div> <div class="col-md-11">: Terdapat Bidder yang menyanggah hasil LOA</div>
         </div>
       </div>
       <!-- /.box -->

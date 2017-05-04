@@ -28,7 +28,7 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  
+
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
@@ -351,7 +351,7 @@
             <div class="box-header with-border">
               <h3 class="box-title">Informasi Kontrak</h3>
 
-              
+
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -391,7 +391,7 @@
                       <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
                     </div>
                   </div>
-                  
+
 
                 </div>
                 <!-- /left column -->
@@ -402,7 +402,7 @@
                     <div class="row">
                       <div class="col-md-12">
                         <div class="box-body">
-                        
+
 
                         <table id="dataTable" class="table table-bordered table-condensed table-hover">
                           <thead>
@@ -433,12 +433,12 @@
                                             <span aria-hidden="true">&times;</span></button>
                                           <h4 class="modal-title">Modify Document</h4>
                                         </div>
-                                        
+
                                         <div class="modal-body">
                                             <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                                              Dokumen lama yang Anda upload akan otomatis terhapus.    
+                                              Dokumen lama yang Anda upload akan otomatis terhapus.
                                             </p>
-                                          
+
                                             <div class="form-group">
                                               <label class="control-label col-md-3">Dokumen Baru :</label>
                                               <div class="col-md-6">
@@ -477,7 +477,7 @@
                                           <h4 class="modal-title">Modify Document</h4>
                                         </div>
                                         <div class="modal-body">
-                                          
+
                                             <div class="form-group">
                                               <label class="control-label col-md-3">Dokumen Baru :</label>
                                               <div class="col-md-6">
@@ -516,7 +516,7 @@
                                           <h4 class="modal-title">Modify Document</h4>
                                         </div>
                                         <div class="modal-body">
-                                          
+
                                             <div class="form-group">
                                               <label class="control-label col-md-3">Dokumen Baru :</label>
                                               <div class="col-md-6">
@@ -584,8 +584,8 @@
           </form>
         </div>
         <!-- /.box -->
-      </section> 
-      
+      </section>
+
     <div class="clearfix"></div>
       <!-- /.content -->
     </div>
@@ -814,7 +814,7 @@
   //
   $(document).ready(function(){
     $('[data-toggle="download"]').tooltip();
-    $('[data-toggle="ubah"]').tooltip(); 
+    $('[data-toggle="ubah"]').tooltip();
   });
 
   //Date picker
