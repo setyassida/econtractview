@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
+  <!-- Bootstrap time Picker -->
+  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -163,28 +165,61 @@
                             <label>Sistem Penawaran:</label>
                             <select class="form-control select2" style="width: 100%;">
                               <option selected="selected">1 Sampul</option>
-                              <option>2 Sampul</option>
-                              <option>2 Tahap</option>
+                              <option>2 Sampul / 2 Tahap</option>
                             </select>
                           </div>
-                          <div class="form-group" style="margin-bottom: 0.5rem">
+                          <div class="form-group" style="margin-bottom: 0rem">
                             <label>Bid Closing/Opening Date:</label>
-                            <div class="input-group">
-                              <input type="text" class="form-control pull-right" id="reservationtime1">
-                              <div class="input-group-addon">
-                                <i class="fa fa-clock-o"></i>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6" style="margin-bottom: 0.5rem">
+                              <div class="form-group">
+                                <div class="input-group date">
+                                  <input type="text" class="form-control input-sm" id="datepicker2" placeholder="Bid Closing/Opening Date">
+                                  <div class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6" style="margin-bottom: 0.5rem">
+                              <div class="form-group bootstrap-timepicker">
+                                <div class="input-group">
+                                  <input type="text" class="form-control timepicker input-sm">
+                                  <div class="input-group-addon">
+                                    <i class="fa fa-clock-o"></i>
+                                  </div>
+                                </div> 
                               </div>
                             </div>
                           </div>
-                          <div class="form-group" style="margin-bottom: 0.5rem">
+                          <!-- /.bid closing / opening date -->
+                          <div class="form-group" style="margin-bottom: 0rem">
                             <label>Closing/Opening Teknis Date:</label>
-                            <div class="input-group">
-                              <input type="text" class="form-control pull-right" id="reservationtime2">
-                              <div class="input-group-addon">
-                                <i class="fa fa-clock-o"></i>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6" style="margin-bottom: 0.5rem">
+                              <div class="form-group">
+                                <div class="input-group date">
+                                  <input type="text" class="form-control input-sm" id="datepicker3" placeholder="Closing/Opening Teknis Date">
+                                  <div class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6" style="margin-bottom: 0.5rem">
+                              <div class="form-group bootstrap-timepicker">
+                                <div class="input-group">
+                                  <input type="text" class="form-control timepicker input-sm">
+                                  <div class="input-group-addon">
+                                    <i class="fa fa-clock-o"></i>
+                                  </div>
+                                </div> 
                               </div>
                             </div>
                           </div>
+                          <!-- /.Closing/Opening Teknis Date -->
                           <div class="form-group" style="margin-bottom: 0.5rem">
                             <label>Lokasi Bid:</label>
                             <input type="text" class="form-control input-sm" id="generatedBySystem2" placeholder="Lokasi">
@@ -275,6 +310,8 @@
 <script src="../../plugins/daterangepicker/daterangepicker.js"></script>
 <!-- bootstrap datepicker -->
 <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- bootstrap time picker -->
+<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -297,9 +334,10 @@
     $('#datepicker3').datepicker({
       autoclose: true
     });
-    //Date range picker with time picker
-    $('#reservationtime1').daterangepicker({timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A'});
-    $('#reservationtime2').daterangepicker({timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A'});
+    //Time picker
+    $(".timepicker").timepicker({
+      showInputs: false
+    });
   });
 </script>
 </body>
