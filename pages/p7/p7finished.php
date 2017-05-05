@@ -14,6 +14,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+  <!-- Bootstrap time Picker -->
+  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -33,7 +37,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p3pheader.php" ?>
+  <?php include "p7header.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -41,81 +45,71 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Penawaran
-        <small>Penawaran Bidder</small>
+        Opening Komersial
+        <!-- <small>Daftar Bidder</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p3p.php">Penawaran</a></li>
-        <li><a href="#">Detail</a></li>
-        <li class="active"><a href="#">Tanya Jawab</a></li>
+        <li><a href="p7.php">Opening Komersial</a></li>
+        <li class="active"><a href="p7finished.php">Hasil Opening</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-      <div class="row">
-        <div class="col-md-12">
-          <!-- DIRECT CHAT PRIMARY -->
-          <div class="box box-primary direct-chat direct-chat-primary">
-            <div class="box-header with-border">
-              <h3 class="box-title">Tanya Jawab</h3>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <!-- Conversations are loaded here -->
-              <div class="direct-chat-messages">
-                <!-- Message. Default to the left -->
-                <div class="direct-chat-msg">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-left">Contract Engineer</span>
-                    <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <img class="direct-chat-img" src="../../resources/images/avatar/icon1.png" alt="Message User Image"><!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    Ada yang bisa dibantu?
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
-
-                <!-- Message to the right -->
-                <div class="direct-chat-msg right">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-right">Bidder</span>
-                    <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <img class="direct-chat-img" src="../../resources/images/avatar/icon2.png" alt="Message User Image"><!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    Tidak ada.
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
+      <form class="form-horizontal">
+        <div class="row">
+          <div class="col-md-12">
+          <!-- box -->
+            <div class="box box-primary">
+              <div class="box-header">
+                <h3 class="box-title">Peserta Pengadaan Jasa</h3>
               </div>
-              <!--/.direct-chat-messages-->
-
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <form action="#" method="post">
-                <div class="input-group">
-                  <input type="text" name="message" placeholder="Type Message ..." class="form-control">
-                      <span class="input-group-btn">
-                        <button type="submit" class="btn btn-primary btn-flat">Send</button>
-                      </span>
+              <!-- /.box-header -->
+              <div class="box-body">
+                <div class="box">
+                  <div class="box-body table-responsive">
+                    <table class="table table-bordered table-hover">
+                      <tr>
+                        <th>Nomor</th>
+                        <th>Perusahaan</th>
+                        <th>Nama Jelas</th>
+                        <th>Tanda Tangan</th>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>PT MJ</td>
+                        <td>Perusahaan Terpadu Maju Jaya</td>
+                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>PT DJ</td>
+                        <td>Perusahaan Terpadu Depan Jaya</td>
+                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>PT DO</td>
+                        <td>Perusahaan Terpadu Dan One</td>
+                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!-- /.box-body -->
                 </div>
-              </form>
+              </div>
+              <div class="box-footer">
+                <button class="btn btn-default pull-right "><i class="fa fa-print"></i> Print Peserta Pengadaan Jasa</button>
+              </div>
             </div>
-            <!-- /.box-footer-->
+            <!-- /.box -->
           </div>
-          <!--/.direct-chat -->
+          <!-- /.col -->
         </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
+        <!-- /.row -->
+      </form>
+      <!-- /.form -->
     </section>
     <!-- /.content -->
   </div>
@@ -137,6 +131,10 @@
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
+<!-- bootstrap datepicker -->
+<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- bootstrap time picker -->
+<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -149,6 +147,10 @@
 <script>
   $(function () {
     $("#example1").DataTable();
+    //Date picker
+    $('#datepicker1').datepicker({autoclose: true});
+    //Time picker
+    $(".timepicker").timepicker({showInputs: false});
   });
 </script>
 </body>

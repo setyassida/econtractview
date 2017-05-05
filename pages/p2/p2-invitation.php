@@ -55,7 +55,7 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="#">Bidder List</a></li>
+        <li><a href="p2a.php">Bidder List</a></li>
         <li><a href="#">BL-17001</a></li>
         <li class="active"><a href="p2a.php">Send Invitation Note</a></li>
       </ol>
@@ -325,19 +325,11 @@
   $(function () {
     $("#example1").DataTable();
     //Date picker
-    $('#datepicker1').datepicker({
-      autoclose: true
-    });
-    $('#datepicker2').datepicker({
-      autoclose: true
-    });
-    $('#datepicker3').datepicker({
-      autoclose: true
-    });
+    $('#datepicker1').datepicker({autoclose: true});
+    $('#datepicker2').datepicker({autoclose: true});
+    $('#datepicker3').datepicker({autoclose: true});
     //Time picker
-    $(".timepicker").timepicker({
-      showInputs: false
-    });
+    $(".timepicker").timepicker({showInputs: false});
   });
 </script>
 </body>
