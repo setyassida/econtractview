@@ -41,12 +41,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evaluasi Administrasi
-        <!-- <small>Daftar Bidder</small> -->
+        Opening
+        <small>Evaluasi Administrasi</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li class="active"><a href="p5.php">Evaluasi Administrasi</a></li>
+        <li class="active"><a href="p5.php">Opening</a></li>
       </ol>
     </section>
 
@@ -90,7 +90,7 @@
                 <tr>
                   <td><a href="#">CC-17001</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-success">Finished</span></td>
+                  <td class="text-center"><span class="label label-success">Signed</span></td>
                   <td class="text-center">20-Feb-2017</td>
                   <td class="text-center"><a href="p5finished.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                 </tr>
@@ -101,7 +101,11 @@
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              
+              <ul>
+                <li><span class="label label-warning">Await Opening</span> : Kontrak belum dibuka</li>
+                <li><span class="label label-primary">Await Document</span> : Kontrak masih menunggu dokumen di-upload</li>
+                <li><span class="label label-success">Signed</span> : Kontrak sudah ditandatangani</li>
+              </ul>
             </div>
           </div>
           <!-- /.box -->

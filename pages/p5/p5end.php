@@ -45,19 +45,19 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evaluasi Administrasi
-        <!-- <small>Daftar Bidder</small> -->
+        Opening
+        <small>Evaluasi Administrasi</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p5.php">Evaluasi Administrasi</a></li>
+        <li><a href="p5.php">Opening</a></li>
         <li class="active"><a href="p5end.php">Data Opening</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-      <form class="form-horizontal">
+      <form>
         <div class="row">
           <div class="col-md-12">
           <!-- box -->
@@ -67,53 +67,50 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body"> 
-                <div class="callout callout-info">
-                  <h4><i class="icon fa fa-info"></i> Penandatanganan</h4>
-
-                  <p>Data dibawah membutuhkan tanda tangan dari <strong>Contract Manager atau Panitia Pengadaan.</strong> Unduhlah file dibawah dan upload file yang sudah ditanda tangani</p>
-                </div>
-                <div class="col-md-5 col-md-offset-1">
-                  <div class="box">
-                    <div class="box-body">
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Hasil Opening :</label>
-                        <div class="col-md-6">
-                          <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                <div class="col-md-12 text-center">
+                  <div class="col-md-4">
+                    <div class="box">
+                      <div class="box-body">
+                        <div class="form-group">
+                          <label class="control-label col-md-12" ">Hasil Opening</label>
+                          <div class="col-md-12">
+                            <p class="form-control-static"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                          </div>
                         </div>
+                        <!-- /.form-group -->
                       </div>
-                      <!-- /.form-group -->
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Upload file yang sudah ditandatangani :</label>
-                        <div class="col-md-6" style="padding-top: 1rem">
-                          <input type="file" id="" accept=".pdf">
-                        </div>
-                      </div>
-                      <!-- /.form-group -->
                     </div>
                   </div>
-                </div>
-                <!-- /.col kiri -->
-                <div class="col-md-5">
-                  <div class="box">
-                    <div class="box-body">
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Hasil HPS :</label>
-                        <div class="col-md-6">
-                          <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                  <!-- /.col 1 -->
+                  <div class="col-md-4">
+                    <div class="box">
+                      <div class="box-body">
+                        <div class="form-group">
+                          <label class="control-label col-md-12 ">Hasil HPS</label>
+                          <div class="col-md-12">
+                            <p class="form-control-static"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                          </div>
                         </div>
+                        <!-- /.form-group -->
                       </div>
-                      <!-- /.form-group -->
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Upload HPS yang sudah ditandatangani :</label>
-                        <div class="col-md-6" style="padding-top: 1rem">
-                          <input type="file" id="" accept=".pdf">
-                        </div>
-                      </div>
-                      <!-- /.form-group -->
                     </div>
                   </div>
+                  <!-- /.col 2 -->
+                  <div class="col-md-4">
+                    <div class="box">
+                      <div class="box-body">
+                        <div class="form-group">
+                          <label class="control-label col-md-12" ">Tanda tangan perusahaan</label>
+                          <div class="col-md-12">
+                            <p class="form-control-static"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                          </div>
+                        </div>
+                        <!-- /.form-group -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.col 3 -->
                 </div>
-                <!-- /.col kanan -->
               </div>
               <!-- /.box-body -->
               <div class="box-footer">

@@ -114,9 +114,10 @@
             <li><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
             <li><a href="../p4/p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
-            <li><a href="../p5/p5.php"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
+            <li><a href="../p5/p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
             <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
-            <li class="active"><a href="../p7/p7.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li class="active"><a href="../p7/p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
+            <li><a href="../p8/p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="../p11/p11_createLOI.php"><i class="fa fa-circle-o"></i> LoI</a></li>     

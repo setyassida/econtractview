@@ -122,36 +122,18 @@
                         </tr>
                         <tr>
                           <td>2</td>
-                          <td>PT Dikit Jaya</td>
+                          <td>PT Akan Jaya</td>
                           <td class="text-right">
                             922000
                             <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
                           </td>
-                          <td>Tidak Lulus</td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>PT Kabur Jaya</td>
-                          <td class="text-right">
-                            0
-                            <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
-                          </td>
-                          <td>Tidak Menjawab</td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>PT Mundur Jaya</td>
-                          <td class="text-right">
-                            0
-                            <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
-                          </td>
-                          <td>Tidak Menawar</td>
+                          <td>Lulus</td>
                         </tr>
                       </table>
                       <div id="editModal" class="modal fade">
                         <div class="modal-dialog">
                           <div class="modal-content">
-                            <div class="modal-header bg-info">
+                            <div class="modal-header bg-aqua">
                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span></button>
                               <h4 class="modal-title">Ubah Jumlah Penawaran?</h4>

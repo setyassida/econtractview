@@ -45,12 +45,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evaluasi Administrasi
-        <!-- <small>Daftar Bidder</small> -->
+        Opening
+        <small>Evaluasi Administrasi</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p5.php">Evaluasi Administrasi</a></li>
+        <li><a href="p5.php">Opening</a></li>
         <li class="active"><a href="p5summary.php">Summary</a></li>
       </ol>
     </section>

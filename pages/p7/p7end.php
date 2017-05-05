@@ -57,7 +57,7 @@
 
     <!-- Main content -->
     <section class="content">
-      <form class="form-horizontal">
+      <form >
         <div class="row">
           <div class="col-md-12">
           <!-- box -->
@@ -67,53 +67,36 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body"> 
-                <div class="callout callout-info">
-                  <h4><i class="icon fa fa-info"></i> Penandatanganan</h4>
-
-                  <p>Data dibawah membutuhkan tanda tangan dari <strong>Contract Manager atau Panitia Pengadaan.</strong> Unduhlah file dibawah dan upload file yang sudah ditanda tangani</p>
-                </div>
-                <div class="col-md-5 col-md-offset-1">
-                  <div class="box">
-                    <div class="box-body">
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Hasil Risalah Opening Komersial :</label>
-                        <div class="col-md-6">
-                          <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                <div class="col-md-12 text-center">
+                  <div class="col-md-5 col-md-offset-1">
+                    <div class="box">
+                      <div class="box-body">
+                        <div class="form-group">
+                          <label class="control-label col-md-12" ">Hasil Risalah Opening Komersial :</label>
+                          <div class="col-md-12">
+                            <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                          </div>
                         </div>
+                        <!-- /.form-group -->
                       </div>
-                      <!-- /.form-group -->
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Upload file yang sudah ditandatangani :</label>
-                        <div class="col-md-6" style="padding-top: 1rem">
-                          <input type="file" id="" accept=".pdf">
-                        </div>
-                      </div>
-                      <!-- /.form-group -->
                     </div>
                   </div>
-                </div>
-                <!-- /.col kiri -->
-                <div class="col-md-5">
-                  <div class="box">
-                    <div class="box-body">
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Hasil HPS :</label>
-                        <div class="col-md-6">
-                          <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                  <!-- /.col kiri -->
+                  <div class="col-md-5">
+                    <div class="box">
+                      <div class="box-body">
+                        <div class="form-group">
+                          <label class="control-label col-md-12" ">Hasil HPS :</label>
+                          <div class="col-md-12">
+                            <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                          </div>
                         </div>
+                        <!-- /.form-group --> 
                       </div>
-                      <!-- /.form-group -->
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Upload HPS yang sudah ditandatangani :</label>
-                        <div class="col-md-6" style="padding-top: 1rem">
-                          <input type="file" id="" accept=".pdf">
-                        </div>
-                      </div>
-                      <!-- /.form-group -->
                     </div>
                   </div>
+                  <!-- /.col kanan -->
                 </div>
-                <!-- /.col kanan -->
               </div>
               <!-- /.box-body -->
               <div class="box-footer">
