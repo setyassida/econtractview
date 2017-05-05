@@ -164,11 +164,9 @@
               </div>
               <div class="box-footer">
                 <div class="pull-right" style="margin-left: 1rem">
-                  <!-- <button type="button" class="btn btn-danger pull-right btn-sm" data-toggle="modal" data-target="#abortModal">Abort</button> -->
                   <a href="p2-abort.php"><button type="button" class="btn btn-danger pull-right btn-sm">Abort</button></a>
                 </div>
                 <div class="pull-right" style="margin-left: 1rem">
-                  <!-- <button type="button" class="btn btn-warning pull-right btn-sm" data-toggle="modal" data-target="#holdModal">Hold</button> -->
                   <a href="p2-hold.php"><button type="button" class="btn btn-warning pull-right btn-sm">Hold</button></a>
                 </div>
               </div>

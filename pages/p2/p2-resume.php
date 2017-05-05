@@ -46,6 +46,7 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
+        <li><a href="p2a.php">Bidder List</a></li>
         <li><a href="#">CA-17001</a></li>
         <li class="active"><a href="p2a.php">Resume</a></li>
       </ol>
@@ -129,10 +130,10 @@
                 <span class="glyphicon glyphicon-play"></span> Resume
                 </button>
 
-                <div id="resumeModal" class="modal modal-primary">
+                <div id="resumeModal" class="modal ">
                     <div class="modal-dialog">
                       <div class="modal-content">
-                        <div class="modal-header">
+                        <div class="modal-header bg-blue">
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span></button>
                           <h4 class="modal-title">Do you want to resume?</h4>
@@ -145,8 +146,8 @@
                           <li>Lead Contract Engineer</li>
                         </div>
                         <div class="modal-footer">
-                          <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                          <button type="submit" class="btn btn-outline">Yes, Resume Now!</button>
+                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-primary">Yes, Resume Now!</button>
                         </div>
                       </div>
                         <!-- /.modal-content -->

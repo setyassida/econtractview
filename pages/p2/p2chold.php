@@ -165,7 +165,6 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="pull-right" style="margin-left: 1rem">
-                      <!-- <button type="button" class="btn btn-danger pull-right btn-sm" data-toggle="modal" data-target="#abortModal">Abort</button> -->
                       <a href="p2-abort.php"><button type="button" class="btn btn-danger pull-right btn-sm">Abort</button></a>
                     </div>
                     <div class="pull-right" style="margin-left: 1rem">

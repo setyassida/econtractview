@@ -110,7 +110,7 @@
                           <div class="form-group" style="margin-bottom: 0">
                             <label class="control-label col-md-4">Bid Closing/<br>Opening Date :</label>
                             <div class="form-control-static col-md-8">
-                              22-Apr-2017 / 30-Mei-2017
+                              30-Mei-2017
                             </div>
                           </div>
                           <div class="form-group" style="margin-bottom: 0">
