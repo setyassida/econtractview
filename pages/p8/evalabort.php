@@ -28,7 +28,7 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-
+  
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
@@ -64,16 +64,16 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../resources/images/avatar/icon3.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">CE</span>
+              <img src="../../resources/images/avatar/icon2.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">ESTIMATOR</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="../../resources/images/avatar/icon3.png" class="img-circle" alt="User Image">
+                <img src="../../resources/images/avatar/icon2.png" class="img-circle" alt="User Image">
 
                 <p>
-                 CE
+                 ESTIMATOR
             
                 </p>
               </li>
@@ -106,10 +106,10 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="../../resources/images/avatar/icon3.png" class="img-circle" alt="User Image">
+          <img src="../../resources/images/avatar/icon2.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>CE</p>
+          <p>ESTIMATOR</p>
           
         </div>
       </div>
@@ -152,11 +152,11 @@
           <ul class="treeview-menu">
             <li><a href="../p1/p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
             <li><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
-            <li class="active"><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
+            <li><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
             <li><a href="../p4/p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
-            <li><a href="../p5/p5.php"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
             <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
-            <li><a href="../p8/eval.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li  class="active"><a href="browse_evalkom.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>     
@@ -213,18 +213,19 @@
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
           <li><a href="#">Pre-Bid Meeting</a></li>
-          <li class="active">0001/BB41/2017-041</li>
+          <li><a href="#">0001/BB41/2017-041</a></li>
+          <li class="active">Abort</li>
         </ol>
       </section>
 
       <!-- Main content -->
+
       <section class="content">
         <!-- SELECT2 EXAMPLE -->
-        <div class="box box-default">
+        <div class="box box-danger">
           <form class="form-horizontal">
             <div class="box-header with-border">
               <h3 class="box-title">Informasi Kontrak</h3>
-
 
             </div>
             <!-- /.box-header -->
@@ -244,7 +245,7 @@
                   <div class="form-group">
                     <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
                     <div class="col-md-9">
-                      <p class="form-control-static">CO-17001</p>
+                      <p class="form-control-static">CA-17001</p>
                     </div>
                   </div>
                   <div class="form-group">
@@ -266,191 +267,69 @@
                     </div>
                   </div>
 
-
                 </div>
                 <!-- /left column -->
 
                 <!-- right column -->
                 <div class="col-md-6">
-                  <div class="box">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="box-body">
+                  <div class="box box-danger">
+                      <div class="box-body">
+                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                          Untuk melakukan proses Abort, Anda wajib menyertakan Alasan Abort dan Dokumen Pendukung Proses Abort pada kolom berikut.    
+                        </p>
+                        <div class="col-md-12">
 
-
-                        <table id="dataTable" class="table table-bordered table-condensed table-hover">
-                          <thead>
-                            <tr>
-                              <th>Judul Dokumen</th>
-                              <th>Filename</th>
-                              <th style="width:80px"><div class="text-center">Act</div></th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>Risalah Pre-Bid Meeting</td>
-                              <td>sample-file.pdf</td>
-                              <td>
-                                <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
-                                    <span class="fa fa-cog"></span>
-                                  </button>
-                                </div>
-                                <div id="modifyModal" class="modal">
-                                    <div class="modal-dialog">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span></button>
-                                          <h4 class="modal-title">Modify Document</h4>
-                                        </div>
-
-                                        <div class="modal-body">
-                                            <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                                              Dokumen lama yang Anda upload akan otomatis terhapus.
-                                            </p>
-
-                                            <div class="form-group">
-                                              <label class="control-label col-md-3">Dokumen Baru :</label>
-                                              <div class="col-md-6">
-                                                <input type="file" accept=".pdf" class="form-control">
-                                              </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn pull-left btn-sm" data-dismiss="modal">Close</button>
-                                          <button type="submit" class="btn btn-default btn-sm"><span class="fa fa-cog"></span> Modify</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                              </td>
-                              <td style="display:none"></td>
-                            </tr>
-                            <tr>
-                              <td>Breakdown Penawaran</td>
-                              <td>sample-file.pdf</td>
-                              <td>
-                                <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
-                                    <span class="fa fa-cog"></span>
-                                  </button>
-                                </div>
-                                <div id="modifyModal" class="modal">
-                                    <div class="modal-dialog">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span></button>
-                                          <h4 class="modal-title">Modify Document</h4>
-                                        </div>
-                                        <div class="modal-body">
-
-                                            <div class="form-group">
-                                              <label class="control-label col-md-3">Dokumen Baru :</label>
-                                              <div class="col-md-6">
-                                                <input type="file" accept=".pdf" class="form-control">
-                                              </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                              </td>
-                              <td style="display:none"></td>
-                            </tr>
-                            <tr>
-                              <td>Dokumen Tambahan 1</td>
-                              <td>sample-file.pdf</td>
-                              <td>
-                                <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
-                                    <span class="fa fa-cog"></span>
-                                  </button>
-                                </div>
-                                <div id="modifyModal" class="modal">
-                                    <div class="modal-dialog">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span></button>
-                                          <h4 class="modal-title">Modify Document</h4>
-                                        </div>
-                                        <div class="modal-body">
-
-                                            <div class="form-group">
-                                              <label class="control-label col-md-3">Dokumen Baru :</label>
-                                              <div class="col-md-6">
-                                                <input type="file" accept=".pdf" class="form-control">
-                                              </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                              </td>
-                              <td style="display:none"></td>
-                            </tr>
-                            <tr>
-                              <td>Dokumen Tambahan 2</td>
-                              <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
-                              <td style="display:none"></td>
-                            </tr>
-                            <tr>
-                              <td>Dokumen Tambahan 3</td>
-                              <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
-                              <td style="display:none"></td>
-                            </tr>
-                            <tr>
-                              <td>Dokumen Tambahan 4</td>
-                              <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
-                              <td style="display:none"></td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <div style="height:20px">
-                        </div>
+                          <div class="form-group">
+                            <label>Alasan Abort :</label>
+                            <textarea class="form-control" rows="5" placeholder="Enter ..." style="resize:none" required></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label>Dokumen Pendukung Proses Abort:</label>
+                            <input type="file" id="inputFile" multiple required>
+                          </div>
+                          
                         </div>
                       </div>
-                    </div>
                   </div>
 
                 </div>
                 <!-- /right column -->
               </div>
 
-
-
-
-
-
-
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              <a href="p3.php">
-                <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;">
+              
+              <button type="button" class="btn btn-danger pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#abortModal">
+              <span class="glyphicon glyphicon-remove"></span> Abort
+              </button>
+
+              <div id="abortModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Are You Sure to Abort It?</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Proses ini akan menghapus <strong><span class="text-red">SELURUH DATA</span></strong> yang berkaitan dengan Dokumen ini.</p>
+                      <p>Proses ini akan mengirimkan notifikasi kepada :</p>
+                      <li>Contract Organisator</li>
+                      <li>Contract Engineer</li>
+                      <li>Lead Contract Engineer</li>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-danger">Yes, Abort Now!</button>
+                    </div>
+                  </div>
+                    <!-- /.modal-content -->
+                </div>
+              </div>
+
+              <a href="eval4bcr.php">
+                <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
                   Back
                 </button>
               </a>
@@ -458,9 +337,8 @@
           </form>
         </div>
         <!-- /.box -->
-      </section>
+      </section> 
 
-    <div class="clearfix"></div>
       <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
@@ -685,12 +563,6 @@
 <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 
 <script>
-  //
-  $(document).ready(function(){
-    $('[data-toggle="download"]').tooltip();
-    $('[data-toggle="ubah"]').tooltip();
-  });
-
   //Date picker
   $('#datepicker').datepicker({
     autoclose: true

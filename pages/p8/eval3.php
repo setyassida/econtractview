@@ -142,18 +142,18 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Contract</a></li>
-            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Bidder List</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
-            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
-             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
-            <li class="active"><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoA</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li>
+            <li><a href="../p1/p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
+            <li><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
+            <li><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
+            <li><a href="../p4/p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
+            <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+            <li  class="active"><a href="browse_evalkom.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
+            <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>     
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li> 
           </ul>
         </li>
 
@@ -197,7 +197,7 @@
     <section class="content-header">
       <h1>
         Contract Order
-        <small>Evaluasi Evalkom Pengadaan dan Penunjukan Langsung</small>
+        <small>Evaluasi Komersial</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -206,268 +206,551 @@
       </ol>
     </section>
 
+<!-- 
+    <div class="content" style="min-height: 0px;">
+      <div class="col-md-6">
+        <a href="eval3.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Create BCR">Create BCR</button></a>
+        <button data-target="#modalBCR" type="button" class="btn bg-navy btn-sm" data-toggle="modal" title="Detail BCR">Detail BCR</button>
+      </div>
+    </div> -->
+
+    <div id="modalBCR" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Detail BCR Submit</h4>
+          </div>
+          <div class="modal-body">
+            <h4>BCR ( Rekomendasi panitia pengadaan)<span class="fa fa-close"></span></h4>
+            <h4>BCR ( Rekomendasi fungsi pengadaan)<span class="fa fa-check"></span></h4>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+          <!-- /.modal-content -->
+      </div>
+    </div>
     <!-- Main content -->
     <section class="content">
       <!-- Info boxes -->
-      <div class="box-body">
-        <div class="box box-success">
-          <form class="form-horizontal">
-            <div class="box-header with-border">
-              <h3 class="box-title">BCR ( Rekomendasi Panitia Pengadaan )</h3>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-
-
-              <div class="row">
-                <!-- left column -->
-                <div class="col-md-6">
-
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">CA-17001</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Judul Pekerjaan:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">Kontrak Jasa Penambahan Alat Berat</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Tanggal Pembukaan:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">17-01-2016</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Jenis Kontrak:</label>
-                    <div class="col-md-9">
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-                          Pelelangan
-                        </label>
-                      </div>
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                          Pemilihan Langsung
-                        </label>
-                      </div>
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                          Penunjukan Langsung
-                        </label>
-                      </div>
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                          Pengadaan Langsung
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Jenis Kontrak:</label>
-                    <div class="col-md-9">
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-                          Lump Sum (LS)
-                        </label>
-                      </div>
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                          Harga Satuann (HS)
-                        </label>
-                      </div>
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                          Gabungan HS dan LS
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-                <!-- /left column -->
-
-                <!-- right column -->
-                <div class="col-md-6">
-                  <div class="box box-warning">
-                    <div class="box-header with-border">
-                      <h3 class="box-title">HPS Tidak Termasuk PPN 10%</h3>
-                    </div>
-                    <div class="box-body">
-                      <table class="table table-bordered">
-                        <tr>
-                          <th>HPS Minimum</th>
-                          <th>HPS Most Likely</th>
-                          <th>HPS Maksimum</th>
-                        </tr>
-                        <tr>
-                          <td> Rp 4.500.000 </th>
-                          <td> Rp 5.000.000 </th>
-                          <td> Rp 3.000.000 </th>
-                        </tr>
-                      </table>
-                    </div>
-
-
-                  </div>
-
-                  <div class="box box-success">
+      <div class="row">
+            <div class="col-md-3">
+                    <div class="box box-success">
                       <div class="box-header with-border">
+
+                        <h5> HPS Most Likely </h5>
                       </div>
                       <!-- /.box-header -->
                       <div class="box-body">
-                        <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Contract Existing Amend #05 Termasuk PPN 10%</label>
-                          <div class="col-md-6">
-                            <textarea id="inputKeterangan" rows="1" placeholder="input..." class="form-control" style="resize:none"></textarea>
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Durasi</label>
-                          <div class="col-md-6">
-                            <textarea id="inputKeterangan" rows="1" placeholder="input..." class="form-control" style="resize:none"></textarea>
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Jumlah TK</label>
-                          <div class="col-md-6">
-                            <textarea id="inputKeterangan" rows="1" placeholder="input..." class="form-control" style="resize:none"></textarea>
-                          </div>
+                          <dt>Biaya Jasa</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Alat</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Material</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Lainnya</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Sub Total (a)</dt>
+                          <dd> Rp 0 </dd>
+                          <dt>Over Head (b)</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Profit (c)</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Total</dt>
+                          <dd>a + b + c</dd>
+                          <dt>Total Harga</dt>
+                          <dd>Akan divalidasi dengan HPS most likely</dd>
+                          <!-- main column-->
+
+                        
+                        <div class="col-md-12 box-footer" style="text-align: right;">
+                          <a href="eval2b.php"><button type="button" class="btn btn-info btn-sm">Simpan</button></a>
                         </div>
                       </div>
+                  </div>
 
+            </div>
+
+            <div class="col-md-3">
+                    <div class="box box-success">
+                      <div class="box-header with-border">
+
+                        <h5> Rincian Penawaran Bidder 1  </h5>
+                      </div>
+                      <!-- /.box-header -->
+                      <div class="box-body">
+                            <dt>Biaya Jasa</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Alat</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Material</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Lainnya</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Sub Total (a)</dt>
+                          <dd> Rp 0 </dd>
+                          <dt>Over Head (b)</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Profit (c)</dt> 
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Total</dt>
+                          <dd>a + b + c</dd>
+                          <dt>Total Harga</dt>
+                          <dd>Akan divalidasi dengan penawaran asli</dd>
+
+
+                          <!-- main column-->
+
+                        
+                        <div class="col-md-12 box-footer" style="text-align: right;">
+                          <a href="eval2b.php"><button type="button" class="btn btn-info btn-sm">Simpan</button></a>
+                        </div>
+                      </div>
                   </div>
 
                 </div>
-                <!-- /right column -->
-              </div>
 
-              <div class="col-md-12">
+                <!-- bidder 2 -->
+            <div class="col-md-3">
+                    <div class="box box-success">
+                      <div class="box-header with-border">
 
+                        <h5> Rincian Penawaran Bidder 2 </h5>
+                      </div>
+                      <!-- /.box-header -->
+                      <div class="box-body">
+                            <dt>Biaya Jasa</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Alat</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Material</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Lainnya</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Sub Total (a)</dt>
+                          <dd> Rp 0 </dd>
+                          <dt>Over Head (b)</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Profit (c)</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Total</dt>
+                          <dd>a + b + c</dd>
+                          <dt>Total Harga</dt>
+                          <dd>Akan divalidasi dengan penawaran asli</dd>
 
+                          <!-- main column-->
 
-              <div class="box box-success">
-                  <div class="box-header with-border">
-                    <h3 class="box-title">Penilaian Hasil Evaluasi</h3>
+                        
+                        <div class="col-md-12 box-footer" style="text-align: right;">
+                          <a href="eval2b.php"><button type="button" class="btn btn-info btn-sm">Simpan</button></a>
+                        </div>
+                      </div>
                   </div>
-                  <!-- /.box-header -->
-                  <div class="box-body">
-                    <div class="row">
-                      <!-- left column -->
-                      <div class="col-md-12">
 
-                            <!-- /.box-header -->
-                            <div class="box-body">
-                              <table class="table table-bordered">
-                                <tr>
-                                  <th style="width: 10px">No</th>
-                                  <th>Penawar</th>
-                                  <th style="width: 200px">Penawaran Asli (Rp)</th>
-                                  <th style="width: 200px">Penawaran Terkoreksi (RP)</th>
-                                  <th style="width: 100px">Nilai Negosiasi (RP)</th>
-                                  <th style="width: 10px">Ranking Asli</th>
-                                  <th style="width: 10px">Ranking Koreksi</th>
-                                  <th>Administrasi</th>
-                                  <th>Teknis</th>
-                                  <th>Komersial</th>
-                                  <th>Penalty</th>
-                                  <th>Sanksi</th>
-                                </tr>
-                                <tr>
-                                  <td>1.</td>
-                                  <td>PT Hasanah Sumber Utama</td>
-                                  <td>1.150.000.000</td>
-                                  <td>950.000.000</td>
-                                  <td>950.000.000</td>
-                                  <td> 2 </td>
-                                  <td> 1 </td>
-                                  <td> Lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
+                </div>
+                <!-- closed bidder 2 -->
 
-                                </tr>
-                                <tr>
-                                  <td>2.</td>
-                                  <td>PT Aimindo Adie Perkasa</td>
-                                  <td>1.050.000.000</td>
-                                  <td>1.200.000.000</td>
-                                  <td>950.000.000</td>
-                                  <td> 1 </td>
-                                  <td> 2 </td>
-                                  <td> Lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
-                                </tr>
-                                <tr>
-                                  <td>3.</td>
-                                  <td>PT Abdi Jati</td>
-                                  <td>1.250.000.000</td>
-                                  <td>950.000.000</td>
-                                  <td>0</td>
-                                  <td> 3 </td>
-                                  <td> 2 </td>
-                                  <td> Lulus </td>
-                                  <td> lulus </td>
-                                  <!-- <td><textarea id="inputKeterangan" rows="1" placeholder="Status" class="form-control" style="resize:none"></textarea></td> -->
-                                  <td> lulus </td>
+                <!-- bidder 3 -->
+            <div class="col-md-3">
+                    <div class="box box-success">
+                      <div class="box-header with-border">
 
-                                </tr>
-                              </table>
+                        <h5> Rincian Penawaran Bidder 3 </h5>
+                      </div>
+                      <!-- /.box-header -->
+                      <div class="box-body">
+                            <dt>Biaya Jasa</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Alat</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Material</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Biaya Lainnya</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Sub Total (a)</dt>
+                          <dd> Rp 0 </dd>
+                          <dt>Over Head (b)</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Profit (c)</dt>
+                          <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
+                          </dd>
+                          <dt>Total</dt>
+                          <dd>a + b + c</dd>
+                          <dt>Total Harga</dt>
+                          <dd>Akan divalidasi dengan penawaran asli</dd>
+
+                          <!-- main column-->
+
+                        
+                        <div class="col-md-12 box-footer" style="text-align: right;">
+                          <a href="eval2b.php"><button type="button" class="btn btn-info btn-sm">Simpan</button></a>
+                        </div>
+                      </div>
+                  </div>
+
+            </div>
+                <!-- closed bidder 4 -->
+        
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+                  <div class="box box-info">
+                      <form class="form-horizontal">
+                        <div class="box-header with-border">
+                          <h5>Penjelasan Analisa Komersial</h5>
+                          <h5>Bidder 1</h5>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                          <div class="row">
+                            <!-- left column -->
+                            <div class="col-md-12">
+
+                                  <!-- /.box-header -->
+                                  <div class="box-body"> 
+                                    
+                                    <table class="table table-bordered table-condensed">
+                                      <tr>
+                                        <th style="width: 10px" rowspan="1">No</th>
+                                        <th style="width: 100px">Pekerjaan</th>
+                                        <th style="width: 100px">HPS</th>
+                                        <th style="width: 100px">Penawaran Asli</th>
+                                        <th style="width: 10px">Pengeluaran</th>
+                                        <th style="width: 100px">Saldo</th>
+                                        <th style="width: 150px">Prosentase Penawaran vs HPS (-) lebih rendah (+) lebih tinggi</th>
+                                        <th style="width: 50px">Analisa Evaluasi</th>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th style="width: 10px"></th>
+                                        <th style="width: 100px"></th>
+                                        <th style="width: 100px">a</th>
+                                        <th style="width: 100px">b</th>
+                                        <th style="width: 10px">c</th>
+                                        <th style="width: 100px">d = b - c</th>
+                                        <th style="width: 150px"> + / -</th>
+                                        <th style="width: 50px"> wajar / tidak wajar</th>
+                                      </tr>                                      
+                                      <tr>
+                                        <td>1.</td>
+                                        <td>Biaya Jasa</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>2.</td>
+                                        <td>Biaya Alat</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>3.</td>
+                                        <td>Biaya Material</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>4.</td>
+                                        <td>Profit</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>5.</td>
+                                        <td>Total</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      </table>
+                                      
+
+                                  </div>
+
                             </div>
 
-                      </div>
+                          </div>
+                           <div class="col-md-12 box-footer" style="text-align: right;">
+                                    <a href="eval3.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                            </div>
+                        </div>
+                      </form>
                     </div>
-                  </div>
 
-              </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-md-1" for="noKontrak">Catatan Panitia Pengadaan</label>
-                <div class="col-md-6">
-                  <textarea id="inputKeterangan" rows="5" placeholder="input..." class="form-control" style="resize:none"></textarea>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label class="control-label col-md-1" for="noKontrak">Action</label>
-                <div class="col-md-6">
-                  <button type="button" class="btn btn-danger btn-sm"> Abort </button>
-                  <button type="button" class="btn btn-warning btn-sm"> Re Evaluasi </button>
-                  <button type="button" class="btn btn-warning btn-sm"> Re Bidding </button>
-                  <button type="button" class="btn btn-info btn-sm"> Submit </button>
-                </div>
-              </div>
-            </div>
-            <!-- /.box-body -->
-          </form>
         </div>
-
-
-          <!-- /right column -->
       </div>
-    </section>
+      <div class="row">
+        <div class="col-md-12">
+                  <div class="box box-info">
+                      <form class="form-horizontal">
+                        <div class="box-header with-border">
+                          <h5>Penjelasan Analisa Komersial</h5>
+                          <h5>Bidder 2</h5>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                          <div class="row">
+                            <!-- left column -->
+                            <div class="col-md-12">
 
-    <section class="content" style="min-height: 0px;">
-      <!-- Info boxes -->
-      <div class="box-body">
+                                  <!-- /.box-header -->
+                                  <div class="box-body"> 
+                                    
+                                      
+                                    <table class="table table-bordered table-condensed">
+                                      <tr>
+                                        <th style="width: 10px" rowspan="1">No</th>
+                                        <th style="width: 100px">Pekerjaan</th>
+                                        <th style="width: 100px">HPS</th>
+                                        <th style="width: 100px">Penawaran Asli</th>
+                                        <th style="width: 10px">Pengeluaran</th>
+                                        <th style="width: 100px">Saldo</th>
+                                        <th style="width: 150px">Prosentase Penawaran vs HPS (-) lebih rendah (+) lebih tinggi</th>
+                                        <th style="width: 50px">Analisa Evaluasi</th>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th style="width: 10px"></th>
+                                        <th style="width: 100px"></th>
+                                        <th style="width: 100px">a</th>
+                                        <th style="width: 100px">b</th>
+                                        <th style="width: 10px">c</th>
+                                        <th style="width: 100px">d = b - c</th>
+                                        <th style="width: 150px"> + / -</th>
+                                        <th style="width: 50px"> wajar / tidak wajar</th>
+                                      </tr>                                      
+                                      <tr>
+                                        <td>1.</td>
+                                        <td>Biaya Jasa</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>2.</td>
+                                        <td>Biaya Alat</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>3.</td>
+                                        <td>Biaya Material</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>4.</td>
+                                        <td>Profit</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>5.</td>
+                                        <td>Total</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      </table>
+                                      
 
+                                  </div>
+
+                            </div>
+
+                          </div>
+                           <div class="col-md-12 box-footer" style="text-align: right;">
+                                    <a href="eval3.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+
+        </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+                  <div class="box box-info">
+                      <form class="form-horizontal">
+                        <div class="box-header with-border">
+                          <h5>Penjelasan Analisa Komersial</h5>
+                          <h5>Bidder 3</h5>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                          <div class="row">
+                            <!-- left column -->
+                            <div class="col-md-12">
+
+                                  <!-- /.box-header -->
+                                  <div class="box-body"> 
+                                
+                                    <table class="table table-bordered table-condensed">
+                                      <tr>
+                                        <th style="width: 10px" rowspan="1">No</th>
+                                        <th style="width: 100px">Pekerjaan</th>
+                                        <th style="width: 100px">HPS</th>
+                                        <th style="width: 100px">Penawaran Asli</th>
+                                        <th style="width: 10px">Pengeluaran</th>
+                                        <th style="width: 100px">Saldo</th>
+                                        <th style="width: 150px">Prosentase Penawaran vs HPS (-) lebih rendah (+) lebih tinggi</th>
+                                        <th style="width: 50px">Analisa Evaluasi</th>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th style="width: 10px"></th>
+                                        <th style="width: 100px"></th>
+                                        <th style="width: 100px">a</th>
+                                        <th style="width: 100px">b</th>
+                                        <th style="width: 10px">c</th>
+                                        <th style="width: 100px">d = b - c</th>
+                                        <th style="width: 150px"> + / -</th>
+                                        <th style="width: 50px"> wajar / tidak wajar</th>
+                                      </tr>                                      
+                                      <tr>
+                                        <td>1.</td>
+                                        <td>Biaya Jasa</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>2.</td>
+                                        <td>Biaya Alat</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>3.</td>
+                                        <td>Biaya Material</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>4.</td>
+                                        <td>Profit</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>5.</td>
+                                        <td>Total</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      </table>
+                                      
+
+                                  </div>
+
+                            </div>
+
+                          </div>
+                           <div class="col-md-12 box-footer" style="text-align: right;">
+                                    <a href="eval2.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                                    <a href="eval.php">
+                                    <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;">
+                                    Back
+                                  </button>               
+                          </a>
+                                    <a href="eval4.php"><button type="button" class="btn btn-success btn-sm" title="Lanjut Rincian Penawaran">Lanjut Halaman Negosiasi</button></a>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+
+        </div>
+      </div>
+      
+
+     
+
     </section>
-
-
-
-
-
+    
 <!--  content wrapper-->
   </div>
 

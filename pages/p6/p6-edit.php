@@ -60,16 +60,16 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../resources/images/avatar/icon5.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">APPROVER</span>
+              <img src="../../resources/images/avatar/icon6.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">PO/CO</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="../../resources/images/avatar/icon5.png" class="img-circle" alt="User Image">
+                <img src="../../resources/images/avatar/icon6.png" class="img-circle" alt="User Image">
 
                 <p>
-                 APPROVER
+                 PO/CO
             
                 </p>
               </li>
@@ -99,10 +99,10 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="../../resources/images/avatar/icon5.png" class="img-circle" alt="User Image">
+          <img src="../../resources/images/avatar/icon6.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>APPROVER</p>
+          <p>PO/CO</p>
           
         </div>
       </div>
@@ -142,7 +142,7 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-         <ul class="treeview-menu">
+          <ul class="treeview-menu">
             <li><a href="../p1/p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
             <li><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
@@ -198,8 +198,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evalusi Teknis
-        <small>CA-17001</small>
+        Contract Order
+        <small>Evaluasi Teknis</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -212,62 +212,7 @@
 
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
-      <div class="row">
-        <div class="col-md-3">
-          <div class="info-box">
-            <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Approver 1</span>
-              <strong>Sarah Connor</strong>
-              <br><br>
-              <div class="text-right text-success"><i class="fa fa-check"></i></div>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info-box">
-            <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Approver 2</span>
-              <strong>Katniss Everdeen</strong>
-              <br><br>
-              <div class="text-right text-success"><i class="fa fa-check"></i></div>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info-box" style="box-shadow: 0 0 3px 3px rgba(0, 140, 186, 0.5)">
-            <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-            <div class="info-box-content" >
-              <span class="info-box-text">Approver 3</span>
-              <strong>Peeta Mellark</strong>
-              <br><br>
-              <div class="text-right text-success"><i class="fa fa-clock-o"></i></div>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info-box">
-            <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Approver 4</span>
-              <strong>Jack Sparrow</strong>
-              <br><br>
-              <div class="text-right text-success"><i class="fa fa-clock-o"></i></div>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-        </div>
-      </div>
-
-      <div class="box box-success">
+      <div class="box box-danger">
           <form class="form-horizontal">
           <div class="box-header with-border">
             <h4>Form Evaluasi Teknis</h4>
@@ -294,113 +239,100 @@
                     <td style="width:25px">No.</td>
                     <td style="width:200px">Nama Rekanan</td>
                     <td style="width:55px">Score</td>
-                    <td style="width:125px">Kesimpulan</td>
                     <td>Keterangan Singkat</td>
-                    <td style="width:100px">Dokumen Hasil Evaltek</td>
-                    <td style="width:100px">Dokumen Klarifikasi</td>
+                    <td style="width:150px">Dokumen Hasil Evaltek</td>
+                    <td style="width:150px">Dokumen Klarifikasi</td>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>PT A MAJU JAYA</td>
-                    <td>75</td>
+                    <td>PT MAJU JAYA</td>
+                    <td><input type="text" class="form-control input-sm" required></td>
+                    
                     <td>
-                      Lulus
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td>
                     <td>
-                      -
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                   </tr>
                   <tr>
                     <td>2</td>
-                    <td>PT B HARAPAN BANGSA</td>
-                    <td>80</td>
+                    <td>PT HARAPAN BANGSA</td>
+                    <td><input type="text" class="form-control input-sm" required></td>
+                    
                     <td>
-                      Lulus
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td>
                     <td>
-                      -
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                   </tr>
                   <tr>
                     <td>3</td>
-                    <td>PT C KARYA MAS</td>
-                    <td>70</td>
+                    <td>PT KARYA MAS</td>
+                    <td><input type="text" class="form-control input-sm" required></td>
+                    
                     <td>
-                      Tidak Lulus
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td>
                     <td>
-                      Tidak memenuhi kriteria kebutuhan
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>PT D CAHAYA TERANG</td>
-                    <td>72</td>
+                    <td>PT CAHAYA TERANG</td>
+                    <td><input type="text" class="form-control input-sm" required></td>
+                    
                     <td>
-                      Tidak Lulus
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td>
                     <td>
-                      Tidak memenuhi kriteria kebutuhan
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                   </tr>
                   <tr>
                     <td>5</td>
-                    <td>PT E MAKMUR ABADI</td>
-                    <td>78</td>
+                    <td>PT MAKMUR ABADI</td>
+                    <td><input type="text" class="form-control input-sm" required></td>
+                    
                     <td>
-                      Lulus
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td>
                     <td>
-                      -
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                   </tr>
                   <tr>
                     <td>6</td>
-                    <td>PT F HAN WOK STEEL</td>
-                    <td>59</td>
+                    <td>PT HAN WOK STEEL</td>
+                    <td><input type="text" class="form-control input-sm" required></td>
+                    
                     <td>
-                      Tidak Lulus
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td>
                     <td>
-                      Tidak memenuhi uji kelayakan
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                     <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                      <input type="file" class="input-sm" style="width:175px" required>
                     </td>
                   </tr>
                 </tbody>
@@ -412,44 +344,45 @@
           <!-- /.box-body -->
           <div class="box-footer">
 
-            <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#approveModal"> Approve</button>
-            <button type="button" class="btn btn-danger btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#rejectModal"> Reject</button>
+            <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button>
+            <button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#saveModal" style="margin-right:5px"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
+            <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px"><span class="glyphicon glyphicon-download-alt"></span> Download Template PDF</button>
             <a href="p6.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px">Back</button></a>
           
-            <div id="approveModal" class="modal">
+            <div id="submitModal" class="modal">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header bg-green">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Are You Sure to Approve It?</h4>
+                    <h4 class="modal-title">Are You Sure to Submit?</h4>
                   </div>
                   <div class="modal-body">
-                    Proses ini akan memberikan notifikasi kepada Approver berikutnya.
+                    Proses ini akan memberikan notifikasi kepada seluruh Approver untuk melakukan persetujuan dan merubah status Evaltek ke <span class="text-red">TO BE APPROVE</span>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-success btn-sm">Yes, Approve It</button>
+                    <button type="submit" value="submit" class="btn btn-success btn-sm">Yes, I Want to Submit It</button>
                   </div>
                 </div>
                   <!-- /.modal-content -->
               </div>
             </div>
 
-            <div id="rejectModal" class="modal">
+            <div id="saveModal" class="modal">
               <div class="modal-dialog">
                 <div class="modal-content">
-                  <div class="modal-header bg-red">
+                  <div class="modal-header bg-green">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Are You Sure to Approve It?</h4>
+                    <h4 class="modal-title">Are You Sure to Save?</h4>
                   </div>
                   <div class="modal-body">
-                    Proses ini akan memberikan notifikasi kepada seluruh Approver dan mengembalikan Proses Evaluasi Teknis ke status <span class="text-red">DRAFT</span>
+                    Proses ini akan menghapus data Evaluasi Teknis yang lama dengan data baru yang Anda masukan.
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-danger btn-sm">Yes, Reject It</button>
+                    <button type="submit" value="save" class="btn btn-success btn-sm">Yes, Save It</button>
                   </div>
                 </div>
                   <!-- /.modal-content -->
