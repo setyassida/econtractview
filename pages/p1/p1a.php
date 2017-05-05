@@ -135,7 +135,7 @@
         <li class="treeview">
 
           <!-- menu dashboard -->
-      
+
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
@@ -155,18 +155,18 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Contract</a></li>
+            <li class="active"><a href="p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
             <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
             <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
-             <li class="active"><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>     
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li> 
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li>
           </ul>
         </li>
 
@@ -231,7 +231,7 @@
         </div>
         <div class="box-body">
           <div class="col-md-6">
-            <a href="p1b.php">
+            <a href="p1_pemilihanLangsung.php">
               <div class="callout callout-warning">
                 <h4><b>PEMILIHAN LANGSUNG</b></h4>
                 <ul>
@@ -241,7 +241,7 @@
               </div>
             </a>
 
-            <a href="p1d.php">
+            <a href="p1d_pengadaanLangsung.php">
               <div class="callout callout-warning">
                 <h4><b>PENGADAAN LANGSUNG</b></h4>
                 <ul>
@@ -254,7 +254,7 @@
 
           </div>
           <div class="col-md-6">
-            <a href="p1c.php">
+            <a href="p1c_penunjukkanLangsung.php">
               <div class="callout callout-warning">
                 <h4><b>PENUNJUKKAN LANGSUNG</b></h4>
                 <ul>
