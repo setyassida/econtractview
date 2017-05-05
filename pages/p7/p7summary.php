@@ -37,7 +37,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p5header.php" ?>
+  <?php include "p7header.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -45,13 +45,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evaluasi Administrasi
+        Opening Komersial
         <!-- <small>Daftar Bidder</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p5.php">Evaluasi Administrasi</a></li>
-        <li class="active"><a href="p5end.php">Data Opening</a></li>
+        <li><a href="p7.php">Opening Komersial</a></li>
+        <li class="active"><a href="p7summary.php">Summary</a></li>
       </ol>
     </section>
 
@@ -63,87 +63,101 @@
           <!-- box -->
             <div class="box box-primary">
               <div class="box-header">
-                <h3 class="box-title">Data Hasil Opening</h3>
+                <h3 class="box-title">Summary Penawaran</h3>
               </div>
               <!-- /.box-header -->
-              <div class="box-body"> 
-                <div class="callout callout-info">
-                  <h4><i class="icon fa fa-info"></i> Penandatanganan</h4>
-
-                  <p>Data dibawah membutuhkan tanda tangan dari <strong>Contract Manager atau Panitia Pengadaan.</strong> Unduhlah file dibawah dan upload file yang sudah ditanda tangani</p>
-                </div>
-                <div class="col-md-5 col-md-offset-1">
-                  <div class="box">
-                    <div class="box-body">
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Hasil Opening :</label>
-                        <div class="col-md-6">
-                          <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
-                        </div>
-                      </div>
-                      <!-- /.form-group -->
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Upload file yang sudah ditandatangani :</label>
-                        <div class="col-md-6" style="padding-top: 1rem">
-                          <input type="file" id="" accept=".pdf">
-                        </div>
-                      </div>
-                      <!-- /.form-group -->
-                    </div>
+              <div class="box-body "> 
+                <div class="col-md-6">
+                  <div class="form-group" style="margin-bottom: 0">
+                    <label class="control-label col-md-4">Nomor Kontrak:</label>
+                    <div class="form-control-static col-md-8">CA-17001</div>
+                  </div>
+                  <div class="form-group" style="margin-bottom: 0">
+                    <label class="control-label col-md-4">Judul Pekerjaan:</label>
+                    <div class="form-control-static col-md-8">STEAM CONDENSATE LINE</div>
+                  </div>
+                  <div class="form-group" style="margin-bottom: 0">
+                    <label class="control-label col-md-4">Tanggal Opening:</label>
+                    <div class="form-control-static col-md-8">20-Jan-2017</div>
+                  </div>
+                  <div class="form-group" style="margin-bottom: 0">
+                    <label class="control-label col-md-4">Waktu Opening:</label>
+                    <div class="form-control-static col-md-8">13:30</div>
                   </div>
                 </div>
-                <!-- /.col kiri -->
-                <div class="col-md-5">
-                  <div class="box">
-                    <div class="box-body">
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Hasil HPS :</label>
-                        <div class="col-md-6">
-                          <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
-                        </div>
-                      </div>
-                      <!-- /.form-group -->
-                      <div class="form-group">
-                        <label class="control-label col-md-6" ">Upload HPS yang sudah ditandatangani :</label>
-                        <div class="col-md-6" style="padding-top: 1rem">
-                          <input type="file" id="" accept=".pdf">
-                        </div>
-                      </div>
-                      <!-- /.form-group -->
-                    </div>
-                  </div>
+                <!-- /.kolom kiri -->
+                <div class="col-md-4">
+                  <label>Status Penawaran</label>
+                  <table class="table table-condensed table-bordered">
+                    <tbody>
+                      <tr>
+                        <td>Quote</td>
+                        <td>3</td>
+                      </tr>
+                      <tr>
+                        <td>Not Quote</td>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                        <td>No Respond</td>
+                        <td>3</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <!-- /.col kanan -->
+                <!-- /.kolom kanan -->
               </div>
               <!-- /.box-body -->
               <div class="box-footer">
-                <button type="button" class="btn btn-success pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#uploadModal">
-                <span class="glyphicon glyphicon-cloud-upload"></span> Upload
-                </button>
+                <button type="button" class="btn btn-primary pull-right " data-toggle="modal" style="margin-right: 5px;"data-target="#extendModal">Extend</button>
 
-                <div id="uploadModal" class="modal">
+                <div id="extendModal" class="modal fade">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header bg-green">
+                      <div class="modal-header bg-blue">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Upload Dokumen?</h4>
+                        <h4 class="modal-title">Perpanjang Opening Date?</h4>
                       </div>
                       <div class="modal-body">
-                        <p>Pastikan file pendukung yang Anda upload telah sesuai. Anda <span class="text-red">TIDAK DAPAT</span> merubah <i>Dokumen</i> setelah melakukan proses ini.</p>
-                        <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                        <li>Project Coordinator</li>
-                        <li>Contract Originator</li>
+                        <p>Proses ini akan memperpanjang Opening Date Contract Order yang berkaitan dengan Dokumen ini.</p>
+                        <div class="col-md-12">
+                          
+                            <div class="col-md-6" style="margin-bottom: 0.5rem">
+                              <div class="form-group">
+                                <div class="input-group date">
+                                  <input type="text" class="form-control input-sm" id="datepicker1" placeholder="Bid Opening Date">
+                                  <div class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6" style="margin-bottom: 0.5rem">
+                              <div class="form-group bootstrap-timepicker">
+                                <div class="input-group">
+                                  <input type="text" class="form-control timepicker input-sm">
+                                  <div class="input-group-addon">
+                                    <i class="fa fa-clock-o"></i>
+                                  </div>
+                                </div> 
+                              </div>
+                            </div>
+                          
+                          <!-- /.bid closing / opening date -->
+                        </div>
+                        <p>Proses ini akan mengirimkan notifikasi kepada semua bidder</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-success">Ya, Upload Dokumen</button>
+                        <button type="submit" class="btn btn-primary">Extend Opening Date</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->
                   </div>
                 </div>
                 <!-- /.modal -->
+                <a href="p7form.php" class="btn pull-right btn-success" style="margin-right: 5px;">Open</a>
               </div>
             </div>
             <!-- /.box -->

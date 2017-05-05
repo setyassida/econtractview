@@ -37,7 +37,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p5header.php" ?>
+  <?php include "p7header.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -45,13 +45,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evaluasi Administrasi
+        Opening Komersial
         <!-- <small>Daftar Bidder</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p5.php">Evaluasi Administrasi</a></li>
-        <li class="active"><a href="p5end.php">Data Opening</a></li>
+        <li><a href="p7.php">Opening Komersial</a></li>
+        <li class="active"><a href="p7end.php">Data Opening</a></li>
       </ol>
     </section>
 
@@ -76,7 +76,7 @@
                   <div class="box">
                     <div class="box-body">
                       <div class="form-group">
-                        <label class="control-label col-md-6" ">Hasil Opening :</label>
+                        <label class="control-label col-md-6" ">Hasil Risalah Opening Komersial :</label>
                         <div class="col-md-6">
                           <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
                         </div>

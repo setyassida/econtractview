@@ -87,7 +87,7 @@
                     <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
                   </div>
                   <!-- /.direct-chat-info -->
-                  <img class="direct-chat-img" src="../../resources/images/avatar/icon1.png" alt="Message User Image"><!-- /.direct-chat-img -->
+                  <img class="direct-chat-img" src="../../resources/images/avatar/icon2.png" alt="Message User Image"><!-- /.direct-chat-img -->
                   <div class="direct-chat-text">
                     Tidak ada.
                   </div>

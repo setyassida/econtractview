@@ -14,10 +14,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
-  <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
-  <!-- Bootstrap time Picker -->
-  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -37,7 +33,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p5header.php" ?>
+  <?php include "p7header.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -45,71 +41,74 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evaluasi Administrasi
+        Opening Komersial
         <!-- <small>Daftar Bidder</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p5.php">Evaluasi Administrasi</a></li>
-        <li class="active"><a href="p5finished.php">Hasil Opening</a></li>
+        <li class="active"><a href="p7.php">Opening Komersial</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-      <form class="form-horizontal">
-        <div class="row">
-          <div class="col-md-12">
-          <!-- box -->
-            <div class="box box-primary">
-              <div class="box-header">
-                <h3 class="box-title">Peserta Pengadaan Jasa</h3>
-              </div>
-              <!-- /.box-header -->
-              <div class="box-body">
-                <div class="box">
-                  <div class="box-body table-responsive">
-                    <table class="table table-bordered table-hover">
-                      <tr>
-                        <th>Nomor</th>
-                        <th>Perusahaan</th>
-                        <th>Nama Jelas</th>
-                        <th>Tanda Tangan</th>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>PT MJ</td>
-                        <td>Perusahaan Terpadu Maju Jaya</td>
-                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>PT DJ</td>
-                        <td>Perusahaan Terpadu Depan Jaya</td>
-                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>PT DO</td>
-                        <td>Perusahaan Terpadu Dan One</td>
-                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      </tr>
-                    </table>
-                  </div>
-                  <!-- /.box-body -->
-                </div>
-              </div>
-              <div class="box-footer">
-                <button class="btn btn-default pull-right "><i class="fa fa-print"></i> Print Peserta Pengadaan Jasa</button>
-              </div>
+      <div class="row">
+        <div class="col-md-12">
+
+        <!-- box bidder list -->
+          <div class="box box-danger">
+            <div class="box-header">
+              
             </div>
-            <!-- /.box -->
+            <!-- /.box-header -->
+            <div class="box-body "> 
+              <table id="example1" class="table table-bordered table-striped table-condensed">
+                <thead>
+                <tr>
+                  <th>Nomor Kontrak</th>
+                  <th>Judul Pekerjaan</th>
+                  <th>Status</th>
+                  <th>Tanggal Opening</th>
+                  <th>Detail</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td><a href="#">CA-17001</a></td>
+                  <td>STEAM CONDENSATE LINE</td>
+                  <td class="text-center"><span class="label label-warning">Await Opening</span></td>
+                  <td class="text-center">20-Jan-2017</td>
+                  <td class="text-center"><a href="p7summary.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">CB-17001</a></td>
+                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
+                  <td class="text-center"><span class="label label-primary">Await Document</span></td>
+                  <td class="text-center">22-Jan-2017</td>
+                  <td class="text-center"><a href="p7end.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#">CC-17001</a></td>
+                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
+                  <td class="text-center"><span class="label label-success">Finished</span></td>
+                  <td class="text-center">20-Feb-2017</td>
+                  <td class="text-center"><a href="p7finished.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                </tfoot>
+              </table>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+              
+            </div>
           </div>
-          <!-- /.col -->
+          <!-- /.box -->
         </div>
-        <!-- /.row -->
-      </form>
-      <!-- /.form -->
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
     </section>
     <!-- /.content -->
   </div>
@@ -131,10 +130,6 @@
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<!-- bootstrap datepicker -->
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
-<!-- bootstrap time picker -->
-<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -147,10 +142,6 @@
 <script>
   $(function () {
     $("#example1").DataTable();
-    //Date picker
-    $('#datepicker1').datepicker({autoclose: true});
-    //Time picker
-    $(".timepicker").timepicker({showInputs: false});
   });
 </script>
 </body>
