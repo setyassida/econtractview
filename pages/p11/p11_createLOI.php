@@ -212,7 +212,7 @@
 
   <section class="content">
 <div class="row">
-  <div class="col-md-9">
+  <div class="col-md-12">
 
 
     <div class="box">
@@ -247,7 +247,8 @@
       <!-- /.box-body -->
       <div class="box-footer">
         <div class="pull-right" style="margin-right: 2rem">
-								<button type="button" class="btn btn-success pull-right btn-sm" data-toggle="modal" data-target="#publishModal">Cetak Letter of Intent</button>
+          <button type="button" class="btn btn-default btn-sm pull right"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+          <button type="button" class="btn btn-success btn-sm pull right"><span class="glyphicon glyphicon-print"></span> Cetak</button>
 							</div>
 
       </div>
@@ -255,27 +256,7 @@
     <!-- /.box -->
 
   </div>
-  <div class="col-md-3">
-    <div class="box box-danger">
-      <div class="box-header with-border">
-        <h3 class="box-title">Upload Dokumen LoI</h3>
 
-      </div>
-      <div class="box-body">
-        <p>CE mengupload dokumen LoI yang telah ditandatangani oleh CM</p>
-        <input type="file" name="" value="">
-
-      </div>
-      <!-- /.box-body -->
-      <div class="box-footer">
-        <div class="pull-right" style="margin-right: 2rem">
-								<button type="button" class="btn btn-success pull-right btn-sm" data-toggle="modal" data-target="#publishModal">Upload</button>
-							</div>
-
-      </div>
-    </div>
-    <!-- /.box -->
-  </div>
 </div>
 
 

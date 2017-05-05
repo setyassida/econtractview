@@ -198,12 +198,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Kick of Meeting
+        Letter of Intent
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
-        <li class="active">Letter of Award</li>
+        <li>Letter of Intent</li>
+        <li class="active">Browse</li>
       </ol>
     </section>
 
@@ -227,15 +228,15 @@
               <th class="text-center" style="width:90px">Status</th>
               <th class="text-center" style="width:110px">Action</th>
               <th class="text-center" style="width:110px">Upload</th>
-              <th class="text-center" style="width:90px">Download</th>
+              <th class="text-center" style="width:90px">Download Dokumen Akhir</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-              <td><a href="p10_createKoM.php">CA-17001</a></td>
+              <td><a href="p11_createLOI.php">CA-17001</a></td>
               <td>PENGADAAN SISTEM INFORMASI</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p10_view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
+              <td><div class="text-center"><a href="p11_createLOI.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
             </tr>
@@ -282,10 +283,11 @@
         <!-- /.box-body -->
         <div class="box-footer">
           Keterangan Status : <br>
-          <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
-          <div class="col-md-1"><span class="label label-warning">Wait</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-          <div class="col-md-1"><span class="label label-default">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
+          <div class="col-md-1"><span class="label label-primary">To be Signed</span></div> <div class="col-md-11">: Menunggu persetujuan dari Approver</div>
+          <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
           <div class="col-md-1"><span class="label label-success">Created</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
+          <div class="col-md-1"><span class="label label-default">Wait</span></div> <div class="col-md-11">: Menunggu persetujuan dari Contract Manager</div>
+
         </div>
       </div>
       <!-- /.box -->

@@ -226,7 +226,7 @@
                   Bidder pemenang (winner) mendownload dokumen, kemudian ditandatangani, discan dan diupload kembali ke sistem melalui menu UPLOAD. <br></h4>
                 </div>
 
-                <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                <button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
 
               </div>
             </div>
@@ -241,7 +241,7 @@
                     Dokumen yang akan di unggah harus sudah ditandatangani dan discan, format dalam bentuk .PDF <br></h4>
                   </div>
 
-                  <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                  <button type="button" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
 
                 </div>
               </div>

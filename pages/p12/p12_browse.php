@@ -198,12 +198,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Kick of Meeting
+        Dokumen Kontrak
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
-        <li class="active">Letter of Award</li>
+        <li>Dokumen Kontrak</li>
+        <li class="active">Browse</li>
       </ol>
     </section>
 
@@ -223,7 +224,8 @@
             <thead>
             <tr>
               <th style="width:75px">Nomor Kontrak</th>
-              <th >Judul Pekerjaan</th>
+              <th>Judul Pekerjaan</th>
+              <th>Supplier</th>
               <th class="text-center" style="width:90px">Status</th>
               <th class="text-center" style="width:110px">Action</th>
               <th class="text-center" style="width:110px">Upload</th>
@@ -232,16 +234,18 @@
             </thead>
             <tbody>
             <tr>
-              <td><a href="p10_createKoM.php">CA-17001</a></td>
+              <td><a href="p12_create.php">CA-17001</a></td>
               <td>PENGADAAN SISTEM INFORMASI</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p10_view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
+              <td>PT. Suka Abadi</td>
+              <td><div class="text-center"><span class="label label-success">Created</span></div></td>
+              <td><div class="text-center"><a href="p12_create.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
             </tr>
             <tr>
               <td><a href="#">CA-17002</a></td>
               <td>PERBAIKAN INFRASTRUKTUR</td>
+              <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
               <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
@@ -250,7 +254,8 @@
             <tr>
               <td><a href="#">CA-17003</a></td>
               <td>PENGADAAN PERANGKAT LUNAK</td>
-              <td><div class="text-center"><span class="label label-primary">TBSigned</span></div></td>
+              <td>PT. Suka Abadi</td>
+              <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
               <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
@@ -259,6 +264,7 @@
             <tr>
               <td><a href="#">CA-17004</a></td>
               <td>PEMELIHARAAN</td>
+              <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-success">Created</span></div></td>
               <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
@@ -268,7 +274,8 @@
             <tr>
               <td><a href="#">CA-17005</a></td>
               <td>KEBERSIHAN</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+              <td>PT. Suka Abadi</td>
+              <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
               <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
@@ -282,10 +289,11 @@
         <!-- /.box-body -->
         <div class="box-footer">
           Keterangan Status : <br>
-          <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
-          <div class="col-md-1"><span class="label label-warning">Wait</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-          <div class="col-md-1"><span class="label label-default">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-          <div class="col-md-1"><span class="label label-success">Created</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
+          <!-- <div class="col-md-1"><span class="label label-primary">To be Signed</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
+          <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div> -->
+          <div class="col-md-1"><span class="label label-success">Created</span></div> <div class="col-md-11">: Dokumen telah disetujui oleh kedua belah pihak</div>
+          <div class="col-md-1"><span class="label label-default">Wait</span></div> <div class="col-md-11">: Menunggu Dokumen disetujui oleh kedua belah pihak dan di upload</div>
+
         </div>
       </div>
       <!-- /.box -->

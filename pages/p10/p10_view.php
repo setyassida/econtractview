@@ -198,12 +198,13 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Dokumen Kontrak
+      Detail Data Kick off Meeting
       <small></small>
     </h1>
     <ol class="breadcrumb">
       <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
-      <li>Dokumen Kontrak</li>
+      <li>Kick off Meeting</li>
+      <li>View</li>
       <li class="active">CA-17001</li>
     </ol>
   </section>
@@ -211,56 +212,70 @@
   <!-- Main content -->
 
   <section class="content">
-    <div class="row">
-      <div class="col-md-12">
 
-
-        <div class="box">
-          <div class="box-header with-border">
-            <h3 class="box-title">Detail Proyek Dokumen Kontrak</h3>
+    <div class="box">
+      <div class="box-header with-border">
+        <h3 class="box-title">Detail Dokumen</h3>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+            <i class="fa fa-minus"></i></button>
           </div>
-          <div class="box-body">
-            <div class="col-md-6">
-              <dt>Nomor Kontrak</dt>
-              <dd>CA-17001</dd> <br>
-              <dt>Judul Pekerjaan</dt>
-              <dd>Jasa Pemborongan Pekerjaan Pembuangan Sampah, Drum Bekas, Pemeliharaan Taman dan Kebersihan Lingkungan di Area Zone-I & II di PT Badak NGL Bontang, Paket “B” Tahun 2017” </dd> <br>
-              <dt>Jenis Kontrak</dt>
-              <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
-              <dt>Harga Kontrak <span class="small"><i>(Termasuk PPN 10%)</i></span></dt>
-              <dd>Rp. 400.000.000,- </dd> <br>
-              <dt>Durasi Kontrak</dt>
-              <dd>Durasi : 4 Bulan</dd>
-              <dd>Mulai : 17 September 2016 </dd>
-              <dd>Selesai : 10 Januari 2017 </dd> <br>
-              <dt>Kode Pembebanan Biaya</dt>
-              <dd>B757HJ</dd> <br>
-
-            </div>
-
-            <div class="col-md-6">
-              <dt>Nama Perusahaan</dt>
-              <dd>PT Nur Maulana</dd> <br>
-              <dt>Alamat Perusahaan </dt>
-              <dd>Jl. Anggrek I RT 37 No 43, Bukit Indah, Bontang – Kalimantan Timur </dd> <br>
-              <dt>Nama Pimpinan</dt>
-              <dd>Setyassid Novian Putra D </dd> <br>
-            </div>
-
-          </div>
-          <!-- /.box-body -->
-          <div class="box-footer">
-            <div class="pull-right" style="margin-right: 2rem">
-              <button type="button" class="btn btn-default btn-sm pull right"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-              <button type="button" class="btn btn-success btn-sm pull right"><span class="glyphicon glyphicon-print"></span> Cetak</button>
-            </div>
-
-          </div>
+      </div>
+      <div class="box-body">
+        <div class="col-md-4">
+          <dt>Nomor Kontrak</dt>
+          <dd>CO-17001</dd> <br>
+          <dt>Judul Pekerjaan </dt>
+          <dd>Pengadaan Sistem Informasi Kepegawaian</dd> <br>
+          <dt>Jenis Kontrak</dt>
+          <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
+          <dt>Durasi Kontrak</dt>
+          <dd>Durasi : 4 Bulan</dd>
+          <dd>Mulai : 17 September 2016 </dd>
+          <dd>Selesai : 10 Januari 2017 </dd> <br>
+          <dt>Nilai Kontrak</dt>
+          <dd>Rp. 400.000.000,- </dd> <br>
         </div>
-        <!-- /.box -->
+
+            <div class="col-md-4">
+              <dt>Laporan CSMS</dt>
+              <dd><div class="checkbox">
+                 <label>
+                   <input type="checkbox" checked="true" disabled="true">
+                   Ya
+                 </label>
+               </div></dd> <br>
+               <dt>Performance Bond <span class="small"><i>(5% dari nilai kontrak dan belum termasuk PPN 10%)</i></span></dt>
+               <dd>Rp. 16.000.000,- </dd> <br>
+               <dt>Nilai SI (Standing Instruction) </dt>
+               <dd>87</dd> <br>
+               <dt>Penangguhan Pembayaran <span class="small"><i>(0-100%)</i></span> </dt>
+               <dd>0 % </dd> <br>
+            </div>
+
+            <div class="col-md-4">
+              <dl>
+                 <dt>Nomor PR Service</dt>
+                 <dd>0001/BB41/2017-532</dd> <br>
+                 <dt>Tanggal Kick of Meeting</dt>
+                 <dd>17 Agustus 2017</dd> <br>
+                 <dt>Nama Bank</dt>
+                 <dd>MANDIRI</dd> <br>
+                 <dt>Nomor Rekening</dt>
+                 <dd>900853426</dd> <br>
+               </dl>
+            </div>
+      </div>
+      <!-- /.box-body -->
+      <div class="box-footer">
+        <div class="pull-right" style="margin-right: 2rem">
+          <button type="button" class="btn btn-default btn-sm pull right"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+          <button type="button" class="btn btn-success btn-sm pull right"><span class="glyphicon glyphicon-print"></span> Cetak</button>
+							</div>
 
       </div>
     </div>
+    <!-- /.box -->
 
 
 
@@ -278,21 +293,21 @@
 </footer>
 
 <div id="publishModal" class="modal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-      </div>
-      <div class="modal-body">
-        <h4 class="modal-title">Apakah anda yakin untuk mencetak Dokumen Kontrak ini?</h4>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
-        <button type="submit" class="btn btn-success">Ya</button>
-      </div>
-    </div>
-    <!-- /.modal-content -->
-  </div>
-</div>
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					</div>
+					<div class="modal-body">
+						<h4 class="modal-title">Apakah anda yakin untuk menyimpan formulir ini?</h4>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+						<button type="submit" class="btn btn-success">Ya</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+		</div>
 
 
 <!-- ./wrapper -->

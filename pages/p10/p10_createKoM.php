@@ -300,7 +300,9 @@
       <!-- /.box-body -->
       <div class="box-footer">
         <div class="pull-right" style="margin-right: 2rem">
-								<button type="button" class="btn btn-success pull-right btn-sm" data-toggle="modal" data-target="#publishModal">Simpan</button>
+          <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button>
+          <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#saveModal"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
+          <a href="p4.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;"> Back</button></a>
 							</div>
 
       </div>
