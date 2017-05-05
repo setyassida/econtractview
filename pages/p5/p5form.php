@@ -108,7 +108,7 @@
                         <thead>
                           <th>No</th>
                           <th>Penawar</th>
-                          <th>Penawaran (IDR)</th>
+                          <th>Penawaran (IDR) <br> <span class="text-red">(1 Sampul)</span></th>
                           <th>Penandatanganan Direktur</th>
                           <th>Neraca Perusahaan dan Pendapat Akuntan Publik</th>
                           <th>Evaluasi Administrasi</th>
