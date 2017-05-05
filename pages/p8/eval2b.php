@@ -385,50 +385,61 @@
                                   <div class="box-body">
                                     <table class="table table-bordered">
                                       <tr>
-                                        <th style="width: 10px" rowspan="2">No</th>
-                                        <th rowspan="2">Penawar</th>
-                                        <th style="width: 200px" rowspan="2">Penawaran Asli (Rp)</th>
-                                        <th style="width: 200px" rowspan="2">Penawaran Terkoreksi (RP)</th>
+                                        <th style="width: 10px" rowspan="1">No</th>
+                                        <th>Penawar</th>
+                                        <th style="width: 200px">Penawaran Asli (Rp)</th>
+                                        <th style="width: 200px">Penawaran Terkoreksi (RP)</th>
                                         <th style="width: 20px" colspan="2">Ranking</th>
 <!--                                         <th style="width: 10px">Ranking Asli</th>
                                         <th style="width: 10px">Ranking Koreksi</th> -->
-                                        <th rowspan="2"> Administrasi</th>
-                                        <th rowspan="2">Teknis</th>
+                                        <th>Administrasi</th>
+                                        <th>Teknis</th>
                                       </tr>
                                       <tr>
+                                        <th style="width: 10px"></th>
+                                        <th></th>
+                                        <th style="width: 200px"></th>
+                                        <th style="width: 200px"></th>
                                         <th style="width: 10px">Asli</th>
                                         <th style="width: 10px">Koreksi</th>
-                                        
+                                        <th></th>
+                                        <th></th>
                                       </tr>                                      
-                                      <tr>
+                                     <tr>
                                         <td>1.</td>
-                                        <td>-</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td> 0 </td>
-                                        <td> 0 </td>
-                                        <td>  </td>
-                                        <td>  </td>
+                                        <td>PT Hasanah Sumber Utama</td>
+                                        <td>1.150.000.000</td>
+                                        <td>950.000.000</td>
+                                        
+                                        <td> 2 </td>
+                                        <td> 1 </td>
+                                        <td> Lulus </td>
+                                        <td> lulus </td>
+                                        <!-- <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td> -->
                                       </tr>
                                       <tr>
                                         <td>2.</td>
-                                        <td>-</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td> 0 </td>
-                                        <td> 0 </td>
-                                        <td>  </td>
-                                        <td>  </td>
+                                        <td>PT Aimindo Adie Perkasa</td>
+                                        <td>1.050.000.000</td>
+                                        <td>1.200.000.000</td>
+                                        
+                                        <td> 1 </td>
+                                        <td> 2 </td>
+                                        <td> Lulus </td>
+                                        <td> lulus </td>
+                                        <!-- <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td> -->
                                       </tr>
                                       <tr>
                                         <td>3.</td>
-                                        <td>-</td>
+                                        <td>PT Abdi Jati</td>
+                                        <td>1.250.000.000</td>
+                                       
                                         <td>0</td>
-                                        <td>0</td>
-                                        <td> 0 </td>
-                                        <td> 0 </td>
-                                        <td>  </td>
-                                        <td>  </td>
+                                        <td> 3 </td>
+                                        <td> 3 </td>
+                                        <td> Lulus </td>
+                                        <td> lulus </td>
+                                        <!-- <td><textarea id="inputKeterangan" rows="1" placeholder="Status" class="form-control" style="resize:none"></textarea></td> -->
                                       </tr>
                                     </table>
                                   </div>
@@ -458,12 +469,11 @@
 
                           </div>
                            <div class="col-md-12 box-footer" style="text-align: right;">
-                                     <a href="eval.php">
+                           <a href="eval.php">
                                     <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;">
                                     Back
                                   </button>               
                           </a>
-                          
                                     <a href="eval3.php"><button type="button" class="btn btn-success btn-sm" title="Lanjut Rincian Penawaran">Lanjut Rincian Penawaran</button></a>
                             </div>
                         </div>
