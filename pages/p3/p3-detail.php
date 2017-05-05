@@ -154,9 +154,9 @@
             <li><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li class="active"><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
             <li><a href="../p4/p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
+            <li><a href="../p5/p5.php"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
             <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
-            <li><a href=""><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li><a href="../p8/eval.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>     
@@ -321,8 +321,8 @@
                                             </div>
                                         </div>
                                         <div class="modal-footer">
-                                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
+                                          <button type="button" class="btn pull-left btn-sm" data-dismiss="modal">Close</button>
+                                          <button type="submit" class="btn btn-default btn-sm"><span class="fa fa-cog"></span> Modify</button>
                                         </div>
                                       </div>
                                     </div>
@@ -450,7 +450,7 @@
             <!-- /.box-body -->
             <div class="box-footer">
               <a href="p3.php">
-                <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
+                <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;">
                   Back
                 </button>
               </a>

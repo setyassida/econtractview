@@ -147,9 +147,9 @@
             <li><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
             <li class="active"><a href="../p4/p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
-             <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
-            <li><a href=""><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li><a href="../p5/p5.php"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
+            <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+            <li><a href="../p8/eval.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>     
@@ -211,113 +211,230 @@
 
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
-      <div class="box
-      ">
-        <div class="box-header with-border">
-          <div class="row">
-            <div class="col-md-12">
-              <a href="p4-create.php"><button class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Buat HPS Baru</button></a>
-            </div>
-          </div>
-
-        </div>
-        <!-- /.box-header -->
-        <div class="box-body">
-
-
-            <!-- main column-->
+      <div class="nav-tabs-custom tab-default">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab_1" data-toggle="tab">eContract</a></li>
+        <li><a href="#tab_2" data-toggle="tab">eProcurement</a></li>
+        
+        
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab_1">
           
-
-          <table id="dataTable" class="table table-bordered table-condensed table-hover">
-            <thead>
-            <tr>
-              <th style="width:100px">Nomor HPS</th>
-              <th style="width:100px">Tanggal Opening</th>
-              <th style="width:100px">Nomor Kontrak</th>
-              <th>Judul Pekerjaan</th>
-              <th style="width:50px">Status</th>
-              <th style="width:60px">Lihat HPS <span class="text-red">(Estimator)</span></th>
-              <th style="width:50px">Approve <span class="text-red">(Approver)</span></th>
-              <th style="width:60px">Upload Hasil Scan <span class="text-red">(Estimator)</span></th>
-              <th style="width:60px">Dokumen HPS <span class="text-red">(All)</span></th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td><a href="p4-view.php?no=CO-17001">0001/HPS/2017</a></td>
-              <td>01-01-2017</td>
-              <td>CA-17001</td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
+          <div class="box box-solid">
+            
+            <div class="row">
+              <div class="col-md-12">
+                <a href="p4-create.php"><button class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Create HPS</button></a>
+              </div>
+            </div>
+            
+            <div class="box-body">
+              <table id="dataTable" class="table table-bordered table-condensed table-hover">
+                <thead>
+                <tr>
+                  <th style="width:100px">Nomor HPS</th>
+                  <th style="width:75px">Tanggal Opening</th>
+                  <th style="width:75px">Nomor Kontrak</th>
+                  <th>Judul Pekerjaan</th>
+                  <th style="width:50px">Status</th>
+                  <th style="width:50px">Edit HPS <span class="text-red">(Estimator)</span></th>
+                  <th style="width:60px">Lihat HPS <span class="text-red">(All)</span></th>
+                  <th style="width:50px">Lihat HPS <span class="text-red">(Approver)</span></th>
+                  <th style="width:60px">Upload Hasil Scan <span class="text-red">(Estimator)</span></th>
+                  <th style="width:60px">Dokumen HPS <span class="text-red">(All)</span></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td><a href="p4-view.php?no=CO-17001">0003/HPS/2017</a></td>
+                  <td>01-01-2017</td>
+                  <td>CA-17001</td>
+                  <td>PENGADAAN SISTEM INFORMASI</td>
+                  <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
+                  <td><div class="text-center"><a href="p4-edit.php" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  
+                  
+                </tr>
+                <tr>
+                  <td><a href="p4-view.php?no=CO-17001">0004/HPS/2017</a></td>
+                  <td>25-03-2018</td>
+                  <td>CC-167321</td>
+                  <td>PERBAIKAN INFRASTRUKTUR</td>
+                  <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
+                  <td><div class="text-center" ><a href="p4-edit.php" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  
+                </tr>
+                <tr>
+                  <td><a href="p4-view.php?no=CO-17001">0001/HPS/2017</a></td>
+                  <td>17-02-2018</td>
+                  <td>CB-18121</td>
+                  <td>PENGADAAN PERANGKAT LUNAK</td>
+                  <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+                  <td><div class="text-center"><a href="p4-edit.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  
+                </tr>
+                <tr>
+                  <td><a href="p4-view.php?no=CO-17001">0002/HPS/2017</a></td>
+                  <td>28-01-2018</td>
+                  <td>CA-17001</td>
+                  <td>PEMELIHARAAN</td>
+                  <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+                  <td><div class="text-center"><a href="p4-edit.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  
+                </tr>
+                <tr>
+                  <td><a href="p3-view.php?no=CO-17001">0005/HPS/2017</a></td>
+                  <td>28-01-2018</td>
+                  <td>CB-17555</td>
+                  <td>KEBERSIHAN</td>
+                  <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
+                  <td><div class="text-center"><a href="p4-edit.php" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="box-footer">
+              Keterangan Status : <br>
+              <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
+              <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
+              <div class="col-md-1"><span class="label label-success">Approved</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
+            </div>
+            
+          </div>
         </div>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="p4-view.php?no=CO-17001">0002/HPS/2017</a></td>
-              <td>25-03-2018</td>
-              <td>CC-167321</td>
-              <td>PERBAIKAN INFRASTRUKTUR</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="p4-view.php?no=CO-17001">0003/HPS/2017</a></td>
-              <td>17-02-2018</td>
-              <td>CB-18121</td>
-              <td>PENGADAAN PERANGKAT LUNAK</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="p4-view.php?no=CO-17001">0004/HPS/2017</a></td>
-              <td>28-01-2018</td>
-              <td>CA-17001</td>
-              <td>PEMELIHARAAN</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="p3-view.php?no=CO-17001">0005/HPS/2017</a></td>
-              <td>28-01-2018</td>
-              <td>CB-17555</td>
-              <td>KEBERSIHAN</td>
-              <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
-              <th><div class="text-center"><a href="p4-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></th>
-              <th><div class="text-center"><a href="p4-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-            </tr>
-            <tbody>
-          </table>
-
-
+        <!-- /.tab-pane -->
+        <div class="tab-pane" id="tab_2">
+          <div class="box box-solid">
+            
+            <div class="row">
+              <div class="col-md-12">
+                <a href="p4-create-eproc.php"><button class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Create HPS</button></a>
+              </div>
+            </div>
+            
+            <div class="box-body">
+              <table id="dataTable2" class="table table-bordered table-condensed table-hover">
+                <thead>
+                <tr>
+                  <th style="width:100px">Nomor HPS</th>
+                  <th style="width:75px">Tanggal Opening</th>
+                  <th style="width:75px">Nomor Kontrak</th>
+                  <th>Judul Pekerjaan</th>
+                  <th style="width:50px">Status</th>
+                  <th style="width:60px">Upload Dokumen HPS <span class="text-red">(Estimator)</span></th>
+                  <th style="width:60px">Lihat HPS <span class="text-red">(All)</span></th>
+                  <th style="width:50px">Lihat HPS <span class="text-red">(Approver)</span></th>
+                  
+                  <th style="width:60px">Dokumen HPS <span class="text-red">(All)</span></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td><a href="p4-view.php?no=CO-17001">0003/HPS/2017</a></td>
+                  <td>01-01-2017</td>
+                  <td>CA-17001</td>
+                  <td>PENGADAAN SISTEM INFORMASI</td>
+                  <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
+                  <td><div class="text-center" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><div class="text-center"><a href="p4-view-eproc.php" ><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve-eproc.php" ><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  
+                  
+                </tr>
+                <tr>
+                  <td><a href="p4-view.php?no=CO-17001">0004/HPS/2017</a></td>
+                  <td>25-03-2018</td>
+                  <td>CC-167321</td>
+                  <td>PERBAIKAN INFRASTRUKTUR</td>
+                  <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
+                  <td><div class="text-center" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><div class="text-center"><a href="p4-view-eproc.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve-eproc.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  
+                </tr>
+                <tr>
+                  <td><a href="p4-view.php?no=CO-17001">0001/HPS/2017</a></td>
+                  <td>17-02-2018</td>
+                  <td>CB-18121</td>
+                  <td>PENGADAAN PERANGKAT LUNAK</td>
+                  <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+                  <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><div class="text-center"><a href="p4-view-eproc.php" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve-eproc.php" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  
+                  <td><div class="text-center" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                  
+                </tr>
+                <tr>
+                  <td><a href="p4-view.php?no=CO-17001">0002/HPS/2017</a></td>
+                  <td>28-01-2018</td>
+                  <td>CA-17001</td>
+                  <td>PEMELIHARAAN</td>
+                  <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+                  <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><div class="text-center"><a href="p4-view-eproc.php" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve-eproc.php" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  
+                  <td><div class="text-center" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                  
+                </tr>
+                <tr>
+                  <td><a href="p3-view.php?no=CO-17001">0005/HPS/2017</a></td>
+                  <td>28-01-2018</td>
+                  <td>CB-17555</td>
+                  <td>KEBERSIHAN</td>
+                  <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
+                  <td><div class="text-center" hidden><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                  <td><div class="text-center"><a href="p4-view-eproc.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  <td><div class="text-center"><a href="p4-approve-eproc.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
+                  
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="box-footer">
+              Keterangan Status : <br>
+              <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
+              <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
+              <div class="col-md-1"><span class="label label-success">Approved</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
+            </div>
+            
+          </div>
         </div>
-        <!-- /.box-body -->
-        <div class="box-footer">
-          Keterangan Status : <br>
-          <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
-          <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-          <div class="col-md-1"><span class="label label-success">Approved</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
-        </div>
+        
       </div>
-      <!-- /.box -->
+      <!-- /.tab-content -->
+    </div>
+    <!-- nav-tabs-custom -->
+
+
+      
   </section>
 
     <!-- /.content -->
@@ -362,6 +479,7 @@
 <script>
   $(function () {
     $("#dataTable").DataTable();
+    $("#dataTable2").DataTable();
   });
 </script>
 

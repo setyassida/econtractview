@@ -60,16 +60,16 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../resources/images/avatar/icon5.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">APPROVER</span>
+              <img src="../../resources/images/avatar/icon4.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">ESTIMATOR</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="../../resources/images/avatar/icon5.png" class="img-circle" alt="User Image">
+                <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
 
                 <p>
-                 APPROVER
+                 ESTIMATOR
             
                 </p>
               </li>
@@ -99,10 +99,10 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="../../resources/images/avatar/icon5.png" class="img-circle" alt="User Image">
+          <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>APPROVER</p>
+          <p>ESTIMATOR</p>
           
         </div>
       </div>
@@ -142,13 +142,13 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-         <ul class="treeview-menu">
+          <ul class="treeview-menu">
             <li><a href="../p1/p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
             <li><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
-            <li><a href="../p4/p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+            <li class="active"><a href="../p4/p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
             <li><a href="../p5/p5.php"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
-            <li class="active"><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+            <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <li><a href="../p8/eval.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
@@ -198,13 +198,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Evalusi Teknis
-        <small>CA-17001</small>
+        Contract Order
+        <small>Harga Perkiraan Sendiri</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="p6.php">Evaluasi Teknis</a></li>
-        <li class="active">CA-17001</li>
+        <li class="active"><a href="p4.php">Harga Perkiraan Sendiri</a></li>
+        <li>Create</li>
       </ol>
     </section>
 
@@ -212,214 +212,40 @@
 
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
-      <div class="row">
-        <div class="col-md-3">
-          <div class="info-box">
-            <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Approver 1</span>
-              <strong>Sarah Connor</strong>
-              <br><br>
-              <div class="text-right text-success"><i class="fa fa-check"></i></div>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info-box">
-            <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Approver 2</span>
-              <strong>Katniss Everdeen</strong>
-              <br><br>
-              <div class="text-right text-success"><i class="fa fa-check"></i></div>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info-box" style="box-shadow: 0 0 3px 3px rgba(0, 140, 186, 0.5)">
-            <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-            <div class="info-box-content" >
-              <span class="info-box-text">Approver 3</span>
-              <strong>Peeta Mellark</strong>
-              <br><br>
-              <div class="text-right text-success"><i class="fa fa-clock-o"></i></div>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info-box">
-            <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Approver 4</span>
-              <strong>Jack Sparrow</strong>
-              <br><br>
-              <div class="text-right text-success"><i class="fa fa-clock-o"></i></div>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-        </div>
-      </div>
-
-      <div class="box box-success">
-          <form class="form-horizontal">
-          <div class="box-header with-border">
-            <h4>Form Evaluasi Teknis</h4>
-          </div>
-          <!-- /.box-header -->
-          <div class="box-body">
+      <form class="form-horizontal">
+      <div class="box">
+        <div class="box-header with-border">
+          <div class="row">
             <div class="col-md-12">
-              <div class="form-group"> 
-                <label class="control-label col-md-2">Nomor Kontrak : </label>
-                <div class="form-control-static col-md-10">
-                  CA-17001
-                </div>
-                
-              </div>
-              
-            </div>
-
-            <div class="col-md-12">
-              
-
-              <table class="table table-bordered table-condensed table-stripped">
-                <thead>
-                  <tr>
-                    <td style="width:25px">No.</td>
-                    <td style="width:200px">Nama Rekanan</td>
-                    <td style="width:55px">Score</td>
-                    <td style="width:125px">Kesimpulan</td>
-                    <td>Keterangan Singkat</td>
-                    <td style="width:100px">Dokumen Hasil Evaltek</td>
-                    <td style="width:100px">Dokumen Klarifikasi</td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>PT A MAJU JAYA</td>
-                    <td>75</td>
-                    <td>
-                      Lulus
-                    </td>
-                    <td>
-                      -
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>PT B HARAPAN BANGSA</td>
-                    <td>80</td>
-                    <td>
-                      Lulus
-                    </td>
-                    <td>
-                      -
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>PT C KARYA MAS</td>
-                    <td>70</td>
-                    <td>
-                      Tidak Lulus
-                    </td>
-                    <td>
-                      Tidak memenuhi kriteria kebutuhan
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>PT D CAHAYA TERANG</td>
-                    <td>72</td>
-                    <td>
-                      Tidak Lulus
-                    </td>
-                    <td>
-                      Tidak memenuhi kriteria kebutuhan
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td>PT E MAKMUR ABADI</td>
-                    <td>78</td>
-                    <td>
-                      Lulus
-                    </td>
-                    <td>
-                      -
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
-                    <td>PT F HAN WOK STEEL</td>
-                    <td>59</td>
-                    <td>
-                      Tidak Lulus
-                    </td>
-                    <td>
-                      Tidak memenuhi uji kelayakan
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-
-              
+              <h4>Buat HPS Baru</h4>
             </div>
           </div>
-          <!-- /.box-body -->
-          <div class="box-footer">
 
-            
-            <a href="p6.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px">Back</button></a>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
           
+            <div class="form-group">
+              <label class="control-label col-md-2">Nomor Kontrak :</label>
+              <div class="col-md-3">
+                <input type="text" class="form-control input-sm" placeholder="LOOKUP...">
+              </div>
+              <a href="p4-edit-eproc.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Create</button></a>
+            </div>
+
             
 
-          </div>
-          </form>
+          
+        </div>
+        <!-- /.box-body -->
+
+        <div class="box-footer">
+          
+          
+          
+        </div>
       </div>
+      </form>
       <!-- /.box -->
   </section>
 
