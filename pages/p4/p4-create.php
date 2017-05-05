@@ -213,7 +213,7 @@
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
       <form class="form-horizontal">
-      <div class="box box-danger">
+      <div class="box">
         <div class="box-header with-border">
           <div class="row">
             <div class="col-md-12">
@@ -230,7 +230,7 @@
               <div class="col-md-3">
                 <input type="text" class="form-control input-sm" placeholder="LOOKUP...">
               </div>
-              <a href="p4-view.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Create</button></a>
+              <a href="p4-edit.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Create</button></a>
             </div>
 
             

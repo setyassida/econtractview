@@ -234,8 +234,9 @@
               <th style="width:75px">Nomor Kontrak</th>
               <th >Judul Pekerjaan</th>
               <th style="width:100px">Status Evaluasi Teknis</th>
-              <th style="width:100px">Lihat Evaltek <span class="text-red">(PO/CO)</span></th>
-              <th style="width:60px">Approve <span class="text-red">(Approver)</span></th>
+              <th style="width:50px">Edit <span class="text-red">(PO/CO)</span></th>
+              <th style="width:60px">Lihat Evaltek <span class="text-red">(All)</span></th>
+              <th style="width:60px">Lihat Evaltek <span class="text-red">(Approver)</span></th>
               <th style="width:75px">Upload Hasil Scan <span class="text-red">(PO/CO)</span></th>
               <th style="width:50px">Dokumen Evaltek<span class="text-red">(All)</span></th>
             </tr>
@@ -245,8 +246,9 @@
               <td><a href="#">CA-17001</a></td>
               <td>PENGADAAN SISTEM INFORMASI</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+              <td><div class="text-center"><a href="p6-edit.php"><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
               <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>
               <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
               <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
@@ -255,8 +257,9 @@
               <td><a href="#">CA-17002</a></td>
               <td>PERBAIKAN INFRASTRUKTUR</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+              <td><div class="text-center"><a href="p6-edit.php"><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
               <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>
               <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
               <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
@@ -265,8 +268,9 @@
               <td><a href="#">CA-17003</a></td>
               <td>PENGADAAN PERANGKAT LUNAK</td>
               <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
+              <td><div class="text-center"><a href="p6-edit.php" hidden><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
               <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>
               <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
               <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
@@ -275,8 +279,9 @@
               <td><a href="#">CA-17004</a></td>
               <td>PEMELIHARAAN</td>
               <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
+              <td><div class="text-center"><a href="p6-edit.php" hidden><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
               <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>
               <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
               <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
@@ -285,112 +290,14 @@
               <td><a href="#">CA-17005</a></td>
               <td>KEBERSIHAN</td>
               <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
+              <td><div class="text-center"><a href="p6-edit.php" hidden><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
               <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
+              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>
               <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
               <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
             </tr>
-            <tr>
-              <td><a href="#">CA-17011</a></td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="#">CA-17012</a></td>
-              <td>PERBAIKAN INFRASTRUKTUR</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="#">CA-17013</a></td>
-              <td>PENGADAAN PERANGKAT LUNAK</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="#">CA-17014</a></td>
-              <td>PEMELIHARAAN</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="#">CA-17015</a></td>
-              <td>KEBERSIHAN</td>
-              <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="#">CA-17021</a></td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="#">CA-17022</a></td>
-              <td>PERBAIKAN INFRASTRUKTUR</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="#">CA-17023</a></td>
-              <td>PENGADAAN PERANGKAT LUNAK</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="#">CA-17024</a></td>
-              <td>PEMELIHARAAN</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td><a href="#">CA-17025</a></td>
-              <td>KEBERSIHAN</td>
-              <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-success btn-xs">Approve</button></a></div></th>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
+            
             <tbody>
           </table>
 

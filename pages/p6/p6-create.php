@@ -227,7 +227,7 @@
                   <div class="col-md-3">
                     <input type="text" class="form-control input-sm" placeholder="LOOKUP..." required>
                   </div>
-                  <a href="p6-view.php"><button type="button" class="btn btn-success btn-sm">Create</button></a>
+                  <a href="p6-edit.php"><button type="button" class="btn btn-success btn-sm">Create</button></a>
                  </div>
               </form>
             </div>

@@ -321,8 +321,8 @@
                                             </div>
                                         </div>
                                         <div class="modal-footer">
-                                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
+                                          <button type="button" class="btn pull-left btn-sm" data-dismiss="modal">Close</button>
+                                          <button type="submit" class="btn btn-default btn-sm"><span class="fa fa-cog"></span> Modify</button>
                                         </div>
                                       </div>
                                     </div>
@@ -450,7 +450,7 @@
             <!-- /.box-body -->
             <div class="box-footer">
               <a href="p3.php">
-                <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
+                <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;">
                   Back
                 </button>
               </a>

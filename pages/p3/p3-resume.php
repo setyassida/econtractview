@@ -303,13 +303,13 @@
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              <button type="button" class="btn btn-info pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#resumeModal">
+              <button type="button" class="btn btn-info btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#resumeModal">
                 <span class="glyphicon glyphicon-play"></span> Resume Pre-Bid Meeting
               </button>
               <div id="resumeModal" class="modal">
                 <div class="modal-dialog">
                   <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header bg-aqua">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
                       <h4 class="modal-title">Are You Sure to Resume It?</h4>
@@ -321,15 +321,15 @@
                       <li>Lead Contract Engineer</li>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                      <button type="submit" class="btn btn-info">Yes, Resume It</button>
+                      <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-info btn-sm">Yes, Resume It</button>
                     </div>
                   </div>
                     <!-- /.modal-content -->
                 </div>
               </div>
               <a href="p3.php">
-                <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
+                <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;">
                   Back
                 </button>
               </a>
