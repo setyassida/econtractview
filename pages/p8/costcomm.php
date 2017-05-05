@@ -59,16 +59,16 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../resources/images/avatar/icon2.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">ESTIMATOR</span>
+              <img src="../../resources/images/avatar/icon4.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">Project Coordinator</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="../../resources/images/avatar/icon2.png" class="img-circle" alt="User Image">
+                <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
 
                 <p>
-                 ESTIMATOR
+                 Project Coordinator
 
                 </p>
               </li>
@@ -98,10 +98,10 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="../../resources/images/avatar/icon2.png" class="img-circle" alt="User Image">
+          <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>ESTIMATOR</p>
+          <p>Project Coordinator</p>
 
         </div>
       </div>
@@ -197,7 +197,7 @@
     <section class="content-header">
       <h1>
         Contract Order
-        <small>Evaluasi Komersial</small>
+        <small>Konfirmasi Ketersediaan Anggaran</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -206,213 +206,146 @@
       </ol>
     </section>
 
+    <!-- Main content -->
     <section class="content">
-      <div class="row">
-          <div class="col-md-4">
-             <div class="box box-success">
-                <div class="box-header">
-                  <h3 class="box-title">Detail Contract</h3>
-                    <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
-                   </div>
-                </div>
-                <div class="box-body">
-                  <div class="col-md-12">
-                      <dt>Contract Order:</dt>
-                      <dd>CA-17001</dd>
-                      <dt>Judul Pekerjaan:</dt>
-                      <dd>Kontrak Jasa Penambahan Alat Berat</dd>
-                      <dt>Tanggal Pembukaan:</dt>
-                      <dd>17-Januari-2016</dd>
-                      <dt>Jenis Kontrak:</dt>
-                      <dd>Harga Satuan</dd>
-                      <dt>Durasi</dt>
-                      <dd>2 Bulan</dd>
-                      <dt>Budget</dt>
-                      <dd>Rp 1.5 M</dd>
-                      <dt>Keterangan</dt>
-                      
-                        <div class="col-md-12">
-                          <textarea id="inputKeterangan" rows="5" placeholder="Type Here.." class="form-control" style="resize:none"></textarea>
-                        </div>
-                        
+      <!-- Info boxes -->
+      <div class="box-body">
+        <div class="box box-danger">
+            <div class="box-header">
+              <div class="row">
+                      <div class="col-md-3">
+                        <dt>Contract Order:</dt>
+                        <dd>CA-17001</dd>
+                      </div>
+                      <div class="col-md-4">
+                        <dt>Judul Pekerjaan:</dt>
+                         <dd>Kontrak Jasa Penambahan Alat Berat</dd>
+                      </div>
+                      <div class="col-md-4">
+                        <dt>Kurs Dollar:</dt>
+                         <dd>Rp 13.400</dd>
+                      </div>
+
                   </div>
-                  
-                </div>
-
-
-
-             </div>
-
-          </div>
-          <div class="col-md-8">
-                      <div class="box box-success">
-                          <div class="box-header with-border">
-                            <h5>Hasil Pembukaan</h5>
-                             <div class="box-tools pull-right">
-                                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
-                            </div>
-                          </div>
-                          <!-- /.box-header -->
-                          <div class="box-body">
-                            <table class="table table-bordered table-condensed">
-                              <tr>
-                                <th style="width: 10px">#</th>
-                                <th>Penawar</th>
-                                <th>Penawaran (Rp)</th>
-                                <th>Penalty Point</th>
-                                <th>Sanksi ( BL/SC )</th>
-                                <th>Evaluasi admnistrasi</th>
-                              </tr>
-                              <tr>
-                                <td>1.</td>
-                                <td>PT Aimindo Adie Perkasa</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>2.</td>
-                                <td>PT Hasanah Sumber Utama</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>3.</td>
-                                <td>PT Harta</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>4.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>5.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>6.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>7.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>8.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-
-                            </table>
-
-                            
-                          </div>
-
-                      </div>
-
-
-
-                    </div>
-        
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-                      <div class="box box-warning">
-                        <div class="box-header with-border">
-                          <h3 class="box-title">ESTIMASI PTB</h3>
-                          <div class="box-tools pull-right">
-                                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
-                            </div>
-                        </div>
-                        <div class="box-body">
-                          <table class="table table-bordered table-condensed">
-                            <tr>
-                              <th>HPS Minimum</th>
-                              <th>HPS Most Likely</th>
-                              <th>HPS Maksimum</th>
-                            </tr>
-                            <tr>
-                              <td> Rp 4.500.000.000 </th>
-                              <td> Rp 5.000.000.000 </th>
-                              <td> Rp 3.000.000.000 </th>
-                            </tr>
-                          </table>
-                        </div>
-
-
-                      </div>
-
-        </div> 
-      </div>    
-
-
-      <div class="row">
-          <div class="col-md-12">
-              <div class="box box-success">
-          <form class="form-horizontal">
-            <div class="box-header with-border">
-              <h3 class="box-title">Evaluasi Teknis</h3>
             </div>
             <!-- /.box-header -->
-            <div class="box-body">
-                <div class="col-md-12">
-                                    <h5> Tidak diperlukan. Karena termasuk Ke dalam metode penunjukkan dan pengadaan langsung</h5>
+            <div class="box-body "> 
+               <div class="col-md-12">
+                  
+                      
+                                            
                 </div>
 
-                
+              <table class="table table-bordered table-condensed">
+                                      <tr>
+                                        <th style="width: 100px" colspan="2">Cost Commitment</th>
+                                        
+                                        <th style="width: 200px" colspan="2">HPS PT. Badak NGL Belum Termasuk PPN 10%</th>
+                                        <th style="width: 200px" colspan="2">Penawaran Rekanan Belum Termausk PPN 10%</th>
+                                        <th style="width: 100px" colspan="3">Kekurangan Anggaran</th>
+<!--                                         <th style="width: 10px">Ranking Asli</th>
+                                        <th style="width: 10px">Ranking Koreksi</th> -->
+                                        <th>Keterangan</th>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th style="width: 100px">USD</th>
+                                        
+                                        <th style="width: 200px">Rp. (1)</th>
+                                        <th style="width: 200px">Min</th>
+                                        <th style="width: 100px">Max</th>
+                                        <th style="width: 100px">Min</th>
+                                        <th style="width: 100px">Max</th>
+                                        <th style="width: 100px">USD</th>
+                                        <th style="width: 100px">Rp. (3)</th>
+                                        <th> % </th>
+                                        <th> </th>
+                                        
+                                      </tr>                                      
+                                     <tr>
+                                        <td>$ 32.200</td>
+                                        <td>$ 32.200</td>
+                                        
+                                        <td>$ 45.552,09</td>
+                                        <td>$ 46.722,09</td>
+                                        <td>$ 48.667,16</td>
+                                        
+                                        <td>$ 59.104,48</td>
+                                        <td>###### </td>
+                                        <td> -51,141% </td>
+                                        <td> -51,141% </td>
+                                        <td> harga tersebut merupakan hasil negosiasi maximum </td>
+                                        <!-- <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td> -->
+                                      </tr>
+                                      
+                                    </table>
+                                    <br>
+                              <div class="row">
+                                <div class="col-md-12">
+                                   <div class="form-group">
+                                      <div class="row">
+                                          <label class="control-label col-md-3" for="noKontrak">Opsi Originator:</label>
+                                      </div>
+                                      <div class="row col-md-12">
+                                        <div class="radio">
+                                          <label>
+                                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                                            Anggaran tersedia dan pekerjaan diperlukan, pengadaan dapat diproses lanjut
+                                          </label>
+                                        </div>
+                                        <div class="radio">
+                                          <label>
+                                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                            Anggaran tidak tersedia, rebid dengan terlebih dulu revisi scope of work
+                                          </label>
+                                        </div>
+                                        <div class="radio">
+                                          <label>
+                                            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                                            Anggaran tidak tersedia, pengadaan dibatalkan
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                </div>
+
+                              </div>
+
+
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <div class="well well-sm">
+                                        <h5>Konfirmasi ketersediaan ini kami tunggu hingga tanggal <strong> 24 Maret 2017</strong></h5>
+                                        <h5>Melewati tanggal tersebut kami anggap tidak bersedia dan proses pengadaan tidak dilanjutkan</h5>
+                                  </div>
+
+                                </div>
+                                
+
+                              </div>                 
+                                      
             </div>
-            <div class="box-footer" style="text-align: right;">
-                        <div class="col-md-12">
-                        <a href="browse_evalkom2.php">
+            <!-- /.box-body -->
+          <div class="box-footer col-md-12" style="text-align: right;">
+              <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
+              <a href="eval_pc.php">
                                     <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;">
                                     Back
                                   </button>               
                           </a>
-                          
-                          <a href="eval2.php"><button type="button" class="btn btn-success btn-sm">Lanjut ke rincian bidder</button></a>
-
-                        </div>
-
-                </div>
-            <!-- /.box-body -->
-
-          </form>
-        </div>
+              <a href="eval_pc.php" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"></span>Submit</a>
 
           </div>
+            </div>
 
-      </div>
+          <!-- /.box -->
+        </div>
 
-    </section>
 
 <!--  content wrapper-->
-  </div>
+      </div>
+    </section>
 
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
@@ -460,3 +393,6 @@
 
 </body>
 </html>
+
+
+

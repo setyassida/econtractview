@@ -45,70 +45,60 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="../../index2.html" class="logo">
+    <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>E</b>-Ct</span>
+
+      <img src="../../resources/images/logo_mini.png" class="logo-lg">
+
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>E-Contract</b></span>
+      <span class="logo-lg"><b>e</b>Contract</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
       </a>
-
+      <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
+          <!-- Messages: style can be found in dropdown.less-->
+
           <!-- Notifications: style can be found in dropdown.less -->
-          <li class="dropdown notifications-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-bell-o"></i>
-              <span class="label label-warning">10</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
-              <li>
-                <!-- inner menu: contains the actual data -->
-                <ul class="menu">
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="footer"><a href="#">View all</a></li>
-            </ul>
-          </li>
+
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Ibu Nia</span>
+              <img src="../../resources/images/avatar/icon4.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">CO/PO</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
 
                 <p>
-                  Vice President
+                 CO/PO
+
                 </p>
               </li>
+              <!-- Menu Body -->
+
               <!-- Menu Footer-->
               <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                </div>
                 <div class="pull-right">
                   <a href="#" class="btn btn-default btn-flat">Sign out</a>
                 </div>
               </li>
             </ul>
           </li>
+          <!-- Control Sidebar Toggle Button -->
         </ul>
       </div>
+
     </nav>
   </header>
 
@@ -121,213 +111,85 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <p>CO/PO</p>
+
         </div>
       </div>
 
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
-        <li class="header">Process Menu</li>
-
-        <!-- Contract Order -->
+        <li class="header">Menu Process</li>
         <li class="treeview">
+
+          <!-- menu dashboard -->
+
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Contract Order</span>
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+
+        </li>
+
+        <!-- menu contract order  -->
+        <li class="active treeview">
+          <a href="#">
+            <i class="fa fa-files-o"></i>
+            <span>Contract Order</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li class="active"><a href="p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
+            <li><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
+            <li><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
+            <li><a href=""><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Evaluasi Administrasi</a></li>
+             <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+            <li><a href=""><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
+            <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> LoI</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Kontrak</a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li>
           </ul>
         </li>
 
-        <!-- BIDDER LIST -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Bidder List</span>
+                <!-- VO menu -->
+        <li>
+          <a href="pages/widgets.html">
+            <i class="fa fa-th"></i> <span>VO</span>
             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
+              <small class="label pull-right bg-green">new</small>
             </span>
           </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
         </li>
 
-        <!-- Pre Bid Meeting -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Pre-Bid Meeting</span>
+
+                <!-- Report menu -->
+        <li>
+          <a href="pages/widgets.html">
+            <i class="fa fa-th"></i> <span>Report</span>
             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
+              <small class="label pull-right bg-green">new</small>
             </span>
           </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
         </li>
 
-        <!-- HPS -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Harga Perkiraan Sendiri</span>
+        <li>
+          <a href="pages/widgets.html">
+            <i class="fa fa-th"></i> <span>Report</span>
             <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
+              <small class="label pull-right bg-green">new</small>
             </span>
           </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
         </li>
 
-        <!-- Evaluasi Administrasi -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Evaluasi Administrasi</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-
-        <!-- Evaluasi Teknis -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Evaluasi Teknis</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-
-        <!-- Evaluasi Komersial -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Evaluasi Komersial</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-
-        <!-- LoA -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Letter of Agreement</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-
-        <!-- Kick of Meeting -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Kick_of_Meeting</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-
-        <!-- LoI -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Letter of Intent</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-
-        <!-- Evaluasi Administrasi -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Kontrak</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-
-        <!-- CoC -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Certificate of Completion</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-
-        <!-- VO -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Variation Order</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-
-        <!-- Report -->
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Report</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -352,7 +214,7 @@
 
     <!-- Main content -->
     <section class="content">
-      <div class="box box-danger">
+      <div class="box box-default">
           <div class="box-body">
             <dl class="dl-horizontal">
               <div class="col-md-6">
@@ -368,7 +230,7 @@
           <!-- /.box-body -->
       </div>
 
-      <div class="box box-danger">
+      <div class="box box-default">
 
         <div class="box-body">
           <div class="nav-tabs-custom">
@@ -492,7 +354,7 @@
                   </div>
                   <!-- /.box-body -->
                   <div class="box-footer">
-                    <button type="submit" class="btn btn-info pull-right">Simpan</button>
+                    <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
                   </div>
                   <!-- /.box-footer -->
                 </form>
@@ -500,84 +362,96 @@
               <!-- /.tab-pane -->
               <div class="tab-pane" id="tab_2">
                 <div class="box-body">
-                  <table class="table table-bordered table-condensed table-hover">
-                        <thead>
-                          <tr>
-                            <th>No</th>
-                            <th>Keterangan</th>
-                            <th></th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>Lingkup Kerja</td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>Cost Commitment <a href="#"><span class="label label-info">Download Template</span></a></td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>Justifikasi PR Service</td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>SHEQ Notice <a href="#"><span class="label label-info">Download Template</span></a></td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>Penilaian Resiko <a href="#"><span class="label label-info">Download Template</span></a></td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>Evaluasi Kinerja Kontraktor </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>Bidcom Recommendation </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>Memo Justifikasi </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>Request For Proposal </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>Daftar Material </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>11</td>
-                            <td>Gambar </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                          <tr>
-                            <td>12</td>
-                            <td>Spesifikasi Teknis </td>
-                            <td><input type="file" id="exampleInputFile"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <br>
-                      <span class="col-md-2">
-                        <button type="button" class="btn btn-block btn-success btn-xs">+ Tambah Lampiran</button>
-                      </span>
+                  <table class="table table-bordered table-hover table-condensed">
+                    <thead>
+                      <tr>
+                        <th>Lampiran</th>
+                        <th class="text-center" style="width:170px;">Download Template</th>
+                        <th class="text-center" style="width:100px;">Refer Form</th>
+                        <th style="width:100px;">Upload Lampiran</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="text-red">Bidcom Recomendation*</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">-</td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td class="text-red">Cost Commitment*</td>
+                        <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                        <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td class="text-red">Evaluasi Kinerja Kontraktor*</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">-</td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td class="text-red">Justifikasi PR Service*</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td class="text-red">Lingkup Kerja*</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">-</td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td class="text-red">Memo Justifikasi*</td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">-</td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td class="text-red">Penilaian Resiko* </td>
+                        <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                        <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td class="text-red">SHEQ Notice*</td>
+                        <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                        <td class="text-center">-</td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td>Daftar Material </td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">-</td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td>Gambar </td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">-</td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td>Request For Proposal (RFP) </td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">-</td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                      <tr>
+                        <td>Spesifikasi Teknis </td>
+                        <td class="text-center">-</td>
+                        <td class="text-center">-</td>
+                        <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br><br>
+                  <p>Cetatan :</p>
+                  <p class="text-red">* Mandatory</p>
                 </div>
                 <div class="box-footer">
-                  <button type="submit" class="btn btn-info pull-right">Simpan</button>
+                  <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
                 </div>
                 <!-- /.box-footer -->
               </div>

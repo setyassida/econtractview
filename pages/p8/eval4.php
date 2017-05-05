@@ -197,7 +197,7 @@
     <section class="content-header">
       <h1>
         Contract Order
-        <small>Evaluasi Komersial</small>
+        <small>Evaluasi Evalkom Pengadaan dan Penunjukan Langsung</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -206,213 +206,67 @@
       </ol>
     </section>
 
+    <!-- Main content -->
     <section class="content">
-      <div class="row">
-          <div class="col-md-4">
-             <div class="box box-success">
-                <div class="box-header">
-                  <h3 class="box-title">Detail Contract</h3>
-                    <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
-                   </div>
-                </div>
-                <div class="box-body">
-                  <div class="col-md-12">
-                      <dt>Contract Order:</dt>
-                      <dd>CA-17001</dd>
-                      <dt>Judul Pekerjaan:</dt>
-                      <dd>Kontrak Jasa Penambahan Alat Berat</dd>
-                      <dt>Tanggal Pembukaan:</dt>
-                      <dd>17-Januari-2016</dd>
-                      <dt>Jenis Kontrak:</dt>
-                      <dd>Harga Satuan</dd>
-                      <dt>Durasi</dt>
-                      <dd>2 Bulan</dd>
-                      <dt>Budget</dt>
-                      <dd>Rp 1.5 M</dd>
-                      <dt>Keterangan</dt>
-                      
-                        <div class="col-md-12">
-                          <textarea id="inputKeterangan" rows="5" placeholder="Type Here.." class="form-control" style="resize:none"></textarea>
-                        </div>
-                        
-                  </div>
-                  
-                </div>
-
-
-
-             </div>
-
-          </div>
-          <div class="col-md-8">
-                      <div class="box box-success">
-                          <div class="box-header with-border">
-                            <h5>Hasil Pembukaan</h5>
-                             <div class="box-tools pull-right">
-                                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
-                            </div>
-                          </div>
-                          <!-- /.box-header -->
-                          <div class="box-body">
-                            <table class="table table-bordered table-condensed">
-                              <tr>
-                                <th style="width: 10px">#</th>
-                                <th>Penawar</th>
-                                <th>Penawaran (Rp)</th>
-                                <th>Penalty Point</th>
-                                <th>Sanksi ( BL/SC )</th>
-                                <th>Evaluasi admnistrasi</th>
-                              </tr>
-                              <tr>
-                                <td>1.</td>
-                                <td>PT Aimindo Adie Perkasa</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>2.</td>
-                                <td>PT Hasanah Sumber Utama</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>3.</td>
-                                <td>PT Harta</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>4.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>5.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>6.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>7.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-                              <tr>
-                                <td>8.</td>
-                                <td>PT Sumedang Jaya lestari</td>
-                                <td>5.000.000.000</td>
-                                <td>30</td>
-                                <td> - </td>
-                                <td> - </td>
-                              </tr>
-
-                            </table>
-
-                            
-                          </div>
-
-                      </div>
-
-
-
-                    </div>
-        
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-                      <div class="box box-warning">
-                        <div class="box-header with-border">
-                          <h3 class="box-title">ESTIMASI PTB</h3>
-                          <div class="box-tools pull-right">
-                                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
-                            </div>
-                        </div>
-                        <div class="box-body">
-                          <table class="table table-bordered table-condensed">
-                            <tr>
-                              <th>HPS Minimum</th>
-                              <th>HPS Most Likely</th>
-                              <th>HPS Maksimum</th>
-                            </tr>
-                            <tr>
-                              <td> Rp 4.500.000.000 </th>
-                              <td> Rp 5.000.000.000 </th>
-                              <td> Rp 3.000.000.000 </th>
-                            </tr>
-                          </table>
-                        </div>
-
-
-                      </div>
-
-        </div> 
-      </div>    
-
-
-      <div class="row">
-          <div class="col-md-12">
-              <div class="box box-success">
+      <!-- Info boxes -->
+      <div class="box box-success">
           <form class="form-horizontal">
             <div class="box-header with-border">
-              <h3 class="box-title">Evaluasi Teknis</h3>
+              <h3 class="box-title">Negosiasi</h3>
+              
             </div>
             <!-- /.box-header -->
             <div class="box-body">
+              <div class="row">
+                <!-- left column -->
                 <div class="col-md-12">
-                                    <h5> Tidak diperlukan. Karena termasuk Ke dalam metode penunjukkan dan pengadaan langsung</h5>
-                </div>
 
-                
+                      <!-- /.box-header -->
+                      <div class="box-body">
+                        <table class="table table-bordered">
+                          <tr>
+                            <th style="width: 200px">Nama Kontraktor</th>
+                            <th style="width: 200px">Nilai Negosiasi</th>
+                            <th style="width: 200px">Hasil Negosiasi</th>
+                            <th style="width: 200px">Upload Dokumen Risalah Nego</th>
+
+                          </tr>
+                          <tr>
+                            <td>PT Hasanah Sumber Utama</td>
+                            <td>Rp 1.150.000.000</td>
+                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td>
+                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
+                          </tr>
+                          <tr>
+                            <td>PT Aimindo Adie Perkasa</td>
+                            <td>Rp 1.050.000.000</td>
+                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td>
+                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
+                          </tr>
+                          <tr>
+                            <td>PT Abdi Jati</td>
+                            <td>Rp 1.250.000.000</td>
+                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td>
+                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
+                          </tr>
+                        </table>
+                      </div>
+
+                </div>
+              </div>
+              <div class="col-md-12" style="text-align: right;">
+                <a href="eval2.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Ambil 3 bidder terendah berikutnya">Re Evaluasi</button></a>   
+                <a href="eval4b.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
+              </div>
             </div>
-            <div class="box-footer" style="text-align: right;">
-                        <div class="col-md-12">
-                        <a href="browse_evalkom2.php">
-                                    <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;">
-                                    Back
-                                  </button>               
-                          </a>
-                          
-                          <a href="eval2.php"><button type="button" class="btn btn-success btn-sm">Lanjut ke rincian bidder</button></a>
-
-                        </div>
-
-                </div>
-            <!-- /.box-body -->
-
           </form>
         </div>
 
-          </div>
 
-      </div>
-
-    </section>
 
 <!--  content wrapper-->
-  </div>
+      </div>
+    </section>
 
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
