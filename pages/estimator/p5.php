@@ -74,21 +74,21 @@
                 </thead>
                 <tbody>
                 <tr>
-                  <td><a href="#">CA-17001</a></td>
+                  <td>CA-17001</td>
                   <td>STEAM CONDENSATE LINE</td>
                   <td class="text-center"><span class="label label-warning">Await Opening</span></td>
                   <td class="text-center">20-Jan-2017</td>
                   <td class="text-center"><a href="p5summary.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                 </tr>
                 <tr>
-                  <td><a href="#">CB-17001</a></td>
+                  <td>CB-17001</td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td class="text-center"><span class="label label-primary">Await Document</span></td>
                   <td class="text-center">22-Jan-2017</td>
                   <td class="text-center"><a href="p5end.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                 </tr>
                 <tr>
-                  <td><a href="#">CC-17001</a></td>
+                  <td>CC-17001</td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td class="text-center"><span class="label label-success">Signed</span></td>
                   <td class="text-center">20-Feb-2017</td>
