@@ -33,7 +33,8 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p3pheader.php" ?>
+  <?php include "p2header.php" ?>
+
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -41,14 +42,14 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Penawaran
-        <small>Penawaran Bidder</small>
+        Contract Order
+        <small>Abort</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p3p.php">Penawaran</a></li>
-        <li><a href="p3pviewnotquote.php">Detail</a></li>
-        <li class="active"><a href="p3pnotquote.php">Not Quote</a></li>
+        <li><a href="p2a.php">Bidder List</a></li>
+        <li><a href="#">CA-17001</a></li>
+        <li class="active"><a href="p2a.php">Abort</a></li>
       </ol>
     </section>
 
@@ -66,64 +67,34 @@
               <div class="box-body "> 
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Nomor Kontrak :</label>
-                      <div class="form-control-static col-md-8">
-                        CA-17001
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="noKontrak">Contract Order:</label>
+                      <div class="col-md-9">
+                        <p class="form-control-static">CA-17001</p>
                       </div>
                     </div>
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Judul Pekerjaan :</label>
-                      <div class="form-control-static col-md-8">
-                        STEAM CONDENSATE LINE
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="">Judul Pekerjaan:</label>   
+                      <div class="col-md-9">
+                        <p class="form-control-static">REGULAR INSPECTION OF LIFTING GEARS</p>
                       </div>
                     </div>
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Jenis Jasa :</label>
-                      <div class="form-control-static col-md-8">
-                        Jasa Pemborongan Pekerjaan
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="">Durasi:</label>   
+                      <div class="col-md-9">
+                        <p class="form-control-static">2 Bulan</p>
                       </div>
                     </div>
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Durasi Pekerjaan :</label>
-                      <div class="form-control-static col-md-8">
-                        3 Bulan
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="">Jenis Jasa:</label>   
+                      <div class="col-md-9">
+                        <p class="form-control-static">Pemborongan Pekerjaan</p>
                       </div>
                     </div>
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Jenis Kontrak :</label>
-                      <div class="form-control-static col-md-8">
-                        Lump Sum
-                      </div>
-                    </div>
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Bid Closing/<br>Opening Date :</label>
-                      <div class="form-control-static col-md-8">
-                        22-Apr-2017 / 30-Mei-2017
-                      </div>
-                    </div>
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Status Contract Order :</label>
-                      <div class="form-control-static col-md-8">
-                        Resumed 22-Apr-2017
-                      </div>
-                    </div>
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Nama <br>Contract Engineer :</label>
-                      <div class="form-control-static col-md-8">
-                        J. J. Thompson
-                      </div>
-                    </div>
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Email :</label>
-                      <div class="form-control-static col-md-8">
-                        jthomp@econ.com
-                      </div>
-                    </div>
-                    <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-4">Nomor Telepon Kantor :</label>
-                      <div class="form-control-static col-md-8">
-                        031-38429577
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="">Kualifikasi Syarat Peserta Pengadaan:</label>   
+                      <div class="col-md-9">
+                        <p class="form-control-static">M (Rp. 500 Juta <= NK <= Rp. 10 M)</p>
                       </div>
                     </div>
                   </div>
@@ -132,13 +103,19 @@
                     <div class="box box-danger">
                       <div class="box-body">
                         <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                          Untuk melakukan proses Not Quote, Anda wajib menyertakan alasan tidak menawar pada kolom berikut.    
+                          Untuk melakukan proses Abort, Anda wajib menyertakan Alasan Abort dan Dokumen Pendukung Proses Abort pada kolom berikut.    
                         </p>
                         <div class="col-md-12">
+
                           <div class="form-group">
-                            <label>Alasan Tidak Menawar :</label>
-                            <textarea class="form-control" rows="5" placeholder="Alasan tidak menawar" style="resize:none" required></textarea>
-                          </div>                          
+                            <label>Alasan Abort :</label>
+                            <textarea class="form-control" rows="5" placeholder="Enter . . ." style="resize:none" required></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label>Dokumen Pendukung Proses Abort:</label>
+                            <input type="file" id="inputFile" multiple required>
+                          </div>
+                          
                         </div>
                       </div>
                     </div>
@@ -150,25 +127,28 @@
               <!-- /.box-body -->
               <div class="box-footer">
                 
-                <button type="button" class="btn btn-danger pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#RejectModal">
-                <span class="glyphicon glyphicon-remove"></span> Not Quote
+                <button type="button" class="btn btn-danger pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#abortModal">
+                <span class="glyphicon glyphicon-remove"></span> Abort
                 </button>
 
-                <div id="RejectModal" class="modal modal-danger">
+                <div id="abortModal" class="modal ">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header">
+                      <div class="modal-header bg-red">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Anda yakin tidak menawar?</h4>
+                        <h4 class="modal-title">Do you want to abort?</h4>
                       </div>
                       <div class="modal-body">
-                        <p>Proses ini akan menolak tawaran yang berkaitan dengan Dokumen ini.</p>
-                        
+                        <p>Proses ini akan menghapus SELURUH DATA yang berkaitan dengan Dokumen ini.</p>
+                        <p>Proses ini akan mengirimkan notifikasi kepada :</p>
+                        <li>Contract Organisator</li>
+                        <li>Contract Engineer</li>
+                        <li>Lead Contract Engineer</li>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-outline">Yes, Reject Now!</button>
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-danger">Yes, Abort Now!</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->
@@ -198,7 +178,6 @@
     reserved.
   </footer>
 
-  
 </div>
 <!-- ./wrapper -->
 

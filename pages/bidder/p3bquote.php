@@ -33,7 +33,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p3pheader.php" ?>
+  <?php include "p3bheader.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -46,9 +46,9 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p3p.php">Penawaran</a></li>
-        <li><a href="p3pviewawaitquote.php">Detail</a></li>
-        <li class="active"><a href="p3pnotquote.php">Quote</a></li>
+        <li><a href="p3b.php">Penawaran</a></li>
+        <li><a href="p3bviewawaitquote.php">Detail</a></li>
+        <li class="active"><a href="p3bnotquote.php">Quote</a></li>
       </ol>
     </section>
 

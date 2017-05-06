@@ -33,7 +33,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p3pheader.php" ?>
+  <?php include "p3bheader.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -46,8 +46,8 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p3p.php">Penawaran</a></li>
-        <li class="active"><a href="p3pviewnotquote.php">Detail</a></li>
+        <li><a href="p3b.php">Penawaran</a></li>
+        <li class="active"><a href="p3bviewawaitquote.php">Detail</a></li>
       </ol>
     </section>
 
@@ -62,7 +62,7 @@
           </ul>
           <div class="tab-content">
             <div class="text-center">
-              <h3 class="box-title">STATUS : <span class="mark text-danger">NOT QUOTE</span></h3>
+              <h3 class="box-title">STATUS : <span class="mark text-warning">AWAIT QUOTE</span></h3>
             </div>
             <!-- tab1 -->
             <div class="tab-pane active" id="tab_1">
@@ -302,9 +302,9 @@
             
             <div class="row" style="padding-bottom: 0.5rem">
               <div class="col-md-12 text-right">
-                <a href="p3pquote.php" class="btn btn-sm btn-success"><i class="fa fa-edit"></i> Quote (Modify)</a>
-                <a href="p3pchat.php" class="btn btn-sm btn-info"><i class="fa fa-comment"></i> Tanya Jawab</a>
-                <a href="#" class="btn btn-sm btn-default"><i class="fa fa-print"></i> Print</a>
+                <a href="p3bnotquote.php" class="btn btn-sm btn-danger"><i class="fa fa-times"></i> Not Quote</a>
+                <a href="p3bquote.php" class="btn btn-sm btn-success"><i class="fa fa-check"></i> Quote</a>
+                <a href="p3bchat.php" class="btn btn-sm btn-info"><i class="fa fa-comment"></i> Tanya Jawab</a>                
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo" style="padding-top: 0.25rem">
+    <a href="#" class="logo" style="padding-top: 0.25rem">
       <!-- mini logo for sidebar mini 50x50 pixels -->
      
       <img src="../../resources/images/logo_mini.png" class="logo-lg">
@@ -28,7 +28,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="../../resources/images/avatar/icon1.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">LCE</span>
+              <span class="hidden-xs">Contract Engineer</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -36,7 +36,7 @@
                 <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
 
                 <p>
-                 LCE
+                 Contract Engineer
             
                 </p>
               </li>
@@ -69,7 +69,7 @@
           <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>LCE</p>
+          <p>Contract Engineer</p>
           
         </div>
       </div>
@@ -110,17 +110,17 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../p1/p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
-            <li class="active"><a href="../p2/p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
-            <li><a href="../p3/p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
-            <li><a href="../p4/p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
-            <li><a href="../p5/p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
-            <li><a href="../p6/p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
-            <li><a href="../p7/p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
-            <li><a href="../p8/p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
-            <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
-            <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
-            <li><a href="../p11/p11_createLOI.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
+            <li><a href="p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
+            <li class="active"><a href="p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
+            <li><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
+            <li><a href="p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+            <li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
+            <li><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+            <li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
+            <li><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
+            <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
+            <li><a href="p11_createLOI.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
             <li><a href="#"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
             <li><a href="#"><i class="fa fa-circle-o"></i> CoC</a></li> 
           </ul>
