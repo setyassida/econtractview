@@ -14,10 +14,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
-  <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
-  <!-- Bootstrap time Picker -->
-  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -37,7 +33,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p7header.php" ?>
+  <?php include "p2header.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -45,97 +41,131 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Opening Komersial
-        <!-- <small>Daftar Bidder</small> -->
+        Contract Order
+        <small>Hold</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p7.php">Opening Komersial</a></li>
-        <li class="active"><a href="p7end.php">Data Opening</a></li>
+        <li><a href="p2a.php">Bidder List</a></li>
+        <li><a href="#">CA-17001</a></li>
+        <li class="active"><a href="p2a.php">Hold</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-      <form >
-        <div class="row">
-          <div class="col-md-12">
-          <!-- box -->
-            <div class="box box-primary">
+      <div class="row">
+        <div class="col-md-12">
+          <form class="form-horizontal">
+            <!-- box bidder list -->
+            <div class="box box-warning">
               <div class="box-header">
-                <h3 class="box-title">Data Hasil Opening</h3>
+                <h3 class="box-title">Informasi Contract Order</h3>
               </div>
               <!-- /.box-header -->
-              <div class="box-body"> 
-                <div class="col-md-12 text-center">
-                  <div class="col-md-5 col-md-offset-1">
-                    <div class="box">
-                      <div class="box-body">
-                        <div class="form-group">
-                          <label class="control-label col-md-12" ">Hasil Risalah Opening Komersial :</label>
-                          <div class="col-md-12">
-                            <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
-                          </div>
-                        </div>
-                        <!-- /.form-group -->
+              <div class="box-body "> 
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="noKontrak">Contract Order:</label>
+                      <div class="col-md-9">
+                        <p class="form-control-static">CA-17001</p>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="">Judul Pekerjaan:</label>   
+                      <div class="col-md-9">
+                        <p class="form-control-static">REGULAR INSPECTION OF LIFTING GEARS</p>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="">Durasi:</label>   
+                      <div class="col-md-9">
+                        <p class="form-control-static">2 Bulan</p>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="">Jenis Jasa:</label>   
+                      <div class="col-md-9">
+                        <p class="form-control-static">Pemborongan Pekerjaan</p>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-3" for="">Kualifikasi Syarat Peserta Pengadaan:</label>   
+                      <div class="col-md-9">
+                        <p class="form-control-static">M (Rp. 500 Juta <= NK <= Rp. 10 M)</p>
                       </div>
                     </div>
                   </div>
-                  <!-- /.col kiri -->
-                  <div class="col-md-5">
-                    <div class="box">
+                  <!-- ./col kiri -->
+                  <div class="col-md-6">
+                    <div class="box box-warning">
                       <div class="box-body">
-                        <div class="form-group">
-                          <label class="control-label col-md-12" ">Hasil HPS :</label>
-                          <div class="col-md-12">
-                            <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
+                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                          Untuk melakukan proses Hold, Anda wajib menyertakan Alasan Hold dan Dokumen Pendukung Proses Hold pada kolom berikut.    
+                        </p>
+                        <div class="col-md-12">
+
+                          <div class="form-group">
+                            <label>Alasan Hold :</label>
+                            <textarea class="form-control" rows="5" placeholder="Enter . . ." style="resize:none" required></textarea>
                           </div>
+                          <div class="form-group">
+                            <label>Dokumen Pendukung Proses Hold:</label>
+                            <input type="file" id="inputFile" multiple required>
+                          </div>
+                          
                         </div>
-                        <!-- /.form-group --> 
                       </div>
                     </div>
                   </div>
-                  <!-- /.col kanan -->
+                  <!-- ./col kanan -->
                 </div>
+                <!-- ./row box-body -->
               </div>
               <!-- /.box-body -->
               <div class="box-footer">
-                <button type="button" class="btn btn-success pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#uploadModal">
-                <span class="glyphicon glyphicon-cloud-upload"></span> Upload
+                
+                <button type="button" class="btn btn-warning pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#holdModal">
+                <span class="glyphicon glyphicon-pause"></span> Hold
                 </button>
 
-                <div id="uploadModal" class="modal">
+                <div id="holdModal" class="modal ">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header bg-green">
+                      <div class="modal-header bg-yellow">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Upload Dokumen?</h4>
+                        <h4 class="modal-title">Do you want to hold?</h4>
                       </div>
                       <div class="modal-body">
-                        <p>Pastikan file pendukung yang Anda upload telah sesuai. Anda <span class="text-red">TIDAK DAPAT</span> merubah <i>Dokumen</i> setelah melakukan proses ini.</p>
+                        <p>Proses ini akan menahan Contract Order yang berkaitan dengan Dokumen ini.</p>
                         <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                        <li>Project Coordinator</li>
-                        <li>Contract Originator</li>
+                        <li>Contract Organisator</li>
+                        <li>Contract Engineer</li>
+                        <li>Lead Contract Engineer</li>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-success">Ya, Upload Dokumen</button>
+                        <button type="submit" class="btn btn-warning">Yes, Hold Now!</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->
                   </div>
                 </div>
-                <!-- /.modal -->
+                <!-- <a href="p3.php">
+                  <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
+                    Back
+                  </button>
+                </a> -->
               </div>
             </div>
             <!-- /.box -->
-          </div>
-          <!-- /.col -->
+          </form>
         </div>
-        <!-- /.row -->
-      </form>
-      <!-- /.form -->
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
     </section>
     <!-- /.content -->
   </div>
@@ -146,7 +176,7 @@
     reserved.
   </footer>
 
-  
+ 
 </div>
 <!-- ./wrapper -->
 
@@ -157,10 +187,6 @@
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<!-- bootstrap datepicker -->
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
-<!-- bootstrap time picker -->
-<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -173,10 +199,6 @@
 <script>
   $(function () {
     $("#example1").DataTable();
-    //Date picker
-    $('#datepicker1').datepicker({autoclose: true});
-    //Time picker
-    $(".timepicker").timepicker({showInputs: false});
   });
 </script>
 </body>

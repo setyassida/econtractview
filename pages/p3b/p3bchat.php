@@ -33,7 +33,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p7header.php" ?>
+  <?php include "p3bheader.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -41,12 +41,14 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Opening Komersial
-        <!-- <small>Daftar Bidder</small> -->
+        Penawaran
+        <small>Penawaran Bidder</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li class="active"><a href="p7.php">Opening Komersial</a></li>
+        <li><a href="p3b.php">Penawaran</a></li>
+        <li><a href="#">Detail</a></li>
+        <li class="active"><a href="#">Tanya Jawab</a></li>
       </ol>
     </section>
 
@@ -54,61 +56,62 @@
     <section class="content">
       <div class="row">
         <div class="col-md-12">
-
-        <!-- box bidder list -->
-          <div class="box box-danger">
-            <div class="box-header">
-              
+          <!-- DIRECT CHAT PRIMARY -->
+          <div class="box box-primary direct-chat direct-chat-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">Tanya Jawab</h3>
             </div>
             <!-- /.box-header -->
-            <div class="box-body "> 
-              <table id="example1" class="table table-bordered table-striped table-condensed">
-                <thead>
-                <tr>
-                  <th>Nomor Kontrak</th>
-                  <th>Judul Pekerjaan</th>
-                  <th>Status</th>
-                  <th>Tanggal Opening</th>
-                  <th>Detail</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>CA-17001</td>
-                  <td>STEAM CONDENSATE LINE</td>
-                  <td class="text-center"><span class="label label-warning">Await Opening</span></td>
-                  <td class="text-center">20-Jan-2017</td>
-                  <td class="text-center"><a href="p7summary.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
-                </tr>
-                <tr>
-                  <td>CB-17001</td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Await Document</span></td>
-                  <td class="text-center">22-Jan-2017</td>
-                  <td class="text-center"><a href="p7end.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
-                </tr>
-                <tr>
-                  <td>CC-17001</td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-success">Signed</span></td>
-                  <td class="text-center">20-Feb-2017</td>
-                  <td class="text-center"><a href="p7finished.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
-                </tr>
-                </tbody>
-                <tfoot>
-                </tfoot>
-              </table>
+            <div class="box-body">
+              <!-- Conversations are loaded here -->
+              <div class="direct-chat-messages">
+                <!-- Message. Default to the left -->
+                <div class="direct-chat-msg">
+                  <div class="direct-chat-info clearfix">
+                    <span class="direct-chat-name pull-left">Contract Engineer</span>
+                    <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
+                  </div>
+                  <!-- /.direct-chat-info -->
+                  <img class="direct-chat-img" src="../../resources/images/avatar/icon1.png" alt="Message User Image"><!-- /.direct-chat-img -->
+                  <div class="direct-chat-text">
+                    Ada yang bisa dibantu?
+                  </div>
+                  <!-- /.direct-chat-text -->
+                </div>
+                <!-- /.direct-chat-msg -->
+
+                <!-- Message to the right -->
+                <div class="direct-chat-msg right">
+                  <div class="direct-chat-info clearfix">
+                    <span class="direct-chat-name pull-right">Bidder</span>
+                    <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
+                  </div>
+                  <!-- /.direct-chat-info -->
+                  <img class="direct-chat-img" src="../../resources/images/avatar/icon2.png" alt="Message User Image"><!-- /.direct-chat-img -->
+                  <div class="direct-chat-text">
+                    Tidak ada.
+                  </div>
+                  <!-- /.direct-chat-text -->
+                </div>
+                <!-- /.direct-chat-msg -->
+              </div>
+              <!--/.direct-chat-messages-->
+
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              <ul>
-                <li><span class="label label-warning">Await Opening</span> : Kontrak belum dibuka</li>
-                <li><span class="label label-primary">Await Document</span> : Kontrak masih menunggu dokumen di-upload</li>
-                <li><span class="label label-success">Signed</span> : Kontrak sudah ditandatangani</li>
-              </ul>
+              <form action="#" method="post">
+                <div class="input-group">
+                  <input type="text" name="message" placeholder="Type Message ..." class="form-control">
+                      <span class="input-group-btn">
+                        <button type="submit" class="btn btn-primary btn-flat">Send</button>
+                      </span>
+                </div>
+              </form>
             </div>
+            <!-- /.box-footer-->
           </div>
-          <!-- /.box -->
+          <!--/.direct-chat -->
         </div>
         <!-- /.col -->
       </div>
