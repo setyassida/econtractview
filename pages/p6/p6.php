@@ -243,7 +243,7 @@
             </thead>
             <tbody>
             <tr>
-              <td><a href="#">CA-17001</a></td>
+              <td>CA-17001</td>
               <td>PENGADAAN SISTEM INFORMASI</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
               <td><div class="text-center"><a href="p6-edit.php"><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
@@ -254,7 +254,7 @@
               
             </tr>
             <tr>
-              <td><a href="#">CA-17002</a></td>
+              <td>CA-17002</td>
               <td>PERBAIKAN INFRASTRUKTUR</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
               <td><div class="text-center"><a href="p6-edit.php"><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
@@ -265,7 +265,7 @@
               
             </tr>
             <tr>
-              <td><a href="#">CA-17003</a></td>
+              <td>CA-17003</td>
               <td>PENGADAAN PERANGKAT LUNAK</td>
               <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
               <td><div class="text-center"><a href="p6-edit.php" hidden><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
@@ -276,7 +276,7 @@
               
             </tr>
             <tr>
-              <td><a href="#">CA-17004</a></td>
+              <td>CA-17004</td>
               <td>PEMELIHARAAN</td>
               <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
               <td><div class="text-center"><a href="p6-edit.php" hidden><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
@@ -287,7 +287,7 @@
               
             </tr>
             <tr>
-              <td><a href="#">CA-17005</a></td>
+              <td>CA-17005</td>
               <td>KEBERSIHAN</td>
               <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
               <td><div class="text-center"><a href="p6-edit.php" hidden><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
