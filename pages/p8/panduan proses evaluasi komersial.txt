@@ -1,0 +1,10 @@
+Terdapat 2 aktor pada proses ini ( evaluasi komersial p8)
+
+a. estimator
+b. project coordinator
+
+sebagai halaman pertama, p8. Menu untuk melihat semua contract order dengan status evalkomnya
+
+langkah berikutnya adalah membuat evaluasi baru.
+
+Untuk melihat proses sebagai project coordinator yang bertugas memberi konfirmasi ketersediaan anggaran, klik link no contract yang memiliki status waiting confirmation
