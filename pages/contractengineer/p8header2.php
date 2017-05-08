@@ -1,7 +1,7 @@
 <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="index2.html" class="logo" style="padding-top: 0.25rem">
       <!-- mini logo for sidebar mini 50x50 pixels -->
 
       <img src="../../resources/images/logo_mini.png" class="logo-lg">
