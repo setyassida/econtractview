@@ -1,7 +1,7 @@
 <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="#" class="logo" style="padding-top: 0.25rem">
       <!-- mini logo for sidebar mini 50x50 pixels -->
      
       <img src="../../resources/images/logo_mini.png" class="logo-lg">
@@ -26,16 +26,16 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../resources/images/avatar/icon1.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">Contract Engineer</span>
+              <img src="../../resources/images/avatar/icon3.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">Estimator</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
+                <img src="../../resources/images/avatar/icon3.png" class="img-circle" alt="User Image">
 
                 <p>
-                 Contract Engineer
+                 Estimator
             
                 </p>
               </li>
@@ -65,10 +65,10 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
+          <img src="../../resources/images/avatar/icon3.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Contract Engineer</p>
+          <p>Estimator</p>
           
         </div>
       </div>
@@ -86,7 +86,7 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">Menu Process</li>
-        <li class="treeview">
+        <li class=" treeview">
 
           <!-- menu dashboard -->
       
@@ -110,18 +110,18 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
-            <li><a href="p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
-            <li><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
-            
+            <!-- <li><a href="p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li> -->
+            <!-- <li><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li> -->
+            <li><a href="p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
             <li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
             <li class="active"><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
             <li><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
-            <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
+            <!-- <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li> -->
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
-            <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
+            <li><a href="p11_createLOI.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
             <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li> 
+            <li><a href="#"><i class="fa fa-circle-o"></i> CoC</a></li> 
           </ul>
         </li>
 

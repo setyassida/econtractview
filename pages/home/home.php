@@ -5,17 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bootstrap style -->
-    <!-- <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css"> -->
+
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../../bootstrap/css/bootstrap-themes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
-    <!-- <link rel="stylesheet" href="../../bootstrap/css/bootstrap-themes.min.css"> -->
+
     <link rel="stylesheet" href="../../resources/css/style.css">
-    <script src="bootstrap/js/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="container-fluid">
@@ -58,27 +57,38 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <img src="../../resources/images/footer2.png" class="image-footer">
+          <img src="../../resources/images/footer2.png" class="image-footer2">
+          <strong><p class="text-footer text-footer-w">Head Office - Jakarta: Wisma Nusantara 9th Floor, Jl. MH Thamrin No. 59 ,Jakarta 10350, Indonesia</p></strong>
+          <p class="text-footer-w">Telp: 021 31930243(3lines), 319 36317(4 lines), Fax: 021 314 2974, Telex: 61417 BDKLNG IA</p>
+          <strong><p class="text-footer-w">Plant Site - Bontang: Bontang 75324, East Kalimantan, Indonesia</p></strong>
+          <p class="text-footer-w">Telp: 0548 42100, 21133(10 liens), Fax: 0548 27500, 21605, 22388, Telex: 38283 BDKLNG IA, 37211 BDKBPP IA</p>
       </div>
-      <strong><p class="text-footer text-footer-w">Head Office - Jakarta: Wisma Nusantara 9th Floor, Jl. MH Thamrin No. 59 ,Jakarta 10350, Indonesia</p></strong>
-      <p class="text-footer-w" style="margin-left: 435px;">Telp: 021 31930243(3lines), 319 36317(4 lines), Fax: 021 314 2974, Telex: 61417 BDKLNG IA</p>
-      <strong><p class="text-footer-w" style="margin-left: 480px;">Plant Site - Bontang: Bontang 75324, East Kalimantan, Indonesia</p></strong>
-      <p class="text-footer-w" style="margin-left: 395px;">Telp: 0548 42100, 21133(10 liens), Fax: 0548 27500, 21605, 22388, Telex: 38283 BDKLNG IA, 37211 BDKBPP IA</p>
+<!--       <div class="col-md-12">
+        <img src="../../resources/images/footer2.png" class="image-footer">
+      </div> -->
     </div>
 
 </div>
 
 </body>
 
+<script src="../../bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+<script src="../../bootstrap/js/bootstrap.min.js" type="text/javascript" ></script>
+
+
 <script language="javascript">
 var attempt = 3; 
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "admin" && password == "admin"){
-alert ("Login successfully");
-document.location.href = 'dashboard.php'; // Redirecting to other page.
+if ( username == "CE" && password == "CE"){
+// alert ("Login successfully");
+document.location.href = '../contractengineer/p2a.php'; // Redirecting to other page.
 return false;
+}
+if (username == "est" && password == "est"){
+  document.location.href = '../estimator/p4.php';
+  return false;
 }
 else{
 attempt --;// Decrementing by one.
