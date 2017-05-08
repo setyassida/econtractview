@@ -249,11 +249,11 @@
                 <div class="col-md-5">
                   <a href="p8abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a>
                   <!-- <a href="p8d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a> -->
-                  <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a>
+                  <a href="p8rebid.php"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a>
                  
                 </div>
                 <div class="col-md-6" style="text-align: right;">
-                  <a href="p8CE.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Finish </button></a>
+                  <a href="p8.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Finish </button></a>
 
                 </div>
               </div>

@@ -223,7 +223,63 @@
             <!-- /.box-header -->
             <div class="box-body">
                 <div class="col-md-12">
-                                    <h5> Tidak diperlukan. Karena termasuk Ke dalam metode penunjukkan dan pengadaan langsung</h5>
+                                   <table class="table table-bordered text-center">
+                          <tr>
+                            <th style="width: 10px" rowspan="2" >No</th>
+                            <th style="width: 100px" rowspan="2" >Penawar</th>
+                            <th style="width: 100px" rowspan="2" >Score</th>
+                            <th style="width: 100px" colspan="2" >PT Badak NGL</th>
+                            
+                          </tr>
+                          <tr>
+                            <th style="width: 200px" >Penjelasan</th>
+                            <th style="width: 200px" >Kesimpulan</th>
+                            
+                          </tr>
+                          <tr>
+                            <td>1.</td>
+                            <td>PT Hasanah Sumber Utama</td>
+                            <td>78,04</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                            
+                          </tr>
+                          <tr>
+                            <td>2.</td>
+                            <td>PT Aimindo Adie Perkasa</td>
+                            <td>84,73</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>3.</td>
+                            <td>PT harta</td>
+                            <td>85,00</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>4.</td>
+                            <td>PT Sumedang Jaya Lestari</td>
+                            <td>85,00</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>5.</td>
+                            <td>PT Tiya Sejahtera</td>
+                            <td>0</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Tidak Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>6.</td>
+                            <td>PT Central Teknindo Persada</td>
+                            <td>80</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Tidak Lulus</td>
+                          </tr>
+                        </table>
                 </div>
 
                 

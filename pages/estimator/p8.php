@@ -58,7 +58,7 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body "> 
-              <table id="example1" class="table table-bordered table-striped table-condensed">
+              <table id="example1" class="table table-bordered table-striped table-condensed text-center">
                 <thead>
                 <tr>
                   <th>No. Contract</th>
