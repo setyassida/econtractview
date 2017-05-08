@@ -247,9 +247,9 @@
               <div class="form-group">
                 <label class="control-label col-md-1" for="noKontrak">Action</label>
                 <div class="col-md-5">
-                  <a href="p8abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a>
+                  <!-- <a href="p8abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a> -->
                   <a href="p8d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a>
-                  <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a>
+                  <!-- <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a> -->
                  
                 </div>
                 <div class="col-md-6" style="text-align: right;">

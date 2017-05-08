@@ -36,7 +36,7 @@
   <!-- Site wrapper -->
   <div class="wrapper">
 
-    <?php @include('p8header.php') ?>
+    <?php @include('p8header2.php') ?>
 
     <!-- =============================================== -->
 
@@ -159,14 +159,14 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                      <a href="p8.php"><button type="submit" class="btn btn-danger">Yes, Abort Now!</button></a>
+                      <a href="p8iCE.php"><button type="submit" class="btn btn-danger">Yes, Abort Now!</button></a>
                     </div>
                   </div>
                     <!-- /.modal-content -->
                 </div>
               </div>
 
-              <a href="p8i.php">
+              <a href="p8iCE.php">
                 <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
                   Back
                 </button>

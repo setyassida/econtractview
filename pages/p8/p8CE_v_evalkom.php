@@ -32,7 +32,7 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p8header.php') ?>
+  <?php @include('p8header2.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -51,71 +51,13 @@
     <!-- Main content -->
     <section class="content">
       <!-- Info boxes -->
-      <div class="box box-success">
-          <form class="form-horizontal">
-            <div class="box-header with-border">
-              <h3 class="box-title">Negosiasi</h3>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                  <i class="fa fa-minus"></i></button>
-              </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <div class="row">
-                <!-- left column -->
-                <div class="col-md-12">
-
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table class="table table-bordered">
-                          <tr>
-                            <th style="width: 200px">Nama Kontraktor</th>
-                            <th style="width: 200px">Nilai Negosiasi</th>
-                            <th style="width: 200px">Hasil Negosiasi</th>
-                            <th style="width: 200px">Upload Dokumen Risalah Nego</th>
-
-                          </tr>
-                          <tr>
-                            <td>PT Hasanah Sumber Utama</td>
-                            <td>Rp 1.150.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
-                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                          </tr>
-                          <tr>
-                            <td>PT Aimindo Adie Perkasa</td>
-                            <td>Rp 1.050.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
-                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                          </tr>
-                          <tr>
-                            <td>PT Abdi Jati</td>
-                            <td>Rp 1.250.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
-                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                          </tr>
-                        </table>
-                      </div>
-
-                </div>
-              </div>
-              <div class="col-md-12" style="text-align: right;">
-                <a href="p8d.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Ambil 3 bidder terendah berikutnya">Re Evaluasi</button></a>   
-                <a href="p8h.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
-
-              </div>
-            </div>
-          </form>
-        </div>
-
-
 
   <div class="row">
     <div class="col-md-12">
         <div class="box box-success">
           <form class="form-horizontal">
             <div class="box-header with-border">
-              <h3 class="box-title">Penilaian Hasil Evaluasi</h3>
+              <h3 class="box-title">Hasil Evaluasi Teknis</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
                   <i class="fa fa-minus"></i></button>
@@ -129,7 +71,102 @@
 
                       <!-- /.box-header -->
                       <div class="box-body">
-                        <table class="table table-bordered">
+                        <table class="table table-bordered text-center">
+                          <tr>
+                            <th style="width: 10px" rowspan="2" >No</th>
+                            <th style="width: 100px" rowspan="2" >Penawar</th>
+                            <th style="width: 100px" rowspan="2" >Score</th>
+                            <th style="width: 100px" colspan="2" >PT Badak NGL</th>
+                            
+                          </tr>
+                          <tr>
+                            <th style="width: 200px" >Penjelasan</th>
+                            <th style="width: 200px" >Kesimpulan</th>
+                            
+                          </tr>
+                          <tr>
+                            <td>1.</td>
+                            <td>PT Hasanah Sumber Utama</td>
+                            <td>78,04</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                            
+                          </tr>
+                          <tr>
+                            <td>2.</td>
+                            <td>PT Aimindo Adie Perkasa</td>
+                            <td>84,73</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>3.</td>
+                            <td>PT harta</td>
+                            <td>85,00</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>4.</td>
+                            <td>PT Sumedang Jaya Lestari</td>
+                            <td>85,00</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>5.</td>
+                            <td>PT Tiya Sejahtera</td>
+                            <td>0</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Tidak Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>6.</td>
+                            <td>PT Central Teknindo Persada</td>
+                            <td>80</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Tidak Lulus</td>
+                          </tr>
+                        </table>
+
+                      </div>
+                     
+
+                </div>
+
+
+              </div>
+            </div>
+          </form>
+        </div>    
+
+
+    </div>
+
+
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+        <div class="box box-success">
+          <form class="form-horizontal">
+            <div class="box-header with-border">
+              <h3 class="box-title">Hasil Evaluasi Komersial</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                  <i class="fa fa-minus"></i></button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <div class="row">
+                <!-- left column -->
+                <div class="col-md-12">
+
+                      <!-- /.box-header -->
+                      <div class="box-body">
+                        <table class="table table-bordered text-center">
                           <tr>
                             <th style="width: 10px">No</th>
                             <th>Penawar</th>
@@ -199,6 +236,7 @@
   </div>
 
 
+
   <div class="row">
     <div class="col-md-12">
       <div class="box box-primary">
@@ -207,18 +245,11 @@
         <!-- /.box-header -->
         <div class="box-body">
           <div class="well well-sm">
-            <h4>Nilai penawaran terendah(setelah hasil negosiasi atau hasil koreksi) wajar lebih besar dari total budget cost commitment <span class="fa fa-close"></span></h4>
-            <h4>Perlu dimasukkan budget rate setiap tahun <span class="fa fa-close"></span></h4>
-            <h5>Masukan batas waktu konfirmasi</h5>
-            <div class="input-group date col-md-3">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-
-            </div>
+            <h4>Hasil evaluasi komersial telah selesai</h4>
+            
+            
             <br>
-          <a href="p8_pcb.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim Ketersediaan Anggaran Ke Project Coordinator"><span class="fa fa-send"></span> Kirim Form Ketersediaan</button></a>
+          
           </div>
       
             
@@ -226,7 +257,7 @@
         </div>
         <div class="box-footer">
         
-           <a href="p8.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Finish</button></a>
+           <a href="p8CE.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Finish</button></a>
         </div>
 
         </div>
