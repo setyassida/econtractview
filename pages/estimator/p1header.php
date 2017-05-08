@@ -120,8 +120,8 @@
             <li><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <!-- <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li> -->
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
-            <li><a href="p11_createLOI.php"><i class="fa fa-circle-o"></i> LoI</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Kontrak</a></li>
+            <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>
+            <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i> CoC</a></li>
           </ul>
         </li>
