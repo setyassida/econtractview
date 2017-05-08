@@ -32,7 +32,7 @@
 <body class="hold-transition skin-red sidebar-mini">
   <div class="wrapper">
 
-    <? include("p4-header.php");?>
+    <?php include("p4-header.php");?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
