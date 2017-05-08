@@ -112,9 +112,9 @@
             <li><a href="p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
             <!-- <li><a href="p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li> -->
             <!-- <li><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li> -->
-            <li class="active"><a href="p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+            <li><a href="p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
             <li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
-            <li><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
+            <li class="active"><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
             <li><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <!-- <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li> -->
