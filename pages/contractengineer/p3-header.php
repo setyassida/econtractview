@@ -114,7 +114,7 @@
           <ul class="treeview-menu">
             <li><a href="p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
             <li><a href="p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
-            <li class="active"><a href=".p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
+            <li class="active"><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
             
             <li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
             <li><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
