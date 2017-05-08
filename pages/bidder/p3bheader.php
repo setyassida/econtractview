@@ -4,7 +4,7 @@
     <!-- Logo -->
     <a href="index2.html" class="logo" style="padding-top: 0.25rem">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-     
+
       <img src="../../resources/images/logo_mini.png" class="logo-lg">
 
       <!-- logo for regular state and mobile devices -->
@@ -21,9 +21,9 @@
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
-            
+
           <!-- Notifications: style can be found in dropdown.less -->
-          
+
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -37,11 +37,11 @@
 
                 <p>
                  Bidder
-            
+
                 </p>
               </li>
               <!-- Menu Body -->
-              
+
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
@@ -70,7 +70,7 @@
         </div>
         <div class="pull-left info">
           <p>Bidder</p>
-          
+
         </div>
       </div>
       <!-- search form -->
@@ -90,7 +90,7 @@
         <li class=" treeview">
 
           <!-- menu dashboard -->
-      
+
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
@@ -114,9 +114,9 @@
             <li class="active"><a href="p3b.php"><i class="fa fa-circle-o"></i> Penawaran</a></li>
             <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
-            <li><a href="p11_createLOI.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
-            <li><a href="#"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
-            <li><a href="#"><i class="fa fa-circle-o"></i> CoC</a></li> 
+            <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
+            <li><a href="#"><i class="fa fa-circle-o"></i> Kontrak</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> CoC</a></li>
           </ul>
         </li>
 

@@ -72,7 +72,7 @@
               <td><a href="#">CA-17001</a></td>
               <td>PENGADAAN SISTEM INFORMASI</td>
               <td><div class="text-center"><span class="label label-success">Announced</span></div></td>
-              <td><div class="text-center"><a href="p9c.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat LOA</button></a></div></td>
+              <td><div class="text-center"><a href="p9d.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat LOA</button></a></div></td>
 
             </tr>
             <tbody>
