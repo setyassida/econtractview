@@ -36,7 +36,7 @@
   <!-- Site wrapper -->
   <div class="wrapper">
 
-    <? include("p3-header.php");?>
+    <?php include("p3-header.php");?>
 
     <!-- =============================================== -->
 
