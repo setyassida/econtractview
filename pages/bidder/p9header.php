@@ -112,7 +112,7 @@
           <ul class="treeview-menu">
             <li><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
             <li><a href="p3b.php"><i class="fa fa-circle-o"></i> Penawaran</a></li>
-            <li class="active"><a href="p9b.php"><i class="fa fa-circle-o"></i> LoA</a></li>
+            <li class="active"><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="p11_createLOI.php"><i class="fa fa-circle-o"></i> LoI</a></li>
             <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li>
