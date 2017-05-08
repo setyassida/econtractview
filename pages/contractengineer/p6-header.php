@@ -27,7 +27,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="../../resources/images/avatar/icon1.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">CE</span>
+              <span class="hidden-xs">Contract Engineer</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -35,7 +35,7 @@
                 <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
 
                 <p>
-                 CE
+                 Contract Engineer
             
                 </p>
               </li>
@@ -68,7 +68,7 @@
           <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>CE</p>
+          <p>Contract Engineer</p>
           
         </div>
       </div>
@@ -113,9 +113,10 @@
             <li><a href="p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
             
-            <li><a href="p5.php"><i class="fa fa-circle-o"></i>Opening   Evaluasi Administrasi</a></li>
+            <li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
             <li class="active"><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
-            <li><a href="eval.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
+            <li><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
