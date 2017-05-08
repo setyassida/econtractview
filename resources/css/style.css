@@ -66,13 +66,23 @@ body {
 	z-index: -1;
 }
 
+.image-footer2 {
+	position: absolute;
+	z-index: -1;
+	width: 98%;
+	height: 100%;
+	margin-top: 88px;
+}
+
 .text-footer {
 	z-index: 100;
 	position: relative;
 	margin-top: 110px;
-	margin-left: 400px;
+/*	margin-left: 400px;*/
+	text-align: center;
 }
 
 .text-footer-w {
 	font-size: 80%;
+	text-align: center;
 }
