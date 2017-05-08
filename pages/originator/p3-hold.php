@@ -14,8 +14,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
-  <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -50,20 +48,25 @@
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-          <li><a href="#">Pre-Bid Meeting</a></li>
+          <li><a href="p3.php">Pre-Bid Meeting</a></li>
           <li><a href="#">0001/BB41/2017-041</a></li>
-          <li class="active">Resume</li>
+          <li class="active">Hold</li>
         </ol>
+        
       </section>
+
+      <!-- iNote-->
+
+      
 
       <!-- Main content -->
       
       <section class="content">
         <!-- SELECT2 EXAMPLE -->
-        <div class="box box-info">
+        <div class="box box-warning">
           <form class="form-horizontal">
             <div class="box-header with-border">
-              <h3 class="box-title">Informasi Kontrak</h3>
+              <h3 class="box-title">Informasi Risalah Pre-Bid Meeting</h3>
 
               
             </div>
@@ -111,20 +114,18 @@
 
                 <!-- right column -->
                 <div class="col-md-6">
-                  <div class="box box-info">
+                  <div class="box box-warning">
                     <div class="box-body">
                       <div class="row">
                         <div class="col-md-12">
                           <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            Anda perlu melakukan <span class="text-red">Extend Opening Date</span> pada kolom berikut.    
+                            Anda dapat melakukan <span class="text-red">Extend Opening Date</span> saat melakukan Resume Pre-Bid Meeting.  
                           </p>
+
                           <div class="form-group">
-                            <label class="control-label col-md-3" for="noKontrak">Extend Opening Date:</label>
-                            <div class="input-group date col-md-6">
-                              <div class="input-group-addon">
-                                <i class="fa fa-calendar"></i>
-                              </div>
-                              <input type="text" class="form-control" id="datepicker" required>
+                            <label class="control-label col-md-3">Alasan Hold :</label>
+                            <div class="col-md-9">
+                              <textarea rows="5" placeholder="Type here..." class="form-control" style="resize:none" required></textarea>
                             </div>
                           </div>
                         </div>
@@ -141,30 +142,32 @@
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              <button type="button" class="btn btn-info btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#resumeModal">
-                <span class="glyphicon glyphicon-play"></span> Resume Pre-Bid Meeting
+              
+              <button type="button" class="btn btn-warning btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#holdModal">
+                <span class="glyphicon glyphicon-pause"></span> Hold Pre-Bid Meeting
               </button>
-              <div id="resumeModal" class="modal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header bg-aqua">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title">Are You Sure to Resume It?</h4>
-                    </div>
-                    <div class="modal-body">
-                      <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                      <li>Contract Organisator</li>
-                      <li>Contract Engineer</li>
-                      <li>Lead Contract Engineer</li>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                      <button type="submit" class="btn btn-info btn-sm">Yes, Resume It</button>
-                    </div>
+              <div id="holdModal" class="modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-yellow">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Are You Sure to Hold It?</h4>
                   </div>
-                    <!-- /.modal-content -->
+                  <div class="modal-body">
+                    <p>Proses ini akan mengirimkan notifikasi kepada :</p>
+                    <li>Contract Organisator</li>
+                    <li>Contract Engineer</li>
+                    <li>Lead Contract Engineer</li>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn pull-left btn-sm" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-warning btn-sm">Yes, Hold It</button>
+                  </div>
                 </div>
+                  <!-- /.modal-content -->
+              </div>
+                <!-- /.modal-dialog -->
               </div>
               <a href="p3.php">
                 <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;">
@@ -397,13 +400,23 @@
 <script src="../../dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
-<!-- bootstrap datepicker -->
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 
 <script>
-  //Date picker
-  $('#datepicker').datepicker({
-    autoclose: true
+  $(document).ready(function(){
+    $('[data-toggle="hold"]').tooltip();
+    $('[data-toggle="resume"]').tooltip();
+    $('[data-toggle="abort"]').tooltip(); 
+  });
+  $(function () {
+    $("#dataTable").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+    });
   });
 </script>
 

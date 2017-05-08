@@ -52,29 +52,28 @@
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
           <li><a href="#">Pre-Bid Meeting</a></li>
           <li><a href="#">0001/BB41/2017-041</a></li>
-          <li class="active">Resume</li>
+          <li class="active">Abort</li>
         </ol>
       </section>
 
       <!-- Main content -->
-      
+
       <section class="content">
         <!-- SELECT2 EXAMPLE -->
-        <div class="box box-info">
+        <div class="box box-danger">
           <form class="form-horizontal">
             <div class="box-header with-border">
               <h3 class="box-title">Informasi Kontrak</h3>
 
-              
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              
-              
+
+
               <div class="row">
                 <!-- left column -->
                 <div class="col-md-6">
-                  
+
                   <div class="form-group">
                     <label class="control-label col-md-3" for="noKontrak">Nomor Risalah Pre-Bid Meeting:</label>
                     <div class="col-md-9">
@@ -105,67 +104,68 @@
                       <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
                     </div>
                   </div>
-                  
+
                 </div>
                 <!-- /left column -->
 
                 <!-- right column -->
                 <div class="col-md-6">
-                  <div class="box box-info">
-                    <div class="box-body">
-                      <div class="row">
+                  <div class="box box-danger">
+                      <div class="box-body">
+                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                          Untuk melakukan proses Abort, Anda wajib menyertakan Alasan Abort dan Dokumen Pendukung Proses Abort pada kolom berikut.    
+                        </p>
                         <div class="col-md-12">
-                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            Anda perlu melakukan <span class="text-red">Extend Opening Date</span> pada kolom berikut.    
-                          </p>
+
                           <div class="form-group">
-                            <label class="control-label col-md-3" for="noKontrak">Extend Opening Date:</label>
-                            <div class="input-group date col-md-6">
-                              <div class="input-group-addon">
-                                <i class="fa fa-calendar"></i>
-                              </div>
-                              <input type="text" class="form-control" id="datepicker" required>
-                            </div>
+                            <label>Alasan Abort :</label>
+                            <textarea class="form-control" rows="5" placeholder="Enter ..." style="resize:none" required></textarea>
                           </div>
+                          <div class="form-group">
+                            <label>Dokumen Pendukung Proses Abort:</label>
+                            <input type="file" id="inputFile" multiple required>
+                          </div>
+                          
                         </div>
                       </div>
-                    </div>
                   </div>
+
                 </div>
                 <!-- /right column -->
               </div>
 
-              
-              
-              
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              <button type="button" class="btn btn-info btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#resumeModal">
-                <span class="glyphicon glyphicon-play"></span> Resume Pre-Bid Meeting
+              
+              <button type="button" class="btn btn-danger pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#abortModal">
+              <span class="glyphicon glyphicon-remove"></span> Abort
               </button>
-              <div id="resumeModal" class="modal">
+
+              <div id="abortModal" class="modal">
                 <div class="modal-dialog">
                   <div class="modal-content">
-                    <div class="modal-header bg-aqua">
+                    <div class="modal-header bg-red">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title">Are You Sure to Resume It?</h4>
+                      <h4 class="modal-title">Are You Sure to Abort It?</h4>
                     </div>
                     <div class="modal-body">
+                      <p>Proses ini akan menghapus <strong><span class="text-red">SELURUH DATA</span></strong> yang berkaitan dengan Dokumen ini.</p>
                       <p>Proses ini akan mengirimkan notifikasi kepada :</p>
                       <li>Contract Organisator</li>
                       <li>Contract Engineer</li>
                       <li>Lead Contract Engineer</li>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                      <button type="submit" class="btn btn-info btn-sm">Yes, Resume It</button>
+                      <button type="button" class="btn pull-left btn-sm" data-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-danger btn-sm">Yes, Abort Now!</button>
                     </div>
                   </div>
                     <!-- /.modal-content -->
                 </div>
               </div>
+
               <a href="p3.php">
                 <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;">
                   Back

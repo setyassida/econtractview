@@ -52,29 +52,35 @@
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
           <li><a href="#">Pre-Bid Meeting</a></li>
           <li><a href="#">0001/BB41/2017-041</a></li>
-          <li class="active">Resume</li>
+          <li class="active">Upload</li>
         </ol>
       </section>
 
-      <!-- Main content -->
+      <!-- iNote-->
+
       
+
+      <!-- Main content -->
+
       <section class="content">
         <!-- SELECT2 EXAMPLE -->
-        <div class="box box-info">
+        <div class="box">
           <form class="form-horizontal">
             <div class="box-header with-border">
               <h3 class="box-title">Informasi Kontrak</h3>
 
-              
+              <div class="col-md-3 pull-right text-right">
+                <small>Lihat dokumen yang telah ter-upload <a href="p3-detail.php">disini</a></small>
+              </div>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              
-              
+
+
               <div class="row">
                 <!-- left column -->
                 <div class="col-md-6">
-                  
+
                   <div class="form-group">
                     <label class="control-label col-md-3" for="noKontrak">Nomor Risalah Pre-Bid Meeting:</label>
                     <div class="col-md-9">
@@ -106,66 +112,117 @@
                     </div>
                   </div>
                   
+
                 </div>
                 <!-- /left column -->
 
                 <!-- right column -->
                 <div class="col-md-6">
-                  <div class="box box-info">
-                    <div class="box-body">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                            Anda perlu melakukan <span class="text-red">Extend Opening Date</span> pada kolom berikut.    
-                          </p>
-                          <div class="form-group">
-                            <label class="control-label col-md-3" for="noKontrak">Extend Opening Date:</label>
-                            <div class="input-group date col-md-6">
-                              <div class="input-group-addon">
-                                <i class="fa fa-calendar"></i>
-                              </div>
-                              <input type="text" class="form-control" id="datepicker" required>
-                            </div>
+                  <div class="box ">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="box-body">
+                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                          Maksimum ukuran tiap file yang diupload adalah <span class="text-red">50MB</span>!    
+                        </p>
+
+                        <table id="dataTable" class="table table-bordered table-condensed table-hover">
+                          <thead>
+                            <tr>
+                              <th>Judul Dokumen</th>
+                              <th style="width:250px">Filename</th>
+                              <th style="width:40px">Act</th>
+                              <th style="display:none">Keterangan</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Risalah Pre-Bid Meeting</td>
+                              <td><input type="file" id="" accept=".pdf"></td>
+                              <td></td>
+                              <td style="display:none"></td>
+                            </tr>
+                            <tr>
+                              <td>Breakdown Penawaran</td>
+                              <td><input type="file" id="" accept=".pdf"></td>
+                              <td></td>
+                              <td style="display:none"></td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <div style="height:20px">
+                        </div>
+
+                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                          Tambahkan dokumen pendukung lainnya melalui kolom berikut.   
+                        </p>
+                        <div class="form-group">
+                          <label class="control-label col-md-4">Judul Dokumen : </label>
+                          <div class="col-md-8">
+                            <input id="inputJudulDokumen" type="text" class="input-sm form-control">
                           </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-4">Filename : </label>
+                          <div class="col-md-8">
+                            <input id="inputFile" type="file" class="input-sm">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-4">Keterangan : </label>
+                          <div class="col-md-8">
+                            <textarea id="inputKeterangan" rows="5" placeholder="Type Here.." class="form-control" style="resize:none"></textarea>
+                          </div>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-xs pull-right" id="btnAdd"><span class="glyphicon glyphicon-plus"></span> Add</button>
+                        
+                        
+
+
                         </div>
                       </div>
                     </div>
                   </div>
+
                 </div>
                 <!-- /right column -->
               </div>
 
-              
-              
-              
+
+
+
+
+
+
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              <button type="button" class="btn btn-info btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#resumeModal">
-                <span class="glyphicon glyphicon-play"></span> Resume Pre-Bid Meeting
+              
+              <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#uploadModal">
+              <span class="glyphicon glyphicon-cloud-upload"></span> Upload
               </button>
-              <div id="resumeModal" class="modal">
+
+              <div id="uploadModal" class="modal">
                 <div class="modal-dialog">
                   <div class="modal-content">
-                    <div class="modal-header bg-aqua">
+                    <div class="modal-header bg-green">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title">Are You Sure to Resume It?</h4>
+                      <h4 class="modal-title">Are You Sure?</h4>
                     </div>
                     <div class="modal-body">
-                      <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                      <li>Contract Organisator</li>
-                      <li>Contract Engineer</li>
-                      <li>Lead Contract Engineer</li>
+                      <p>Pastikan file pendukung yang Anda upload telah sesuai. Anda <span class="text-red">TIDAK DAPAT</span> merubah <i>Dokumen Pre-Bid Meeting</i> dan <i>Breakdown Anggaran</i> setelah melakukan proses ini.</p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                      <button type="submit" class="btn btn-info btn-sm">Yes, Resume It</button>
+                      <button type="submit" class="btn btn-sm btn-success">Yes, I Want to Upload It</button>
                     </div>
                   </div>
                     <!-- /.modal-content -->
                 </div>
               </div>
+
               <a href="p3.php">
                 <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;">
                   Back
@@ -405,6 +462,67 @@
   $('#datepicker').datepicker({
     autoclose: true
   });
+
+  //jquery untuk menghilangkan addded dokumen
+  $("#btnRemove").click(function(){
+    
+  });
+
+  
+
+  //jQuery for add dokumen tambahan
+  $("#btnAdd").click(function(){
+    //get all value of add form
+    var judulDokumen = $("#inputJudulDokumen").val();
+    var $inputFile = $("#inputFile");
+    var keterangan = $("#inputKeterangan").val();
+
+    //clone input file
+    var $cloneFile = $inputFile.clone();
+    $cloneFile.attr({id:"1", class:""});
+
+    //create object tr
+    var $tr = $("<tr />");
+    var $td1 = $("<td />");
+    $td1.html(judulDokumen);
+    
+    var $td2 = $("<td />");
+    $td2.append($cloneFile);
+    
+    var $td3 = $("<td />");
+    $td3.append("<div class='text-center'><button type='button' class='btn btn-xs btn-default btnRemove'><span class='glyphicon glyphicon-remove'></span></button></div>");
+    
+    var $td4 = $("<td />");
+    $td4.html(keterangan);
+    $td4.attr({style:"display:none"});
+
+
+    $tr.append($td1);
+    $tr.append($td2);
+    $tr.append($td3);
+    $tr.append($td4);
+
+    //menambahnkan objeck
+    $("#dataTable tr:last").after($tr);
+
+    //clear add form
+    $("#inputJudulDokumen").val("");
+
+    var $e = $("#inputFile");
+
+    $e.wrap('<form>').closest('form').get(0).reset();
+    $e.unwrap();
+
+    $("#inputKeterangan").val("");
+
+    //register event
+    $(".btnRemove").click(function(){
+      $(this).closest("tr").remove();
+    });
+  });
+
+
+  
 </script>
 
 
