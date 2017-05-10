@@ -76,35 +76,35 @@
                 <tbody>
                 <tr>
                   <td><a href="p2cdraft.php">BL-17001</a></td>
-                  <td><a href="#">CB-17001</a></td>
+                  <td>CB-17001</td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td class="text-center"><span class="label label-primary">Draft</span></td>
                   <td>20-Jan-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2capproved.php">BL-17002</a></td>
-                  <td><a href="#">CC-17001</a></td>
+                  <td>CC-17001</td>
                   <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
                   <td class="text-center"><span class="label label-info">Approved</span></td>
                   <td>21-Feb-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2caborted.php">BL-17003</a></td>
-                  <td><a href="#">CA-17003</a></td>
+                  <td>CA-17003</td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td class="text-center"><span class="label label-danger">Aborted</span></td>
                   <td>22-Feb-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2chold.php">BL-17004</a></td>
-                  <td><a href="#">CA-17002</a></td>
+                  <td>CA-17002</td>
                   <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
                   <td class="text-center"><span class="label label-warning">Hold</span></td>
                   <td>23-Apr-2017</td>
                 </tr>
                 <tr>
                   <td><a href="p2cpublished.php">BL-17005</a></td>
-                  <td><a href="#">CA-17001</a></td>
+                  <td>CA-17001</td>
                   <td>STEAM CONDENSATE LINE</td>
                   <td class="text-center"><span class="label label-success">Published</span></td>
                   <td>24-Apr-2017</td>
