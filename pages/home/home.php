@@ -56,12 +56,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 col-xs-12">
           <img src="../../resources/images/footer2.png" class="image-footer2">
           <strong><p class="text-footer text-footer-w">Head Office - Jakarta: Wisma Nusantara 9th Floor, Jl. MH Thamrin No. 59 ,Jakarta 10350, Indonesia</p></strong>
-          <p class="text-footer-w">Telp: 021 31930243(3lines), 319 36317(4 lines), Fax: 021 314 2974, Telex: 61417 BDKLNG IA</p>
+          <p class="text-footer-w">Telp: 021 31930243 (3 lines), 319 36317 (4 lines), Fax: 021 314 2974, Telex: 61417 BDKLNG IA</p>
           <strong><p class="text-footer-w">Plant Site - Bontang: Bontang 75324, East Kalimantan, Indonesia</p></strong>
-          <p class="text-footer-w">Telp: 0548 42100, 21133(10 liens), Fax: 0548 27500, 21605, 22388, Telex: 38283 BDKLNG IA, 37211 BDKBPP IA</p>
+          <p class="text-footer-w">Telp: 0548 42100, 21133(10 lines), Fax: 0548 27500, 21605, 22388, Telex: 38283 BDKLNG IA, 37211 BDKBPP IA</p>
       </div>
 <!--       <div class="col-md-12">
         <img src="../../resources/images/footer2.png" class="image-footer">
