@@ -94,7 +94,6 @@
                 	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
                 	<a href="p3-abort.php?no=CO-17001"><button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button></a>
 		            </div>
-        </div>
               </td>
             </tr>
             <tr>
