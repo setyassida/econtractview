@@ -83,7 +83,7 @@
             <tbody>
             <tr>
               <td>CA-17001</td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
+              <td>REGULAR INSPECTION OF LIFTING GEARS</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
               <td><div class="text-center"><a href="p6-edit.php"><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
               <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
@@ -92,7 +92,7 @@
             </tr>
             <tr>
               <td>CA-17002</td>
-              <td>PERBAIKAN INFRASTRUKTUR</td>
+              <td>PTR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
               <td><div class="text-center"><a href="p6-edit.php"><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>
               <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
@@ -101,7 +101,7 @@
             </tr>
             <tr>
               <td>CA-17003</td>
-              <td>PENGADAAN PERANGKAT LUNAK</td>
+              <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
               <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
               <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
               <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
@@ -110,7 +110,7 @@
             </tr>
             <tr>
               <td>CA-17004</td>
-              <td>PEMELIHARAAN</td>
+              <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
               <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
               <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
               <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
@@ -119,7 +119,7 @@
             </tr>
             <tr>
               <td>CA-17005</td>
-              <td>KEBERSIHAN</td>
+              <td>STEAM CONDENSATE LINE</td>
               <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
               <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
               <td>
