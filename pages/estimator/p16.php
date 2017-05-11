@@ -61,7 +61,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="box-body">
           <table id="dataTable" class="table table-bordered table-condensed table-hover">
             <thead>
@@ -139,7 +139,7 @@
                       <div class="modal-header bg-gray">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Upload Dokumen Hasil Scan</h4>
+                        <h4 class="modal-title">Upload Dokumen Hasil Scan HPS</h4>
                       </div>
                       <div class="modal-body">
                           <p class="text-muted well well-sm no-shadow">

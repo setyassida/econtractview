@@ -122,7 +122,51 @@
               <td>KEBERSIHAN</td>
               <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
               <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+              <td>
+                <div class="text-center"><button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div>
+                
+                <div id="uploadModal" class="modal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <form class="form-horizontal">
+                      <div class="modal-header bg-gray">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Upload Dokumen Hasil Scan Evaltek</h4>
+                      </div>
+                      <div class="modal-body">
+                          <p class="text-muted well well-sm no-shadow">
+                            Maksimum ukuran file <span class="text-red">50MB</span>
+                          </p>
+
+                          <div class="row">
+                          <div class="form-group col-md-12">
+                            <label class="control-label col-md-3">Nomor Kontrak : </label>
+                            <div class="form-control-static col-md-8">
+                              CA-17005
+                            </div>
+                          </div>
+
+                          <div class="form-group col-md-12">
+                            <label class="control-label col-md-3">Dokumen HPS :</label>
+                            <div class="col-md-8">
+                              <input type="file" class="input-sm form-control" required>
+                            </div>
+                          </div>
+                          </div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" value="submit" class="btn btn-default btn-sm">Upload</button>
+                      </div>
+                      </form>
+                    </div>
+                      <!-- /.modal-content -->
+                  </div>
+                </div>
+
+              </td>
               <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
             </tr>
