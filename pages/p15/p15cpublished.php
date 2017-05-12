@@ -220,36 +220,6 @@
                   </div>
                     <!-- /.box -->
 
-                    <!-- box bidder list -->
-                  <div class="box box-danger">
-                      <div class="box-header">
-                        <h3 class="box-title">Removed Bidder</h3>
-                        <div class="box-tools pull-right">
-                          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                            <i class="fa fa-minus"></i></button>
-                        </div>
-                      </div>
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table id="example2" class="table table-bordered table-striped table-condensed">
-                          <thead>
-                            <tr>
-                              <th>No</th>
-                              <th>Penawar</th>
-                              <th>Added By</th>
-                              <th>Added Date</th>
-                              <th>Removed By</th>
-                              <th>Removed Date</th>
-                              <th>Alasan Remove</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                          </tbody>
-                        </table>
-                      </div>
-                        <!-- /.box-body -->
-                  </div>
-                    <!-- /.box -->
                 </div>
               </div>
             </section>

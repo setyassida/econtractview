@@ -57,7 +57,7 @@
       <!-- SELECT2 EXAMPLE -->
       <div class="box">
         <div class="box-header with-border">
-          
+          <a href="p20-create.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Create Laporan CSMS dan Tenaga Kerja</button></a>
         </div>
         <!-- /.box-header -->
         <div class="box-body">
@@ -65,7 +65,7 @@
             <thead>
             <tr>
               <th>Nama Perusahaan</th>
-              <th>Nomor Kontrak</th>
+              <th style="width:50px">Nomor Kontrak</th>
               <th>Judul Pekerjaan</th>
               <th>Durasi</th>
               <th>Departemen/Section</th>
@@ -77,9 +77,9 @@
             <tr>
               <td>PT MAJU JAYA</td>
               <td>CA-17001</td>
-              <td>PERBAIKAN INFRASTRUKTUR</td>
-              <td>1 Bulan</td>
-              <td>Departemen Kebersihan</td>
+              <td>REGULAR INSPECTION OF LIFTING GEARSR</td>
+              <td>2 Bulan</td>
+              <td>Departemen A</td>
               <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></td>
               <td>
                 <div class="text-center"><a href="p20-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
@@ -88,9 +88,9 @@
             <tr>
               <td>PT MAJU JAYA</td>
               <td>CA-17002</td>
-              <td>KEBERSIHAN</td>
-              <td>1 Bulan</td>
-              <td>Departemen Kebersihan</td>
+              <td>PTR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
+              <td>3 Bulan</td>
+              <td>Departemen B</td>
               <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></td>
               <td>
                 <div class="text-center"><a href="p20-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
@@ -99,9 +99,9 @@
             <tr>
               <td>PT MAJU JAYA</td>
               <td>CA-17003</td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
-              <td>1 Bulan</td>
-              <td>Departemen Kebersihan</td>
+              <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
+              <td>5 Bulan</td>
+              <td>Departemen C</td>
               <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></div></td>
               <td>
                 <div class="text-center"><a href="p20-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
@@ -110,9 +110,9 @@
             <tr>
               <td>PT MAJU JAYA</td>
               <td>CA-17004</td>
-              <td>PENGADAAN INFRASTRUKTUR</td>
-              <td>1 Bulan</td>
-              <td>Departemen Kebersihan</td>
+              <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
+              <td>2 Bulan</td>
+              <td>Departemen D</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></td>
               <td>
                 <div class="text-center"><a href="p20-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
@@ -125,7 +125,9 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          
+          Keterangan Status : <br>
+          <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Laporan sedang dibuat oleh Supplier</div>
+          <div class="col-md-1"><span class="label label-success">Submitted</span></div> <div class="col-md-11">: Laporan telah selesei dibuat</div>
         </div>
       </div>
       <!-- /.box -->

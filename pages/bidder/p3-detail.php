@@ -133,9 +133,7 @@
                                   <button type="button" class="btn btn-xs btn-default" >
                                     <span class="glyphicon glyphicon-download-alt"></span>
                                   </button>
-                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
-                                    <span class="fa fa-cog"></span>
-                                  </button>
+                                  
                                 </div>
                                 <div id="modifyModal" class="modal">
                                     <div class="modal-dialog">
@@ -176,9 +174,7 @@
                                   <button type="button" class="btn btn-xs btn-default" >
                                     <span class="glyphicon glyphicon-download-alt"></span>
                                   </button>
-                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
-                                    <span class="fa fa-cog"></span>
-                                  </button>
+                                  
                                 </div>
                                 <div id="modifyModal" class="modal">
                                     <div class="modal-dialog">
@@ -215,9 +211,7 @@
                                   <button type="button" class="btn btn-xs btn-default" >
                                     <span class="glyphicon glyphicon-download-alt"></span>
                                   </button>
-                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
-                                    <span class="fa fa-cog"></span>
-                                  </button>
+                                  
                                 </div>
                                 <div id="modifyModal" class="modal">
                                     <div class="modal-dialog">
@@ -238,7 +232,7 @@
                                         </div>
                                         <div class="modal-footer">
                                           <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
+                                          
                                         </div>
                                       </div>
                                     </div>
@@ -249,19 +243,19 @@
                             <tr>
                               <td>Dokumen Tambahan 2</td>
                               <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> </div></td>
                               <td style="display:none"></td>
                             </tr>
                             <tr>
                               <td>Dokumen Tambahan 3</td>
                               <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> </div></td>
                               <td style="display:none"></td>
                             </tr>
                             <tr>
                               <td>Dokumen Tambahan 4</td>
                               <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> </div></td>
                               <td style="display:none"></td>
                             </tr>
                           </tbody>

@@ -75,83 +75,48 @@
               <th style="width:100px">Nomor Kontrak</th>
               <th>Juduk Pekerjaan</th>
               <th style="width:50px">Status</th>
-              <th style="width:10px">Template Risalah</th>
-              <th style="width:50px">Upload</th>
-              <th style="width:50px">Action</th>
             </tr>
             </thead>
             <tbody>
             <tr>
               <td>0001/BB41/2017-041</td>
-              <td>01-01-2017</td>
+              <td>05-05-2017</td>
               <td>CA-17001</td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
+              <td>REGULAR INSPECTION OF LIFTING GEARS</td>
               <td><div class="text-center"><span class="label label-primary">Waiting</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td>
-                <div class="text-center">
-                	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
-                	<a href="p3-abort.php?no=CO-17001"><button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button></a>
-		            </div>
-        </div>
-              </td>
+              
             </tr>
             <tr>
               <td>0001/BB41/2016-789</td>
               <td>25-03-2018</td>
-              <td>CC-167321</td>
-              <td>PERBAIKAN INFRASTRUKTUR</td>
+              <td>CC-18002</td>
+              <td>PTR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
               <td><div class="text-center"><span class="label label-primary">Waiting</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td>
-                <div class="text-center">
-                	<a href="p3-hold.php?no=CO-17001"><button type="button" class="btn btn-warning btn-xs" data-toggle="hold" title="Hold Pre-Bid Meeting"><span class="glyphicon glyphicon-pause"></span></button></a>
-                	<a href="p3-abort.php?no=CO-17001"><button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button></a>
-                </div>
-              </td>
+              
             </tr>
             <tr>
               <td>0001/BB41/2017-041</td>
               <td>17-02-2018</td>
-              <td>CB-18121</td>
-              <td>PENGADAAN PERANGKAT LUNAK</td>
+              <td>CB-18001</td>
+              <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
               <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td>
-                <div class="text-center">
-                	<a href="p3-resume.php?no=CO-17001"><button type="button" class="btn btn-info btn-xs" data-toggle="resume" title="Resume"><span class="glyphicon glyphicon-play"></span></button></a>
-                	<a href="p3-abort.php?no=CO-17001"><button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract"><span class="glyphicon glyphicon-remove"></span></button></a>
-                </div>
-              </td>
+              
             </tr>
             <tr>
               <td>0001/BB41/2017-532</td>
-              <td>28-01-2018</td>
-              <td>CA-17001</td>
-              <td>PEMELIHARAAN</td>
+              <td>01-01-2018</td>
+              <td>CA-17004</td>
+              <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
               <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td>
-                <div class="text-center">
-                	<a href="p3-resume.php?no=CO-17001"><button data-toggle="resume" title="Resume" type="button" class="btn btn-info btn-xs"><span class="glyphicon glyphicon-play"></span></button></a>
-                	<a href="p3-abort.php?no=CO-17001"><button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Abort This Contract" ><span class="glyphicon glyphicon-remove"></span></button></a>
-                </div>
-              </td>
+              
             </tr>
             <tr>
               <td><a href="p3-detail.php?no=CO-17001">0001/BB41/2018-123</a></td>
               <td>28-01-2018</td>
-              <td>CB-17555</td>
-              <td>KEBERSIHAN</td>
+              <td>CB-17005</td>
+              <td>STEAM CONDENSATE LINE</td>
               <td><div class="text-center"><span class="label label-success">Uploaded</span></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td>
-              </td>
+              
             </tr>
             <tbody>
           </table>
