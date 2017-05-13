@@ -56,9 +56,7 @@
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
       <div class="box">
-        <div class="box-header with-border">
-          <a href="p20-create.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus"></span> Create Laporan CSMS dan Tenaga Kerja</button></a>
-        </div>
+        
         <!-- /.box-header -->
         <div class="box-body">
           <table id="dataTable" class="table table-bordered table-condensed table-hover">
