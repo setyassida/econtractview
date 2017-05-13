@@ -83,7 +83,7 @@
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                 </tr>
                 <tr>
-                  <td><a href="#">CC-17001</a></td>
+                  <td><a href="p17iCE.php">CC-17001</a></td>
                   <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
                   <td class="text-center"><span class="label label-success">Finish</span></td>
                   <td>21-Feb-2017</td>
@@ -93,7 +93,7 @@
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                 </tr>
                 <tr>
-                  <td><a href="#">CA-17003</a></td>
+                  <td><a href="p17iCE.php">CA-17003</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td class="text-center"><span class="label label-success">Finish</span></td>
                   <td>22-Feb-2017</td>
@@ -104,7 +104,7 @@
                 </tr>
                 
                 <tr>
-                  <td><a href="#">CA-17002</a></td>
+                  <td><a href="p17iCE.php">CA-17002</a></td>
                   <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
                   <td class="text-center"><span class="label label-success">Finish</span></td>
                   <td>23-Apr-2017</td>
@@ -115,7 +115,7 @@
                 </tr>
                 
                 <tr>
-                  <td><a href="#">CA-17001</a></td>
+                  <td><a href="p17iCE.php">CA-17001</a></td>
                   <td>STEAM CONDENSATE LINE</td>
                   <td class="text-center"><span class="label label-success">Finish</span></td>
                   <td>24-Apr-2017</td>
@@ -146,7 +146,7 @@
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                 </tr>
                 <tr>
-                  <td><a href="p17abort.php">CA-17003</a></td>
+                  <td><a href="#">CA-17003</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td class="text-center"><span class="label label-danger">Aborted</span></td>
                   <td>22-Feb-2017</td>
