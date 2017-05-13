@@ -220,7 +220,7 @@
                     <tr>
                       <td class="text-red">Cost Commitment*</td>
                       <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
+                      <td class="text-center"><button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#CCModal"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
                       <td><input class="input-sm" type="file" id="exampleInputFile"></td>
                     </tr>
                     <tr>
@@ -310,6 +310,30 @@
 
     </div>
     <!-- ./wrapper -->
+
+    <div id="CCModal" class="modal">
+  		<div class="modal-dialog">
+  			<div class="modal-content">
+  				<div class="modal-header">
+  					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  						<span aria-hidden="true">&times;</span></button>
+  						<h4 class="modal-title">Do you want to Publish LOA?</h4>
+  					</div>
+  					<div class="modal-body">
+  						<p>Batas waktu masa sanggah: 4 (empat) hari kerja, terhitung sejak tanggal pengumuman. Tidak bisa extend batas waktu masa sanggah.</p>
+  						<p>Proses ini akan mengirimkan notifikasi kepada :</p>
+  						<li>Lose Bidder</li>
+  						<li>Originator</li>
+  						<li>Project Coordinator</li>
+  					</div>
+  					<div class="modal-footer">
+  						<button type="button" class="btn pull-left" data-dismiss="modal">Cancel</button>
+  						<button type="submit" class="btn btn-success">Yes, Publish Now</button>
+  					</div>
+  				</div>
+  				<!-- /.modal-content -->
+  			</div>
+  		</div>
 
     <!-- jQuery 2.2.3 -->
     <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
