@@ -112,11 +112,89 @@
             </div>
           </div>
 
+          
+
+          <div class="col-md-12">
+            <div class="box">
+              <div class="box-header with-border">
+                <h4>Laporan Tenaga Kerja</h4>
+              </div>
+              <div class="box-body">
+                <table id="dataTable" class="table table-bordered table-condensed table-hover">
+                  <thead>
+                  <tr>
+                    <th style="width:20px">No.</th>
+                    <th>Nama Pekerja</th>
+                    <th>Tipe Pekerja</th>
+                    <th style="width:30px">Jenis Kelamin</th>
+                    <th>Tempat Lahir</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Lihat Detail</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Jack Sparrow</td>
+                    <td>Overhead</td>
+                    <td>L</td>
+                    <td>Wonogiri</td>
+                    <td>01-01-1990</td>
+                    <td>
+                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Katniss Everdeen</td>
+                    <td>Overhead</td>
+                    <td>P</td>
+                    <td>Jakarta</td>
+                    <td>01-01-1990</td>
+                    <td>
+                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Peeta Mellark</td>
+                    <td>Pekerja</td>
+                    <td>L</td>
+                    <td>Blitar</td>
+                    <td>01-01-1990</td>
+                    <td>
+                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Sarah Connor</td>
+                    <td>Pekerja</td>
+                    <td>P</td>
+                    <td>Bogor</td>
+                    <td>01-01-1990</td>
+                    <td>
+                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
+                    </td>
+                  </tr>
+                  
+                  <tbody>
+                </table>
+
+                
+                <a href="p20-detail.php">
+                  <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-plus"></span> Tambah Pekerja</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+
           <div class="col-md-12">
             <div class="box">
               <form class="form-horizontal">
                 <div class="box-header with-border">
-                  <h4>Daftar Laporan</h4>
+                  <h4>Laporan Lainnya</h4>
                 </div>
                 <div class="box-body">
                   <table class="table table-bordered table-condensed table-hover">
@@ -327,82 +405,6 @@
                             
             </div>
 
-          </div>
-
-          <div class="col-md-12">
-            <div class="box">
-              <div class="box-header with-border">
-                <h4>Laporan Tenaga Kerja</h4>
-              </div>
-              <div class="box-body">
-                <table id="dataTable" class="table table-bordered table-condensed table-hover">
-                  <thead>
-                  <tr>
-                    <th style="width:20px">No.</th>
-                    <th>Nama Pekerja</th>
-                    <th>Tipe Pekerja</th>
-                    <th style="width:30px">Jenis Kelamin</th>
-                    <th>Tempat Lahir</th>
-                    <th>Tanggal Lahir</th>
-                    <th>Lihat Detail</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>Jack Sparrow</td>
-                    <td>Overhead</td>
-                    <td>L</td>
-                    <td>Wonogiri</td>
-                    <td>01-01-1990</td>
-                    <td>
-                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>Katniss Everdeen</td>
-                    <td>Overhead</td>
-                    <td>P</td>
-                    <td>Jakarta</td>
-                    <td>01-01-1990</td>
-                    <td>
-                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>Peeta Mellark</td>
-                    <td>Pekerja</td>
-                    <td>L</td>
-                    <td>Blitar</td>
-                    <td>01-01-1990</td>
-                    <td>
-                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>Sarah Connor</td>
-                    <td>Pekerja</td>
-                    <td>P</td>
-                    <td>Bogor</td>
-                    <td>01-01-1990</td>
-                    <td>
-                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
-                    </td>
-                  </tr>
-                  
-                  <tbody>
-                </table>
-
-                
-                <a href="p20-detail.php">
-                  <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-plus"></span> Tambah Pekerja</button>
-                </a>
-              </div>
-              
-            </div>
           </div>
 
           <div class="col-md-12">
