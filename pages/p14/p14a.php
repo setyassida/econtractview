@@ -46,7 +46,7 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Amandemen Kontrak
+          Create Variation Order
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -58,30 +58,15 @@
       <!-- Main content -->
       <section class="content">
 
-        <div style="margin-bottom:20px; margin-top:10px;" class="col-md-4 input-sm pull-right">
-          <div class="form-group">
-            <select class="form-control">
-              <option>Amandemen Ruang Linkup</option>
-              <option>Amandemen Jadwal</option>
-              <option selected="true">Nilai Kontrak</option>
-            </select>
-          </div>
-        </div>
 
         <div class="row">
           <form class="form-horizontal">
             <!-- right column -->
-
             <div class="col-md-12">
-
               <!-- Horizontal Form -->
               <div class="box box-info">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Informasi Kontrak</h3>
-                  <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                      <i class="fa fa-minus"></i></button>
-                    </div>
+                  <h3 class="box-title">Contract Order Reference</h3>
                 </div>
                 <!-- /.box-header -->
                 <!-- form start -->
@@ -91,11 +76,13 @@
                   <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
                     <div class="form-group">
                       <label for="pickedByCE1">No. Kontrak</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="CA-17001" disabled>
+                      <div class="input-group">
+                        <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                      </div>
                     </div>
                     <div class="form-group">
                       <label for="pickedByCE2">Judul Pekerjaan</label>
-                       >
                       <textarea type="text" class="form-control input-sm" name="name" rows="3" cols="45" placeholder="" disabled>REGULAR INSPECTION OF LIFTING GEARS</textarea>
                     </div>
                     <div class="form-group">
@@ -136,63 +123,14 @@
                 </div>
                 <!-- /.box-body -->
 
+                <div class="box-footer ">
+                  <a href="p14b_amandemenRL.php" class="btn btn-success pull-right btn-sm">Amandemen Kontrak</a>
+                </div>
+
               </div>
               <!-- /.box -->
             </div>
             <!--/.col (right) -->
-
-            <div class="col-md-12">
-
-              <!-- Horizontal Form -->
-              <div class="box box-info">
-                <div class="box-header with-border">
-                  <h3 class="box-title">Amandemen Nilai Kontrak</h3>
-                </div>
-                <!-- /.box-header -->
-                <!-- form start -->
-
-                <div class="box-body">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
-                        <div class="form-group">
-                          <label for="pickedByCE2">Nilai Kontrak Asli</label>
-                          <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="Rp. 400.000.000,-" disabled>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
-                        <div class="form-group">
-                          <label for="pickedByCE2">Nilai Kontrak Perubahan</label>
-                          <input type="number" class="form-control input-sm" id="pickedByCE2" placeholder="Isi dengan nilai kontrak yang baru" >
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-md-12">
-                      <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
-                        <div class="form-group">
-                          <label for="pickedByCE2">Nilai Kontrak Setelah Perubahan</label>
-                          <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="Rp. 300.000.000,-" disabled>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-
-
-                </div>
-                <!-- /.box-body -->
-
-                <div class="box-footer ">
-                  <button type="button" class="btn btn-success pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#amandemenModal"> Amandemen Niila Kontrak</button>
-                </div>
-
-              </div>
-              <!-- /.box -->
-            </div>
 
           </div>
           <!--/.col (right) -->
@@ -210,26 +148,6 @@
     <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
     reserved.
   </footer>
-
-  <div id="amandemenModal" class="modal ">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header bg-green">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Anda yakin untuk Amandemen Kontrak?</h4>
-        </div>
-        <div class="modal-body">
-          <p>Proses ini akan melakukan amandemen kontrak pada bagian <b>Nilai Kontrak</b>, <b>Nilai Kontrak akan diperbarui.</b></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-success">Ya, saya setuju untuk amandemen kontrak </button>
-        </div>
-      </div>
-        <!-- /.modal-content -->
-    </div>
-  </div>
 
 
 </div>
