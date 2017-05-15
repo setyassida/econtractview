@@ -129,7 +129,7 @@
                 <!-- VO menu -->
         <li class="active treeview">
           <a href="#">
-            <i class="fa fa-th"></i> 
+            <i class="fa fa-edit"></i> 
             <span>Variation Order</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -138,23 +138,16 @@
           <ul class="treeview-menu">
             <li><a href="#"><i class="fa fa-circle-o"></i> Variation Order</a></li>
             <li class="active"><a href="p15.php"><i class="fa fa-circle-o"></i> Bidder List VO</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Variation Order</a></li>
+            
           </ul>
         </li>
 
 
                 <!-- Report menu -->
-        <li>
-          <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>Report</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
-            </span>
-          </a>
-        </li>
-
-        <li>
-          <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>Report</span>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i> <span>Report</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span>

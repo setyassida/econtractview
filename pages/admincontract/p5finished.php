@@ -14,6 +14,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+  <!-- Bootstrap time Picker -->
+  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -33,7 +37,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p15header.php" ?>
+  <?php include "p5header.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -41,79 +45,71 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Bidder List VO
-        <small>Daftar Bidder VO</small>
+        Evaluasi Administrasi
+        <!-- <small>Daftar Bidder</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li class="active"><a href="p15.php">Bidder List VO</a></li>
+        <li><a href="p5.php">Evaluasi Administrasi</a></li>
+        <li class="active"><a href="p5finished.php">Hasil Opening</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-      <div class="row">
-        <div class="col-md-12">
-
-        <!-- box bidder list -->
-          <div class="box box-danger">
-            <div class="box-header">
-              <!-- <h3 class="box-title">Result</h3> -->
-              <a href="p15create.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Bidder List Baru</button></a>
+      <form class="form-horizontal">
+        <div class="row">
+          <div class="col-md-12">
+          <!-- box -->
+            <div class="box box-primary">
+              <div class="box-header">
+                <h3 class="box-title">Peserta Pengadaan Jasa</h3>
+              </div>
+              <!-- /.box-header -->
+              <div class="box-body">
+                <div class="box">
+                  <div class="box-body table-responsive">
+                    <table class="table table-bordered table-hover">
+                      <tr>
+                        <th>Nomor</th>
+                        <th>Perusahaan</th>
+                        <th>Nama Jelas</th>
+                        <th>Tanda Tangan</th>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>PT MJ</td>
+                        <td>Perusahaan Terpadu Maju Jaya</td>
+                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>PT DJ</td>
+                        <td>Perusahaan Terpadu Depan Jaya</td>
+                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>PT DO</td>
+                        <td>Perusahaan Terpadu Dan One</td>
+                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!-- /.box-body -->
+                </div>
+              </div>
+              <div class="box-footer">
+                <button class="btn btn-default pull-right "><i class="fa fa-print"></i> Print Peserta Pengadaan Jasa</button>
+              </div>
             </div>
-            <!-- /.box-header -->
-            <div class="box-body "> 
-              <table id="example1" class="table table-bordered table-striped table-condensed">
-                <thead>
-                <tr>
-                  <th>No. Bidder List</th>
-                  <th>No. Contract</th>
-                  <th>Judul Pekerjaan</th>
-                  <th>Status</th>
-                  <th>Tanggal Dibuat</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td><a href="p15cdraft.php">BL-17001</a></td>
-                  <td>CB-17001</td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>20-Jan-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="p15cpublished.php">BL-17005</a></td>
-                  <td>CA-17001</td>
-                  <td>STEAM CONDENSATE LINE</td>
-                  <td class="text-center"><span class="label label-success">Published</span></td>
-                  <td>24-Apr-2017</td>
-                </tr>
-                </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
-              </table>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <h4>Keterangan status</h4>
-              <ul>
-                <li><span class="label label-primary">Draft</span> : Bidder list di-draft</li>
-                <li><span class="label label-success">Published</span> : Bidder list di-publish</li>
-              </ul>
-            </div>
+            <!-- /.box -->
           </div>
-          <!-- /.box -->
+          <!-- /.col -->
         </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
+        <!-- /.row -->
+      </form>
+      <!-- /.form -->
     </section>
     <!-- /.content -->
   </div>
@@ -135,6 +131,10 @@
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
+<!-- bootstrap datepicker -->
+<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- bootstrap time picker -->
+<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -147,6 +147,10 @@
 <script>
   $(function () {
     $("#example1").DataTable();
+    //Date picker
+    $('#datepicker1').datepicker({autoclose: true});
+    //Time picker
+    $(".timepicker").timepicker({showInputs: false});
   });
 </script>
 </body>

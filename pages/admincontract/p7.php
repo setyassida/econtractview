@@ -33,7 +33,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p15header.php" ?>
+  <?php include "p7header.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -41,12 +41,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Bidder List VO
-        <small>Daftar Bidder VO</small>
+        Opening Komersial
+        <!-- <small>Daftar Bidder</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li class="active"><a href="p15.php">Bidder List VO</a></li>
+        <li class="active"><a href="p7.php">Opening Komersial</a></li>
       </ol>
     </section>
 
@@ -58,54 +58,53 @@
         <!-- box bidder list -->
           <div class="box box-danger">
             <div class="box-header">
-              <!-- <h3 class="box-title">Result</h3> -->
-              <a href="p15create.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Bidder List Baru</button></a>
+              
             </div>
             <!-- /.box-header -->
             <div class="box-body "> 
               <table id="example1" class="table table-bordered table-striped table-condensed">
                 <thead>
                 <tr>
-                  <th>No. Bidder List</th>
-                  <th>No. Contract</th>
+                  <th>Nomor Kontrak</th>
                   <th>Judul Pekerjaan</th>
                   <th>Status</th>
-                  <th>Tanggal Dibuat</th>
+                  <th>Tanggal Opening</th>
+                  <th>Detail</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                  <td><a href="p15cdraft.php">BL-17001</a></td>
-                  <td>CB-17001</td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>20-Jan-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="p15cpublished.php">BL-17005</a></td>
                   <td>CA-17001</td>
                   <td>STEAM CONDENSATE LINE</td>
-                  <td class="text-center"><span class="label label-success">Published</span></td>
-                  <td>24-Apr-2017</td>
+                  <td class="text-center"><span class="label label-warning">Await Opening</span></td>
+                  <td class="text-center">20-Jan-2017</td>
+                  <td class="text-center"><a href="p7summary.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
+                </tr>
+                <tr>
+                  <td>CB-17001</td>
+                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
+                  <td class="text-center"><span class="label label-primary">Await Document</span></td>
+                  <td class="text-center">22-Jan-2017</td>
+                  <td class="text-center"><a href="p7end.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
+                </tr>
+                <tr>
+                  <td>CC-17001</td>
+                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
+                  <td class="text-center"><span class="label label-success">Signed</span></td>
+                  <td class="text-center">20-Feb-2017</td>
+                  <td class="text-center"><a href="p7finished.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                 </tr>
                 </tbody>
                 <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
                 </tfoot>
               </table>
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-              <h4>Keterangan status</h4>
               <ul>
-                <li><span class="label label-primary">Draft</span> : Bidder list di-draft</li>
-                <li><span class="label label-success">Published</span> : Bidder list di-publish</li>
+                <li><span class="label label-warning">Await Opening</span> : Kontrak belum dibuka</li>
+                <li><span class="label label-primary">Await Document</span> : Kontrak masih menunggu dokumen di-upload</li>
+                <li><span class="label label-success">Signed</span> : Kontrak sudah ditandatangani</li>
               </ul>
             </div>
           </div>
