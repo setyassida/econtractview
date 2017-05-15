@@ -198,36 +198,6 @@
                                   <td> lulus </td>
                                   <td> lulus </td>
                                 </tr>
-                                <tr>
-                                  <td>2.</td>
-                                  <td>PT Aimindo Adie Perkasa</td>
-                                  <td>1.050.000.000</td>
-                                  <td>1.200.000.000</td>
-                                  <td>950.000.000</td>
-                                  <td> 1 </td>
-                                  <td> 2 </td>
-                                  <td> Lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
-                                </tr>
-                                <tr>
-                                  <td>3.</td>
-                                  <td>PT Abdi Jati</td>
-                                  <td>1.250.000.000</td>
-                                  <td>950.000.000</td>
-                                  <td>0</td>
-                                  <td> 3 </td>
-                                  <td> 2 </td>
-                                  <td> Lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
-                                  <!-- <td><textarea id="inputKeterangan" rows="1" placeholder="Status" class="form-control" style="resize:none"></textarea></td> -->
-                                  <td> lulus </td>
-
-                                </tr>
                               </table>
                             </div>
 
@@ -248,9 +218,7 @@
                 <label class="control-label col-md-1" for="noKontrak">Action</label>
                 <div class="col-md-5">
                   <a href="p17abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a>
-                  <!-- <a href="p17d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a> -->
-                  <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a>
-                 
+                  <!-- <a href="p17d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a> -->                 
                 </div>
                 <div class="col-md-6" style="text-align: right;">
                   <a href="p17CE.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Finish </button></a>

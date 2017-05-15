@@ -33,7 +33,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p15header.php" ?>
+  <?php include "p2header.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -41,12 +41,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Bidder List VO
-        <small>Daftar Bidder VO</small>
+        Bidder List
+        <small>Daftar Bidder</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li class="active"><a href="p15.php">Bidder List VO</a></li>
+        <li class="active"><a href="p2a.php">Bidder List</a></li>
       </ol>
     </section>
 
@@ -59,7 +59,7 @@
           <div class="box box-danger">
             <div class="box-header">
               <!-- <h3 class="box-title">Result</h3> -->
-              <a href="p15create.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Bidder List Baru</button></a>
+              <a href="p2b.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Bidder List Baru</button></a>
             </div>
             <!-- /.box-header -->
             <div class="box-body "> 
@@ -75,14 +75,35 @@
                 </thead>
                 <tbody>
                 <tr>
-                  <td><a href="p15cdraft.php">BL-17001</a></td>
+                  <td><a href="p2cdraft.php">BL-17001</a></td>
                   <td>CB-17001</td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td class="text-center"><span class="label label-primary">Draft</span></td>
                   <td>20-Jan-2017</td>
                 </tr>
                 <tr>
-                  <td><a href="p15cpublished.php">BL-17005</a></td>
+                  <td><a href="p2capproved.php">BL-17002</a></td>
+                  <td>CC-17001</td>
+                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
+                  <td class="text-center"><span class="label label-info">Approved</span></td>
+                  <td>21-Feb-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p2caborted.php">BL-17003</a></td>
+                  <td>CA-17003</td>
+                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
+                  <td class="text-center"><span class="label label-danger">Aborted</span></td>
+                  <td>22-Feb-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p2chold.php">BL-17004</a></td>
+                  <td>CA-17002</td>
+                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
+                  <td class="text-center"><span class="label label-warning">Hold</span></td>
+                  <td>23-Apr-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p2cpublished.php">BL-17005</a></td>
                   <td>CA-17001</td>
                   <td>STEAM CONDENSATE LINE</td>
                   <td class="text-center"><span class="label label-success">Published</span></td>
@@ -105,6 +126,9 @@
               <h4>Keterangan status</h4>
               <ul>
                 <li><span class="label label-primary">Draft</span> : Bidder list di-draft</li>
+                <li><span class="label label-warning">Hold</span> : Bidder list di-hold</li>
+                <li><span class="label label-danger">Aborted</span> : Contract Order di-abort</li>
+                <li><span class="label label-info">Approved</span> : Bidder list di-approve</li>
                 <li><span class="label label-success">Published</span> : Bidder list di-publish</li>
               </ul>
             </div>

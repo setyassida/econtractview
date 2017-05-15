@@ -129,26 +129,36 @@
                 <!-- VO menu -->
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-th"></i> 
+            <i class="fa fa-edit"></i> 
             <span>Variation Order</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Variation Order</a></li>
+            <li><a href="../p14/p14.php"><i class="fa fa-circle-o"></i> Variation Order</a></li>
             <li><a href="../p15/p15.php"><i class="fa fa-circle-o"></i> Bidder List VO</a></li>
+            <li><a href="../p16/p16.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri VO</a></li>
+            <li><a href="../p17/p17.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial VO</a></li>
+            <li><a href="../p18/p18.php"><i class="fa fa-circle-o"></i> Amandemen Kontrak VO</a></li>
           </ul>
         </li>
 
-
-                <!-- Report menu -->
-        <li class="active">
-          <a href="p21.php">
-            <i class="fa fa-pie-chart"></i> <span>Report</span>
+               <!-- Report menu -->
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i> 
+            <span>Report</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
           </a>
+          <ul class="treeview-menu">
+            <li><a href="../p20/p20.php"><i class="fa fa-circle-o"></i> Laporan CSMS & Tenaga Kerja</a></li>
+            <li><a href="../p19/p19.php"><i class="fa fa-circle-o"></i> Evaluasi Semester/Akhir</a></li>
+            <li class="active"><a href="../p21/p21.php"><i class="fa fa-circle-o"></i> Reporting</a></li>
+          </ul>
         </li>
-
 
       </ul>
     </section>

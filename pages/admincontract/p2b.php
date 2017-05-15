@@ -37,7 +37,7 @@
   <!-- Site wrapper -->
   <div class="wrapper">
 
-    <?php include "p15header.php" ?>
+    <?php include "p2header.php" ?>
 
     <!-- =============================================== -->
 
@@ -46,13 +46,13 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Bidder List VO
+          Bidder List
           <small>Buat Bidder List</small>
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-          <li ><a href="p15.php">Bidder List VO</a></li>
-          <li class="active"><a href="p15b.php">Create Bidder List VO</a></li>
+          <li ><a href="p2a.php">Bidder List</a></li>
+          <li class="active"><a href="p2b.php">Create Bidder List</a></li>
         </ol>
       </section>
 
@@ -212,7 +212,7 @@
 
             <div class="box-footer ">
               <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
-              <a href="p15cdraft.php" class="btn btn-success pull-right btn-sm">Generate Bidder List</a>
+              <a href="p2cdraft.php" class="btn btn-success pull-right btn-sm">Generate Bidder List</a>
             </div>
             <!-- /.box-footer -->
  

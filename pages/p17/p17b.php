@@ -60,7 +60,7 @@
             <div class="box-body "> 
                 <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
                     <div class="form-group">
-                      <label for="pickedByCE1">Contract Order</label>
+                      <label for="pickedByCE1">Nomor Kontrak</label>
                       <div class="input-group">
                         <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
                         <span class="input-group-addon"><i class="fa fa-search"></i></span>
