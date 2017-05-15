@@ -53,7 +53,7 @@
       <!-- SELECT2 EXAMPLE -->
       <div class="box">
         <div class="box-header">
-          
+
         </div>
         <!-- /.box-header -->
         <div class="box-body">

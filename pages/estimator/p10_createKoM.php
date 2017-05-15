@@ -76,7 +76,16 @@
             <label class="control-label col-md-2">Nomor Rekening :</label>
             <div class="col-md-10">
               <div class="col-md-6">
-                <input type="number" class="form-control input-sm" required>
+                <input type="number" class="form-control input-sm" placeholder="90017876286" required>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="form-group">
+            <label class="control-label col-md-2">Rekening atas nama :</label>
+            <div class="col-md-10">
+              <div class="col-md-6">
+                <input type="text" class="form-control input-sm" placeholder="Setyassida Novian" required>
               </div>
             </div>
           </div>

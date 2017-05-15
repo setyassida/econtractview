@@ -110,7 +110,6 @@
         <div class="box-footer">
           <div class="pull-right" style="margin-right: 2rem">
             <button type="button" class="btn btn-default btn-sm pull right"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-            <button type="button" class="btn btn-success btn-sm pull right"><span class="glyphicon glyphicon-print"></span> Cetak</button>
           </div>
 
         </div>
