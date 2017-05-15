@@ -15,8 +15,6 @@
   <!-- jvectormap -->
   <link rel="stylesheet" href="../../plugins/jvectormap/jquery-jvectormap-1.2.2.css">
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
-  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
-
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -48,6 +46,14 @@
         <li class="active">Negosiasi</li>
       </ol>
     </section>
+
+<!-- 
+    <div class="content" style="min-height: 0px;">
+      <div class="col-md-6">
+        <a href="p17f.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Create BCR">Create BCR</button></a>
+        <button data-target="#modalBCR" type="button" class="btn bg-navy btn-sm" data-toggle="modal" title="Detail BCR">Detail BCR</button>
+      </div>
+    </div> -->
 
     <!-- Main content -->
     <section class="content">
@@ -89,7 +95,7 @@
               </div>
               <div class="col-md-12" style="text-align: right;">
                 <a href="p17c.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Kembali ke menu evaluasi komersial VO">Re Evaluasi</button></a>   
-                <a href="p17.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
+                <a href="p17f.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
               </div>
             </div>
           </form>
@@ -98,46 +104,7 @@
             </div>
       </div>
 
-        <div class="row">
-    <div class="col-md-12">
-      <div class="box box-primary">
-        <div class="box-header with-border">
-        </div>
-        <!-- /.box-header -->
-        <div class="box-body">
-          <!-- <div class="well well-sm">
-            <h4>Nilai penawaran terendah(setelah hasil negosiasi atau hasil koreksi) wajar lebih besar dari total budget cost commitment <span class="fa fa-close"></span></h4>
-            <h4>Perlu dimasukkan budget rate setiap tahun <span class="fa fa-close"></span></h4>
-            <h5>Masukan batas waktu konfirmasi</h5>
-            <div class="input-group date col-md-3">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-
-            </div>
-            <br>
-          <a href="p17_pcb.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim Ketersediaan Anggaran Ke Project Coordinator"><span class="fa fa-send"></span> Kirim Form Ketersediaan</button></a>
-          </div> -->
-          <div class="well well-sm">
-            <h4>Nilai negosiasi sudah disubmit <span class="fa fa-check"></span></h4>
-                      
-          </div>
       
-            
-            
-        </div>
-        <div class="box-footer">
-        
-           <a href="p17.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Finish</button></a>
-        </div>
-
-        </div>
-
-    </div>
-
-    </div>
-    
     </section>
     
 <!--  content wrapper-->
@@ -170,8 +137,6 @@
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- ChartJS 1.0.1 -->
 <script src="../../plugins/chartjs/Chart.min.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
@@ -186,12 +151,7 @@
 
   $(function () {
     $("#dataTable").DataTable();
-    $('#datepicker').datepicker({
-      autoclose: true
-    });
   });
-
-  
 </script>
 
 </body>
