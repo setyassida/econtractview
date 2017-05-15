@@ -128,7 +128,7 @@
                 <!-- VO menu -->
         <li>
           <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>VO</span>
+            <i class="fa fa-edit"></i> <span>Variation Order</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -145,7 +145,7 @@
 
 
                 <!-- Report menu -->
-        <li>
+        <!-- <li>
           <a href="pages/widgets.html">
             <i class="fa fa-th"></i> <span>Report</span>
             <span class="pull-right-container">
@@ -161,7 +161,7 @@
               <small class="label pull-right bg-green">new</small>
             </span>
           </a>
-        </li>
+        </li> -->
 
       </ul>
     </section>

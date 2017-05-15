@@ -122,7 +122,7 @@
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-off-meeting</a></li>
             <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
             <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
-            <!-- <li><a href="p13.php"><i class="fa fa-circle-o"></i> CoC</a></li>  -->
+            <li><a href="p13.php"><i class="fa fa-circle-o"></i> CoC</a></li> 
           </ul>
         </li>
 
