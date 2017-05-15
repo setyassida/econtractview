@@ -1,7 +1,8 @@
-<header class="main-header">
+
+  <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="#" class="logo" style="padding-top: 0.25rem">
       <!-- mini logo for sidebar mini 50x50 pixels -->
      
       <img src="../../resources/images/logo_mini.png" class="logo-lg">
@@ -58,10 +59,7 @@
 
     </nav>
   </header>
-
-  <!-- =============================================== -->
-
-  <!-- Left side column. contains the sidebar -->
+  <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
@@ -89,7 +87,7 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">Menu Process</li>
-        <li class="treeview">
+        <li class=" treeview">
 
           <!-- menu dashboard -->
       
@@ -103,7 +101,7 @@
         </li>
 
         <!-- menu contract order  -->
-        <li class="active treeview">
+        <li class="treeview active">
           <a href="#">
             <i class="fa fa-files-o"></i>
             <span>Contract Order</span>
@@ -115,48 +113,52 @@
             <li><a href="p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
             <li><a href="p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li class="active"><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
-            
+            <!-- <li><a href="p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li> -->
             <li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
             <li><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
             <li><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
-            <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
+            <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-off-meeting</a></li>
             <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
             <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> CoC</a></li> 
+            <!-- <li><a href="p13.php"><i class="fa fa-circle-o"></i> CoC</a></li>  -->
           </ul>
         </li>
 
                 <!-- VO menu -->
-        <li>
-          <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>VO</span>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-edit"></i> 
+            <span>Variation Order</span>
             <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
+          <ul class="treeview-menu">
+            <li><a href="p14.php"><i class="fa fa-circle-o"></i> Variation Order</a></li>
+            <li><a href="p15.php"><i class="fa fa-circle-o"></i> Bidder List VO</a></li>
+            <!-- <li><a href="p16.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri VO</a></li> -->
+            <li><a href="p17.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial VO</a></li>
+            <li><a href="p18.php"><i class="fa fa-circle-o"></i> Amandemen Kontrak VO</a></li>
+          </ul>
         </li>
 
-
-                <!-- Report menu -->
-        <li>
-          <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>Report</span>
+               <!-- Report menu -->
+        <!-- <li class="treeview">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i> 
+            <span>Report</span>
             <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-        </li>
-
-        <li>
-          <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>Report</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
-            </span>
-          </a>
-        </li>
+          <ul class="treeview-menu">
+            <li><a href="p20.php"><i class="fa fa-circle-o"></i> Laporan CSMS & Tenaga Kerja</a></li>
+            <li><a href="p19.php"><i class="fa fa-circle-o"></i> Evaluasi Semester/Akhir</a></li>
+            <li><a href="p21.php"><i class="fa fa-circle-o"></i> Reporting</a></li>
+          </ul>
+        </li> -->
 
       </ul>
     </section>
