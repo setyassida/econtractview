@@ -67,7 +67,6 @@
               <th>Judul Pekerjaan</th>
               <th>Supplier</th>
               <th class="text-center" style="width:90px">Status</th>
-              <th class="text-center" style="width:110px">Action</th>
               <th class="text-center" style="width:110px">Upload</th>
               <th class="text-center" style="width:90px">Download</th>
             </tr>
@@ -78,7 +77,6 @@
               <td>PENGADAAN SISTEM INFORMASI</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-success">Created</span></div></td>
-              <td><div class="text-center"><a href="p12_create.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
             </tr>
@@ -87,7 +85,6 @@
               <td>PERBAIKAN INFRASTRUKTUR</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
             </tr>
@@ -96,7 +93,6 @@
               <td>PENGADAAN PERANGKAT LUNAK</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
 
@@ -106,7 +102,6 @@
               <td>PEMELIHARAAN</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-success">Created</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
 
@@ -116,7 +111,6 @@
               <td>KEBERSIHAN</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
               <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
 

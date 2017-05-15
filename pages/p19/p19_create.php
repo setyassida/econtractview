@@ -65,13 +65,17 @@
         <div class="box box-default">
           <div class="box-body">
             <dl class="dl-horizontal">
-              <div class="col-md-6">
-                <dt>Nomor PR Service :</dt>
+              <div class="col-md-4">
+                <dt>Nomor Kontrak :</dt>
                 <dd>CO-17001</dd>
               </div>
-              <div class="col-md-6">
-                <dt>Tanggal :</dt>
-                <dd>24-04-2017</dd>
+              <div class="col-md-4">
+                <dt>Judul Pekerjaan :</dt>
+                <dd>PENGADAAN SISTEM INFORMASI</dd>
+              </div>
+              <div class="col-md-4">
+                <dt>Suplier :</dt>
+                <dd>PT. Suka Abadi</dd>
               </div>
             </dl>
           </div>
@@ -337,7 +341,19 @@
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                  <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
+
+
+                  <div class="col-md-10">
+                    Kategori Kode penilaian adalah sebagai berikut: <br>
+                    <div class="col-md-1"><span class="label label-default">1</span></div> <div class="col-md-11" style="margin-left:-5rem">: menyatakan Kurang, dengan nilai 25</div>
+                    <div class="col-md-1"><span class="label label-default">2</span></div> <div class="col-md-11" style="margin-left:-5rem">: menyatakan Cukup, dengan nilai 50</div>
+                    <div class="col-md-1"><span class="label label-default">3</span></div> <div class="col-md-11" style="margin-left:-5rem">: menyatakan Baik, dengan nilai 75</div>
+                    <div class="col-md-1"><span class="label label-default">4</span></div> <div class="col-md-11" style="margin-left:-5rem">: menyatakan Sangat Baik, dengan nilai 100</div>
+                  </div>
+                  <div class="col-md-2">
+                    <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
+                  </div>
+
                 </div>
                 <!-- /.box-footer -->
               </form>
@@ -541,7 +557,20 @@
 
               </div>
               <div class="box-footer">
-                <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
+
+                <div class="col-md-10">
+                  Kategori Kode penilaian adalah sebagai berikut: <br>
+                  <div class="col-md-1"><span class="label label-default">1</span></div> <div class="col-md-11" style="margin-left:-5rem">: menyatakan Kurang, dengan nilai 25</div>
+                  <div class="col-md-1"><span class="label label-default">2</span></div> <div class="col-md-11" style="margin-left:-5rem">: menyatakan Cukup, dengan nilai 50</div>
+                  <div class="col-md-1"><span class="label label-default">3</span></div> <div class="col-md-11" style="margin-left:-5rem">: menyatakan Baik, dengan nilai 75</div>
+                  <div class="col-md-1"><span class="label label-default">4</span></div> <div class="col-md-11" style="margin-left:-5rem">: menyatakan Sangat Baik, dengan nilai 100</div>
+                </div>
+                <div class="col-md-2">
+                  <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
+                </div>
+
+
+
               </div>
               <!-- /.box-footer -->
             </div>

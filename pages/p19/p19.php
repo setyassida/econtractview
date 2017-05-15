@@ -73,7 +73,7 @@
             </thead>
             <tbody>
             <tr>
-              <td><a href="p18_view.php">CA-17001</a></td>
+              <td><a href="p19_view.php">CA-17001</a></td>
               <td>PENGADAAN SISTEM INFORMASI</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-success">Created</span></div></td>
