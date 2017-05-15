@@ -232,7 +232,7 @@
           <div class="box-footer">
             <div class="row">
               <div class="col-md-12">
-                
+                <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px"><span class="glyphicon glyphicon-download-alt"></span> Download Template PDF</button> 
                 <a href="p4.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px">Back</button></a>
               </div>
             </div>
