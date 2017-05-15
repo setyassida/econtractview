@@ -49,14 +49,6 @@
       </ol>
     </section>
 
-<!-- 
-    <div class="content" style="min-height: 0px;">
-      <div class="col-md-6">
-        <a href="p17f.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Create BCR">Create BCR</button></a>
-        <button data-target="#modalBCR" type="button" class="btn bg-navy btn-sm" data-toggle="modal" title="Detail BCR">Detail BCR</button>
-      </div>
-    </div> -->
-
     <!-- Main content -->
     <section class="content">
       <!-- Info boxes -->
@@ -113,7 +105,7 @@
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-          <div class="well well-sm">
+          <!-- <div class="well well-sm">
             <h4>Nilai penawaran terendah(setelah hasil negosiasi atau hasil koreksi) wajar lebih besar dari total budget cost commitment <span class="fa fa-close"></span></h4>
             <h4>Perlu dimasukkan budget rate setiap tahun <span class="fa fa-close"></span></h4>
             <h5>Masukan batas waktu konfirmasi</h5>
@@ -126,6 +118,10 @@
             </div>
             <br>
           <a href="p17_pcb.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim Ketersediaan Anggaran Ke Project Coordinator"><span class="fa fa-send"></span> Kirim Form Ketersediaan</button></a>
+          </div> -->
+          <div class="well well-sm">
+            <h4>Nilai negosiasi sudah disubmit <span class="fa fa-check"></span></h4>
+                      
           </div>
       
             

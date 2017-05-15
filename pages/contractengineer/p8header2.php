@@ -121,7 +121,7 @@
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>
             <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> CoC</a></li>
+            <li><a href="p13.php"><i class="fa fa-circle-o"></i> CoC</a></li>
           </ul>
         </li>
 
@@ -130,9 +130,17 @@
           <a href="pages/widgets.html">
             <i class="fa fa-th"></i> <span>VO</span>
             <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
+
           </a>
+          <ul class="treeview-menu">
+            <li><a href="p14.php"><i class="fa fa-circle-o"></i> Variation Order</a></li>
+            <li><a href="p15.php"><i class="fa fa-circle-o"></i> Bidder List VO</a></li>
+            <!-- <li><a href="p16.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri VO</a></li> -->
+            <li><a href="p17.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial VO</a></li>
+            <li><a href="p18.php"><i class="fa fa-circle-o"></i> Amandemen Kontrak VO</a></li>
+          </ul>
         </li>
 
 

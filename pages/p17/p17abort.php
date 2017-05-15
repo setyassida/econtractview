@@ -46,12 +46,12 @@
       <section class="content-header">
       <h1>
         Contract Order
-        <small>Abort Evaluasi Komersial</small>
+        <small>Abort Evaluasi Komersial VO</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Contract Order</li>
-        <li class="active">Abort Evaluasi Komersial</li>
+        <li class="active">Abort Evaluasi Komersial VO</li>
       </ol>
     </section>
 
