@@ -80,7 +80,7 @@
               <td>Departemen A</td>
               <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></td>
               <td>
-                <div class="text-center"><a href="p20-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
+                <div class="text-center"><a href="p20-view-submitted.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
               </td>
             </tr>
             <tr>
@@ -91,7 +91,7 @@
               <td>Departemen B</td>
               <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></td>
               <td>
-                <div class="text-center"><a href="p20-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
+                <div class="text-center"><a href="p20-view-submitted.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
               </td>
             </tr>
             <tr>
@@ -102,7 +102,7 @@
               <td>Departemen C</td>
               <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></div></td>
               <td>
-                <div class="text-center"><a href="p20-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
+                <div class="text-center"><a href="p20-view-submitted.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
               </td>
             </tr>
             <tr>

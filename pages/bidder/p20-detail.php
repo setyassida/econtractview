@@ -51,7 +51,8 @@
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="p20.php">CSMS dan Tenaga Kerja</a></li>
-        <li class="active">CA-17001</li>
+        <li><a href="p20-view.php">CA-17001</a></li>
+        <li>1</li>
       </ol>
     </section>
 

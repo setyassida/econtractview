@@ -117,7 +117,7 @@
           <div class="col-md-12">
             <div class="box">
               <div class="box-header with-border">
-                <h4>Laporan Tenaga Kerja</h4>
+                <h4>Form Laporan Tenaga Kerja</h4>
               </div>
               <div class="box-body">
                 <table id="dataTable" class="table table-bordered table-condensed table-hover">
@@ -257,7 +257,7 @@
                         </td>
                         <td>
                           <div class="text-center">
-                            <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Delete</button>
+                            <button type="button" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteModal"><span class="glyphicon glyphicon-remove"></span> Delete</button>
                           </div>
                         </td>
                       </tr>
@@ -282,7 +282,28 @@
                         </td>
                         <td>
                           <div class="text-center">
-                            <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span>Delete</button>
+                            <button type="button" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteModal"><span class="glyphicon glyphicon-remove"></span>Delete</button>
+                          </div>
+                          <div id="deleteModal" class="modal">
+                            <div class="modal-dialog">
+                              <form class="form-horizontal">
+                                <div class="modal-content">
+                                  <div class="modal-header bg-red">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Delete Laporan</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    Proses ini akan menghapus laporan yang telah diupload.
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                                    <button type="submit" value="submit" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-cloud-upload"></span> Delete</button>
+                                  </div>
+                                </div>
+                              </form>
+                                <!-- /.modal-content -->
+                            </div>
                           </div>
                         </td>
                       </tr>
@@ -389,6 +410,60 @@
                           </div>
                         </td>
                       </tr>
+
+                      <tr>
+                        <td>5.</td>
+                        <td>Form Laporan Tenaga Kerja</td>
+                        <td>
+                          <div class="text-center">
+                            <span class="label label-primary">Waiting for Upload</span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#uploadMultipleModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                          </div>
+                          <div id="uploadMultipleModal" class="modal">
+                            <div class="modal-dialog">
+                              <form class="form-horizontal">
+                                <div class="modal-content">
+                                  <div class="modal-header bg-gray">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Upload Laporan</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    
+                                      <div class="form-group">
+                                        <label class="control-label col-md-2">Dokumen : </label>
+                                        <div class="col-md-6">
+                                          <input type="file" class="form-control input-sm" multiple>
+                                        </div>
+                                      </div>
+                                    
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                                    <button type="submit" value="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                                  </div>
+                                </div>
+                              </form>
+                                <!-- /.modal-content -->
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-danger btn-xs" disabled><span class="glyphicon glyphicon-remove"></span>Delete</button>
+                          </div>
+                        </td>
+                      </tr>
+
                     </tbody>
                   </table>
 
