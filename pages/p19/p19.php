@@ -31,19 +31,19 @@
 </head>
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
-  <?php include "p12header.php" ?>
+  <?php include "p19header.php" ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dokumen Kontrak
+        Evaluasi Semester / Akhir Kontrak
         <small></small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
-        <li>Dokumen Kontrak</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Variation Order</a></li>
+        <li>Evaluasi Semester</li>
         <li class="active">Browse</li>
       </ol>
     </section>
@@ -68,18 +68,16 @@
               <th>Supplier</th>
               <th class="text-center" style="width:90px">Status</th>
               <th class="text-center" style="width:110px">Action</th>
-              <th class="text-center" style="width:110px">Upload</th>
               <th class="text-center" style="width:90px">Download</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-              <td><a href="p12_create.php">CA-17001</a></td>
+              <td><a href="p18_view.php">CA-17001</a></td>
               <td>PENGADAAN SISTEM INFORMASI</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-success">Created</span></div></td>
-              <td><div class="text-center"><a href="p12_create.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
+              <td><div class="text-center"><a href="p19_create.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Create Evaluasi</button></a></div></td>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
             </tr>
             <tr>
@@ -87,8 +85,7 @@
               <td>PERBAIKAN INFRASTRUKTUR</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
+              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Create Evaluasi</button></a></div></td>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
             </tr>
             <tr>
@@ -96,8 +93,7 @@
               <td>PENGADAAN PERANGKAT LUNAK</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
+              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Create Evaluasi</button></a></div></td>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
 
             </tr>
@@ -106,8 +102,7 @@
               <td>PEMELIHARAAN</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-success">Created</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
+              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Create Evaluasi</button></a></div></td>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
 
             </tr>
@@ -116,8 +111,7 @@
               <td>KEBERSIHAN</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
+              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Create Evaluasi</button></a></div></td>
               <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
 
             </tr>
@@ -131,8 +125,8 @@
           Keterangan Status : <br>
           <!-- <div class="col-md-1"><span class="label label-primary">To be Signed</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
           <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div> -->
-          <div class="col-md-1"><span class="label label-success">Created</span></div> <div class="col-md-11">: Dokumen telah disetujui oleh kedua belah pihak</div>
-          <div class="col-md-1"><span class="label label-default">Wait</span></div> <div class="col-md-11">: Menunggu Dokumen disetujui oleh kedua belah pihak dan di upload</div>
+          <div class="col-md-1"><span class="label label-success">Created</span></div> <div class="col-md-11">: Kontrak telah di evaluasi</div>
+          <div class="col-md-1"><span class="label label-default">Wait</span></div> <div class="col-md-11">: Kontrak belum di eveluasi</div>
 
         </div>
       </div>

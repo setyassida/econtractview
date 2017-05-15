@@ -31,7 +31,7 @@
 </head>
 <body class="hold-transition skin-red sidebar-mini">
   <div class="wrapper">
-    <?php include "p12header.php" ?>
+    <?php include "p18header.php" ?>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -59,32 +59,41 @@
           <div class="box-header with-border">
             <h3 class="box-title">Detail Proyek Dokumen Kontrak</h3>
           </div>
+
           <div class="box-body">
-            <div class="col-md-6">
-              <dt>Nomor Kontrak</dt>
+            <div class="col-md-4">
+              <dt>Nomor Kontrak :</dt>
               <dd>CA-17001</dd> <br>
-              <dt>Judul Pekerjaan</dt>
+              <dt>Judul Pekerjaan :</dt>
               <dd>Jasa Pemborongan Pekerjaan Pembuangan Sampah, Drum Bekas, Pemeliharaan Taman dan Kebersihan Lingkungan di Area Zone-I & II di PT Badak NGL Bontang, Paket “B” Tahun 2017” </dd> <br>
-              <dt>Jenis Kontrak</dt>
-              <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
-              <dt>Harga Kontrak <span class="small"><i>(Termasuk PPN 10%)</i></span></dt>
-              <dd>Rp. 400.000.000,- </dd> <br>
-              <dt>Durasi Kontrak</dt>
+              <dt>Durasi Kontrak :</dt>
               <dd>Durasi : 4 Bulan</dd>
               <dd>Mulai : 17 September 2016 </dd>
               <dd>Selesai : 10 Januari 2017 </dd> <br>
-              <dt>Kode Pembebanan Biaya</dt>
+              <dt>Jenis Kontrak :</dt>
+              <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
+              <dt>Harga Kontrak <span class="small"><i>(Termasuk PPN 10%)</i></span>:</dt>
+              <dd>Rp. 400.000.000,- </dd> <br>
+              <dt>Kode Pembebanan Biaya:</dt>
               <dd>B757HJ</dd> <br>
-
+            </div>
+            
+            <div class="col-md-4">
+              <dt>Nomor Amandemen Kontrak :</dt>
+              <dd>#2</dd> <br>
+              <dt>Tanggal Pembuatan Amandemen :</dt>
+              <dd>17-08-2017</dd> <br>
+              <dt>Jenis Amandemen :</dt>
+              <dd>Ruang Lingkup/ Jadwal/ Nilai Kontrak</dd> <br>
             </div>
 
-            <div class="col-md-6">
-              <dt>Nama Perusahaan</dt>
+            <div class="col-md-4">
+              <dt>Nama Perusahaan :</dt>
               <dd>PT Nur Maulana</dd> <br>
-              <dt>Alamat Perusahaan </dt>
+              <dt>Alamat Perusahaan :</dt>
               <dd>Jl. Anggrek I RT 37 No 43, Bukit Indah, Bontang – Kalimantan Timur </dd> <br>
-              <dt>Nama Pimpinan</dt>
-              <dd>Setyassid Novian Putra D </dd> <br>
+              <dt>Nama Pimpinan :</dt>
+              <dd>Setyassida Novian Putra D </dd> <br>
             </div>
 
           </div>
@@ -92,7 +101,6 @@
           <div class="box-footer">
             <div class="pull-right" style="margin-right: 2rem">
               <button type="button" class="btn btn-default btn-sm pull right"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-              <button type="button" class="btn btn-success btn-sm pull right"><span class="glyphicon glyphicon-print"></span> Cetak</button>
             </div>
 
           </div>

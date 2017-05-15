@@ -31,19 +31,19 @@
 </head>
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
-  <?php include "p12header.php" ?>
+  <?php include "p18header.php" ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dokumen Kontrak
+        Amandemen Kontrak
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
-        <li>Dokumen Kontrak</li>
+        <li>Amandemen Kontrak</li>
         <li class="active">Browse</li>
       </ol>
     </section>
@@ -74,7 +74,7 @@
             </thead>
             <tbody>
             <tr>
-              <td><a href="p12_create.php">CA-17001</a></td>
+              <td><a href="p18_view.php">CA-17001</a></td>
               <td>PENGADAAN SISTEM INFORMASI</td>
               <td>PT. Suka Abadi</td>
               <td><div class="text-center"><span class="label label-success">Created</span></div></td>
