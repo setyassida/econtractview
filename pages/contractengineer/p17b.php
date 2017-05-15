@@ -37,8 +37,8 @@
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Evalkom Pengadaan dan Penunjukan Langsung</small>
+        Evaluasi Komersial VO
+        <small>Detail Evaluasi Komersial VO</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -137,7 +137,7 @@
                       <div class="col-md-12">
                         <h4>Alasan perubahan</h4>
                         <div>
-                          <textarea id="inputKeterangan" rows="5" placeholder="Diambil dari VO" class="form-control input-sm" style="resize:none"></textarea>
+                          <textarea disabled="" id="inputKeterangan" rows="5" placeholder="Diambil dari VO" class="form-control input-sm" style="resize:none"></textarea>
                         </div>
 
                         <h4>Rekomendasi</h4>
@@ -183,8 +183,8 @@
                 <label class="control-label col-md-1" for="noKontrak">Action</label>
                 <div class="col-md-5">
                   <!-- <a href="p17abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a> -->
-                  <a href="p17c.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a>
-                  <a href="p17.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Submit </button></a>
+                  <a href="p17CE.php"><button type="button" class="btn btn-default btn-sm"></span> Back </button></a>
+                  <a href="p17abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a>
                   <!-- <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a> -->
                  
                 </div>

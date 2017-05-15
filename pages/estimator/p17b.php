@@ -37,72 +37,71 @@
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Komersial</small>
+        Evaluasi Komersial VO
+        <small>Browse Evalkom VO</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Contract Order</li>
-        <li class="active">Evaluasi Komersial</li>
+        <li class="active">Evaluasi Komersial VO</li>
+        <li class="active">Browse evalkom VO</li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
       <!-- Info boxes -->
-      <div class="box box-success">
-          <form class="form-horizontal">
-            <div class="box-header with-border">
-              <h3 class="box-title">Negosiasi</h3>
-              
+      <div class="box-body">
+        <div class="box box-danger">
+            <div class="box-header">
+              <!-- <h3 class="box-title">Result</h3> -->
+              <!-- <a href="p17_2.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a> -->
             </div>
             <!-- /.box-header -->
-            <div class="box-body">
-              <div class="row">
-                <!-- left column -->
-                <div class="col-md-12">
-
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table class="table table-bordered">
-                          <tr>
-                            <th style="width: 200px">Nama Kontraktor</th>
-                            <th style="width: 200px">Nilai Negosiasi</th>
-                            <th style="width: 200px">Hasil Negosiasi</th>
-                            <th style="width: 200px">Upload Dokumen Risalah Nego</th>
-
-                          </tr>
-                          <tr>
-                            <td>PT Hasanah Sumber Utama</td>
-                            <td>Rp 1.150.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td>
-                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                          </tr>
-                          <tr>
-                            <td>PT Aimindo Adie Perkasa</td>
-                            <td>Rp 1.050.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td>
-                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                          </tr>
-                          <tr>
-                            <td>PT Abdi Jati</td>
-                            <td>Rp 1.250.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td>
-                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                          </tr>
-                        </table>
+            <div class="box-body "> 
+                <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE1">Nomor Kontrak</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
                       </div>
-
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE2">Judul Pekerjaan</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="REGULAR INSPECTION OF LIFTING GEARS" disabled>
+                    </div>
                 </div>
+                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE3">Durasi</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE3" placeholder="2 Bulan" disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE4">Jenis Kontrak</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="harga satuan" disabled>
+                    </div>
+                  </div>
+                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE4">Tanggal Pembukaan</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="17 - Maret - 2015" disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE4">Budget</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="Rp 1.5 M" disabled>
+                    </div>
+                  </div>                      
               </div>
-              <div class="col-md-12" style="text-align: right;">
-                <a href="p17d.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Ambil 3 bidder terendah berikutnya">Re Evaluasi</button></a>   
-                <a href="p17h.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
-              </div>
-            </div>
-          </form>
-        </div>
+            <!-- /.box-body -->
+          <div class="box-footer ">
+              <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
+              <a href="p17c.php" class="btn btn-success pull-right btn-sm">Next</a>
 
+          </div>
+            </div>
+
+          <!-- /.box -->
+        </div>
 
 
 <!--  content wrapper-->
@@ -155,3 +154,6 @@
 
 </body>
 </html>
+
+
+

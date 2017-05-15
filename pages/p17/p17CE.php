@@ -155,16 +155,7 @@
               <td><button disabled="" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                 </tr>
-                <tr>
-                  <td><a href="p17_pcb.php">CA-17002</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                  <td class="text-center"><span class="label label-warning">Waiting Confirmation</span></td>
-                  <td>23-Apr-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button disabled="" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
+                
                 
                 
                 </tbody>
@@ -186,7 +177,7 @@
                 <li><span class="label label-primary">Draft</span> : evalkom di-draft</li>
                 <li><span class="label label-danger">Aborted</span> : evalkom di-abort</li>
                 <li><span class="label label-success">Finish</span> : evalkom di-approve</li>
-                <li><span class="label label-warning">Waiting Confirmation</span> : evalkom waiting for confirmation</li>
+                
                 <li><span class="label label-default">Waiting BCR</span> : evalkom waiting for BCR process</li>
                 <li><span class="label label-purple" style="background-color: #605ca8;">Re Eval</span> : evalkom re eval</li>
               </ul>

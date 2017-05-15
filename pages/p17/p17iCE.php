@@ -31,14 +31,14 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p17header.php') ?>
+  <?php @include('p17header2.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Komersial</small>
+        Evaluasi Komersial VO
+        <small>Detail Evaluasi Komersial VO</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -77,9 +77,9 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Tanggal Pembukaan:</label>
+                    <label class="control-label col-md-3" for="noKontrak">Hari / Tanggal :</label>
                     <div class="col-md-9">
-                      <p class="form-control-static">17-01-2016</p>
+                      <p class="form-control-static">Kamis, 17-01-2016</p>
                     </div>
                   </div>
                   <div class="form-group">
@@ -100,52 +100,21 @@
 
                 <!-- right column -->
                 <div class="col-md-6">
-                  <div class="box box-warning">
-                    <div class="box-header with-border">
-                      <h3 class="box-title">HPS Tidak Termasuk PPN 10%</h3>
-                    </div>
-                    <div class="box-body">
-                      <table class="table table-bordered">
-                        <tr>
-                          <th>HPS Minimum</th>
-                          <th>HPS Most Likely</th>
-                          <th>HPS Maksimum</th>
-                        </tr>
-                        <tr>
-                          <td> Rp 4.500.000 </th>
-                          <td> Rp 5.000.000 </th>
-                          <td> Rp 3.000.000 </th>
-                        </tr>
-                      </table>
-                    </div>
-
-
-                  </div>
+                
 
                   <div class="box box-success">
                       <div class="box-header with-border">
                       </div>
                       <!-- /.box-header -->
                       <div class="box-body">
-                        <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Contract Existing Amend #05 Termasuk PPN 10%</label>
-                          <div class="col-md-6">
-                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none" disabled=""></textarea>
-                          </div>
+                        <div class="well well-sm">
+                          <p>Dari hasil analisis dan evaluasi perubahan kontrak terlampir panitia pengaddan mengusulkan :</p>
+                          <h4>Kontraktor yang ditunjuk adalah <p><strong>PT SALEBBA JAYA</strong></p></h4>
+                          <h4>Total Harga Amandemen <p><strong>Rp 28.892.293.000,00 termasuk PPN 10%</strong></p></h4>
+
                         </div>
-                        <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Durasi</label>
-                          <div class="col-md-6">
-                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none" disabled=""></textarea>
-                          </div> 
-                        </div>
-                        <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Jumlah TK</label>
-                          <div class="col-md-6">
-                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none" disabled=""></textarea>
-                          </div>
-                        </div>
-                      </div>
+
+                        
 
                   </div>
 
@@ -159,45 +128,46 @@
 
               <div class="box box-success">
                   <div class="box-header with-border">
-                    <h3 class="box-title">Penilaian Hasil Evaluasi</h3>
+                    
                   </div>
                   <!-- /.box-header -->
                   <div class="box-body">
                     <div class="row">
                       <!-- left column -->
                       <div class="col-md-12">
+                        <h4>Alasan perubahan</h4>
+                        <div>
+                          <textarea disabled="" id="inputKeterangan" rows="5" placeholder="Diambil dari VO" class="form-control input-sm" style="resize:none"></textarea>
+                        </div>
+
+                        <h4>Rekomendasi</h4>
+                        <div class="well well-sm">
+                          <p>Berdasarkan alasan perubahan dan evaluasai terlampir, maka kepada <strong>PT SALEBBA JAYA</strong> untuk dilakukan penambahan biaya sebesar <strong>Rp 1.915.000.000,00</strong> tidak termasuk PPN 10% sesuai ijin prinsip sehingga total nilai kontrak asli <strong>CA-104033</strong> semula sebesar <strong>Rp 26.977.293.000,00</strong> tidak termasuk PP 10% berubah menjadi kontrak Amandemen <strong>01</strong> dengan total harga secara keseluruhan sebesar <strong>Rp 28.892.293.000,00/1.1</strong> tidak termasuk PPN 10% atau <strong>Rp 28.892.2994.000,00</strong> termasuk PPN 10%</p>
+                        </div>
 
                             <!-- /.box-header -->
                             <div class="box-body">
                               <table class="table table-bordered">
                                 <tr>
-                                  <th style="width: 10px">No</th>
-                                  <th>Penawar</th>
-                                  <th style="width: 200px">Penawaran Asli (Rp)</th>
-                                  <th style="width: 200px">Penawaran Terkoreksi (RP)</th>
-                                  <th style="width: 100px">Nilai Negosiasi (RP)</th>
-                                  <th style="width: 10px">Ranking Asli</th>
-                                  <th style="width: 10px">Ranking Koreksi</th>
-                                  <th>Administrasi</th>
-                                  <th>Teknis</th>
-                                  <th>Komersial</th>
-                                  <th>Penalty</th>
-                                  <th>Sanksi</th>
+                                  <th style="width: 10px">Jadwal Kontrak</th>
+                                  <th style="width: 10px">Asli</th>
+                                  <th style="width: 10px">perubahan</th>
                                 </tr>
                                 <tr>
-                                  <td>1.</td>
-                                  <td>PT Hasanah Sumber Utama</td>
-                                  <td>1.150.000.000</td>
-                                  <td>950.000.000</td>
-                                  <td>950.000.000</td>
-                                  <td> 2 </td>
-                                  <td> 1 </td>
-                                  <td> Lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
-                                  <td> lulus </td>
+                                  <td>Mulai</td>
+                                  <td>15-05-2016</td>
+                                  <td>16-06-2016</td>
                                 </tr>
+                                <tr>
+                                  <td>Berakhir</td>
+                                  <td>17-10-2017</td>
+                                  <td>16-11-2017</td>
+                                </tr>
+                                <tr>
+                                  <td>Durasi</td>
+                                  <td>12 Bulan</td>
+                                  <td>13 Bulan</td>
+                                </tr>                                
                               </table>
                             </div>
 
@@ -207,30 +177,29 @@
 
               </div>
               </div>
-              <div class="form-group">
-                <label class="control-label col-md-1" for="noKontrak">Catatan Panitia Pengadaan</label>
-                <div class="col-md-6">
-                  <textarea id="inputKeterangan" rows="5" placeholder="input..." class="form-control" style="resize:none" disabled=""></textarea>
-                </div>
-              </div>
+              
 
               <div class="form-group">
                 <label class="control-label col-md-1" for="noKontrak">Action</label>
                 <div class="col-md-5">
+                  <!-- <a href="p17abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a> -->
+                  <a href="p17CE.php"><button type="button" class="btn btn-default btn-sm"></span> Back </button></a>
                   <a href="p17abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a>
-                  <!-- <a href="p17d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a> -->                 
+                  <!-- <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a> -->
+                 
                 </div>
-                <div class="col-md-6" style="text-align: right;">
-                  <a href="p17CE.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Finish </button></a>
-
-                </div>
+                
+                
               </div>
+
             </div>
             <!-- /.box-body -->
           </form>
         </div>
 
-
+<!--         <div class="box-footer">
+                  <a href="p17.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Submit </button></a>
+        </div> -->
           <!-- /right column -->
       </div>
     </section>
