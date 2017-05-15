@@ -95,7 +95,7 @@
               <td>CB-18002</td>
               <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"></div></td>
+              <td><div class="text-center"><a href="p16-view.php"><button type="button" class="btn btn-default btn-xs" disabled><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
               <td><button type="button" class="btn btn-default btn-xs" disabled><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
             </tr>
@@ -105,7 +105,7 @@
               <td>CA-17002</td>
               <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"></div></td>
+              <td><div class="text-center"><a href="p16-view.php"><button type="button" class="btn btn-default btn-xs" disabled><span class="glyphicon glyphicon-eye-open"></span> Lihat HPS</button></a></div></td>
               <td><button type="button" class="btn btn-default btn-xs" disabled><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
               
             </tr>
