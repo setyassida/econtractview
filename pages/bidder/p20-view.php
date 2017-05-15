@@ -59,6 +59,7 @@
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
       <div class="box">
+        <form class="form-horizontal">
         <div class="box-header with-border">
           
         </div>
@@ -70,29 +71,29 @@
               <div class="box-header with-border">
                 <h4>Informasi Umum</h4></div>
               <div class="box-body">
-                <form class="form-horizontal">
-                <div class="form-group">
+                
+                <div class="form-group no-margin">
                   <label class="control-label col-md-2">Nama Perusahaan :</label>
                   <div class="form-control-static col-md-10">
                     PT MAJU JAYA
                   </div>
                 </div>
                 
-                <div class="form-group">
+                <div class="form-group no-margin">
                   <label class="control-label col-md-2">Nomor Kontrak :</label>
                   <div class="form-control-static col-md-10">
                     CA-17001
                   </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group no-margin">
                   <label class="control-label col-md-2">Judul Pekerjaan :</label>
                   <div class="form-control-static col-md-10">
                     REGULAR INSPECTION OF LIFTING GEARSR
                   </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group no-margin">
                   <label class="control-label col-md-2">Durasi  :</label>
                   <div class="form-control-static col-md-10">
                     2 Bulan
@@ -100,7 +101,7 @@
                 </div>
 
 
-                <div class="form-group">
+                <div class="form-group no-margin">
                   <label class="control-label col-md-2">Departemen/Section :</label>
                   <div class="form-control-static col-md-10">
                     Departemen A
@@ -111,92 +112,332 @@
             </div>
           </div>
 
+          
+
+          <div class="col-md-12">
+            <div class="box">
+              <div class="box-header with-border">
+                <h4>Laporan Tenaga Kerja</h4>
+              </div>
+              <div class="box-body">
+                <table id="dataTable" class="table table-bordered table-condensed table-hover">
+                  <thead>
+                  <tr>
+                    <th style="width:20px">No.</th>
+                    <th>Nama Pekerja</th>
+                    <th>Tipe Pekerja</th>
+                    <th style="width:30px">Jenis Kelamin</th>
+                    <th>Tempat Lahir</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Lihat Detail</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Jack Sparrow</td>
+                    <td>Overhead</td>
+                    <td>L</td>
+                    <td>Wonogiri</td>
+                    <td>01-01-1990</td>
+                    <td>
+                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Katniss Everdeen</td>
+                    <td>Overhead</td>
+                    <td>P</td>
+                    <td>Jakarta</td>
+                    <td>01-01-1990</td>
+                    <td>
+                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Peeta Mellark</td>
+                    <td>Pekerja</td>
+                    <td>L</td>
+                    <td>Blitar</td>
+                    <td>01-01-1990</td>
+                    <td>
+                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Sarah Connor</td>
+                    <td>Pekerja</td>
+                    <td>P</td>
+                    <td>Bogor</td>
+                    <td>01-01-1990</td>
+                    <td>
+                      <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
+                    </td>
+                  </tr>
+                  
+                  <tbody>
+                </table>
+
+                
+                <a href="p20-detail.php">
+                  <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-plus"></span> Tambah Pekerja</button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+
           <div class="col-md-12">
             <div class="box">
               <form class="form-horizontal">
-                <div class="box-header ">
-                  <h4>Informasi Pekerja</h4>
+                <div class="box-header with-border">
+                  <h4>Laporan Lainnya</h4>
                 </div>
                 <div class="box-body">
-                  <table id="dataTable" class="table table-bordered table-condensed table-hover">
+                  <table class="table table-bordered table-condensed table-hover">
                     <thead>
-                    <tr>
-                      <th style="width:20px">No.</th>
-                      <th>Nama Pekerja</th>
-                      <th>Tipe Pekerja</th>
-                      <th style="width:30px">Jenis Kelamin</th>
-                      <th>Tempat Lahir</th>
-                      <th>Tanggal Lahir</th>
-                      <th>Lihat Detail</th>
-                    </tr>
+                      <tr>
+                        <th>No.</th>
+                        <th>Nama Laporan</th>
+                        <th>Status</th>
+                        <th style="width:100px">Download Template</th>
+                        <th style="width:150px">Upload Hasil Scan</th>
+                        <th style="width:100px">Delete Dokumen</th>
+                      <tr>
                     </thead>
                     <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Jack Sparrow</td>
-                      <td>Overhead</td>
-                      <td>L</td>
-                      <td>Wonogiri</td>
-                      <td>01-01-1990</td>
-                      <td>
-                        <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Katniss Everdeen</td>
-                      <td>Overhead</td>
-                      <td>P</td>
-                      <td>Jakarta</td>
-                      <td>01-01-1990</td>
-                      <td>
-                        <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Peeta Mellark</td>
-                      <td>Pekerja</td>
-                      <td>L</td>
-                      <td>Blitar</td>
-                      <td>01-01-1990</td>
-                      <td>
-                        <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Sarah Connor</td>
-                      <td>Pekerja</td>
-                      <td>P</td>
-                      <td>Bogor</td>
-                      <td>01-01-1990</td>
-                      <td>
-                        <div class="text-center"><a href="p20-detail.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Detail</button></a></div>
-                      </td>
-                    </tr>
-                    
-                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Form CR 01 Form Laporan CSMS</td>
+                        <td>
+                          <div class="text-center">
+                            <span class="label label-success">Uploaded</span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <a href="#">Lihat Dokumen</a>
+                          </div>
+                          <div id="uploadModal" class="modal">
+                            <div class="modal-dialog">
+                              <form class="form-horizontal">
+                                <div class="modal-content">
+                                  <div class="modal-header bg-gray">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Upload Laporan</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    
+                                      <div class="form-group">
+                                        <label class="control-label col-md-2">Dokumen : </label>
+                                        <div class="col-md-6">
+                                          <input type="file" class="form-control input-sm">
+                                        </div>
+                                      </div>
+                                    
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                                    <button type="submit" value="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                                  </div>
+                                </div>
+                              </form>
+                                <!-- /.modal-content -->
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Delete</button>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>2.</td>
+                        <td>Form PJA 01 Daftar Periksa Pre Job Activities</td>
+                        <td>
+                          <div class="text-center">
+                            <span class="label label-success">Uploaded</span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <a href="#">Lihat Dokumen</a>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span>Delete</button>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>3.</td>
+                        <td>Form WIP 01 Daftar Periksa Inspeksi Keselamatan</td>
+                        <td>
+                          <div class="text-center">
+                            <span class="label label-primary">Waiting for Upload</span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-danger btn-xs" disabled><span class="glyphicon glyphicon-remove"></span>Delete</button>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>4.</td>
+                        <td>Form WIP 02 Daftar Periksa Program Keselamatan</td>
+                        <td>
+                          <div class="text-center">
+                            <span class="label label-primary">Waiting for Upload</span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-danger btn-xs" disabled><span class="glyphicon glyphicon-remove"></span>Delete</button>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>5.</td>
+                        <td>Form WIP 03 Evaluasi SHEQ Bulanan</td>
+                        <td>
+                          <div class="text-center">
+                            <span class="label label-primary">Waiting for Upload</span>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#uploadMultipleModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                          </div>
+                          <div id="uploadMultipleModal" class="modal">
+                            <div class="modal-dialog">
+                              <form class="form-horizontal">
+                                <div class="modal-content">
+                                  <div class="modal-header bg-gray">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Upload Laporan</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    
+                                      <div class="form-group">
+                                        <label class="control-label col-md-2">Dokumen : </label>
+                                        <div class="col-md-6">
+                                          <input type="file" class="form-control input-sm" multiple>
+                                        </div>
+                                      </div>
+                                    
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                                    <button type="submit" value="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                                  </div>
+                                </div>
+                              </form>
+                                <!-- /.modal-content -->
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="text-center">
+                            <button type="button" class="btn btn-danger btn-xs" disabled><span class="glyphicon glyphicon-remove"></span>Delete</button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
                   </table>
 
-                  <div class="col-md-12" style="margin-top:20px">
-                    <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-plus"></span> Tambah Pekerja</button>
-                  </div>
+                  
                 </div>
                 <div class="box-footer">
+                  Keterangan Status : <br>
+                  <div class="col-md-2"><span class="label label-primary">Waiting for Upload</span></div> <div class="col-md-10">: Menunggu upload Laporan Hasil Scan</div>
+                  <div class="col-md-2"><span class="label label-success">Uploaded</span></div> <div class="col-md-10">: Laporan Hasil Scan telah diupload</div>
                 </div>
-              </form>
+
+
+
+                            
             </div>
 
           </div>
-          
+
+          <div class="col-md-12">
+            <div class="box">
+              <div class="box-header">
+              </div>
+              <div class="box-body">
+                <div class="form-group">
+                  <label class="control-label col-md-2">Nama Kontraktor : </label>
+                  <div class="col-md-3">
+                    <input type="text" class="form-control input-sm">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-md-2">Jabatan Kontraktor : </label>
+                  <div class="col-md-3">
+                    <input type="text" class="form-control input-sm">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
           
 
         </div>
+
         <!-- /.box-body -->
         <div class="box-footer">
           <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button>
           <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#saveModal"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
+          <a href="p20.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px"> Back</button></a>
 
           <div id="submitModal" class="modal">
             <div class="modal-dialog">
@@ -239,6 +480,7 @@
           </div>
 
         </div>
+        </form>
       </div>
       <!-- /.box -->
 	</section>
