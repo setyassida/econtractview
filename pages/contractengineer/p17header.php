@@ -112,7 +112,7 @@
             <li><a href="p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
             <li><a href="p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
-            <li><a href="p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
+            <!-- <li><a href="p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li> -->
             <li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
             <li><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
@@ -128,23 +128,24 @@
                 <!-- VO menu -->
         <li class="active treeview">
           <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>VO</span>
+            <i class="fa fa-edit"></i> <span>Variation Order</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
+
           </a>
           <ul class="treeview-menu">
             <li><a href="p14.php"><i class="fa fa-circle-o"></i> Variation Order</a></li>
             <li><a href="p15.php"><i class="fa fa-circle-o"></i> Bidder List VO</a></li>
             <!-- <li><a href="p16.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri VO</a></li> -->
-            <li class="active"><a href="p17.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial VO</a></li>
+            <li><a href="p17.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial VO</a></li>
             <li><a href="p18.php"><i class="fa fa-circle-o"></i> Amandemen Kontrak VO</a></li>
           </ul>
         </li>
 
 
                 <!-- Report menu -->
-        <li>
+        <!-- <li>
           <a href="pages/widgets.html">
             <i class="fa fa-th"></i> <span>Report</span>
             <span class="pull-right-container">
@@ -160,7 +161,7 @@
               <small class="label pull-right bg-green">new</small>
             </span>
           </a>
-        </li>
+        </li> -->
 
       </ul>
     </section>

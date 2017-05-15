@@ -35,15 +35,15 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <section class="content-header">
+        <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Komersial</small>
+        Evaluasi Komersial
+       
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Contract Order</li>
         <li class="active">Evaluasi Komersial</li>
+        <li class="active">Browse Evaluasi Komersial</li>
       </ol>
     </section>
 
@@ -60,7 +60,7 @@
             <div class="box-body "> 
                 <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
                     <div class="form-group">
-                      <label for="pickedByCE1">Contract Order</label>
+                      <label for="pickedByCE1">No Kontrak</label>
                       <div class="input-group">
                         <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
                         <span class="input-group-addon"><i class="fa fa-search"></i></span>

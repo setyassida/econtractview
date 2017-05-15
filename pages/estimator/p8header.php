@@ -118,7 +118,7 @@
             <li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
             <li  class="active"><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <!-- <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li> -->
-            <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
+            <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-off-meeting</a></li>
             <li><a href="p11_createLOI.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
             <li><a href="#"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
             <!-- <li><a href="#"><i class="fa fa-circle-o"></i> CoC</a></li> -->

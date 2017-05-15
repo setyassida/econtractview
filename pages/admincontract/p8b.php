@@ -31,19 +31,19 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p8header.php') ?>
+  <?php @include('p8header2.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-        <section class="content-header">
+    <section class="content-header">
       <h1>
-        Evaluasi Komersial
-       
+        Contract Order
+        <small>Evaluasi Komersial</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Contract Order</li>
         <li class="active">Evaluasi Komersial</li>
-        
       </ol>
     </section>
 
@@ -130,19 +130,19 @@
                         <div class="form-group">
                           <label class="control-label col-md-3" for="noKontrak">Contract Existing Amend #05 Termasuk PPN 10%</label>
                           <div class="col-md-6">
-                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none"></textarea>
+                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none" disabled=""></textarea>
                           </div>
                         </div>
                         <div class="form-group">
                           <label class="control-label col-md-3" for="noKontrak">Durasi</label>
                           <div class="col-md-6">
-                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none"></textarea>
-                          </div>
+                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none" disabled=""></textarea>
+                          </div> 
                         </div>
                         <div class="form-group">
                           <label class="control-label col-md-3" for="noKontrak">Jumlah TK</label>
                           <div class="col-md-6">
-                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none"></textarea>
+                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none" disabled=""></textarea>
                           </div>
                         </div>
                       </div>
@@ -240,20 +240,20 @@
               <div class="form-group">
                 <label class="control-label col-md-1" for="noKontrak">Catatan Panitia Pengadaan</label>
                 <div class="col-md-6">
-                  <textarea id="inputKeterangan" rows="5" placeholder="input..." class="form-control" style="resize:none"></textarea>
+                  <textarea id="inputKeterangan" rows="5" placeholder="input..." class="form-control" style="resize:none" disabled=""></textarea>
                 </div>
               </div>
 
               <div class="form-group">
                 <label class="control-label col-md-1" for="noKontrak">Action</label>
                 <div class="col-md-5">
-                  <!-- <a href="p8abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a> -->
-                  <a href="p8d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a>
-                  <!-- <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a> -->
+                  <a href="p8abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a>
+                  <!-- <a href="p8d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a> -->
+                  <a href="p8rebid.php"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a>
                  
                 </div>
                 <div class="col-md-6" style="text-align: right;">
-                  <a href="p8.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Submit </button></a>
+                  <a href="p8.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Finish </button></a>
 
                 </div>
               </div>

@@ -31,19 +31,19 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p8header.php') ?>
+  <?php @include('p13header.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Evaluasi Komersial
-       
+        Certification Of Completion
+        <!-- <small>Evaluasi Komersial</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Evaluasi Komersial</li>
-        
+        <!-- <li class="active">Contract Order</li> -->
+        <li class="active">  Certification Of Completion</li>
       </ol>
     </section>
 
@@ -54,7 +54,6 @@
         <div class="box box-danger">
             <div class="box-header">
               <!-- <h3 class="box-title">Result</h3> -->
-              <a href="p8b.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a>
             </div>
             <!-- /.box-header -->
             <div class="box-body "> 
@@ -65,104 +64,62 @@
                   <th>Judul Pekerjaan</th>
                   <th>Status</th>
                   <th>Tanggal Dikeluarkan</th>
-<!--                   <th style="width:10px">Download Evalkom</th>
-                  <th style="width:50px">Upload Evalkom</th>
-                  <th style="width:10px">Download BCR</th>
-                  <th style="width:50px">Upload BCR</th>  -->                 
+                  <th style="width:10px">Download COC</th>
+                  <th style="width:50px">Upload COC</th>                
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                  <td><a href="p8c.php">CB-17001</a></td>
+                  <td><a href="#!">CB-17001</a></td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td class="text-center"><span class="label label-primary">Draft</span></td>
                   <td>20-Jan-2017</td>
-                  
-                </tr>
-                <tr>
-                  <td><a href="#">CC-17001</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>21-Feb-2017</td>
-                  
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17003</a></td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>22-Feb-2017</td>
-                  
+                  <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  <td><div class="text-center"><button disabled="" type="button" class="btn btn-success btn-xs"></span> Upload</button></a></div></td>
                 </tr>
                 
                 <tr>
-                  <td><a href="#">CA-17002</a></td>
+                  <td><a href="#!">CA-17002</a></td>
                   <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
                   <td class="text-center"><span class="label label-success">Finish</span></td>
                   <td>23-Apr-2017</td>
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  <td><div class="text-center"><button type="button" class="btn btn-success btn-xs"></span> Upload</button></a></div></td>
                   
                 </tr>
                 
                 <tr>
-                  <td><a href="#">CA-17001</a></td>
-                  <td>STEAM CONDENSATE LINE</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>24-Apr-2017</td>
-                  
-                </tr>
-                
-                <tr>
-                  <td><a href="p8c.php">CB-17001</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>20-Jan-2017</td>
-                  
-                </tr>
-                <tr>
-                  <td><a href="p8i.php">CC-17001</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-default">Waiting BCR</span></td>
-                  <td>21-Feb-2017</td>
-                  
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17003</a></td>
+                  <td>CA-17003</td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-danger">Aborted</span></td>
+                  <td class="text-center"><span class="label label-danger">Rejected</span></td>
                   <td>22-Feb-2017</td>
+                  <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  <td><div class="text-center"><button disabled="" type="button" class="btn btn-success btn-xs"></span> Upload</button></a></div></td>
                   
                 </tr>
                 <tr>
-                  <td><a href="p8_pcb.php">CA-17002</a></td>
+                  <td>CA-17002</td>
                   <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                  <td class="text-center"><span class="label label-warning">Waiting Confirmation</span></td>
+                  <td class="text-center"><span class="label label-warning">Waiting For Approval</span></td>
                   <td>23-Apr-2017</td>
+                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  <td><div class="text-center"><button type="button" class="btn btn-success btn-xs"></span> Upload</button></a></div></td>
                   
                 </tr>
                 
                 
                 </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
+
               </table>
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
               <h4>Keterangan status</h4>
               <ul>
-                <li><span class="label label-primary">Draft</span> : evalkom di-draft</li>
-                <li><span class="label label-danger">Aborted</span> : evalkom di-abort</li>
-                <li><span class="label label-success">Finish</span> : evalkom di-approve</li>
-                <li><span class="label label-warning">Waiting Confirmation</span> : evalkom waiting for confirmation</li>
-                <li><span class="label label-default">Waiting BCR</span> : evalkom waiting for BCR process</li>
-                <li><span class="label label-purple" style="background-color: #001F3F;">Re Bid</span> : evalkom re bid</li>
-                <li><span class="label label-purple" style="background-color: #605ca8;">Re Eval</span> : evalkom re eval</li>
+                <li><span class="label label-warning">Waiting for approval</span> : CE/LCE/PC diharapkan tanda tangan COC</li>
+                <li><span class="label label-primary">Draft</span> : COC di-draft</li>
+                <li><span class="label label-success">Approved</span> : COC di-approve</li>
+                <li><span class="label label-danger">Rejected</span> : COC di-reject</li>
               </ul>
             </div>
           </div>
