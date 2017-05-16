@@ -199,7 +199,7 @@
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                  <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
+                  <a href="p1_approver.php"><button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button></a>
                 </div>
                 <!-- /.box-footer -->
               </form>
@@ -220,7 +220,7 @@
                     <tr>
                       <td class="text-red">Cost Commitment*</td>
                       <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
+                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit" data-toggle="modal" data-target="#costModal"></span> Isi Form</button></td>
                       <td><input class="input-sm" type="file" id="exampleInputFile"></td>
                     </tr>
                     <tr>
@@ -250,7 +250,7 @@
                     <tr>
                       <td class="text-red">Penilaian Resiko* </td>
                       <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
+                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit" data-toggle="modal" data-target="#resikoModal"></span> Isi Form</button></td>
                       <td><input class="input-sm" type="file" id="exampleInputFile"></td>
                     </tr>
                     <tr>
@@ -290,7 +290,7 @@
                 <p class="text-red">* Mandatory</p>
               </div>
               <div class="box-footer">
-                <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
+                <a href="p1_approver.php"><button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button></a>
               </div>
               <!-- /.box-footer -->
             </div>
@@ -307,6 +307,117 @@
         <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
         reserved.
       </footer>
+
+      <div id="costModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-blue">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Form : Cost Commitment</h4>
+            </div>
+            <div class="modal-body">
+              <p>Proses ini akan memperpanjang Opening Date Contract Order yang berkaitan dengan Dokumen ini.</p>
+              <div class="col-md-12">
+
+                  <div class="col-md-6" style="margin-bottom: 0.5rem">
+                    <div class="form-group">
+                      <div class="input-group date">
+                        <input type="text" class="form-control input-sm" id="datepicker1" placeholder="Bid Opening Date">
+                        <div class="input-group-addon">
+                          <i class="fa fa-calendar"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6" style="margin-bottom: 0.5rem">
+                    <div class="form-group bootstrap-timepicker">
+                      <div class="input-group">
+                        <input type="text" class="form-control timepicker input-sm">
+                        <div class="input-group-addon">
+                          <i class="fa fa-clock-o"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- /.bid closing / opening date -->
+              </div>
+              <p>Proses ini akan mengirimkan notifikasi kepada semua bidder</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Extend Opening Date</button>
+            </div>
+          </div>
+            <!-- /.modal-content -->
+        </div>
+      </div>
+      <!-- /.modal -->
+
+      <div id="resikoModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-blue">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Form : Penilaian Resiko</h4>
+            </div>
+            <div class="modal-body">
+              <div class="col-md-12">
+
+                  <div class="col-md-12" style="margin-bottom: 0.5rem">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Tanggal</label>
+                      <div class="input-group date">
+                        <input type="text" class="form-control input-sm" id="datepicker1" placeholder="Bid Opening Date">
+                        <div class="input-group-addon">
+                          <i class="fa fa-calendar"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Lama Pekerjaan (Dalam Bulan)</label>
+                      <input type="number" class="form-control input-sm" id="exampleInputPassword1" placeholder="4">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Nama Pekerjaan</label>
+                      <input type="text" class="form-control input-sm" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Nomor Kontrak</label>
+                      <input type="text" class="form-control input-sm" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Lokasi Pekerjaan</label>
+                      <input type="text" class="form-control input-sm" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label>Kategori Resiko</label>
+                      <select class="form-control">
+                        <option>R (Rendah)</option>
+                        <option>S (Sedang)</option>
+                        <option>T (Tinggi)</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Keterangan</label>
+                      <textarea class="form-control" rows="4" placeholder="Enter ..."></textarea>
+                    </div>
+                  </div>
+
+                <!-- /.bid closing / opening date -->
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit Form</button>
+            </div>
+          </div>
+            <!-- /.modal-content -->
+        </div>
+      </div>
+      <!-- /.modal -->
 
     </div>
     <!-- ./wrapper -->
