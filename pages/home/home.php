@@ -90,6 +90,18 @@ function validate(){
     document.location.href = '../estimator/p4.php';
     return false;
   }
+    if (username == "org" && password == "org"){
+    document.location.href = '../originator/p1.php';
+    return false;
+  }
+    if (username == "est" && password == "est"){
+    document.location.href = '../admincontract/p1.php';
+    return false;
+  }
+    if (username == "bd" && password == "bd"){
+    document.location.href = '../bidder/p3.php';
+    return false;
+  }
   else{
     attempt --;// Decrementing by one.
     alert("You have left "+attempt+" attempt;");

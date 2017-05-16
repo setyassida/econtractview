@@ -71,13 +71,13 @@ body {
 	z-index: -1;
 	width: 98%;
 	height: 100%;
-	margin-top: 85px;
+	margin-top: 50px;
 }
 
 .text-footer {
 	z-index: 100;
 	position: relative;
-	margin-top: 150px;
+	margin-top: 98px;
 /*	margin-left: 400px;*/
 	text-align: center;
 }
