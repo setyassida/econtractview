@@ -122,14 +122,14 @@
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>
             <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> CoC</a></li>
+            
           </ul>
         </li>
 
                 <!-- VO menu -->
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-edit"></i> 
+            <i class="fa fa-edit"></i>
             <span>Variation Order</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -148,7 +148,7 @@
                <!-- Report menu -->
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-pie-chart"></i> 
+            <i class="fa fa-pie-chart"></i>
             <span>Report</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
