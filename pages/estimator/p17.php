@@ -120,7 +120,7 @@
                 <tr>
                   <td><a href="p17i.php">CC-17001</a></td>
                   <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-default">Waiting BCR</span></td>
+                  <td class="text-center"><span class="label label-default">Waiting BCR PP</span></td>
                   <td>21-Feb-2017</td>
                   
                 </tr>
