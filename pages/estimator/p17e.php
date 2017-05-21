@@ -74,20 +74,25 @@
 
                       <!-- /.box-header -->
                       <div class="box-body">
-                        <table class="table table-bordered">
+                        <table class="table table-bordered table-condensed">
                           <tr>
                             <th style="width: 200px">Nama Kontraktor</th>
-                            <th style="width: 200px">Nilai Negosiasi</th>
+                            <th style="width: 200px">Nilai Kontrak</th>
+                            <th style="width: 200px">Nilai Penawaran</th>
+                            <th style="width: 200px">Nilai Setelah Negosiasi</th>
                             <th style="width: 200px">Hasil Negosiasi</th>
                             <th style="width: 200px">Upload Dokumen Risalah Nego</th>
 
                           </tr>
                           <tr>
                             <td>PT Hasanah Sumber Utama</td>
-                            <td>Rp 1.150.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td>
+                            <td>Rp 5.000.000.000</td>
+                            <td>Rp 4.500.000.000</td>
+                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
                             <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                           </tr>
+                          
                         </table>
                       </div>
 

@@ -735,7 +735,7 @@
                               </div>
                               <div class="col-md-6" style="text-align: right;">
                                    <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px; text-align: right;">Back</button> </a>
-                                    <a href="p8g.php"><button style="text-align: right;" type="button" class="btn btn-success btn-sm" title="Lanjut Rincian Penawaran">Lanjut Halaman</button></a>
+                                    <a href="p8g.php"><button style="text-align: right;" type="button" class="btn btn-success btn-sm" title="Lanjut Rincian Penawaran">Lanjut Hasil Evaluasi</button></a>
 
                               </div>
                             </div>

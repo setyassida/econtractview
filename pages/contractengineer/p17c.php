@@ -32,7 +32,7 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p8header2.php') ?>
+  <?php @include('p17header.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -92,41 +92,7 @@
                             <td>Lulus</td>
                             
                           </tr>
-                          <tr>
-                            <td>2.</td>
-                            <td>PT Aimindo Adie Perkasa</td>
-                            <td>84,73</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Lulus</td>
-                          </tr>
-                          <tr>
-                            <td>3.</td>
-                            <td>PT harta</td>
-                            <td>85,00</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Lulus</td>
-                          </tr>
-                          <tr>
-                            <td>4.</td>
-                            <td>PT Sumedang Jaya Lestari</td>
-                            <td>85,00</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Lulus</td>
-                          </tr>
-                          <tr>
-                            <td>5.</td>
-                            <td>PT Tiya Sejahtera</td>
-                            <td>0</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Tidak Lulus</td>
-                          </tr>
-                          <tr>
-                            <td>6.</td>
-                            <td>PT Central Teknindo Persada</td>
-                            <td>80</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Tidak Lulus</td>
-                          </tr>
+                          
                         </table>
 
                       </div>
@@ -166,55 +132,29 @@
 
                       <!-- /.box-header -->
                       <div class="box-body">
-                        <table class="table table-bordered text-center">
+                       <table class="table table-bordered">
                           <tr>
-                            <th style="width: 10px">No</th>
                             <th>Penawar</th>
                             <th style="width: 200px">Penawaran Asli (Rp)</th>
                             <th style="width: 200px">Penawaran Terkoreksi (RP)</th>
                             <th style="width: 100px">Nilai Negosiasi (RP)</th>
-                            <th style="width: 10px">Ranking Asli</th>
-                            <th style="width: 10px">Ranking Koreksi</th>
+                            <th style="width: 10px">Hasil Evaluasi Ke - </th>
                             <th>Administrasi</th>
                             <th>Teknis</th>
                             <th>Komersial</th>
                           </tr>
                           <tr>
-                            <td>1.</td>
+
                             <td>PT Hasanah Sumber Utama</td>
                             <td>1.150.000.000</td>
                             <td>950.000.000</td>
                             <td>950.000.000</td>
                             <td> 2 </td>
-                            <td> 1 </td>
                             <td> Lulus </td>
                             <td> Lulus </td>
                             <td> Wajar </td>
                           </tr>
-                          <tr>
-                            <td>2.</td>
-                            <td>PT Aimindo Adie Perkasa</td>
-                            <td>1.050.000.000</td>
-                            <td>1.200.000.000</td>
-                            <td>950.000.000</td>
-                            <td> 1 </td>
-                            <td> 2 </td>
-                            <td> Lulus </td>
-                            <td> Lulus </td>
-                            <td> Wajar </td>
-                          </tr>
-                          <tr>
-                            <td>3.</td>
-                            <td>PT Abdi Jati</td>
-                            <td>1.250.000.000</td>
-                            <td>950.000.000</td>
-                            <td>0</td>
-                            <td> 3 </td>
-                            <td> 3 </td>
-                            <td> Lulus </td>
-                            <td> Lulus </td>
-                            <td> Wajar </td>
-                          </tr>
+                          
                         </table>
 
                       </div>
@@ -257,7 +197,7 @@
         </div>
         <div class="box-footer">
            <div class="col-md-6"> 
-            <a href="p8.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Finish</button></a>
+            <a href="p17.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Finish</button></a>
              
            </div>
 
@@ -266,7 +206,7 @@
                           <label class="control-label col-md-6" for="noKontrak">Download BCR</label>
                           <div class="col-md-6">
                             <td><button type="button" class="btn btn-default btn-xs" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                            <td><a href="p3-upload.php?no=C0-17001"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
+                            <td><a><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
                           </div>
               </div>
 
@@ -275,7 +215,7 @@
                           <label class="control-label col-md-6" for="noKontrak">Download Evalkom</label>
                           <div class="col-md-6">
                             <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                            <td><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
+                            <td><a><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
                           </div>
               </div>
 

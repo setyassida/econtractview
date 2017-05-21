@@ -70,7 +70,7 @@
                       <div class="form-group">
                         <label class="control-label col-md-3" for="noKontrak">Nomor Perubahan:</label>
                         <div class="col-md-9">
-                          <p class="form-control-static">CB-17002</p>
+                          <p class="form-control-static">Diambil dari VO</p>
                         </div>
                       </div>
                       <div class="form-group">
@@ -129,7 +129,7 @@
                         <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
                    </div>
                    <div>
-                     <a href="p17d.php"><button class="btn btn-success btn-sm" type="button">Tambah rincian</button></a>
+                     <a href="p17d.php"><button class="btn btn-success btn-sm" type="button"><span class="fa fa-plus"></span> Tambah rincian</button></a>
                    </div>
                   </div>
 
@@ -137,7 +137,7 @@
                     <div class="col-md-12">
                       <table class="table table-bordered">
                                       <tr>
-                                        <th style="width: 350px;">Uraian Pekerjaan</th>
+                                        <th style="width: 200px;">Uraian Pekerjaan</th>
                                         <th rowspan="2">HPS PT Badak NGL (Rp)</th>
                                         <th style="width: 150px" rowspan="2">Penawaran PT Salebba Jaya (Rp)</th>
                                         <th style="width: 100px" rowspan="2">Analisis Evaluasi</th>
@@ -150,15 +150,17 @@
                                         
                                         <td>Total Nilai Kontrak Terakhir</td>
                                         <td>By sistem</td>
-                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input here .." class="form-control input-sm" style="resize:none"></textarea></td>
-                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input here..." class="form-control input-sm" style="resize:none"></textarea></td>
+                                        <td>Rp 5.000.000.000</td>
+                                        <td>Wajar</td>
+                                          <!-- <td><textarea id="inputKeterangan" rows="1" placeholder="Input here .." class="form-control input-sm" style="resize:none"></textarea></td>
+                                          <td><textarea id="inputKeterangan" rows="1" placeholder="Input here..." class="form-control input-sm" style="resize:none"></textarea></td> -->
 
                                       </tr>
                                       <tr>
                                         <td>Total Nilai VO</td>
                                         <td>HPS Most likely</td>
-                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input here .." class="form-control input-sm" style="resize:none"></textarea></td>
-                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input here .." class="form-control input-sm" style="resize:none"></textarea></td>
+                                        <td>Rp 5.000.000.000</td>
+                                        <td>Wajar</td>
                                       </tr>
                                       <tr>
                                         <td>Total Nilai Kontrak Amandement</td>
@@ -168,7 +170,7 @@
                                       </tr>
 
                                       <tr>
-                                        <td>Total Nilai Kontrak Amandement</td>
+                                        <td>Total Nilai Kontrak Amandement ( Nilai Termasuk PPN 10% )</td>
                                         <td>= poin 3 * 1,1</td>
                                         <td></td>
                                         <td></td>
@@ -180,7 +182,7 @@
                   
                 </div>
                 <div class="box-footer">
-                      <a href="p17e.php"><button class="pull-right btn btn-success btn-sm" type="button"><span class=""></span> Lanjut ke negosiasi</button></a>
+                      <a href="p17e.php"><button class="pull-right btn btn-success btn-sm" type="button"><span class=""></span> Lanjut ke halaman berikutnya</button></a>
                   </div>
                 </form>
                 

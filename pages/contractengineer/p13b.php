@@ -334,14 +334,14 @@
 
                       <div class="col-md-6"> 
                         <a href="p13.php"><button type="button" class="btn btn-default btn-sm"> Back </button></a>
-                         <a href="p13.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim COC untuk approved" disabled=""><span class="fa fa-send"></span> Submit</button></a>
+                         
 
 
                       </div>
 
                          <div class="col-md-6" style="text-align: right;">
                            <td><button type="button" class="btn btn-default btn-xs" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                           <td><a href="p3-upload.php?no=C0-17001"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
+                           <td><a href="#"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
 
                          </div>
 

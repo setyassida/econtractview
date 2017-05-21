@@ -36,7 +36,7 @@
   <!-- Site wrapper -->
   <div class="wrapper">
 
-    <?php @include('p17header.php') ?>
+    <?php @include('p8header2.php') ?>
 
     <!-- =============================================== -->
 
@@ -44,16 +44,17 @@
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
       <section class="content-header">
-      <h1>
-        Contract Order
-        <small>Abort Evaluasi Komersial VO</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Contract Order</li>
-        <li class="active">Abort Evaluasi Komersial VO</li>
-      </ol>
-    </section>
+        <h1>
+          Contract Order
+          <small>Evaluasi Komersial</small>
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li><a href="#">Evaluasi Komersial</a></li>
+          <li><a href="#">0001/BB41/2017-041</a></li>
+          <li class="active">Abort</li>
+        </ol>
+      </section>
 
       <!-- Main content -->
 
@@ -158,14 +159,14 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                      <a href="p17.php"><button type="submit" class="btn btn-danger">Yes, Abort Now!</button></a>
+                      <a href="p8.php"><button type="submit" class="btn btn-danger">Yes, Abort Now!</button></a>
                     </div>
                   </div>
                     <!-- /.modal-content -->
                 </div>
               </div>
 
-              <a href="p17.php">
+              <a href="p8.php">
                 <button type="button" class="btn btn-default pull-right" style="margin-right: 5px;">
                   Back
                 </button>

@@ -300,11 +300,11 @@
                   <a href="p8.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Submit </button></a>
                  
                 </div>
-                <div class="col-md-6" style="text-align: right;">
+                <!-- <div class="col-md-6" style="text-align: right;">
                   <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
                   <a href="#!"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a>
 
-                </div>
+                </div> -->
               </div>
             </div>
             <!-- /.box-body -->
