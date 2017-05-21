@@ -81,14 +81,14 @@
                         <div class="form-group">
                           <label class="control-label col-md-3" for="noKontrak">Schedule Kontrak:</label>
                           <div class="col-md-9">
-                            <p class="form-control-static">1 - 05 - 2016 sampai 30-05-2018</p>
+                            <p class="form-control-static">1 - Mei - 2016 s/d 30-Mei-2018</p>
                             
                           </div>
                         </div>
                         <div class="form-group">
                           <label class="control-label col-md-3" for="noKontrak">Tagihan ke:</label>
                           <div class="col-md-9">
-                            <p class="form-control-static">1 & 2</p>
+                            <p class="form-control-static">1</p>
                           </div>
                         </div>
 
@@ -135,19 +135,19 @@
                           <div class="form-group">
                             <label class="control-label col-md-6" for="noKontrak">Total Progress yang lalu</label>
                             <div class="col-md-6">
-                              <textarea disabled="" id="inputKeterangan" rows="1" placeholder="Dalam %" class="form-control input-sm" style="resize:none"></textarea>
+                              <textarea disabled="" id="inputKeterangan" rows="1" placeholder="0%" class="form-control input-sm" style="resize:none"></textarea>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-md-6" for="noKontrak">Total Progress tambahan</label>
                             <div class="col-md-6">
-                              <textarea id="inputKeterangan" rows="1" placeholder="Dalam %" class="form-control input-sm" style="resize:none" disabled=""></textarea>
+                              <textarea id="inputKeterangan" rows="1" placeholder="25%" class="form-control input-sm" style="resize:none" disabled=""></textarea>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-md-6" for="noKontrak">Total Progress sampai saat ini</label>
                             <div class="col-md-6">
-                              <textarea id="inputKeterangan" rows="1" placeholder="Dalam %" class="form-control input-sm" style="resize:none" disabled=""></textarea>
+                              <textarea id="inputKeterangan" rows="1" placeholder="25%" class="form-control input-sm" style="resize:none" disabled=""></textarea>
                             </div>
                           </div>
                       </div>
@@ -331,8 +331,21 @@
 
                       </div>
                       <div class="box-footer">
-                         <a href="p13.php"><button type="button" class="btn btn-default btn-sm"> Back </button></a>
+
+                      <div class="col-md-6"> 
+                        <a href="p13.php"><button type="button" class="btn btn-default btn-sm"> Back </button></a>
                          <a href="p13.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim COC untuk approved" disabled=""><span class="fa fa-send"></span> Submit</button></a>
+
+
+                      </div>
+
+                         <div class="col-md-6" style="text-align: right;">
+                           <td><button type="button" class="btn btn-default btn-xs" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                           <td><a href="p3-upload.php?no=C0-17001"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
+
+                         </div>
+
+
                       </div>
                   </div>
 
