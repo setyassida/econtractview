@@ -22,6 +22,9 @@
   folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
 
+  <!-- custom css -->
+  <link rel="stylesheet" href="../../bootstrap/css/custom.css"
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -45,8 +48,7 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Contract Order
-          <small>Prebid Meeting</small>
+          Pre-Bid Meeting
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -81,38 +83,42 @@
                 <!-- left column -->
                 <div class="col-md-6">
 
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Nomor Risalah Pre-Bid Meeting:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">0001/BB41/2017-532</p>
+                  <div class="box">
+                    <div class="box-body">
+                      <div class="col-md-12">
+                        <div class="form-group no-margin">
+                          <label class="control-label col-md-6" for="noKontrak">Nomor Risalah Pre-Bid Meeting:</label>
+                          <div class="col-md-6">
+                            <p class="form-control-static">0001/BB41/2017-532</p>
+                          </div>
+                        </div>
+                        <div class="form-group no-margin">
+                          <label class="control-label col-md-6" for="noKontrak">Nomor Kontrak:</label>
+                          <div class="col-md-6">
+                            <p class="form-control-static">CA-17001</p>
+                          </div>
+                        </div>
+                        <div class="form-group no-margin">
+                          <label class="control-label col-md-6" for="noKontrak">Tanggal:</label>
+                          <div class="col-md-6">
+                            <p class="form-control-static">17-01-2016</p>
+                          </div>
+                        </div>
+                        <div class="form-group no-margin">
+                          <label class="control-label col-md-6" for="noKontrak">Judul Kontrak:</label>
+                          <div class="col-md-6">
+                            <p class="form-control-static">Pengadaan Sistem Informasi Kepegawaian</p>
+                          </div>
+                        </div>
+                        <div class="form-group no-margin">
+                          <label class="control-label col-md-6" for="noKontrak">Jenis Kontrak:</label>
+                          <div class="col-md-6">
+                            <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">CA-17001</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Tanggal:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">17-01-2016</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Judul Kontrak:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">Pengadaan Sistem Informasi Kepegawaian</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Jenis Kontrak:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
-                    </div>
-                  </div>
-                  
-
                 </div>
                 <!-- /left column -->
 
@@ -199,9 +205,16 @@
             <!-- /.box-body -->
             <div class="box-footer">
               
-              <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#uploadModal">
+              <button type="button" class="btn btn-success btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#uploadModal">
               <span class="glyphicon glyphicon-cloud-upload"></span> Upload
               </button>
+
+              
+
+              <button type="button" class="btn btn-warning btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#holdModal"><span class="glyphicon glyphicon-pause"></span> Hold</button>
+              <button type="button" class="btn btn-info btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#resumeModal"><span class="glyphicon glyphicon-play"></span> Resume</button>
+              <a href="p3.php"><button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;"> Back</button></a>
+              <a href="#"><button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;"><span class="glyphicon glyphicon-download-alt"></span> Download Template</button></a>
 
               <div id="uploadModal" class="modal">
                 <div class="modal-dialog">
@@ -223,11 +236,69 @@
                 </div>
               </div>
 
-              <a href="p3.php">
-                <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;">
-                  Back
-                </button>
-              </a>
+              <div id="resumeModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <form class="form-horizontal">
+                      <div class="modal-header bg-aqua">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Are You Sure?</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p class="well well-sm no-shadow">Anda perlu melakukan <i>exteng opening date</i> untuk melakukan resume Pre-Bid Meeting.</p>
+                        <div class="form-group">
+                          <label class="control-label col-md-4">Extend Opening Date: </label>
+                          <div class="col-md-6">
+                            <div class="input-group date">
+                              <div class="input-group-addon">
+                                  <i class="fa fa-calendar"></i>
+                              </div>
+                              <input type="text" class="form-control" id="datepicker" required>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-sm btn-info">Yes, Resume It</button>
+                      </div>
+                    </form>
+                  </div>
+                    <!-- /.modal-content -->
+                </div>
+              </div>
+
+              <div id="holdModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <form class="form-horizontal">
+                      <div class="modal-header bg-yellow">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Are You Sure?</h4>
+                      </div>
+                      <div class="modal-body">
+                        
+                          <p class="well well-sm o-shadow">Anda wajib menyertakan alasan Hold pada kolom berikut.</p>
+                          <div class="form-group">
+                            <label class="control-label col-md-3">Alasan Hold :</label>
+                            <div class="col-md-9">
+                              <textarea rows="3" class="form-control" style="resize:none" required></textarea>
+                            </div>
+                          </div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-sm btn-warning">Yes, Hold It</button>
+                      </div>
+                    </form>
+                  </div>
+                    <!-- /.modal-content -->
+                </div>
+              </div>
+
             </div>
           </form>
         </div>

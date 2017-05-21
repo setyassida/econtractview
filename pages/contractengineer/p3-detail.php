@@ -22,6 +22,9 @@
   folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
 
+  <!-- custom style -->
+  <link rel="stylesheet" href="../../bootstrap/css/custom.css">
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -45,8 +48,7 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Contract Order
-          <small>Prebid Meeting</small>
+          Pre-Bid Meeting
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -73,35 +75,41 @@
                 <!-- left column -->
                 <div class="col-md-6">
 
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Nomor Risalah Pre-Bid Meeting:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">0001/BB41/2017-532</p>
+                  <div class="box">
+
+                    <div class="box-body">
+                      <div class="form-group no-margin">
+                        <label class="control-label col-md-6" for="noKontrak">Nomor Risalah Pre-Bid Meeting:</label>
+                        <div class="col-md-6">
+                          <p class="form-control-static">0001/BB41/2017-532</p>
+                        </div>
+                      </div>
+                      <div class="form-group no-margin">
+                        <label class="control-label col-md-6" for="noKontrak">Nomor Kontrak:</label>
+                        <div class="col-md-6">
+                          <p class="form-control-static">CO-17001</p>
+                        </div>
+                      </div>
+                      <div class="form-group no-margin">
+                        <label class="control-label col-md-6" for="noKontrak">Tanggal:</label>
+                        <div class="col-md-6">
+                          <p class="form-control-static">17-01-2016</p>
+                        </div>
+                      </div>
+                      <div class="form-group no-margin">
+                        <label class="control-label col-md-6" for="noKontrak">Judul Kontrak:</label>
+                        <div class="col-md-6">
+                          <p class="form-control-static">Pengadaan Sistem Informasi Kepegawaian</p>
+                        </div>
+                      </div>
+                      <div class="form-group no-margin">
+                        <label class="control-label col-md-6" for="noKontrak">Jenis Kontrak:</label>
+                        <div class="col-md-6">
+                          <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">CO-17001</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Tanggal:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">17-01-2016</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Judul Kontrak:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">Pengadaan Sistem Informasi Kepegawaian</p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-3" for="noKontrak">Jenis Kontrak:</label>
-                    <div class="col-md-9">
-                      <p class="form-control-static">Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS</p>
-                    </div>
+
                   </div>
 
 
@@ -120,149 +128,97 @@
                           <thead>
                             <tr>
                               <th>Judul Dokumen</th>
-                              <th>Filename</th>
-                              <th style="width:80px"><div class="text-center">Act</div></th>
+                              <th>Keterangan</th>
+                              <th style="width:80px"><div class="text-center">Download Dokumen</div></th>
+                              <th style="width:80px"><div class="text-center">Modify Dokumen</div></th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
                               <td>Risalah Pre-Bid Meeting</td>
-                              <td>sample-file.pdf</td>
+                              <td></td>
                               <td>
                                 <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
+                                  <button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                                  <!-- <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
                                     <span class="fa fa-cog"></span>
-                                  </button>
+                                  </button> -->
                                 </div>
                                 <div id="modifyModal" class="modal">
-                                    <div class="modal-dialog">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span></button>
-                                          <h4 class="modal-title">Modify Document</h4>
-                                        </div>
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header bg-green">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title">Modify Document</h4>
+                                      </div>
 
-                                        <div class="modal-body">
-                                            <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                                              Dokumen lama yang Anda upload akan otomatis terhapus.
-                                            </p>
+                                      <div class="modal-body">
+                                          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                                            Dokumen lama yang Anda upload akan otomatis terhapus.
+                                          </p>
 
-                                            <div class="form-group">
-                                              <label class="control-label col-md-3">Dokumen Baru :</label>
-                                              <div class="col-md-6">
-                                                <input type="file" accept=".pdf" class="form-control">
-                                              </div>
+                                          <div class="form-group">
+                                            <label class="control-label col-md-3">Dokumen Baru :</label>
+                                            <div class="col-md-6">
+                                              <input type="file" accept=".pdf" class="form-control">
                                             </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn pull-left btn-sm" data-dismiss="modal">Close</button>
-                                          <button type="submit" class="btn btn-default btn-sm"><span class="fa fa-cog"></span> Modify</button>
-                                        </div>
+                                          </div>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn pull-left btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-success btn-sm"> Upload</button>
                                       </div>
                                     </div>
                                   </div>
+                                </div>
                               </td>
-                              <td style="display:none"></td>
+                              <td></td>
                             </tr>
                             <tr>
                               <td>Breakdown Penawaran</td>
-                              <td>sample-file.pdf</td>
+                              <td></td>
                               <td>
                                 <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
-                                    <span class="fa fa-cog"></span>
-                                  </button>
+                                  <button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                                  
                                 </div>
-                                <div id="modifyModal" class="modal">
-                                    <div class="modal-dialog">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span></button>
-                                          <h4 class="modal-title">Modify Document</h4>
-                                        </div>
-                                        <div class="modal-body">
-
-                                            <div class="form-group">
-                                              <label class="control-label col-md-3">Dokumen Baru :</label>
-                                              <div class="col-md-6">
-                                                <input type="file" accept=".pdf" class="form-control">
-                                              </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
                               </td>
-                              <td style="display:none"></td>
+                              <td>
+                              </td>
                             </tr>
                             <tr>
                               <td>Dokumen Tambahan 1</td>
-                              <td>sample-file.pdf</td>
+                              <td>Keterangan File Tambahan</td>
                               <td>
                                 <div class="text-center">
-                                  <button type="button" class="btn btn-xs btn-default" >
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                  </button>
-                                  <button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#modifyModal">
-                                    <span class="fa fa-cog"></span>
-                                  </button>
+                                  <button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span> Download</button>
                                 </div>
-                                <div id="modifyModal" class="modal">
-                                    <div class="modal-dialog">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span></button>
-                                          <h4 class="modal-title">Modify Document</h4>
-                                        </div>
-                                        <div class="modal-body">
-
-                                            <div class="form-group">
-                                              <label class="control-label col-md-3">Dokumen Baru :</label>
-                                              <div class="col-md-6">
-                                                <input type="file" accept=".pdf" class="form-control">
-                                              </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                                          <button type="submit" class="btn btn-default"><span class="fa fa-cog"></span> Modify</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
                               </td>
-                              <td style="display:none"></td>
+                              <td>
+                                <div class="text-center">
+                                  <button type="button" class="btn btn-xs  btn-success" data-toggle="modal" data-target="#modifyModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                                </div>
+                              </td>
+                              
                             </tr>
                             <tr>
                               <td>Dokumen Tambahan 2</td>
-                              <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
-                              <td style="display:none"></td>
+                              <td>Keterangan File Tambahan</td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td> 
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-success" data-toggle="modal" data-target="#modifyModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
                             </tr>
                             <tr>
                               <td>Dokumen Tambahan 3</td>
-                              <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
-                              <td style="display:none"></td>
+                              <td>Keterangan File Tambahan</td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td> 
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-success" data-toggle="modal" data-target="#modifyModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
                             </tr>
                             <tr>
                               <td>Dokumen Tambahan 4</td>
-                              <td>sample-file.pdf</td>
-                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span></button> <button type="button" class="btn btn-xs btn-default" ><span class="fa fa-cog"></span></button></div></td>
-                              <td style="display:none"></td>
+                              <td>Keterangan File Tambahan</td>
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-default" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td> 
+                              <td><div class="text-center"><button type="button" class="btn btn-xs btn-success" data-toggle="modal" data-target="#modifyModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></td>
                             </tr>
                           </tbody>
                         </table>
@@ -288,7 +244,7 @@
             <!-- /.box-body -->
             <div class="box-footer">
               <a href="p3.php">
-                <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;">
+                <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;">
                   Back
                 </button>
               </a>
