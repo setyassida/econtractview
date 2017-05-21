@@ -120,7 +120,7 @@
                 <tr>
                   <td><a href="p8i.php">CC-17001</a></td>
                   <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-default">Waiting BCR</span></td>
+                  <td class="text-center"><span class="label label-default">Waiting BCR PP</span></td>
                   <td>21-Feb-2017</td>
                   
                 </tr>
@@ -160,7 +160,8 @@
                 <li><span class="label label-danger">Aborted</span> : evalkom di-abort</li>
                 <li><span class="label label-success">Finish</span> : evalkom di-approve</li>
                 <li><span class="label label-warning">Waiting Confirmation</span> : evalkom waiting for confirmation</li>
-                <li><span class="label label-default">Waiting BCR</span> : evalkom waiting for BCR process</li>
+                <li><span class="label label-default">Waiting BCR PP</span> : evalkom waiting for BCR Panitia Pengadaan</li>
+                <li><span class="label label-default">Waiting BCR FP</span> : evalkom waiting for BCR Fungsi Pengadaan</li>
                 <li><span class="label label-purple" style="background-color: #001F3F;">Re Bid</span> : evalkom re bid</li>
                 <li><span class="label label-purple" style="background-color: #605ca8;">Re Eval</span> : evalkom re eval</li>
               </ul>
