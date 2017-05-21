@@ -99,7 +99,7 @@
 
                                   <!-- /.box-header -->
                                   <div class="box-body">
-                                    <table class="table table-bordered">
+                                    <table class="table table-bordered table-condensed">
                                       <tr>
                                         <th style="width: 200px">Jenis Pekerjaan</th>
                                         
@@ -108,10 +108,60 @@
                                         <th style="width: 100px">Analisis Evaluasi</th>
                                       </tr>
                                       <tr>
-                                        <td><textarea id="inputKeterangan" rows="5" placeholder="Diambil dari VO dan editable" class="form-control input-sm" style="resize:none"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="3" placeholder="Diambil dari VO dan editable" class="form-control input-sm" style="resize:none"></textarea></td>
                                         <td><textarea id="inputKeterangan" rows="1" placeholder="Diambil dari VO dan editable" class="form-control input-sm" style="resize:none"></textarea></td>
                                         <td><textarea id="inputKeterangan" rows="1" placeholder="Diambil dari VO dan editable" class="form-control input-sm" style="resize:none"></textarea></td>
                                         <td><textarea id="inputKeterangan" rows="1" placeholder="Diambil dari VO dan editable" class="form-control input-sm" style="resize:none"></textarea></td>
+                                      </tr>
+                                    </table>
+                                    <br>
+                                    <div class="col-md-12" style="text-align: left;">
+                                      <a href="p17c.php"><button type="button" class="btn btn-success btn-sm" title="Kembali Rincian"><span class="fa fa-plus"></span> Tambah Rincian</button></a>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h4>Detail Rincian Yang Sudah Masuk </h4>
+                                    <table class="table table-bordered table-condensed">
+                                      <tr>
+                                        <th style="width: 200px;">Uraian Pekerjaan</th>
+                                        <th style="width: 200px;">HPS PT Badak NGL (Rp)</th>
+                                        <th style="width: 150px" >Penawaran PT Salebba Jaya (Rp)</th>
+                                        <th style="width: 100px" >Analisis Evaluasi</th>
+                                        
+                                      </tr>
+                                                                           
+                                      <tr>
+                                        
+                                        <td>Total Nilai Kontrak Terakhir</td>
+                                        <td>By sistem</td>
+                                        <!-- <td>Rp 5.000.000.000</td>
+                                        <td>Wajar</td> -->
+                                          <td><textarea id="inputKeterangan" rows="1" placeholder="Rp 5.000.000.000" class="form-control input-sm" style="resize:none"></textarea></td>
+                                          <td><textarea id="inputKeterangan" rows="1" placeholder="wajar" class="form-control input-sm" style="resize:none"></textarea></td>
+
+                                      </tr>
+                                      <tr>
+                                        <td>Total Nilai VO</td>
+                                        <td>HPS Most likely</td>
+                                        <!-- <td>Rp 5.000.000.000</td>
+                                        <td>Wajar</td> -->
+
+                                          <td><textarea id="inputKeterangan" rows="1" placeholder="Rp 5.000.000.000" class="form-control input-sm" style="resize:none"></textarea></td>
+                                          <td><textarea id="inputKeterangan" rows="1" placeholder="wajar" class="form-control input-sm" style="resize:none"></textarea></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total Nilai Kontrak Amandement</td>
+                                        <td>= SUM</td>
+                                        <td>Rp 5.000.000.000</td>
+                                        <td>wajar</td>
+                                      </tr>
+
+                                      <tr>
+                                        <td>Total Nilai Kontrak Amandement ( Nilai Termasuk PPN 10% )</td>
+                                        <td>= poin 3 * 1,1</td>
+                                        <td>Rp 5.000.000.000</td>
+                                        <td></td>
                                       </tr>
                                     </table>
                                   </div>
@@ -134,6 +184,8 @@
                     </div>
 
       </div>
+
+
 
     </section>
     

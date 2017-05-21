@@ -176,21 +176,75 @@
                   </div>
 
               </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-1" for="noKontrak">Ketua:</label>
+                    <div class="col-md-5">
+                      <textarea id="inputKeterangan" rows="1" placeholder="MUHAIMIN" class="form-control input-sm" style="resize:none"></textarea>
+                    </div>
+                    <label class="control-label col-md-1" for="noKontrak">Sekretaris:</label>
+                    <div class="col-md-5">
+                      <textarea id="inputKeterangan" rows="1" placeholder="AGUS SUSANTO" class="form-control input-sm" style="resize:none"></textarea>
+                    </div>
+                </div>
+    
+               <div class="form-group">
+                    <label class="control-label col-md-1" for="noKontrak">Alt Ketua:</label>
+                    <div class="col-md-5">
+                      <textarea id="inputKeterangan" rows="1" placeholder="MOHAMMAD FAROUK RIZA" class="form-control input-sm" style="resize:none"></textarea>
+                    </div>
+                    <label class="control-label col-md-1" for="noKontrak">Anggota:</label>
+                    <div class="col-md-5">
+                      <textarea id="inputKeterangan" rows="1" placeholder="SALLY IRENE" class="form-control input-sm" style="resize:none"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-1" for="noKontrak">Anggota:</label>
+                    <div class="col-md-5">
+                      <textarea id="inputKeterangan" rows="1" placeholder="NASRUL SYAHRUDDIN" class="form-control input-sm" style="resize:none"></textarea>
+                    </div>
+                    <label class="control-label col-md-1" for="noKontrak">Anggota:</label>
+                    <div class="col-md-5">
+                        <textarea id="inputKeterangan" rows="1" placeholder="MULYA FITRAH UTAMA" class="form-control input-sm" style="resize:none"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-1" for="noKontrak">Anggota:</label>
+                    <div class="col-md-5">
+                      <textarea id="inputKeterangan" rows="1" placeholder="ANAS MALIK ABDULLAH" class="form-control input-sm" style="resize:none"></textarea>
+                    </div>
+                </div>
               </div>
               
-
               <div class="form-group">
                 <label class="control-label col-md-1" for="noKontrak">Action</label>
                 <div class="col-md-5">
-                  <!-- <a href="p17abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a> -->
-                  <a href="p17c.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a>
-                  <a href="p17.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Submit </button></a>
+                  <!-- <a href="p8abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a> -->
+                  <a href="p8d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a>
                   <!-- <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a> -->
+                  <a href="p8.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Submit </button></a>
                  
                 </div>
-                
-                
+                <!-- <div class="col-md-6" style="text-align: right;">
+                  <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                  <a href="#!"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a>
+
+                </div> -->
               </div>
+              
+
+
+              </div>
+
+              
+              <!-- <div class="col-md-6" style="text-align: right;">
+                  <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                  <a href="#!"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a>
+
+                </div> -->
 
             </div>
             <!-- /.box-body -->

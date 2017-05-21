@@ -110,44 +110,44 @@
                                       <div class="input-group-addon">
                                         <i class="fa fa-calendar"></i>
                                       </div>
-                                      <input type="text" class="form-control pull-right" id="datepicker">
+                                      <input disabled="" type="text" class="form-control pull-right" id="datepicker">
                                 </div>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-md-6" for="noKontrak">Nilai Kontrak Asli</label>
                             <div class="col-md-6">
-                              <textarea id="inputKeterangan" rows="1" placeholder="Rp 4,937,575,500.00" disabled="" class="form-control input-sm" style="resize:none"></textarea>
+                              <textarea disabled="" id="inputKeterangan" rows="1" placeholder="Rp 4,937,575,500.00" disabled="" class="form-control input-sm" style="resize:none"></textarea>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-md-6" for="noKontrak">Nilai Kontrak Tambah / Kurang</label>
                             <div class="col-md-6">
-                              <textarea id="inputKeterangan" rows="1" placeholder="Rp -"  class="form-control input-sm" style="resize:none"></textarea>
+                              <textarea disabled="" id="inputKeterangan" rows="1" placeholder="Rp -"  class="form-control input-sm" style="resize:none"></textarea>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-md-6" for="noKontrak">Nilai Kontrak Perubahan ( Amandemen )</label>
                             <div class="col-md-6">
-                              <textarea id="inputKeterangan" rows="1" placeholder="Rp - " class="form-control input-sm" style="resize:none"></textarea>
+                              <textarea disabled="" id="inputKeterangan" rows="1" placeholder="Rp - " class="form-control input-sm" style="resize:none"></textarea>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-md-6" for="noKontrak">Total Progress yang lalu</label>
                             <div class="col-md-6">
-                              <textarea id="inputKeterangan" rows="1" placeholder="25%" class="form-control input-sm" style="resize:none"></textarea>
+                              <textarea disabled="" id="inputKeterangan" rows="1" placeholder="0%" class="form-control input-sm" style="resize:none"></textarea>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-md-6" for="noKontrak">Total Progress tambahan</label>
                             <div class="col-md-6">
-                              <textarea id="inputKeterangan" rows="1" placeholder="Dalam %" class="form-control input-sm" style="resize:none"></textarea>
+                              <textarea id="inputKeterangan" rows="1" placeholder="25%" class="form-control input-sm" style="resize:none" disabled=""></textarea>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-md-6" for="noKontrak">Total Progress sampai saat ini</label>
                             <div class="col-md-6">
-                              <textarea id="inputKeterangan" rows="1" placeholder="Dalam %" class="form-control input-sm" style="resize:none"></textarea>
+                              <textarea id="inputKeterangan" rows="1" placeholder="25%" class="form-control input-sm" style="resize:none" disabled=""></textarea>
                             </div>
                           </div>
                       </div>
@@ -180,7 +180,7 @@
                           <div class="col-md-6">
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox">
+                                <input type="checkbox" disabled="">
                                 Penangguhan pembayaran tersebut diatas sehubungan dengan
                               </label>
                             </div>
@@ -188,19 +188,19 @@
                           <div class="col-md-6">
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox">
+                                <input type="checkbox" disabled="">
                                 Jaminan Pemeliharaan
                               </label>
                             </div>
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox">
+                                <input type="checkbox" disabled="">
                                 Perhitungan Penalty Keterlambatan
                               </label>
                             </div>
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox">
+                                <input type="checkbox" disabled="">
                                 Retensi
                               </label>
                             </div>                            
@@ -208,7 +208,7 @@
                           <div class="col-md-6">
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox">
+                                <input type="checkbox" disabled="">
                                 Penangguhan pembayaran tersebut diatas sehubungan dengan
                               </label>
                             </div>
@@ -216,13 +216,13 @@
                           <div class="col-md-6">
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox">
+                                <input type="checkbox" disabled="">
                                 Kontrak Harga Satuan
                               </label>
                             </div>
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox">
+                                <input disabled="" type="checkbox">
                                 Pengakhiran Kontrak
                               </label>
                             </div>
@@ -259,7 +259,7 @@
 
                             </thead>
                             <tr>
-                              <th>A-HGB0-FA000-75103-00</th>
+                              <th><strong>A-HGB0-FA000-75103-00</strong></th>
                               <th><strong>JASA ANNUAL TECHNICAL SUPPORT (ATS) PERANGKAT LUNAK ORACLE ERP DI PT. BADAK NGL</strong></th>
                               <th><strong>25.000%</strong></th>
                               <th><strong>Rp 4,937,575,500.00</strong></th>
@@ -269,6 +269,7 @@
                           </table>
 
                         </div>
+
 
                         <div class="col-md-12">
                           <table class="table table-bordered table-condensed">
@@ -325,24 +326,26 @@
                         </div>
 
 
-
                           
                       </div>
 
                       </div>
                       <div class="box-footer">
-                          <div class="col-md-6"> 
+
+                      <div class="col-md-6"> 
                         <a href="p13.php"><button type="button" class="btn btn-default btn-sm"> Back </button></a>
-                         <a href="p13.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim COC untuk approved" ><span class="fa fa-send"></span> Submit</button></a>
+                         
 
 
                       </div>
 
                          <div class="col-md-6" style="text-align: right;">
-                           <td><button disabled="" type="button" class="btn btn-default btn-xs" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                           <td><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
+                           <td><button type="button" class="btn btn-default btn-xs" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                           <td><a href="#"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
 
                          </div>
+
+
                       </div>
                   </div>
 

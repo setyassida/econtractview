@@ -64,8 +64,8 @@
                   <th style="width: 100px;">No. Contract</th>
                   <th style="width: 100px;">Judul Pekerjaan</th>
                   <th style="width: 100px;">Status</th>
-                  <th style="width: 100px;">Download COC</th>
-                  <th style="width: 100px;">Uplaod COC</th>
+                 <!--  <th style="width: 100px;">Download COC</th>
+                  <th style="width: 100px;">Uplaod COC</th> -->
                   <!-- <th>Tanggal Dikeluarkan</th> -->
 <!--                   <th style="width:10px">Download Evalkom</th>
                   <th style="width:50px">Upload Evalkom</th>
@@ -78,31 +78,31 @@
                   <td><a href="">CB-17001</a></td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                  <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
+                  <!-- <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                  <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
                   
                 </tr>
                 <tr>
                   <td><a href="p13b.php">CC-17001</a></td>
                   <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
                   <td class="text-center"><span class="label label-warning">Segera diisi</span></td>
-                  <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
+                  <!-- <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
                 </tr>
                 <tr>
-                  <td><a href="p13c.php">CA-17003</a></td>
+                  <td><a href="p13d.php">CA-17003</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td class="text-center"><span class="label label-success">Approved</span></td>
-                  <td><button type="button" class="btn btn-default btn-xs" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
+                  <!-- <td><button type="button" class="btn btn-default btn-xs" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
                 </tr>
                 
                 <tr>
-                  <td><a href="p13c.php">CA-17002</a></td>
+                  <td><a href="p13d.php">CA-17002</a></td>
                   <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
                   <td class="text-center"><span class="label label-success">Approved</span></td>
-                  <td><button type="button" class="btn btn-default btn-xs" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
+                  <!-- <td><button type="button" class="btn btn-default btn-xs" ><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button  type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
                   
                 </tr>
              

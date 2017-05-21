@@ -37,8 +37,8 @@
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Komersial</small>
+        Evaluasi Komersial
+        <!-- <small>Evaluasi Komersial</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -128,7 +128,7 @@
                       <!-- /.box-header -->
                       <div class="box-body">
                         <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Contract Existing Amend #05 Termasuk PPN 10%</label>
+                          <label class="control-label col-md-3" for="noKontrak">Contract Existing Amend Termasuk PPN 10%</label>
                           <div class="col-md-6">
                             <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none" disabled=""></textarea>
                           </div>
