@@ -78,8 +78,8 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="info-box" style="box-shadow: 0 0 3px 3px rgba(0, 140, 186, 0.5)">
-            <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Approver 3</span>
@@ -92,7 +92,7 @@
         </div>
         <div class="col-md-3">
           <div class="info-box">
-            <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
+            <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Approver 4</span>
@@ -131,7 +131,7 @@
                     <div class="form-group no-margin">
                       <label class="control-label col-md-4">Tanggal Opening :</label>
                       <div class="form-control-static col-md-8">
-                        01-Nov-2017
+                        01-11-2017
                       </div>
                     </div>
                     <div class="form-group no-margin">
@@ -317,6 +317,12 @@
                       <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
                     </div>
                   </div>
+                  <div class="form-group">
+                    <label class="control-label col-md-2">Upload Dokumen Hasil Scan :</label>
+                    <div class="form-control-static col-md2">
+                      <input type="file" class="input-sm">
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -326,7 +332,27 @@
               <div class="col-md-12">
                  
                 <a href="p4.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px">Back</button></a>
-                <!-- <button type="button" class="btn btn-default btn-sm" style="margin-right:5px"><span class="glyphicon glyphicon-download-alt"></span> Download Template PDF</button> -->
+                <button type="button" class="btn btn-default btn-sm" style="margin-right:5px"><span class="glyphicon glyphicon-download-alt"></span> Download Template PDF</button>
+                <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+
+                <div id="uploadModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-green">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Anda Yakin?</h4>
+                    </div>
+                    <div class="modal-body">
+                      Anda tidak dapat merubah Dokumen Hasil Scan yang telah di upload
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Tidak</button>
+                      <button type="submit" value="submit" class="btn btn-success btn-sm">Ya</button>
+                    </div>
+                  </div>
+                  <!-- /.modal-content -->
+                </div>
+              </div>
               </div>
             </div>
           </div>

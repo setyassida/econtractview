@@ -150,7 +150,7 @@
                                       <div class="modal-header bg-green">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                           <span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title">Modify Document</h4>
+                                        <h4 class="modal-title">Are You Sure?</h4>
                                       </div>
 
                                       <div class="modal-body">
@@ -166,8 +166,8 @@
                                           </div>
                                       </div>
                                       <div class="modal-footer">
-                                        <button type="button" class="btn pull-left btn-sm" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-success btn-sm"> Upload</button>
+                                        <button type="button" class="btn pull-left btn-sm" data-dismiss="modal">No</button>
+                                        <button type="submit" class="btn btn-success btn-sm"> Yes</button>
                                       </div>
                                     </div>
                                   </div>

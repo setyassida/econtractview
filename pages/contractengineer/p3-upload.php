@@ -101,7 +101,7 @@
                         <div class="form-group no-margin">
                           <label class="control-label col-md-6" for="noKontrak">Tanggal:</label>
                           <div class="col-md-6">
-                            <p class="form-control-static">17-01-2016</p>
+                            <p class="form-control-static">17-Jan-2016</p>
                           </div>
                         </div>
                         <div class="form-group no-margin">
@@ -222,14 +222,14 @@
                     <div class="modal-header bg-green">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title">Are You Sure?</h4>
+                      <h4 class="modal-title">Anda Yakin?</h4>
                     </div>
                     <div class="modal-body">
                       <p>Pastikan file pendukung yang Anda upload telah sesuai. Anda <span class="text-red">TIDAK DAPAT</span> merubah <i>Dokumen Pre-Bid Meeting</i> dan <i>Breakdown Anggaran</i> setelah melakukan proses ini.</p>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                      <button type="submit" class="btn btn-sm btn-success">Yes, I Want to Upload It</button>
+                      <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Tidak</button>
+                      <button type="submit" class="btn btn-sm btn-success">Ya</button>
                     </div>
                   </div>
                     <!-- /.modal-content -->
@@ -243,7 +243,7 @@
                       <div class="modal-header bg-aqua">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Are You Sure?</h4>
+                        <h4 class="modal-title">Anda Yakin?</h4>
                       </div>
                       <div class="modal-body">
                         <p class="well well-sm no-shadow">Anda perlu melakukan <i>exteng opening date</i> untuk melakukan resume Pre-Bid Meeting.</p>
@@ -260,8 +260,8 @@
                         </div>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-sm btn-info">Yes, Resume It</button>
+                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Tidak</button>
+                        <button type="submit" class="btn btn-sm btn-info">Ya</button>
                       </div>
                     </form>
                   </div>
@@ -276,7 +276,7 @@
                       <div class="modal-header bg-yellow">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Are You Sure?</h4>
+                        <h4 class="modal-title">Anda Yakin?</h4>
                       </div>
                       <div class="modal-body">
                         
@@ -290,8 +290,8 @@
                         
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-sm btn-warning">Yes, Hold It</button>
+                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Tidak</button>
+                        <button type="submit" class="btn btn-sm btn-warning">Ya</button>
                       </div>
                     </form>
                   </div>

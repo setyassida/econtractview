@@ -83,7 +83,7 @@
             <tbody>
             <tr>
               <td><a href="p3-upload.php">0001/BB41/2017-041</a></td>
-              <td>01-JAN-2017</td>
+              <td>01-Jan-2017</td>
               <td>CA-17001</td>
               <td>REGULAR INSPECTION OF LIFTING GEARS</td>
               <td><div class="text-center"><span class="label label-primary">Waiting</span></div></td>
@@ -98,7 +98,7 @@
             </tr>
             <tr>
               <td><a href="p3-upload.php">0001/BB41/2016-789</a></td>
-              <td>25-MAR-2018</td>
+              <td>25-Mar-2018</td>
               <td>CC-18732</td>
               <td>PTR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
               <td><div class="text-center"><span class="label label-primary">Waiting</span></div></td>
@@ -113,7 +113,7 @@
             </tr>
             <tr>
               <td><a href="p3-upload.php">0001/BB41/2017-041</a></td>
-              <td>17-FEB-2018</td>
+              <td>17-Feb-2018</td>
               <td>CB-18121</td>
               <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
               <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
@@ -128,7 +128,7 @@
             </tr>
             <tr>
               <td><a href="p3-upload.php">0001/BB41/2017-532</a></td>
-              <td>28-JAN-2018</td>
+              <td>28-Jan-2018</td>
               <td>CA-17001</td>
               <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
               <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
@@ -143,7 +143,7 @@
             </tr>
             <tr>
               <td><a href="p3-detail.php?no=CO-17001">0001/BB41/2018-123</a></td>
-              <td>28-JAN-2018</td>
+              <td>28-Jan-2018</td>
               <td>CB-17555</td>
               <td>STEAM CONDENSATE LINE</td>
               <td><div class="text-center"><span class="label label-success">Uploaded</span></div></td>
