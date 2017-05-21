@@ -81,27 +81,27 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="info-box" style="box-shadow: 0 0 3px 3px rgba(0, 140, 186, 0.5)">
-            <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
             <div class="info-box-content" >
               <span class="info-box-text">Approver 3</span>
               <strong>Peeta Mellark</strong>
               <br><br>
-              <div class="text-right text-success"><i class="fa fa-clock-o"></i></div>
+              <div class="text-right text-success"><i class="fa fa-check"></i></div>
             </div>
             <!-- /.info-box-content -->
           </div>
         </div>
         <div class="col-md-3">
           <div class="info-box">
-            <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
+            <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Approver 4</span>
               <strong>Jack Sparrow</strong>
               <br><br>
-              <div class="text-right text-success"><i class="fa fa-clock-o"></i></div>
+              <div class="text-right text-success"><i class="fa fa-check"></i></div>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -122,6 +122,12 @@
                   CA-17001
                 </div>
                 
+              </div>
+              <div class="form-group">
+                <label class="control-label col-md-2">Upload Dokumen Hasil Scan :</label>
+                <div class="col-md-6  ">
+                  <input type="file" class="input-sm">
+                </div>
               </div>
               
             </div>
@@ -249,13 +255,37 @@
 
               
             </div>
+
+            <div class="col-md-12">
+              
+            </div>
           </div>
           <!-- /.box-body -->
           <div class="box-footer">
 
-            
             <a href="p6.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px">Back</button></a>
-          
+            <button type="button" class="btn btn-default btn-sm" style="margin-right:5px"><span class="glyphicon glyphicon-download-alt"></span> Download Template PDF</button>
+            <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-download-alt"></span> Upload</button>
+            
+            <div id="uploadModal" class="modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-green">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Anda Yakin?</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Anda tidak dapat merubah dokumen yang di-upload setelah proses ini.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Tidak</button>
+                    <button type="submit" class="btn btn-sm btn-success">Ya</button>
+                  </div>
+                </div>
+                  <!-- /.modal-content -->
+              </div>
+            </div>
             
 
           </div>
