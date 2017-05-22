@@ -1,9 +1,10 @@
-<header class="main-header">
+
+  <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="#" class="logo" style="padding-top: 0.25rem">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-
+     
       <img src="../../resources/images/logo_mini.png" class="logo-lg">
 
       <!-- logo for regular state and mobile devices -->
@@ -16,27 +17,37 @@
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
         <span class="sr-only">Toggle navigation</span>
       </a>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.php">Dashboard</a></li>
+          <li class="active"><a href="#">Contract Order</a></li>
+          <li><a href="#">Badak Service Order</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
-
+            
           <!-- Notifications: style can be found in dropdown.less -->
-
+          
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../resources/images/avatar/icon4.png" class="user-image" alt="User Image">
+              <img src="../../resources/images/avatar/icon1.png" class="user-image" alt="User Image">
               <span class="hidden-xs">Originator</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
+                <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
 
                 <p>
                  Originator
-
+            
                 </p>
               </li>
               <!-- Menu Body -->
@@ -65,39 +76,17 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="../../resources/images/avatar/icon4.png" class="img-circle" alt="User Image">
+          <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Originator</p>
-
+          
         </div>
       </div>
-      <!-- search form -->
-<!--       <form action="#" method="get" class="sidebar-form">
-        <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
-              <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-                </button>
-              </span>
-        </div>
-      </form> -->
-      <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
+        <li class="header text-center"><h3>CA-17001</h3></li>
         <li class="header">Menu Process</li>
-        <li class="treeview">
-
-          <!-- menu dashboard -->
-
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-
-        </li>
 
         <!-- menu contract order  -->
         <li class="active treeview">
