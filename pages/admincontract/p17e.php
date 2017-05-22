@@ -31,99 +31,89 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p13header.php') ?>
+  <?php @include('p17header.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Certification Of Completion
-        <!-- <small>Evaluasi Komersial</small> -->
+        Evaluasi Komersial VO
+        <small>Negosiasi</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <!-- <li class="active">Contract Order</li> -->
-        <li class="active">  Certification Of Completion</li>
+        <li class="active">Evaluasi Komersial VO</li>
+        <li class="active">Negosiasi</li>
       </ol>
     </section>
+
+<!-- 
+    <div class="content" style="min-height: 0px;">
+      <div class="col-md-6">
+        <a href="p17f.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Create BCR">Create BCR</button></a>
+        <button data-target="#modalBCR" type="button" class="btn bg-navy btn-sm" data-toggle="modal" title="Detail BCR">Detail BCR</button>
+      </div>
+    </div> -->
 
     <!-- Main content -->
     <section class="content">
       <!-- Info boxes -->
-      <div class="box-body">
-        <div class="box box-danger">
-            <div class="box-header">
-              <!-- <h3 class="box-title">Result</h3> -->
-              <!-- <a href="p8b.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a> -->
+      <div class="row">
+            <div class="col-md-12">
+                      <div class="box box-success">
+          <form class="form-horizontal">
+            <div class="box-header with-border">
+              <h3 class="box-title">Negosiasi</h3>
+              
             </div>
             <!-- /.box-header -->
-            <div class="box-body "> 
-              <h3>Judul Pekerjaan</h3>
-              <h4>REGULAR INSPECTION OF LIFTING GEARS</h4>
-              <table id="example1" class="table table-bordered table-striped table-condensed text-center">
-                <thead>
-                <tr>
-                  <th style="width: 100px;">Tagihan Ke-</th>
-                  <th style="width: 100px;">Tanggal Tagihan</th>
-                  <th style="width: 100px;">Progress</th>
-                  <th style="width: 100px;">Liat Detail</th>
-                  <!-- <th style="width: 100px;">Download COC</th>
-                  <th style="width: 100px;">Uplaod COC</th> -->
-                  <!-- <th>Tanggal Dikeluarkan</th> -->
-<!--                   <th style="width:10px">Download Evalkom</th>
-                  <th style="width:50px">Upload Evalkom</th>
-                  <th style="width:10px">Download BCR</th>
-                  <th style="width:50px">Upload BCR</th>  -->                 
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>17-Jan-2017</td>
-                  <td>25%</td>
-                  <td><a href="p13c.php"><button type="button" class="btn btn-default btn-xs"><span class="fa fa-eye"></span> Detail</button></a></td>
+            <div class="box-body">
+              <div class="row">
+                <!-- left column -->
+                <div class="col-md-12">
 
-                  
-                </tr>
-                <tr>
-                  <td>2</a></td>
-                  <td>17-Jan-2018</td>
-                  <td> - </td>
-                  <td><a href="p13b.php"><button type="button" class="btn btn-default btn-xs"><span class="fa fa-eye"></span> Detail</button></td></a>
-                </tr>
-                
-             
-             
-                </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
-              </table>
+                      <!-- /.box-header -->
+                      <div class="box-body">
+                        <table class="table table-bordered table-condensed">
+                          <tr>
+                            <th style="width: 200px">Nama Kontraktor</th>
+                            <th style="width: 200px">Nilai Kontrak</th>
+                            <th style="width: 200px">Nilai Penawaran</th>
+                            <th style="width: 200px">Nilai Setelah Negosiasi</th>
+                            <th style="width: 200px">Hasil Negosiasi</th>
+                            <th style="width: 200px">Upload Dokumen Risalah Nego</th>
+
+                          </tr>
+                          <tr>
+                            <td>PT Hasanah Sumber Utama</td>
+                            <td>Rp 5.000.000.000</td>
+                            <td>Rp 4.500.000.000</td>
+                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
+                          </tr>
+                          
+                        </table>
+                      </div>
+
+                </div>
+              </div>
+              <div class="col-md-12" style="text-align: right;">
+                <a href="p17c.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Kembali ke menu evaluasi komersial VO">Re Evaluasi</button></a>   
+                <a href="p17f.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
+              </div>
             </div>
-            <!-- /.box-body -->
-            <!-- <div class="box-footer">
-              <h4>Keterangan status</h4>
-              <ul>
-                <li><span class="label label-warning">Segera diisi</span> : Supplier diharapkan segera mengisi COC</li>
-                <li><span class="label label-primary">Draft</span> : COC di-draft</li>
-                <li><span class="label label-success">Approved</span> : COC di-approve</li>
-              </ul>
-            </div> -->
-          </div>
-          <!-- /.box -->
-        </div>
+          </form>
+        </div>    
 
-
-
-<!--  content wrapper-->
+            </div>
       </div>
+
+      
     </section>
+    
+<!--  content wrapper-->
+  </div>
 
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
