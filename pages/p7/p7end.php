@@ -57,77 +57,66 @@
 
     <!-- Main content -->
     <section class="content">
-      <form >
+      <form class="horizontal">
         <div class="row">
           <div class="col-md-12">
           <!-- box -->
             <div class="box box-primary">
-              <div class="box-header">
-                <h3 class="box-title">Data Hasil Opening</h3>
-              </div>
-              <!-- /.box-header -->
               <div class="box-body"> 
-                <div class="col-md-12 text-center">
-                  <div class="col-md-5 col-md-offset-1">
-                    <div class="box">
-                      <div class="box-body">
-                        <div class="form-group">
-                          <label class="control-label col-md-12" ">Hasil Risalah Opening Komersial :</label>
-                          <div class="col-md-12">
-                            <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
-                          </div>
-                        </div>
-                        <!-- /.form-group -->
-                      </div>
-                    </div>
+                <div class="col-md-12">
+                  <h3>Peserta Opening</h3>
+                  <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-condensed input-sm">
+                      <thead>
+                        <tr>
+                          <th>Nomor</th>
+                          <th>Perusahaan</th>
+                          <th>Nama Jelas</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>PT MJ</td>
+                          <td>Perusahaan Terpadu Maju Jaya</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>PT DJ</td>
+                          <td>Perusahaan Terpadu Depan Jaya</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
-                  <!-- /.col kiri -->
-                  <div class="col-md-5">
-                    <div class="box">
-                      <div class="box-body">
-                        <div class="form-group">
-                          <label class="control-label col-md-12" ">Hasil HPS :</label>
-                          <div class="col-md-12">
-                            <p class="form-control-static"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></p>
-                          </div>
-                        </div>
-                        <!-- /.form-group --> 
-                      </div>
-                    </div>
-                  </div>
-                  <!-- /.col kanan -->
+                  <!-- /.table-responsive -->
+                </div>
+                <!-- /.col-md-12 -->
+                <div class="col-md-12">
+                  <h3>Unggah  Dokumen Kelangkapan</h3>
+                  <table class="table table-hover table-condensed input-sm">
+                    <thead>
+                      <tr>
+                        <th>Nama Dokumen</th>
+                        <th class="text-center">Download Dokumen</th>
+                        <th class="text-center">Upload Dokumen</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Data Opening</td>
+                        <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div></th>
+                        <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
+                      </tr>
+                      <tr>
+                        <td>Hasil Harga Perkiraan Sendiri</td>
+                        <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div></th>
+                        <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
               <!-- /.box-body -->
-              <div class="box-footer">
-                <button type="button" class="btn btn-success pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#uploadModal">
-                <span class="glyphicon glyphicon-cloud-upload"></span> Upload
-                </button>
-
-                <div id="uploadModal" class="modal">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header bg-green">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Upload Dokumen?</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Pastikan file pendukung yang Anda upload telah sesuai. Anda <span class="text-red">TIDAK DAPAT</span> merubah <i>Dokumen</i> setelah melakukan proses ini.</p>
-                        <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                        <li>Project Coordinator</li>
-                        <li>Contract Originator</li>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-success">Ya, Upload Dokumen</button>
-                      </div>
-                    </div>
-                      <!-- /.modal-content -->
-                  </div>
-                </div>
-                <!-- /.modal -->
-              </div>
             </div>
             <!-- /.box -->
           </div>

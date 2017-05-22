@@ -68,11 +68,15 @@
                   <!-- kolom kiri -->
                   <div class="col-md-6">
                     <div class="form-group" >
-                      <label class="control-label col-md-4">Nilai Penawaran:</label>
-                      <div class="col-md-8"><input type="text" class="form-control input-sm" id="nilaiPenawaran" placeholder="0"></div>
+                      <label class="control-label col-md-4">Nilai Penawaran</label>
+                      <div class="col-md-8"><input type="text" class="form-control input-sm" id="nilaiPenawaran" placeholder="500000000"></div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-4">Terbilang</label>
+                      <div class="col-md-8"><input type="text" class="form-control input-sm" placeholder="Lima Ratus Juta Rupiah" disabled></div> 
                     </div>
                     <div class="form-group" >
-                      <label class="control-label col-md-4">Price Validity:</label>
+                      <label class="control-label col-md-4">Price Validity</label>
                       <div class="col-md-8">
                         <select class="form-control select2" style="width: 100%;">
                           <option selected="selected">1 Bulan</option>
@@ -83,7 +87,7 @@
                       </div>
                     </div>
                     <div>
-                      <label class="control-label col-md-4">Template Surat Penawaran:</label>
+                      <label class="control-label col-md-4">Template Surat Penawaran</label>
                       <div class="col-md-8">
                         <button style="margin-top: 1rem" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
                       </div>
@@ -130,19 +134,19 @@
                               Tambahkan dokumen pendukung lainnya melalui kolom berikut.   
                             </p>
                             <div class="form-group">
-                              <label class="control-label col-md-4">Judul Dokumen : </label>
+                              <label class="control-label col-md-4">Judul Dokumen</label>
                               <div class="col-md-8">
                                 <input id="inputJudulDokumen" type="text" class="input-sm form-control">
                               </div>
                             </div>
                             <div class="form-group">
-                              <label class="control-label col-md-4">Filename : </label>
+                              <label class="control-label col-md-4">Filename</label>
                               <div class="col-md-8">
                                 <input id="inputFile" type="file" class="input-sm">
                               </div>
                             </div>
                             <div class="form-group">
-                              <label class="control-label col-md-4">Keterangan : </label>
+                              <label class="control-label col-md-4">Keterangan</label>
                               <div class="col-md-8">
                                 <textarea id="inputKeterangan" rows="5" placeholder="Type Here.." class="form-control" style="resize:none"></textarea>
                               </div>
@@ -167,7 +171,7 @@
                 <div id="okModal" class="modal">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header">
+                      <div class="modal-header bg-green">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Anda yakin?</h4>
@@ -176,8 +180,8 @@
                         <p>Dokumen yang disampaikan adalah benar dan dapat dipertanggungjawabkan. Apabila di kemudian hari ditemukan bahwa dokumen yang telah disampaikan tidak benar atau ada pemalsuan, maka kami bersedia dikenakan sanksi oleh aturan yang berlaku.</p>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-success">Ya, Saya yakin</button>
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+                        <button type="submit" class="btn btn-success">Ya</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->

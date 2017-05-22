@@ -47,7 +47,7 @@
         </h1>
         <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p2a.php">Bidder List</a></li>
+        <li><a href="p2.php">Bidder List</a></li>
         <li class="active"><a href="#">BL-17001</a></li>
       </ol>
       </section>
@@ -221,6 +221,12 @@
                             <td>3</td>
                           </tr>
                         </tbody>
+                        <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <th>6</th>
+                            </tr>
+                          </tfoot>
                       </table>
                     </dl>
                   </div>
