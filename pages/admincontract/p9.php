@@ -98,7 +98,7 @@
 
 
 							<div class="pull-right" style="margin-right: 2rem">
-								<button type="button" class="btn  pull-right btn-sm" data-toggle="modal" data-target="#publishModal">Download</button>
+								<button type="button" class="btn  pull-right btn-sm" data-toggle="modal" data-target="#publishModal">Download LoA</button>
 							</div>
 						</div>
 

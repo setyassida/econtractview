@@ -17,7 +17,7 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
+  folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
@@ -30,119 +30,157 @@
   <![endif]-->
 </head>
 <body class="hold-transition skin-red sidebar-mini">
-<div class="wrapper">
-  <?php include "p10header.php" ?>
+  <div class="wrapper">
+    <?php include "p10header.php" ?>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Kick of Meeting
-        <small></small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
-        <li class="active">Letter of Award</li>
-      </ol>
-    </section>
-
-    <!-- Main content -->
-
-    <section class="content">
-      <!-- SELECT2 EXAMPLE -->
-      <div class="box">
-        <div class="box-header">
-          <a href="p10_createKoM.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Dokumen Kick of Meeting</button></a>
-        </div>
-        <!-- /.box-header -->
-        <div class="box-body">
-
-
-            <!-- main column-->
-
-          <table id="dataTable" class="table table-bordered table-condensed table-hover">
-            <thead>
-            <tr>
-              <th style="width:75px">Nomor Kontrak</th>
-              <th >Judul Pekerjaan</th>
-              <th class="text-center" style="width:90px">Status</th>
-              <th class="text-center" style="width:110px">Action</th>
-              <th class="text-center" style="width:110px">Upload</th>
-              <th class="text-center" style="width:90px">Download</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td><a href="p10_createKoM.php">CA-17001</a></td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p10_view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-            </tr>
-            <tr>
-              <td><a href="#">CA-17002</a></td>
-              <td>PERBAIKAN INFRASTRUKTUR</td>
-              <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-            </tr>
-            <tr>
-              <td><a href="#">CA-17003</a></td>
-              <td>PENGADAAN PERANGKAT LUNAK</td>
-              <td><div class="text-center"><span class="label label-primary">TBSigned</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
-            </tr>
-            <tr>
-              <td><a href="#">CA-17004</a></td>
-              <td>PEMELIHARAAN</td>
-              <td><div class="text-center"><span class="label label-success">Created</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
-            </tr>
-            <tr>
-              <td><a href="#">CA-17005</a></td>
-              <td>KEBERSIHAN</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
-            </tr>
-            <tbody>
-          </table>
-
-
-        </div>
-        <!-- /.box-body -->
-        <div class="box-footer">
-          Keterangan Status : <br>
-          <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
-          <div class="col-md-1"><span class="label label-warning">Wait</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-          <div class="col-md-1"><span class="label label-default">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-          <div class="col-md-1"><span class="label label-success">Created</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
-        </div>
-      </div>
-      <!-- /.box -->
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      Formulir Risalah Kick off Meeting
+      <small></small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
+      <li>Kick off Meeting</li>
+      <li class="active">CA-17001</li>
+    </ol>
   </section>
 
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+  <!-- Main content -->
 
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.12
+  <section class="content">
+
+    <div class="box">
+      <div class="box-header">
+      </div>
+      <div class="box-body">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="control-label col-md-2">Nama Bank :</label>
+            <div class="col-md-10">
+              <div class="col-md-6">
+                <select class="form-control select2 input-sm" style="width: 100%;">
+                  <option selected="selected">Mandiri</option>
+                  <option>BNI</option>
+                  <option>BRI</option>
+                  <option>Danamon</option>
+                  <option>BCA</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="form-group">
+            <label class="control-label col-md-2">Nomor Rekening :</label>
+            <div class="col-md-10">
+              <div class="col-md-6">
+                <input type="number" class="form-control input-sm" required>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.box-body -->
+      <div class="box-footer">
+      </div>
     </div>
-    <strong>Copyright &copy; 2017 <a href="http://badaklng.co.id">PT Badak NGL</a>.</strong> All rights reserved.
-  </footer>
+    <!-- /.box -->
+
+    <div class="box">
+      <div class="box-header with-border">
+        <h3 class="box-title">Detail Dokumen</h3>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+            <i class="fa fa-minus"></i></button>
+          </div>
+      </div>
+      <div class="box-body">
+        <div class="col-md-4">
+          <dt>Nomor Kontrak</dt>
+          <dd>CO-17001</dd> <br>
+          <dt>Judul Pekerjaan </dt>
+          <dd>Pengadaan Sistem Informasi Kepegawaian</dd> <br>
+          <dt>Jenis Kontrak</dt>
+          <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
+          <dt>Durasi Kontrak</dt>
+          <dd>Durasi : 4 Bulan</dd>
+          <dd>Mulai : 17 September 2016 </dd>
+          <dd>Selesai : 10 Januari 2017 </dd> <br>
+          <dt>Nilai Kontrak</dt>
+          <dd>Rp. 400.000.000,- </dd> <br>
+        </div>
+
+            <div class="col-md-4">
+              <dt>Laporan CSMS</dt>
+              <dd><div class="checkbox">
+                 <label>
+                   <input type="checkbox" checked="true" disabled="true">
+                   Ya
+                 </label>
+               </div></dd> <br>
+               <dt>Performance Bond <span class="small"><i>(5% dari nilai kontrak dan belum termasuk PPN 10%)</i></span></dt>
+               <dd>Rp. 16.000.000,- </dd> <br>
+               <dt>Nilai SI (Standing Instruction) </dt>
+               <dd>87</dd> <br>
+               <dt>Penangguhan Pembayaran <span class="small"><i>(0-100%)</i></span> </dt>
+               <dd>0 % </dd> <br>
+            </div>
+
+            <div class="col-md-4">
+              <dl>
+                 <dt>Nomor PR Service</dt>
+                 <dd>0001/BB41/2017-532</dd> <br>
+                 <dt>Tanggal Kick of Meeting</dt>
+                 <dd>17 Agustus 2017</dd> <br>
+               </dl>
+            </div>
+      </div>
+      <!-- /.box-body -->
+      <div class="box-footer">
+        <div class="pull-right" style="margin-right: 2rem">
+          <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button>
+          <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#saveModal"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
+          <a href="p4.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;"> Back</button></a>
+							</div>
+
+      </div>
+    </div>
+    <!-- /.box -->
+
+
+
+  </section>
+
+  <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <b>Version</b> 2.3.12
+  </div>
+  <strong>Copyright &copy; 2017 <a href="http://badaklng.co.id">PT Badak NGL</a>.</strong> All rights reserved.
+</footer>
+
+<div id="publishModal" class="modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					</div>
+					<div class="modal-body">
+						<h4 class="modal-title">Apakah anda yakin untuk menyimpan formulir ini?</h4>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+						<button type="submit" class="btn btn-success">Ya</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+		</div>
+
 
 <!-- ./wrapper -->
 
@@ -173,9 +211,12 @@
 <script src="../../dist/js/demo.js"></script>
 
 <script>
-  $(function () {
-    $("#dataTable").DataTable();
-  });
+$(function () {
+  $("#dataTable").DataTable();
+
+  //Initialize Select2 Elements
+  $(".select2").select2();
+});
 </script>
 
 </body>
