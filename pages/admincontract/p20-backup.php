@@ -42,8 +42,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Laporan CSMS dan Tenaga Kerja
-        <small></small>
+        Reporting
+        <small>CSMS dan Tenaga Kerja</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -62,59 +62,59 @@
           <table id="dataTable" class="table table-bordered table-condensed table-hover">
             <thead>
             <tr>
-              <th style="width:50px">Nomor Kontrak</th>
               <th>Nama Perusahaan</th>
+              <th style="width:50px">Nomor Kontrak</th>
               <th>Judul Pekerjaan</th>
               <th>Durasi</th>
               <th>Departemen/Section</th>
               <th>Status</th>
-              <!-- <th>Lihat Laporan</th> -->
+              <th>Lihat Laporan</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-              <td><a href="p20-view.php">CA-17001</a></td>
               <td>PT MAJU JAYA</td>
+              <td>CA-17001</td>
               <td>REGULAR INSPECTION OF LIFTING GEARSR</td>
               <td>2 Bulan</td>
               <td>Departemen A</td>
               <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></td>
-              <!-- <td>
+              <td>
                 <div class="text-center"><a href="p20-view-submitted.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
-              </td> -->
+              </td>
             </tr>
             <tr>
-              <td><a href="p20-view.php">CA-17002</a></td>
               <td>PT MAJU JAYA</td>
+              <td>CA-17002</td>
               <td>PTR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
               <td>3 Bulan</td>
               <td>Departemen B</td>
               <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></td>
-              <!-- <td>
+              <td>
                 <div class="text-center"><a href="p20-view-submitted.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
-              </td> -->
+              </td>
             </tr>
             <tr>
-              <td><a href="p20-view.php">CA-17003</a></td>
               <td>PT MAJU JAYA</td>
+              <td>CA-17003</td>
               <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
               <td>5 Bulan</td>
               <td>Departemen C</td>
               <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></div></td>
-              <!-- <td>
+              <td>
                 <div class="text-center"><a href="p20-view-submitted.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
-              </td> -->
+              </td>
             </tr>
             <tr>
-              <td><a href="p20-view.php">CA-17004</a></td>
               <td>PT MAJU JAYA</td>
+              <td>CA-17004</td>
               <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
               <td>2 Bulan</td>
               <td>Departemen D</td>
               <td><div class="text-center"><span class="label label-warning">Draft</span></td>
-              <!-- <td>
-                <div class="text-center"><a href="p20-view.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
-              </td> -->
+              <td>
+                <div class="text-center"><a href="#"><button type="button" class="btn btn-default btn-xs" disabled><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
+              </td>
             </tr>
             
             <tbody>

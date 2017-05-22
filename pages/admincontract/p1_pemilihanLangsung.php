@@ -199,7 +199,7 @@
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                  <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
+                  <a href="p1_assignment.php"><button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Next </button></a>
                 </div>
                 <!-- /.box-footer -->
               </form>
@@ -220,7 +220,7 @@
                     <tr>
                       <td class="text-red">Cost Commitment*</td>
                       <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#CCModal"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
+                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit" data-toggle="modal" data-target="#costModal"></span> Isi Form</button></td>
                       <td><input class="input-sm" type="file" id="exampleInputFile"></td>
                     </tr>
                     <tr>
@@ -238,7 +238,7 @@
                     <tr>
                       <td class="text-red">Justifikasi PR Service*</td>
                       <td class="text-center">-</td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
+                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit" data-toggle="modal" data-target="#justifikasiModal"></span> Isi Form</button></td>
                       <td><input class="input-sm" type="file" id="exampleInputFile"></td>
                     </tr>
                     <tr>
@@ -250,7 +250,7 @@
                     <tr>
                       <td class="text-red">Penilaian Resiko* </td>
                       <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit"></span> Isi Form</button></td>
+                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-edit" data-toggle="modal" data-target="#resikoModal"></span> Isi Form</button></td>
                       <td><input class="input-sm" type="file" id="exampleInputFile"></td>
                     </tr>
                     <tr>
@@ -283,6 +283,13 @@
                       <td class="text-center">-</td>
                       <td><input class="input-sm" type="file" id="exampleInputFile"></td>
                     </tr>
+
+                    <tr>
+                      <td>Lain-lain </td>
+                      <td class="text-center">-</td>
+                      <td class="text-center">-</td>
+                      <td><input class="input-sm" type="file" id="exampleInputFile"></td>
+                    </tr>
                   </tbody>
                 </table>
                 <br><br>
@@ -290,7 +297,7 @@
                 <p class="text-red">* Mandatory</p>
               </div>
               <div class="box-footer">
-                <button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Save </button>
+                <a href="p1_assignment.php"><button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Next </button></a>
               </div>
               <!-- /.box-footer -->
             </div>
@@ -308,32 +315,210 @@
         reserved.
       </footer>
 
+      <div id="costModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-blue">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Form : Cost Commitment</h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label>Keterangan</label>
+                <textarea class="form-control" rows="4" placeholder="Enter ..."></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+            <!-- /.modal-content -->
+        </div>
+      </div>
+      <!-- /.modal -->
+
+      <div id="justifikasiModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-blue">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Form : JustifikasiPRService</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table table-bordered table-hover table-condensed">
+                <thead>
+                  <tr>
+                    <th class="text-center">No</th>
+                    <th class="text-center">Sumber Daya</th>
+                    <th class="text-center" style="width:200px;">Kecukupan Sumber Daya Internal</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                  <tr>
+                    <td>1</td>
+                    <td>BIAYA</td>
+                    <td class="text-center"><form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tersedia
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tidak Cukup
+                      </label>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>2</td>
+                    <td>MANPOWER : Jumlah</td>
+                    <td class="text-center"><form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tersedia
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tidak Cukup
+                      </label>
+                    </form></button></td>
+                  </tr>
+
+                  <tr>
+                    <td>3</td>
+                    <td>MANPOWER : Kompetensi</td>
+                    <td class="text-center"><form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tersedia
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tidak Cukup
+                      </label>
+                    </form></button></td>
+                  </tr><tr>
+                    <td>4</td>
+                    <td>MANPOWER : Pengalaman</td>
+                    <td class="text-center"><form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tersedia
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tidak Cukup
+                      </label>
+                    </form></button></td>
+                  </tr><tr>
+                    <td>5</td>
+                    <td>MANPOWER : Skill</td>
+                    <td class="text-center"><form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tersedia
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tidak Cukup
+                      </label>
+                    </form></button></td>
+                  </tr><tr>
+                    <td>6</td>
+                    <td>PERALATAN</td>
+                    <td class="text-center"><form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tersedia
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tidak Cukup
+                      </label>
+                    </form></button></td>
+                  </tr><tr>
+                    <td>7</td>
+                    <td>FASILITAS</td>
+                    <td class="text-center"><form>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tersedia
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio"> Tidak Cukup
+                      </label>
+                    </form></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+            <!-- /.modal-content -->
+        </div>
+      </div>
+      <!-- /.modal -->
+
+      <div id="resikoModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-blue">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Form : Penilaian Resiko</h4>
+            </div>
+            <div class="modal-body">
+              <div class="col-md-12">
+
+                  <div class="col-md-12" style="margin-bottom: 0.5rem">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Tanggal</label>
+                      <div class="input-group date">
+                        <input type="text" class="form-control input-sm" id="datepicker1" placeholder="Bid Opening Date">
+                        <div class="input-group-addon">
+                          <i class="fa fa-calendar"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Lama Pekerjaan (Dalam Bulan)</label>
+                      <input type="number" class="form-control input-sm" id="exampleInputPassword1" placeholder="4">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Nama Pekerjaan</label>
+                      <input type="text" class="form-control input-sm" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Nomor Kontrak</label>
+                      <input type="text" class="form-control input-sm" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Lokasi Pekerjaan</label>
+                      <input type="text" class="form-control input-sm" id="exampleInputPassword1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label>Kategori Resiko</label>
+                      <select class="form-control">
+                        <option>R (Rendah)</option>
+                        <option>S (Sedang)</option>
+                        <option>T (Tinggi)</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Keterangan</label>
+                      <textarea class="form-control" rows="4" placeholder="Enter ..."></textarea>
+                    </div>
+                  </div>
+
+                <!-- /.bid closing / opening date -->
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+            <!-- /.modal-content -->
+        </div>
+      </div>
+      <!-- /.modal -->
+
     </div>
     <!-- ./wrapper -->
-
-    <div id="CCModal" class="modal">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-  						<span aria-hidden="true">&times;</span></button>
-  						<h4 class="modal-title">Do you want to Publish LOA?</h4>
-  					</div>
-  					<div class="modal-body">
-  						<p>Batas waktu masa sanggah: 4 (empat) hari kerja, terhitung sejak tanggal pengumuman. Tidak bisa extend batas waktu masa sanggah.</p>
-  						<p>Proses ini akan mengirimkan notifikasi kepada :</p>
-  						<li>Lose Bidder</li>
-  						<li>Originator</li>
-  						<li>Project Coordinator</li>
-  					</div>
-  					<div class="modal-footer">
-  						<button type="button" class="btn pull-left" data-dismiss="modal">Cancel</button>
-  						<button type="submit" class="btn btn-success">Yes, Publish Now</button>
-  					</div>
-  				</div>
-  				<!-- /.modal-content -->
-  			</div>
-  		</div>
 
     <!-- jQuery 2.2.3 -->
     <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>

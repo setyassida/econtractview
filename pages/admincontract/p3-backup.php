@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>E-Contract</title>
+  <title>eContract Badak NGL</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -33,112 +33,108 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p1header.php" ?>
+  <?php include("p3-header.php");?>
+
+  <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Browse Contract Order
-        <small>Cari Contract Order</small>
+        Contract Order
+        <small>Prebid Meeting</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li class="active"><a href="p2a.php">Browse Contract Order</a></li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Pre-Bid Meeting</li>
       </ol>
     </section>
 
     <!-- Main content -->
+
     <section class="content">
-      <div class="row">
-        <div class="col-md-12">
+      <!-- SELECT2 EXAMPLE -->
+      <div class="box
+      ">
+        <div class="box-header with-border">
+          <h3 class="box-title">Result</h3>
 
-        <!-- box bidder list -->
-          <div class="box box-danger">
-            <div class="box-header">
-              <!-- <h3 class="box-title">Result</h3> -->
-              <a href="p1a.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Contract Order Baru</button></a>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body ">
-              <table id="example1" class="table table-bordered table-striped table-condensed">
-                <thead>
-                <tr>
-                  <th>No. Contract</th>
-                  <th>Judul Pekerjaan</th>
-                  <th>Status</th>
-                  <th>Status/Proses</th>
-                  <th>Tanggal Dibuat</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td><a href="#">CB-17001</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>Prebid Meeting</td>
-                  <td>20-Jan-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="#">CC-17001</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-info">Approved</span></td>
-                  <td>Prebid Meeting</td>
-                  <td>21-Feb-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17003</a></td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-danger">Aborted</span></td>
-                  <td>Prebid Meeting</td>
-                  <td>22-Feb-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17002</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                  <td class="text-center"><span class="label label-warning">Hold</span></td>
-                  <td>Evaluasi Teknis</td>
-                  <td>23-Apr-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="p1_approver.php">CA-17001</a></td>
-                  <td>STEAM CONDENSATE LINE</td>
-                  <td class="text-center"><span class="label label-success">Published</span></td>
-                  <td>Bidder List</td>
-                  <td>24-Apr-2017</td>
-                </tr>
-
-                </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
-              </table>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <h4>Keterangan status</h4>
-              <ul>
-                <li><span class="label label-primary">Draft</span> : Contract Order di-draft</li>
-                <li><span class="label label-warning">Hold</span> : Contract Order di-hold</li>
-                <li><span class="label label-danger">Aborted</span> : Contract Order di-abort</li>
-                <li><span class="label label-info">Approved</span> : Contract Order di-approve</li>
-                <li><span class="label label-success">Published</span> : Contract Order di-publish</li>
-              </ul>
-            </div>
-          </div>
-          <!-- /.box -->
         </div>
-        <!-- /.col -->
+        <!-- /.box-header -->
+        <div class="box-body">
+
+
+            <!-- main column-->
+
+        	<table id="dataTable" class="table table-bordered table-condensed table-hover">
+            <thead>
+            <tr>
+              <th style="width:150px">No. Risalah Pre-Bid Meeting</th>
+              <th style="width:100px">Tanggal Pre-Bid Meeting</th>
+              <th style="width:100px">Nomor Kontrak</th>
+              <th>Juduk Pekerjaan</th>
+              <th style="width:50px">Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>0001/BB41/2017-041</td>
+              <td>05-05-2017</td>
+              <td>CA-17001</td>
+              <td>REGULAR INSPECTION OF LIFTING GEARS</td>
+              <td><div class="text-center"><span class="label label-primary">Waiting</span></div></td>
+              
+            </tr>
+            <tr>
+              <td>0001/BB41/2016-789</td>
+              <td>25-03-2018</td>
+              <td>CC-18002</td>
+              <td>PTR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
+              <td><div class="text-center"><span class="label label-primary">Waiting</span></div></td>
+              
+            </tr>
+            <tr>
+              <td>0001/BB41/2017-041</td>
+              <td>17-02-2018</td>
+              <td>CB-18001</td>
+              <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
+              <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
+              
+            </tr>
+            <tr>
+              <td>0001/BB41/2017-532</td>
+              <td>01-01-2018</td>
+              <td>CA-17004</td>
+              <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
+              <td><div class="text-center"><span class="label label-warning">Hold</span></div></td>
+              
+            </tr>
+            <tr>
+              <td><a href="p3-detail.php?no=CO-17001">0001/BB41/2018-123</a></td>
+              <td>28-01-2018</td>
+              <td>CB-17005</td>
+              <td>STEAM CONDENSATE LINE</td>
+              <td><div class="text-center"><span class="label label-success">Uploaded</span></div></td>
+              
+            </tr>
+            <tbody>
+          </table>
+
+
+
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer">
+          Keterangan Status : <br>
+          <div class="col-md-1"><span class="label label-primary">Waiting</span></div> <div class="col-md-11">: Menunggu proses upload</div>
+          <div class="col-md-1"><span class="label label-warning">Hold</span></div> <div class="col-md-11">: Proses Pre-Bid Meeting sedang di hold</div>
+          <div class="col-md-1"><span class="label label-success">Uploaded</span></div> <div class="col-md-11">: Dokumen Risalah Pre-Bid Meeting telah di-upload</div>
+        </div>
       </div>
-      <!-- /.row -->
-    </section>
+      <!-- /.box -->
+	</section>
+
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -359,11 +355,20 @@
 <script src="../../dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
-<!-- page script -->
+
 <script>
+  $(document).ready(function(){
+    $('[data-toggle="hold"]').tooltip();
+    $('[data-toggle="resume"]').tooltip();
+    $('[data-toggle="abort"]').tooltip();
+  });
+
   $(function () {
-    $("#example1").DataTable();
+    $("#dataTable").DataTable();
   });
 </script>
+
+
+
 </body>
 </html>

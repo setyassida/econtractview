@@ -44,8 +44,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Reporting
-        <small>CSMS dan Tenaga Kerja</small>
+        Laporan CSMS dan Tenaga Kerja
+        <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -61,56 +61,12 @@
       <div class="box">
         <form class="form-horizontal">
         <div class="box-header with-border">
-          
+          <h4>Bulan Januari</h4>
         </div>
         <!-- /.box-header -->
         <div class="box-body">
 
-          <div class="col-md-12">
-            <div class="box">
-              <div class="box-header with-border">
-                <h4>Informasi Umum</h4></div>
-              <div class="box-body">
-                
-                <div class="form-group no-margin">
-                  <label class="control-label col-md-2">Nama Perusahaan :</label>
-                  <div class="form-control-static col-md-10">
-                    PT MAJU JAYA
-                  </div>
-                </div>
-                
-                <div class="form-group no-margin">
-                  <label class="control-label col-md-2">Nomor Kontrak :</label>
-                  <div class="form-control-static col-md-10">
-                    CA-17001
-                  </div>
-                </div>
-
-                <div class="form-group no-margin">
-                  <label class="control-label col-md-2">Judul Pekerjaan :</label>
-                  <div class="form-control-static col-md-10">
-                    REGULAR INSPECTION OF LIFTING GEARSR
-                  </div>
-                </div>
-
-                <div class="form-group no-margin">
-                  <label class="control-label col-md-2">Durasi  :</label>
-                  <div class="form-control-static col-md-10">
-                    2 Bulan
-                  </div>
-                </div>
-
-
-                <div class="form-group no-margin">
-                  <label class="control-label col-md-2">Departemen/Section :</label>
-                  <div class="form-control-static col-md-10">
-                    Departemen A
-                  </div>
-                </div>
-                </form>
-              </div>
-            </div>
-          </div>
+          
 
           
 
@@ -205,7 +161,7 @@
                         <th>Status</th>
                         <th style="width:100px">Download Template</th>
                         <th style="width:150px">Upload Hasil Scan</th>
-                        <th style="width:100px">Delete Dokumen</th>
+                        <!-- <th style="width:100px">Delete Dokumen</th> -->
                       <tr>
                     </thead>
                     <tbody>
@@ -224,42 +180,42 @@
                         </td>
                         <td>
                           <div class="text-center">
-                            <a href="#">Lihat Dokumen</a>
-                          </div>
-                          <div id="uploadModal" class="modal">
-                            <div class="modal-dialog">
-                              <form class="form-horizontal">
-                                <div class="modal-content">
-                                  <div class="modal-header bg-gray">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title">Upload Laporan</h4>
-                                  </div>
-                                  <div class="modal-body">
-                                    
-                                      <div class="form-group">
-                                        <label class="control-label col-md-2">Dokumen : </label>
-                                        <div class="col-md-6">
-                                          <input type="file" class="form-control input-sm">
-                                        </div>
-                                      </div>
-                                    
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                                    <button type="submit" value="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
-                                  </div>
-                                </div>
-                              </form>
-                                <!-- /.modal-content -->
+                            <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#uploadMultipleModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
                             </div>
-                          </div>
+                            <div id="uploadMultipleModal" class="modal">
+                              <div class="modal-dialog">
+                                <form class="form-horizontal">
+                                  <div class="modal-content">
+                                    <div class="modal-header bg-gray">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                      <h4 class="modal-title">Upload Laporan</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      
+                                        <div class="form-group">
+                                          <label class="control-label col-md-2">Dokumen : </label>
+                                          <div class="col-md-6">
+                                            <input type="file" class="form-control input-sm" multiple>
+                                          </div>
+                                        </div>
+                                      
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                                      <button type="submit" value="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                                    </div>
+                                  </div>
+                                </form>
+                                  <!-- /.modal-content -->
+                              </div>
+                            </div>
                         </td>
-                        <td>
+                        <!-- <td>
                           <div class="text-center">
                             <button type="button" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteModal"><span class="glyphicon glyphicon-remove"></span> Delete</button>
                           </div>
-                        </td>
+                        </td> -->
                       </tr>
 
                       <tr>
@@ -277,35 +233,38 @@
                         </td>
                         <td>
                           <div class="text-center">
-                            <a href="#">Lihat Dokumen</a>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-center">
-                            <button type="button" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteModal"><span class="glyphicon glyphicon-remove"></span>Delete</button>
-                          </div>
-                          <div id="deleteModal" class="modal">
-                            <div class="modal-dialog">
-                              <form class="form-horizontal">
-                                <div class="modal-content">
-                                  <div class="modal-header bg-red">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title">Delete Laporan</h4>
-                                  </div>
-                                  <div class="modal-body">
-                                    Proses ini akan menghapus laporan yang telah diupload.
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                                    <button type="submit" value="submit" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-cloud-upload"></span> Delete</button>
-                                  </div>
-                                </div>
-                              </form>
-                                <!-- /.modal-content -->
+                            <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#uploadMultipleModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
                             </div>
-                          </div>
+                            <div id="uploadMultipleModal" class="modal">
+                              <div class="modal-dialog">
+                                <form class="form-horizontal">
+                                  <div class="modal-content">
+                                    <div class="modal-header bg-gray">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                      <h4 class="modal-title">Upload Laporan</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      
+                                        <div class="form-group">
+                                          <label class="control-label col-md-2">Dokumen : </label>
+                                          <div class="col-md-6">
+                                            <input type="file" class="form-control input-sm" multiple>
+                                          </div>
+                                        </div>
+                                      
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                                      <button type="submit" value="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
+                                    </div>
+                                  </div>
+                                </form>
+                                  <!-- /.modal-content -->
+                              </div>
+                            </div>
                         </td>
+                        
                       </tr>
 
                       <tr>
@@ -326,11 +285,11 @@
                             <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
                           </div>
                         </td>
-                        <td>
+                        <!-- <td>
                           <div class="text-center">
                             <button type="button" class="btn btn-danger btn-xs" disabled><span class="glyphicon glyphicon-remove"></span>Delete</button>
                           </div>
-                        </td>
+                        </td> -->
                       </tr>
 
                       <tr>
@@ -351,11 +310,11 @@
                             <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button>
                           </div>
                         </td>
-                        <td>
+                        <!-- <td>
                           <div class="text-center">
                             <button type="button" class="btn btn-danger btn-xs" disabled><span class="glyphicon glyphicon-remove"></span>Delete</button>
                           </div>
-                        </td>
+                        </td> -->
                       </tr>
 
                       <tr>
@@ -404,11 +363,11 @@
                             </div>
                           </div>
                         </td>
-                        <td>
+                        <!-- <td>
                           <div class="text-center">
                             <button type="button" class="btn btn-danger btn-xs" disabled><span class="glyphicon glyphicon-remove"></span>Delete</button>
                           </div>
-                        </td>
+                        </td> -->
                       </tr>
 
                       <tr>
@@ -457,11 +416,11 @@
                             </div>
                           </div>
                         </td>
-                        <td>
+                        <!-- <td>
                           <div class="text-center">
                             <button type="button" class="btn btn-danger btn-xs" disabled><span class="glyphicon glyphicon-remove"></span>Delete</button>
                           </div>
-                        </td>
+                        </td> -->
                       </tr>
 
                     </tbody>
@@ -511,8 +470,8 @@
         <!-- /.box-body -->
         <div class="box-footer">
           <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button>
-          <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#saveModal"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
-          <a href="p20.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px"> Back</button></a>
+          <!-- <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#saveModal"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button> -->
+          <a href="p20.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px"> Back</button></a>
 
           <div id="submitModal" class="modal">
             <div class="modal-dialog">

@@ -39,8 +39,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Teknis</small>
+        Evaluasi Teknis
+        <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -54,13 +54,13 @@
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
       <div class="box box-danger">
-          <form class="form-horizontal">
+          <form class="form-horizontal" action="p6-edit-next.php">
           <div class="box-header with-border">
             <h4>Form Evaluasi Teknis</h4>
           </div>
           <!-- /.box-header -->
           <div class="box-body">
-            <div class="col-md-12">
+            
               <div class="form-group"> 
                 <label class="control-label col-md-2">Nomor Kontrak : </label>
                 <div class="form-control-static col-md-10">
@@ -69,7 +69,7 @@
                 
               </div>
               
-            </div>
+            
 
             <div class="col-md-12">
               
@@ -79,101 +79,111 @@
                   <tr>
                     <td style="width:25px">No.</td>
                     <td style="width:200px">Nama Rekanan</td>
-                    <td style="width:55px">Score</td>
-                    <td>Keterangan Singkat</td>
-                    <td style="width:150px">Dokumen Hasil Evaltek</td>
-                    <td style="width:150px">Dokumen Klarifikasi</td>
+                    <td style="width:75px">Score</td>
+                    <td style="width:75px">Kesimpulan</td>
+                    <td style="width:500px">Keterangan Singkat</td>
+
+                    <td style="width:200px">Dokumen Klarifikasi</td>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>1</td>
                     <td>PT MAJU JAYA</td>
-                    <td><input type="text" class="form-control input-sm" required></td>
+                    <td><div class="text-center">75</div></td>
                     
-                    <td>
+                    <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
-                    </td>
+                    </td> -->
                     <td>
-                      <input type="file" class="input-sm" style="width:175px" required>
+                      <span class="text-green">Lulus</span>
                     </td>
-                    <td>
+                    <td></td>
+                    <td></td>
+                    <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
-                    </td>
+                    </td> -->
                   </tr>
                   <tr>
                     <td>2</td>
                     <td>PT HARAPAN BANGSA</td>
-                    <td><input type="text" class="form-control input-sm" required></td>
+                    <td><div class="text-center">69</div></td>
+                    
                     
                     <td>
-                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                      <span class="text-red">Tidak Lulus</span>
                     </td>
                     <td>
-                      <input type="file" class="input-sm" style="width:175px" required>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" required></textarea>
                     </td>
                     <td>
-                      <input type="file" class="input-sm" style="width:175px" required>
+                      <input type="file" class="input-sm" required>
                     </td>
                   </tr>
                   <tr>
                     <td>3</td>
                     <td>PT KARYA MAS</td>
-                    <td><input type="text" class="form-control input-sm" required></td>
+                    <td><div class="text-center">76</div></td>
                     
                     <td>
-                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                      <span class="text-green">Lulus</span>
                     </td>
-                    <td>
+                    <td></td>
+                    <td></td>
+                    <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
-                    </td>
-                    <td>
-                      <input type="file" class="input-sm" style="width:175px" required>
-                    </td>
+                    </td> -->
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>PT CAHAYA TERANG</td>
-                    <td><input type="text" class="form-control input-sm" required></td>
+                    <td><div class="text-center">87</div></td>
                     
-                    <td>
+                    <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
-                    </td>
+                    </td> -->
                     <td>
-                      <input type="file" class="input-sm" style="width:175px" required>
+                      <span class="text-green">Lulus</span>
                     </td>
-                    <td>
+                    <td></td>
+                    <td></td>
+                    <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
-                    </td>
+                    </td> -->
                   </tr>
                   <tr>
                     <td>5</td>
                     <td>PT MAKMUR ABADI</td>
-                    <td><input type="text" class="form-control input-sm" required></td>
+                    <td><div class="text-center">92</div></td>
                     
-                    <td>
+                    <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
-                    </td>
+                    </td> -->
                     <td>
-                      <input type="file" class="input-sm" style="width:175px" required>
+                      <span class="text-green">Lulus</span>
                     </td>
-                    <td>
+                    <td></td>
+                    <td></td>
+                    <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
-                    </td>
+                    </td> -->
                   </tr>
                   <tr>
                     <td>6</td>
                     <td>PT HAN WOK STEEL</td>
-                    <td><input type="text" class="form-control input-sm" required></td>
+                    <td><div class="text-center">58</div></td>
                     
-                    <td>
+                    <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
+                    <td>
+                      <span class="text-red">Tidak Lulus</span>
                     </td>
                     <td>
-                      <input type="file" class="input-sm" style="width:175px" required>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" required></textarea>
                     </td>
                     <td>
-                      <input type="file" class="input-sm" style="width:175px" required>
+                      <input type="file" class="input-sm" required>
                     </td>
                   </tr>
                 </tbody>
@@ -186,44 +196,23 @@
           <div class="box-footer">
 
             <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button>
-            <button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#saveModal" style="margin-right:5px"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
-            <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px"><span class="glyphicon glyphicon-download-alt"></span> Download Template PDF</button>
-            <a href="p6.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px">Back</button></a>
-          
+            <!-- <button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#saveModal" style="margin-right:5px"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button> -->
+            <a href="p6.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px">Back</button></a>
+            
             <div id="submitModal" class="modal">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header bg-green">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Are You Sure to Submit?</h4>
+                    <h4 class="modal-title">Anda Yakin?</h4>
                   </div>
                   <div class="modal-body">
-                    Proses ini akan memberikan notifikasi kepada seluruh Approver untuk melakukan persetujuan dan merubah status Evaltek ke <span class="text-red">TO BE APPROVE</span>
+                    Data yang Anda masukan tidak dapat diubah setelah proses ini.
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                    <button type="submit" value="submit" class="btn btn-success btn-sm">Yes, I Want to Submit It</button>
-                  </div>
-                </div>
-                  <!-- /.modal-content -->
-              </div>
-            </div>
-
-            <div id="saveModal" class="modal">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header bg-green">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Are You Sure to Save?</h4>
-                  </div>
-                  <div class="modal-body">
-                    Proses ini akan menghapus data Evaluasi Teknis yang lama dengan data baru yang Anda masukan.
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                    <button type="submit" value="save" class="btn btn-success btn-sm">Yes, Save It</button>
+                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Tidak</button>
+                    <a href="p6-view-approved.php"><button type="button" class="btn btn-sm btn-success">Ya</button></a>
                   </div>
                 </div>
                   <!-- /.modal-content -->
