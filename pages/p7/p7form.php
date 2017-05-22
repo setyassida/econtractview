@@ -52,7 +52,7 @@
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
         <li><a href="p7.php">Opening Komersial</a></li>
         <li><a href="p7summary.php">Summary</a></li>
-        <li class="active"><a href="p7open.php">Open</a></li>
+        <li class="active"><a href="p7form.php">Open</a></li>
       </ol>
     </section>
 
@@ -82,7 +82,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- /.kolom atas kiri -->
+                <!-- /.kolom kiri -->
                 <div class="col-md-8">
                   <div class="form-group" style="margin-bottom: 0">
                     <label class="control-label col-md-5">Judul Pekerjaan</label>
@@ -97,7 +97,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- /.kolom atas kanan -->
+                <!-- /.kolom kanan -->
                 <div class="col-md-12" style="margin-top: 2rem">
                   <div class="box box-primary">
                     <div class="box-header">

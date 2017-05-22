@@ -58,7 +58,6 @@
           <ul class="nav nav-tabs">
             <li class="active"><a href="#tab_1" data-toggle="tab">Detail Tawaran</a></li>
             <li><a href="#tab_2" data-toggle="tab">Dokumen Terkait Contract Order</a></li>
-            <li><a href="#tab_3" data-toggle="tab">Dokumen Terkait Prebid Meeting</a></li>
           </ul>
           <div class="tab-content">
             <div class="text-center">
@@ -161,12 +160,16 @@
                         <thead>
                           <tr>
                             <th>Judul Dokumen</th>
+                            <th style="width:75px">Tipe Dokumen</th>
+                            <th style="width:75px">Size</th>
                             <th style="width:75px">Download</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td>Lampiran Contract Order 1</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
                             <td>
                               <div class="text-center">
                                 <button type="button" class="btn btn-xs btn-default" >
@@ -177,6 +180,8 @@
                           </tr>
                           <tr>
                             <td>Lampiran Contract Order 2</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
                             <td>
                               <div class="text-center">
                                 <button type="button" class="btn btn-xs btn-default" >
@@ -187,6 +192,8 @@
                           </tr>
                           <tr>
                             <td>Lampiran Contract Order 3</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
                             <td>
                               <div class="text-center">
                                 <button type="button" class="btn btn-xs btn-default" >
@@ -197,6 +204,8 @@
                           </tr>
                           <tr>
                             <td>Lampiran Contract Order 4</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
                             <td>
                               <div class="text-center">
                                 <button type="button" class="btn btn-xs btn-default" >
@@ -207,6 +216,8 @@
                           </tr>
                           <tr>
                             <td>Lampiran Contract Order 5</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
                             <td>
                               <div class="text-center">
                                 <button type="button" class="btn btn-xs btn-default" >
@@ -225,80 +236,6 @@
               <!-- ./row -->
             </div>
             <!-- ./tab2 -->
-            <!-- tab3 -->
-            <div class="tab-pane" id="tab_3">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="box box-solid">
-                    <div class="box-body">
-                      <table class="table table-bordered table-condensed table-hover">
-                        <thead>
-                          <tr>
-                            <th>Judul Dokumen</th>
-                            <th style="width:75px">Download</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Lampiran Prebid Meeting 1</td>
-                            <td>
-                              <div class="text-center">
-                                <button type="button" class="btn btn-xs btn-default" >
-                                  <span class="glyphicon glyphicon-download-alt"></span>
-                                </button>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Lampiran Prebid Meeting 2</td>
-                            <td>
-                              <div class="text-center">
-                                <button type="button" class="btn btn-xs btn-default" >
-                                  <span class="glyphicon glyphicon-download-alt"></span>
-                                </button>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Lampiran Prebid Meeting 3</td>
-                            <td>
-                              <div class="text-center">
-                                <button type="button" class="btn btn-xs btn-default" >
-                                  <span class="glyphicon glyphicon-download-alt"></span>
-                                </button>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Lampiran Prebid Meeting 4</td>
-                            <td>
-                              <div class="text-center">
-                                <button type="button" class="btn btn-xs btn-default" >
-                                  <span class="glyphicon glyphicon-download-alt"></span>
-                                </button>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Lampiran Prebid Meeting 5</td>
-                            <td>
-                              <div class="text-center">
-                                <button type="button" class="btn btn-xs btn-default" >
-                                  <span class="glyphicon glyphicon-download-alt"></span>
-                                </button>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div> 
-                </div>
-                <!-- ./col -->
-              </div>
-              <!-- ./row -->
-            </div>
-            <!-- ./tab3 -->
             
             <div class="row" style="padding-bottom: 0.5rem">
               <div class="col-md-12 text-right">

@@ -76,49 +76,49 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-3" for="noKontrak">Bidder List:</label>
+                      <label class="control-label col-md-3" for="noKontrak">Bidder List</label>
                       <div class="col-md-9">
                         <p class="form-control-static">BL-17001</p>
                       </div>
                     </div>
                     <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-3" for="noKontrak">Tanggal Dibuat:</label>
+                      <label class="control-label col-md-3" for="noKontrak">Tanggal Dibuat</label>
                       <div class="col-md-9">
                         <p class="form-control-static">22-Apr-2017</p>
                       </div>
                     </div>
                     <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-3" for="noKontrak">Waktu Dibuat:</label>
+                      <label class="control-label col-md-3" for="noKontrak">Waktu Dibuat</label>
                       <div class="col-md-9">
                         <p class="form-control-static">13:30</p>
                       </div>
                     </div>
                     <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-3" for="noKontrak">Klasifikasi:</label>
+                      <label class="control-label col-md-3" for="noKontrak">Klasifikasi</label>
                       <div class="col-md-9">
                         <p class="form-control-static">M</p>
                       </div>
                     </div>
                     <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-3" for="noKontrak">Kualifikasi:</label>
+                      <label class="control-label col-md-3" for="noKontrak">Kualifikasi</label>
                       <div class="col-md-9">
                         <p class="form-control-static">Kecil</p>
                       </div>
                     </div>
                     <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-3" for="noKontrak">Tingkat Risiko:</label>
+                      <label class="control-label col-md-3" for="noKontrak">Tingkat Risiko</label>
                       <div class="col-md-9">
                         <p class="form-control-static">Sedang</p>
                       </div>
                     </div>
                     <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-3" for="noKontrak">Publish Date:</label>
+                      <label class="control-label col-md-3" for="noKontrak">Publish Date</label>
                       <div class="col-md-9">
                         <p class="form-control-static">22-Sep-2017</p>
                       </div>
                     </div>
                     <div class="form-group" style="margin-bottom: 0">
-                      <label class="control-label col-md-3" for="noKontrak">Kuota Area:</label>
+                      <label class="control-label col-md-3" for="noKontrak">Kuota Area</label>
                       <div class="col-md-5">
                         <table class="table table-condensed table-bordered table-hover">
                           <tbody>
@@ -135,10 +135,15 @@
                               <td class="text-left form-control-static" id="pickedByCE4" >2</td>
                             </tr>
                           </tbody>
+                          <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <th>6</th>
+                            </tr>
+                          </tfoot>
                         </table>
                       </div>
                     </div>
-                    
                   </div>
                   <!-- ./col kiri -->
                   <div class="col-md-6">
@@ -178,18 +183,11 @@
                       <div class="modal-header bg-blue">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Do you want to Send Invitation Note?</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Proses ini akan mengirim undangan kepada Bidder yang berkaitan dengan Dokumen ini.</p>
-                        <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                        <li>Contract Organisator</li>
-                        <li>Contract Engineer</li>
-                        <li>Lead Contract Engineer</li>
+                        <h4 class="modal-title">Anda yakin?</h4>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Yes, Send Invitation Note Now!</button>
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+                        <button type="submit" class="btn btn-primary">Ya</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->

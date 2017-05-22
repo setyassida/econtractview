@@ -33,7 +33,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p2headerLCE.php" ?>
+  <?php include "p2header.php" ?>
   <!-- =============================================== -->
 
   <!-- Content Wrapper. Contains page content -->
@@ -46,9 +46,9 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p2a.php">Bidder List</a></li>
+        <li><a href="p2.php">Bidder List</a></li>
         <li><a href="#">CA-17001</a></li>
-        <li class="active"><a href="p2a.php">Hold</a></li>
+        <li class="active"><a href="p2.php">Hold</a></li>
       </ol>
     </section>
 
@@ -67,31 +67,31 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <label class="control-label col-md-3" for="noKontrak">Contract Order:</label>
+                      <label class="control-label col-md-3" for="noKontrak">Contract Order</label>
                       <div class="col-md-9">
                         <p class="form-control-static">CA-17001</p>
                       </div>
                     </div>
                     <div class="form-group">
-                      <label class="control-label col-md-3" for="">Judul Pekerjaan:</label>   
+                      <label class="control-label col-md-3" for="">Judul Pekerjaan</label>   
                       <div class="col-md-9">
                         <p class="form-control-static">REGULAR INSPECTION OF LIFTING GEARS</p>
                       </div>
                     </div>
                     <div class="form-group">
-                      <label class="control-label col-md-3" for="">Durasi:</label>   
+                      <label class="control-label col-md-3" for="">Durasi</label>   
                       <div class="col-md-9">
                         <p class="form-control-static">2 Bulan</p>
                       </div>
                     </div>
                     <div class="form-group">
-                      <label class="control-label col-md-3" for="">Jenis Jasa:</label>   
+                      <label class="control-label col-md-3" for="">Jenis Jasa</label>   
                       <div class="col-md-9">
                         <p class="form-control-static">Pemborongan Pekerjaan</p>
                       </div>
                     </div>
                     <div class="form-group">
-                      <label class="control-label col-md-3" for="">Kualifikasi Syarat Peserta Pengadaan:</label>   
+                      <label class="control-label col-md-3" for="">Kualifikasi Syarat Peserta Pengadaan</label>   
                       <div class="col-md-9">
                         <p class="form-control-static">M (Rp. 500 Juta <= NK <= Rp. 10 M)</p>
                       </div>
@@ -136,18 +136,11 @@
                       <div class="modal-header bg-yellow">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Do you want to hold?</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Proses ini akan menahan Contract Order yang berkaitan dengan Dokumen ini.</p>
-                        <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                        <li>Contract Organisator</li>
-                        <li>Contract Engineer</li>
-                        <li>Lead Contract Engineer</li>
+                        <h4 class="modal-title">Anda yakin?</h4>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-warning">Yes, Hold Now!</button>
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+                        <button type="submit" class="btn btn-warning">Ya</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->

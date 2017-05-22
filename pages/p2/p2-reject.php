@@ -33,7 +33,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p2headerLCE.php" ?>
+  <?php include "p2header.php" ?>
 
   <!-- =============================================== -->
 
@@ -49,7 +49,7 @@
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
         <li><a href="#">Bidder List</a></li>
         <li><a href="#">BL-17001</a></li>
-        <li class="active"><a href="p2a.php">Reject</a></li>
+        <li class="active"><a href="p2.php">Reject</a></li>
       </ol>
     </section>
 
@@ -127,6 +127,12 @@
                               <td class="text-left form-control-static" id="pickedByCE4" >2</td>
                             </tr>
                           </tbody>
+                          <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <th>6</th>
+                            </tr>
+                          </tfoot>
                         </table>
                       </div>
                     </div>
@@ -171,18 +177,11 @@
                       <div class="modal-header bg-red">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Do you want to Reject?</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Proses ini akan menolak Bidder List yang berkaitan dengan Dokumen ini.</p>
-                        <p>Proses ini akan mengirimkan notifikasi kepada :</p>
-                        <li>Contract Organisator</li>
-                        <li>Contract Engineer</li>
-                        <li>Lead Contract Engineer</li>
+                        <h4 class="modal-title">Anda yakin?</h4>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn  pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-danger">Yes, Reject Now!</button>
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+                        <button type="submit" class="btn btn-danger">Ya</button>
                       </div>
                     </div>
                       <!-- /.modal-content -->

@@ -52,7 +52,7 @@
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
         <li><a href="p5.php">Opening</a></li>
         <li><a href="p5summary.php">Summary</a></li>
-        <li class="active"><a href="p5open.php">Open</a></li>
+        <li class="active"><a href="p5form.php">Open</a></li>
       </ol>
     </section>
 
@@ -68,37 +68,21 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body"> 
-                <div class="box">
-                  <div class="box-body table-responsive">
-                    <table class="table table-bordered table-hover">
-                      <tr>
-                        <th>Nomor</th>
-                        <th>Perusahaan</th>
-                        <th>Nama Jelas</th>
-                        <th>Tanda Tangan</th>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>PT MJ</td>
-                        <td>Perusahaan Terpadu Maju Jaya</td>
-                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>PT DJ</td>
-                        <td>Perusahaan Terpadu Depan Jaya</td>
-                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>PT DO</td>
-                        <td>Perusahaan Terpadu Dan One</td>
-                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      </tr>
-                    </table>
+                <div class="col-md-4">
+                  <div class="form-group" style="margin-bottom: 0">
+                    <label class="control-label col-md-5">Tanggal Opening</label>
+                    <div class="col-md-7">
+                      <p class="form-control-static">22-Jun-2017</p>
+                    </div>
                   </div>
-                  <!-- /.box-body -->
+                  <div class="form-group" style="margin-bottom: 0">
+                    <label class="control-label col-md-5">Nomor Kontrak</label>
+                    <div class="col-md-7">
+                      <p class="form-control-static">CA-17001</p>
+                    </div>
+                  </div>
                 </div>
+                <!-- /.kolom kiri -->
                 <div class="col-md-8">
                   <div class="form-group" style="margin-bottom: 0">
                     <label class="control-label col-md-5">Judul Pekerjaan</label>
@@ -113,7 +97,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- /.kolom atas kanan -->
+                <!-- /.kolom kanan -->
                 <div class="col-md-12" style="margin-top: 2rem">
                   <div class="box box-primary">
                     <div class="box-header">
@@ -125,8 +109,8 @@
                           <th>No</th>
                           <th>Penawar</th>
                           <th>Penawaran (IDR) <br> <span class="text-red">(1 Sampul)</span></th>
-                          <th>Penandatanganan Direktur</th>
-                          <th>Neraca Perusahaan dan Pendapat Akuntan Publik</th>
+                          <th style="width: 250px;">Penandatanganan Direktur</th>
+                          <th style="width: 250px;">Neraca Perusahaan dan Pendapat Akuntan Publik</th>
                           <th>Evaluasi Administrasi</th>
                         </thead>
                         <tr>
@@ -137,27 +121,25 @@
                             <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
                           </td>
                           <td>
-                            <div class="form-group">
-                              <div class="col-md-12">
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio1" checked>Tidak Setuju
-                                </label>
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio1">Setuju
-                                </label>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <select class="form-control select2" style="width: 200px;">
+                                  <option selected="selected">Sesuai</option>
+                                  <option>Tidak Sesuai</option>
+                                </select>
                               </div>
+                              <!-- /.form-group -->
                             </div>
                           </td>
                           <td>
-                            <div class="form-group">
-                              <div class="col-md-12">
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio2" checked>Tidak Setuju
-                                </label>
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio2">Setuju
-                                </label>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <select class="form-control select2" style="width: 200px;">
+                                  <option selected="selected">Sesuai</option>
+                                  <option>Tidak Sesuai</option>
+                                </select>
                               </div>
+                              <!-- /.form-group -->
                             </div>
                           </td>
                           <td>Lulus</td>
@@ -170,27 +152,25 @@
                             <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
                           </td>
                           <td>
-                            <div class="form-group">
-                              <div class="col-md-12">
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio3" checked>Tidak Setuju
-                                </label>
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio3">Setuju
-                                </label>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <select class="form-control select2" style="width: 200px;">
+                                  <option selected="selected">Sesuai</option>
+                                  <option>Tidak Sesuai</option>
+                                </select>
                               </div>
+                              <!-- /.form-group -->
                             </div>
                           </td>
                           <td>
-                            <div class="form-group">
-                              <div class="col-md-12">
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio4" checked>Tidak Setuju
-                                </label>
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio4">Setuju
-                                </label>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <select class="form-control select2" style="width: 200px;">
+                                  <option>Sesuai</option>
+                                  <option selected="selected">Tidak Sesuai</option>
+                                </select>
                               </div>
+                              <!-- /.form-group -->
                             </div>
                           </td>
                           <td>Tidak Lulus</td>
@@ -200,30 +180,28 @@
                           <td>PT Suka Jaya</td>
                           <td class="text-right">
                             0
-                            <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
+                            <button class="btn btn-default btn-xs" disabled="disabled" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
                           </td>
                           <td>
-                            <div class="form-group">
-                              <div class="col-md-12">
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio5" checked>Tidak Setuju
-                                </label>
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio5">Setuju
-                                </label>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <select class="form-control select2" disabled="disabled" style="width: 200px;">
+                                  <option>Sesuai</option>
+                                  <option selected="selected">Tidak Sesuai</option>
+                                </select>
                               </div>
+                              <!-- /.form-group -->
                             </div>
                           </td>
                           <td>
-                            <div class="form-group">
-                              <div class="col-md-12">
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio6" checked>Tidak Setuju
-                                </label>
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio6">Setuju
-                                </label>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <select class="form-control select2" disabled="disabled" style="width: 200px;">
+                                  <option>Sesuai</option>
+                                  <option selected="selected">Tidak Sesuai</option>
+                                </select>
                               </div>
+                              <!-- /.form-group -->
                             </div>
                           </td>
                           <td>Tidak Menjawab</td>
@@ -233,30 +211,28 @@
                           <td>PT Desa Jaya</td>
                           <td class="text-right">
                             0
-                            <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
+                            <button class="btn btn-default btn-xs" disabled="disabled" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
                           </td>
                           <td>
-                            <div class="form-group">
-                              <div class="col-md-12">
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio7" checked>Tidak Setuju
-                                </label>
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio7">Setuju
-                                </label>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <select class="form-control select2" disabled="disabled" style="width: 200px;">
+                                  <option>Sesuai</option>
+                                  <option selected="selected">Tidak Sesuai</option>
+                                </select>
                               </div>
+                              <!-- /.form-group -->
                             </div>
                           </td>
                           <td>
-                            <div class="form-group">
-                              <div class="col-md-12">
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio8" checked>Tidak Setuju
-                                </label>
-                                <label class="radio-inline" >
-                                  <input type="radio" name="optradio8">Setuju
-                                </label>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <select class="form-control select2" disabled="disabled" style="width: 200px;">
+                                  <option>Sesuai</option>
+                                  <option selected="selected">Tidak Sesuai</option>
+                                </select>
                               </div>
+                              <!-- /.form-group -->
                             </div>
                           </td>
                           <td>Tidak Menawar</td>

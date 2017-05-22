@@ -65,34 +65,30 @@
               <table id="example1" class="table table-bordered table-striped table-condensed">
                 <thead>
                 <tr>
-                  <th>Nomor Kontrak</th>
+                  <th style="width:100px">Nomor Kontrak</th>
                   <th>Judul Pekerjaan</th>
                   <th>Status</th>
                   <th>Tanggal Opening</th>
-                  <th>Detail</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                  <td>CA-17001</td>
+                  <td><a href="p5summary.php">CA-17001</a></td>
                   <td>STEAM CONDENSATE LINE</td>
                   <td class="text-center"><span class="label label-warning">Await Opening</span></td>
                   <td class="text-center">20-Jan-2017</td>
-                  <td class="text-center"><a href="p5summary.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                 </tr>
                 <tr>
-                  <td>CB-17001</td>
+                  <td><a href="p5end.php">CB-17001</a></td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td class="text-center"><span class="label label-primary">Await Document</span></td>
                   <td class="text-center">22-Jan-2017</td>
-                  <td class="text-center"><a href="p5end.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                 </tr>
                 <tr>
-                  <td>CC-17001</td>
+                  <td><a href="p5finished.php">CC-17001</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td class="text-center"><span class="label label-success">Signed</span></td>
                   <td class="text-center">20-Feb-2017</td>
-                  <td class="text-center"><a href="p5finished.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                 </tr>
                 </tbody>
                 <tfoot>

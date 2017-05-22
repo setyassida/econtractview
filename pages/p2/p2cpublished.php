@@ -33,7 +33,7 @@
   <!-- Site wrapper -->
   <div class="wrapper">
 
-    <?php include "p2headerLCE.php" ?>
+    <?php include "p2header.php" ?>
     <!-- =============================================== -->
 
     <!-- Content Wrapper. Contains page content -->
@@ -46,7 +46,7 @@
         </h1>
         <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p2a.php">Bidder List</a></li>
+        <li><a href="p2.php">Bidder List</a></li>
         <li class="active"><a href="#">BL-17005</a></li>
       </ol>
       </section>
@@ -220,6 +220,12 @@
                             <td>3</td>
                           </tr>
                         </tbody>
+                        <tfoot>
+                          <tr>
+                            <th>Total</th>
+                            <th>6</th>
+                          </tr>
+                        </tfoot>
                       </table>
                     </dl>
                   </div>
@@ -228,7 +234,7 @@
               <div class="box-footer">
                 <div class="row">
                   <div class="col-md-12">
-                    <div class="pull-right" style="margin-left: 1rem">
+                    <div class="pull-left" style="margin-left: 1rem">
                       <button class="btn btn-sm "><i class="fa fa-print"></i> Print Bidder List</button>
                     </div>
                     <div class="pull-right" style="margin-left: 1rem">

@@ -17,7 +17,7 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
-  folder instead of downloading all of them to reduce the load. -->
+       folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,196 +30,103 @@
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
 <body class="hold-transition skin-red fixed sidebar-mini">
-  <!-- Site wrapper -->
-  <div class="wrapper">
+<!-- Site wrapper -->
+<div class="wrapper">
 
-    <?php include "p15header.php" ?>
+  <?php include "p15header.php" ?>
+  <!-- =============================================== -->
 
-    <!-- =============================================== -->
-
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-      <section class="content-header">
-        <h1>
-          Bidder List
-          <small>BL17001</small>
-        </h1>
-        <ol class="breadcrumb">
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Bidder List VO
+        <small>Daftar Bidder VO</small>
+      </h1>
+      <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p15.php">Bidder List VO</a></li>
-        <li class="active"><a href="p15cdraft.php">BL-17001</a></li>
+        <li class="active"><a href="p15.php">Bidder List VO</a></li>
       </ol>
-      </section>
+    </section>
 
-      <!-- Main content -->
-      <section class="content">
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        <div class="col-md-12">
 
-        <!-- Info boxes -->
-        <div class="row">
-          <div class="col-md-4">
-            <div class="box box-primary">
-              <div class="box-header">
-                <h3 class="box-title">Data Contract Order</h3>
-              </div>
-              <div class="box-body">
-                <dl>
-                  <dt>Contract Order</dt>
-                  <dd>CA-17001</dd>
-                  <dt>Judul Pekerjaan</dt>
-                  <dd>REGULAR INSPECTION OF LIFTING GEARS</dd>
-                  <dt>Durasi</dt>
-                  <dd>2 Bulan</dd>
-                  <dt>Jenis Jasa</dt>
-                  <dd>Pemborongan Pekerjaan</dd>
-                  <dt>Kualifikasi Syarat Peserta Pengadaan</dt>
-                  <dd>M (Rp. 500 Juta <= NK <= Rp. 10 M)</dd>
-                </dl>
-              </div>
-              <!-- /.box-body -->
-              <!-- <div class="box-footer">
-                
-              <!-- /.box-footer -->
+        <!-- box bidder list -->
+          <div class="box box-danger">
+            <div class="box-header">
+              <!-- <h3 class="box-title">Result</h3> -->
+              <a href="p15create.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Bidder List Baru</button></a>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body "> 
+              <table id="example1" class="table table-bordered table-striped table-condensed">
+                <thead>
+                <tr>
+                  <th>No. Bidder List</th>
+                  <th>No. Contract</th>
+                  <th>Judul Pekerjaan</th>
+                  <th>Status</th>
+                  <th>Tanggal Dibuat</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td><a href="p15cdraft.php">BL-17001</a></td>
+                  <td>CB-17001</td>
+                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
+                  <td class="text-center"><span class="label label-primary">Draft</span></td>
+                  <td>20-Jan-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p15cpublished.php">BL-17005</a></td>
+                  <td>CA-17001</td>
+                  <td>STEAM CONDENSATE LINE</td>
+                  <td class="text-center"><span class="label label-success">Published</span></td>
+                  <td>24-Apr-2017</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <!-- <tr>
+                  <th>Bidder List No</th>
+                  <th>Contract No</th>
+                  <th>Subject</th>
+                  <th>Status</th>
+                  <th>Date</th>
+                </tr> -->
+                </tfoot>
+              </table>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+              <h4>Keterangan status</h4>
+              <ul>
+                <li><span class="label label-primary">Draft</span> : Bidder list di-draft</li>
+                <li><span class="label label-success">Published</span> : Bidder list di-publish</li>
+              </ul>
             </div>
           </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
 
-          <div class="col-md-8">
-            <div class="box box-info">
-              <div class="box-header">
-                <h3 class="box-title">Data Bidder List</h3>
-                <div class="mark pull-right"><strong>Status: </strong>DRAFT</div>
-              </div>
-              <div class="box-body">
-                <div class="row">
-                  <div class="col-md-4">
-                    <dl>
-                      <dt>Nomor Bidder List</dt>
-                      <dd>BL-17001</dd>
-                      <dt>Tanggal Dibuat</dt>
-                      <dd>22-Apr-2017</dd>
-                      <dt>Waktu Dibuat</dt>
-                      <dd>13:30</dd>
-                      <dt>Klasifikasi</dt>
-                      <dd>M</dd>
-                      <dt>Kualifikasi</dt>
-                      <dd>Kecil</dd>
-                      <dt>
-                    </dl>
-                  </div>
-                  <div class="col-md-4">
-                    <dl>
-                      <dt>Tingkat Risiko</dt>
-                      <dd>Sedang</dd>
-                      <dt>Publish Date</dt>
-                      <dd>22-Sep-2017</dd>
-                      <dt>Kuota Area</dt>
-                      <table class="table table-condensed table-bordered">
-                        <tbody>
-                          <tr>
-                            <td>Bontang</td>
-                            <td>2</td>
-                          </tr>
-                          <tr>
-                            <td>Kalimantan Timur</td>
-                            <td>1</td>
-                          </tr>
-                          <tr>
-                            <td>Domestik</td>
-                            <td>3</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </dl>
-                  </div>
-                  </div>
-                </div>
-              <div class="box-footer">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="pull-right" style="margin-left: 1rem">
-                      <a href="p15-invitation.php"><button class="btn btn-success pull-right btn-sm">Publish</button></a>
-                    </div>
-                  </div>
-                </div>
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
+    reserved.
+  </footer>
 
-                </div>
-              </div>
-              <!-- box bidder list -->
-
-              </div>
-                <!-- /.col -->
-              </div>
-              <!-- /.row -->
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="box box-success">
-                    <div class="box-header">
-                      <h3 class="box-title">Active Bidder</h3>
-                      <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                          <i class="fa fa-minus"></i></button>
-                      </div>
-                    </div>
-                    <div class="box-body">
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table id="example1" class="table table-bordered table-striped table-condensed">
-                          <thead>
-                            <tr>
-                              <th>No</th>
-                              <th>Penawar</th>
-                              <th>Masa SIO</th>
-                              <th>Penalti Poin</th>
-                              <th>Sanksi</th>
-                              <th>Added By</th>
-                              <th>Added Date</th>
-                              <th></th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td>Perusahaan A</td>
-                              <td>1 Bulan</td>
-                              <td>0</td>
-                              <td>-</td>
-                              <td>System</td>
-                              <td>22-Apr-2017</td>
-                              <td>
-                                <div class="text-center">
-                                  <span class="fa fa-ban"></span>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                      <!-- /.box-body -->
-                    <!-- <div class="box-footer">
-                      <div class="pull-right">
-                        <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span> Add Bidder</a>
-                      </div>
-                    </div> -->
-                    <!-- /.box-footer -->
-                  </div>
-                    <!-- /.box -->
-
-                </div>
-              </div>
-            </section>
-            <!-- /.content -->
-          </div>
-          <!-- /.content-wrapper -->
-
-          <footer class="main-footer">
-            <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
-            reserved.
-          </footer>
-
+  
 </div>
 <!-- ./wrapper -->
-
 
 <!-- jQuery 2.2.3 -->
 <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
@@ -238,12 +145,8 @@
 <script src="../../dist/js/demo.js"></script>
 <!-- page script -->
 <script>
-  $(document).ready(function(){
-    $('[data-toggle="abort"]').tooltip(); 
-  });
   $(function () {
     $("#example1").DataTable();
-    $('#example2').DataTable();
   });
 </script>
 </body>

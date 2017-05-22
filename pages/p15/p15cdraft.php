@@ -128,6 +128,12 @@
                             <td>3</td>
                           </tr>
                         </tbody>
+                        <tfoot>
+                          <tr>
+                            <th>Total</th>
+                            <th>6</th>
+                          </tr>
+                        </tfoot>
                       </table>
                     </dl>
                   </div>

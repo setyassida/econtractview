@@ -63,44 +63,28 @@
           <!-- box -->
             <div class="box box-primary">
               <div class="box-header">
-                <h3 class="box-title">Peserta Pengadaan Jasa</h3>
+                <h3 class="box-title">Data Hasil Opening</h3>
               </div>
               <!-- /.box-header -->
               <div class="box-body">
-                <div class="box">
-                  <div class="box-body table-responsive">
-                    <table class="table table-bordered table-hover">
-                      <tr>
-                        <th>Nomor</th>
-                        <th>Perusahaan</th>
-                        <th>Nama Jelas</th>
-                        <th>Tanda Tangan</th>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>PT MJ</td>
-                        <td>Perusahaan Terpadu Maju Jaya</td>
-                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>PT DJ</td>
-                        <td>Perusahaan Terpadu Depan Jaya</td>
-                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>PT DO</td>
-                        <td>Perusahaan Terpadu Dan One</td>
-                        <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-                      </tr>
-                    </table>
-                  </div>
-                  <!-- /.box-body -->
-                </div>
-              </div>
-              <div class="box-footer">
-                <button class="btn btn-default pull-right "><i class="fa fa-print"></i> Print Peserta Pengadaan Jasa</button>
+                <table class="table table-hover table-condensed input-sm">
+                  <thead>
+                    <tr>
+                      <th>Nama Dokumen</th>
+                      <th class="text-center">Download Dokumen</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Data Opening</td>
+                      <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div></th>
+                    </tr>
+                    <tr>
+                      <td>Hasil Harga Perkiraan Sendiri</td>
+                      <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div></th>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
             <!-- /.box -->

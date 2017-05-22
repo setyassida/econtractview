@@ -10,10 +10,16 @@
   <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -29,6 +35,7 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
+
 <body class="hold-transition skin-red fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
@@ -53,128 +60,11 @@
       <!-- Main content -->
       <section class="content">
         <!-- Info boxes -->
-
-        
-        <div class="row">
-          <div class="col-lg-3 col-xs-6">
-            <!-- small box -->
-            <div class="small-box bg-aqua">
-              <div class="inner">
-                <h3>10</h3>
-
-                <p>On Going Contract Orders</p>
-              </div>
-              <div class="icon">
-                <i class="fa fa-edit"></i>
-              </div>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-xs-6">
-            <!-- small box -->
-            <div class="small-box bg-yellow">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>On Hold Contract Orders</p>
-              </div>
-              <div class="icon">
-                <i class="fa fa-pause"></i>
-              </div>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-xs-6">
-            <!-- small box -->
-            <div class="small-box bg-red">
-              <div class="inner">
-                <h3>30</h3>
-
-                <p>Aborted Contract Orders</p>
-              </div>
-              <div class="icon">
-                <i class="fa fa-times-circle-o"></i>
-              </div>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-xs-6">
-            <!-- small box -->
-            <div class="small-box bg-green">
-              <div class="inner">
-                <h3>53<sup style="font-size: 20px"></sup></h3>
-
-                <p>Successful Contract Orders</p>
-              </div>
-              <div class="icon">
-                <i class="fa fa-check-circle-o"></i>
-              </div>
-            </div>
-          </div>
-          <!-- ./col -->
-        </div>
-        <!-- /.row -->
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-aqua"><i class="fa fa-edit"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Total On Going</span>
-                <span class="info-box-number">1,420</span>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-yellow"><i class="fa fa-pause"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Total On Hold</span>
-                <span class="info-box-number">148</span>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-red"><i class="fa fa-times-circle"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Total Aborted</span>
-                <span class="info-box-number">67</span>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-green"><i class="fa fa-check-circle"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Total Successful</span>
-                <span class="info-box-number">410</span>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-        </div>
-        <!-- /.row -->
-
-        <div class="callout callout-info">
+        <!-- <div class="callout callout-info">
           <h4><i class="icon fa fa-info"></i> Alert!</h4>
           
           <p>Laporan dihasilkan oleh sistem dan dapat di-download dalam bentuk excel</p>
-        </div>
+        </div> -->
 
         <div class="row">
           <div class="col-md-12">
@@ -184,32 +74,144 @@
               </div>
               <!-- /. box-header -->
               <div class="box-body">
-                <div class="col-md-3">
-                  <dl class="dl-horizontal">
-                    <dt>Jumlah Contract Order</dt>
-                    <dd><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></dd>
-                    <dt>Performance</dt>
-                    <dd><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></dd>              
-                  </dl>
+                <div class="col-md-4">
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      Jumlah Contract Order
+                    </div>
+                    <div class="panel-body">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <div class="col-md-12" style="padding: 0">
+                            <label>Range Bulan</label>
+                          </div>
+                          <div class="col-md-5" style="padding:0">
+                            <select class="form-control select2 input-sm" style="width: 100%;">
+                              <option selected="selected">Januari</option><option>Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
+                            </select>
+                          </div>
+                          <div class="col-md-2" style="padding-top: 1rem;">
+                            <span>to</span>
+                          </div>
+                          <div class="col-md-5" style="padding: 0">
+                            <select class="form-control select2 input-sm" style="width: 100%;">
+                              <option>Januari</option><option selected="selected">Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
+                            </select>
+                          </div>
+                          <div class="col-md-12 text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
+                          <!-- /.input group -->
+                        </div>
+                        <!-- /.form group -->
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>Year To Date</label>
+                          <div class="input-group date">
+                            <div class="input-group-addon">
+                              <i class="fa fa-calendar"></i>
+                            </div>
+                            <input type="text" class="form-control pull-right input-sm" id="datepicker">
+                          </div>
+                          <div class="text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
+                          <!-- /.input group -->
+                        </div>
+                        <!-- /.form group -->
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <!-- /.col -->
-                <div class="col-md-3">
-                  <dl class="dl-horizontal">
-                    <dt>Jumlah Kontrak</dt>
-                    <dd><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></dd>
-                    <dt>Jumlah Peserta</dt>
-                    <dd><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></dd>               
-                  </dl>
+                <div class="col-md-4">
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      Jumlah Kontrak dari Bidder List
+                    </div>
+                    <div class="panel-body">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <div class="col-md-12" style="padding: 0">
+                            <label>Range Bulan</label>
+                          </div>
+                          <div class="col-md-5" style="padding:0">
+                            <select class="form-control select2 input-sm" style="width: 100%;">
+                              <option selected="selected">Januari</option><option>Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
+                            </select>
+                          </div>
+                          <div class="col-md-2" style="padding-top: 1rem;">
+                            <span>to</span>
+                          </div>
+                          <div class="col-md-5" style="padding: 0">
+                            <select class="form-control select2 input-sm" style="width: 100%;">
+                              <option>Januari</option><option selected="selected">Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
+                            </select>
+                          </div>
+                          <div class="col-md-12 text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
+                          <!-- /.input group -->
+                        </div>
+                        <!-- /.form group -->
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>Year To Date</label>
+                          <div class="input-group date">
+                            <div class="input-group-addon">
+                              <i class="fa fa-calendar"></i>
+                            </div>
+                            <input type="text" class="form-control pull-right input-sm" id="datepicker">
+                          </div>
+                          <div class="text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
+                          <!-- /.input group -->
+                        </div>
+                        <!-- /.form group -->
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <!-- /.col -->
-                <div class="col-md-3">
-                  <dl class="dl-horizontal">
-                    <dt>Harga Contract Order</dt>
-                    <dd><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></dd>                    
-                  </dl>
+                <div class="col-md-4">
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      Jumlah Peserta Penyedia
+                    </div>
+                    <div class="panel-body">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <div class="col-md-12" style="padding: 0">
+                            <label>Range Bulan</label>
+                          </div>
+                          <div class="col-md-5" style="padding:0">
+                            <select class="form-control select2 input-sm" style="width: 100%;">
+                              <option selected="selected">Januari</option><option>Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
+                            </select>
+                          </div>
+                          <div class="col-md-2" style="padding-top: 1rem;">
+                            <span>to</span>
+                          </div>
+                          <div class="col-md-5" style="padding: 0">
+                            <select class="form-control select2 input-sm" style="width: 100%;">
+                              <option>Januari</option><option selected="selected">Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
+                            </select>
+                          </div>
+                          <div class="col-md-12 text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
+                          <!-- /.input group -->
+                        </div>
+                        <!-- /.form group -->
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>Year To Date</label>
+                          <div class="input-group date">
+                            <div class="input-group-addon">
+                              <i class="fa fa-calendar"></i>
+                            </div>
+                            <input type="text" class="form-control pull-right input-sm" id="datepicker">
+                          </div>
+                          <div class="text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
+                          <!-- /.input group -->
+                        </div>
+                        <!-- /.form group -->
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <!-- /.col -->
-
               </div>
               <!-- /.box-body -->
             </div>            
@@ -245,10 +247,19 @@
 <script src="../../dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
+<!-- date-range-picker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
+<!-- bootstrap datepicker -->
+<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- page script -->
 <script>
   $(function () {
     $("#example1").DataTable();
+  });
+  //Date picker
+  $('#datepicker').datepicker({
+    autoclose: true
   });
 </script>
 </body>

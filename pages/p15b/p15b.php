@@ -67,28 +67,24 @@
                   <tr>
                     <th style="width:100px">Nomor Kontrak</th>
                     <th >Judul Pekerjaan</th>
-                    <th style="width:100px">Status</th>
-                    <th style="width:100px"></th>                    
+                    <th style="width:100px">Status</th>      
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>CA-17001</td>
+                    <td><a href="p15bviewawaitquote.php">CA-17001</a></td>
                     <td>STEAM CONDENSATE LINE</td>
                     <td class="text-center"><span class="label label-warning">Await Quote</span></td>
-                    <td class="text-center"><a href="p15bviewawaitquote.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                   </tr>
                   <tr>
-                    <td>CA-17002</td>
+                    <td><a href="p15bviewquote.php">CA-17002</a></td>
                     <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
                     <td class="text-center"><span class="label label-success">Quote</span></td>
-                    <td class="text-center"><a href="p15bviewquote.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                   </tr>
                   <tr>
-                    <td>CA-17003</td>
+                    <td><a href="p15bviewnotquote.php">CA-17003</a></td>
                     <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                     <td class="text-center"><span class="label label-danger">Not Quote</span></td>
-                    <td class="text-center"><a href="p15bviewnotquote.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
                   </tr>
 
                 </tbody>

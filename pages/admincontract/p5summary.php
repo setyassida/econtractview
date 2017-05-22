@@ -14,10 +14,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
-  <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
-  <!-- Bootstrap time Picker -->
-  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -50,123 +46,69 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p5.php">Opening</a></li>
-        <li class="active"><a href="p5summary.php">Summary</a></li>
+        <li class="active"><a href="p5.php">Opening</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-      <form class="form-horizontal">
-        <div class="row">
-          <div class="col-md-12">
-          <!-- box -->
-            <div class="box box-primary">
-              <div class="box-header">
-                <h3 class="box-title">Summary Penawaran</h3>
-              </div>
-              <!-- /.box-header -->
-              <div class="box-body "> 
-                <div class="col-md-6">
-                  <div class="form-group" style="margin-bottom: 0">
-                    <label class="control-label col-md-4">Nomor Kontrak:</label>
-                    <div class="form-control-static col-md-8">CA-17001</div>
-                  </div>
-                  <div class="form-group" style="margin-bottom: 0">
-                    <label class="control-label col-md-4">Judul Pekerjaan:</label>
-                    <div class="form-control-static col-md-8">STEAM CONDENSATE LINE</div>
-                  </div>
-                  <div class="form-group" style="margin-bottom: 0">
-                    <label class="control-label col-md-4">Tanggal Opening:</label>
-                    <div class="form-control-static col-md-8">20-Jan-2017</div>
-                  </div>
-                  <div class="form-group" style="margin-bottom: 0">
-                    <label class="control-label col-md-4">Waktu Opening:</label>
-                    <div class="form-control-static col-md-8">13:30</div>
-                  </div>
-                </div>
-                <!-- /.kolom kiri -->
-                <div class="col-md-4">
-                  <label>Status Penawaran</label>
-                  <table class="table table-condensed table-bordered">
-                    <tbody>
-                      <tr>
-                        <td>Quote</td>
-                        <td>3</td>
-                      </tr>
-                      <tr>
-                        <td>Not Quote</td>
-                        <td>1</td>
-                      </tr>
-                      <tr>
-                        <td>No Respond</td>
-                        <td>3</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- /.kolom kanan -->
-              </div>
-              <!-- /.box-body -->
-              <div class="box-footer">
-                <button type="button" class="btn btn-primary pull-right " data-toggle="modal" style="margin-right: 5px;"data-target="#extendModal">Extend</button>
+      <div class="row">
+        <div class="col-md-12">
 
-                <div id="extendModal" class="modal fade">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header bg-blue">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Perpanjang Opening Date?</h4>
-                      </div>
-                      <div class="modal-body">
-                        <p>Proses ini akan memperpanjang Opening Date Contract Order yang berkaitan dengan Dokumen ini.</p>
-                        <div class="col-md-12">
-                          
-                            <div class="col-md-6" style="margin-bottom: 0.5rem">
-                              <div class="form-group">
-                                <div class="input-group date">
-                                  <input type="text" class="form-control input-sm" id="datepicker1" placeholder="Bid Opening Date">
-                                  <div class="input-group-addon">
-                                    <i class="fa fa-calendar"></i>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-6" style="margin-bottom: 0.5rem">
-                              <div class="form-group bootstrap-timepicker">
-                                <div class="input-group">
-                                  <input type="text" class="form-control timepicker input-sm">
-                                  <div class="input-group-addon">
-                                    <i class="fa fa-clock-o"></i>
-                                  </div>
-                                </div> 
-                              </div>
-                            </div>
-                          
-                          <!-- /.bid closing / opening date -->
-                        </div>
-                        <p>Proses ini akan mengirimkan notifikasi kepada semua bidder</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Extend Opening Date</button>
-                      </div>
-                    </div>
-                      <!-- /.modal-content -->
-                  </div>
-                </div>
-                <!-- /.modal -->
-                <a href="p5form.php" class="btn pull-right btn-success" style="margin-right: 5px;">Open</a>
-              </div>
+        <!-- box bidder list -->
+          <div class="box box-danger">
+            <div class="box-header">
+              
             </div>
-            <!-- /.box -->
+            <!-- /.box-header -->
+            <div class="box-body "> 
+              <table id="example1" class="table table-bordered table-striped table-condensed">
+                <thead>
+                <tr>
+                  <th style="width:100px">Nomor Kontrak</th>
+                  <th>Judul Pekerjaan</th>
+                  <th>Status</th>
+                  <th>Tanggal Opening</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td><a href="p5summary.php">CA-17001</a></td>
+                  <td>STEAM CONDENSATE LINE</td>
+                  <td class="text-center"><span class="label label-warning">Await Opening</span></td>
+                  <td class="text-center">20-Jan-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p5end.php">CB-17001</a></td>
+                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
+                  <td class="text-center"><span class="label label-primary">Await Document</span></td>
+                  <td class="text-center">22-Jan-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p5finished.php">CC-17001</a></td>
+                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
+                  <td class="text-center"><span class="label label-success">Signed</span></td>
+                  <td class="text-center">20-Feb-2017</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                </tfoot>
+              </table>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+              <ul>
+                <li><span class="label label-warning">Await Opening</span> : Kontrak belum dibuka</li>
+                <li><span class="label label-primary">Await Document</span> : Kontrak masih menunggu dokumen di-upload</li>
+                <li><span class="label label-success">Signed</span> : Kontrak sudah ditandatangani</li>
+              </ul>
+            </div>
           </div>
-          <!-- /.col -->
+          <!-- /.box -->
         </div>
-        <!-- /.row -->
-      </form>
-      <!-- /.form -->
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
     </section>
     <!-- /.content -->
   </div>
@@ -188,10 +130,6 @@
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<!-- bootstrap datepicker -->
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
-<!-- bootstrap time picker -->
-<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -204,10 +142,6 @@
 <script>
   $(function () {
     $("#example1").DataTable();
-    //Date picker
-    $('#datepicker1').datepicker({autoclose: true});
-    //Time picker
-    $(".timepicker").timepicker({showInputs: false});
   });
 </script>
 </body>

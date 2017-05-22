@@ -10,14 +10,12 @@
   <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
-  <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
-  <!-- Bootstrap time Picker -->
-  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -33,69 +31,73 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
+
 <body class="hold-transition skin-red fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p7header.php" ?>
+  <?php include "header.php" ?>
   <!-- =============================================== -->
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Opening Komersial
-        <!-- <small>Daftar Bidder</small> -->
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="p7.php">Opening Komersial</a></li>
-        <li class="active"><a href="p7finished.php">Hasil Opening</a></li>
-      </ol>
-    </section>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          Contract Report
+          <small>Detail of contracts</small>
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li class="active">Report</li>
+        </ol>
+      </section>
 
-    <!-- Main content -->
-    <section class="content">
-      <form class="form-horizontal">
+      <!-- Main content -->
+      <section class="content">
+        <!-- Info boxes -->
+        <div class="callout callout-info">
+          <h4><i class="icon fa fa-info"></i> Alert!</h4>
+          
+          <p>Laporan dihasilkan oleh sistem dan dapat di-download dalam bentuk excel</p>
+        </div>
+
         <div class="row">
           <div class="col-md-12">
-          <!-- box -->
-            <div class="box box-primary">
+            <div class="box box-info">
               <div class="box-header">
-                <h3 class="box-title">Data Hasil Opening</h3>
+                Laporan Berdasarkan Kategori
               </div>
-              <!-- /.box-header -->
+              <!-- /. box-header -->
               <div class="box-body">
-                <table class="table table-hover table-condensed input-sm">
-                  <thead>
-                    <tr>
-                      <th>Nama Dokumen</th>
-                      <th class="text-center">Download Dokumen</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Data Opening</td>
-                      <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div></th>
-                    </tr>
-                    <tr>
-                      <td>Hasil Harga Perkiraan Sendiri</td>
-                      <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div></th>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="col-md-3">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>Date</label>
+
+                        <div class="input-group date">
+                          <div class="input-group-addon">
+                            <i class="fa fa-calendar"></i>
+                          </div>
+                          <input type="text" class="form-control pull-right" id="datepicker">
+                        </div>
+                        <!-- /.input group -->
+                      </div>
+                      <!-- /.form group -->
+                    </div>
+                  </div>
+                </div>
+                <!-- /.col -->
+
               </div>
-            </div>
+              <!-- /.box-body -->
+            </div>            
             <!-- /.box -->
           </div>
-          <!-- /.col -->
         </div>
-        <!-- /.row -->
-      </form>
-      <!-- /.form -->
-    </section>
-    <!-- /.content -->
+
+      </section>
   </div>
   <!-- /.content-wrapper -->
 
@@ -115,10 +117,6 @@
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<!-- bootstrap datepicker -->
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
-<!-- bootstrap time picker -->
-<script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -131,10 +129,6 @@
 <script>
   $(function () {
     $("#example1").DataTable();
-    //Date picker
-    $('#datepicker1').datepicker({autoclose: true});
-    //Time picker
-    $(".timepicker").timepicker({showInputs: false});
   });
 </script>
 </body>

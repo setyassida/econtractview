@@ -10,10 +10,6 @@
   <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <!-- bootstrap datepicker -->
-  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
-  <!-- iCheck for checkboxes and radio inputs -->
-  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
@@ -21,7 +17,7 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
-  folder instead of downloading all of them to reduce the load. -->
+       folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -34,208 +30,125 @@
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
 <body class="hold-transition skin-red fixed sidebar-mini">
-  <!-- Site wrapper -->
-  <div class="wrapper">
+<!-- Site wrapper -->
+<div class="wrapper">
 
-    <?php include "p2header.php" ?>
+  <?php include "p2header.php" ?>
+  <!-- =============================================== -->
 
-    <!-- =============================================== -->
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Bidder List
+        <small>Daftar Bidder</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
+        <li class="active"><a href="p2.php">Bidder List</a></li>
+      </ol>
+    </section>
 
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-      <section class="content-header">
-        <h1>
-          Bidder List
-          <small>Buat Bidder List</small>
-        </h1>
-        <ol class="breadcrumb">
-          <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-          <li ><a href="p2a.php">Bidder List</a></li>
-          <li class="active"><a href="p2b.php">Create Bidder List</a></li>
-        </ol>
-      </section>
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        <div class="col-md-12">
 
-      <!-- Main content -->
-      <section class="content">
-
-
-        <div class="row">
-          <form class="form-horizontal">
-            <!-- right column -->
-            <div class="col-md-12">
-              <!-- Horizontal Form -->
-              <div class="box box-info">
-                <div class="box-header with-border">
-                  <h3 class="box-title">Contract Order Reference</h3>
-                </div>
-                <!-- /.box-header -->
-                <!-- form start -->
-
-                <div class="box-body">
-
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="pickedByCE1">Contract Order</label>
-                      <div class="input-group">
-                        <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="pickedByCE2">Judul Pekerjaan</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="REGULAR INSPECTION OF LIFTING GEARS" disabled>
-                    </div>
-                  </div>
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="pickedByCE3">Durasi</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE3" placeholder="2 Bulan" disabled>
-                    </div>
-                    <div class="form-group">
-                      <label for="pickedByCE4">Jenis Jasa</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="Pemborongan Pekerjaan" disabled>
-                    </div>
-                  </div>
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="pickedByCE4">Kualifikasi Syarat Peserta Pengadaan</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="M (Rp. 500 Juta <= NK <= Rp. 10 M)" disabled>
-                    </div>
-                  </div>                      
-                  
-                </div>
-                <!-- /.box-body -->
-
-              </div>
-              <!-- /.box -->
+        <!-- box bidder list -->
+          <div class="box box-danger">
+            <div class="box-header">
+              <!-- <h3 class="box-title">Result</h3> -->
+              <a href="p2b.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Bidder List Baru</button></a>
             </div>
-            <!--/.col (right) -->
-
-            <div class="col-md-12">
-              <!-- Horizontal Form -->
-              <div class="box box-danger">
-                <div class="box-header with-border">
-                  <h3 class="box-title">Bidder List Form</h3>
-                </div>
-                <!-- /.box-header -->
-                <!-- form start -->
-
-                <div class="box-body">
-
-                  <!-- kol 1 -->
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="generatedBySystem1">Nomor Bidder List</label>
-                      <input type="text" class="form-control input-sm" id="generatedBySystem1" placeholder="BL-17001" disabled>
-                    </div>
-                    <div class="form-group">
-                      <label for="generatedBySystem2">Tanggal Dibuat</label>
-                      <input type="text" class="form-control input-sm" id="generatedBySystem2" placeholder="17-Feb-2017" disabled>
-                    </div>
-                    <!-- <div class="form-group">
-                      <label for="generatedBySystem3">Waktu</label>
-                      <input type="text" class="form-control input-sm" id="generatedBySystem3" placeholder="13:30" disabled>
-                    </div> -->
-                    <!-- Date -->
-                    <div class="form-group">
-                      <label>Publish Date Bidder List</label>
-                      <div class="input-group date">
-                        <input type="text" class="form-control pull-right input-sm" id="datepicker">
-                        <div class="input-group-addon">
-                          <i class="fa fa-calendar"></i>
-                        </div>
-                      </div>
-                      <!-- /.input group -->
-                    </div>
-                    <!-- /.form group -->
-                  </div>
-                  <!-- kol 1 end -->
-
-                  <!-- kol 2 -->
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                   <div class="form-group">
-                     <label for="inputByCE1">Klasifikasi</label>
-                     <input type="text" class="form-control input-sm" id="inputByCE1" placeholder="M-Z">
-                   </div>
-
-                   <div class="form-group">
-                    <label>Kualifikasi</label>
-                    <div class="col-md-12">
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio1" checked>Kecil
-                      </label>
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio1">Non-Kecil
-                      </label>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label>Tingkat Risiko</label>
-                    <div class="col-md-12">
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio2" checked>Rendah
-                      </label>
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio2">Sedang
-                      </label>
-                      <label class="radio-inline" >
-                        <input type="radio" name="optradio2">Tinggi
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <!-- kol 2 end -->
-
-                <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                  <label>Kuota Area</label>
-                  <table class="table table-condensed table-bordered table-hover">
-                    <tbody>
-                      <tr>
-                        <td>Bontang</td>
-                        <td><input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" ></td>
-                      </tr>
-                      <tr>
-                        <td>Kalimantan Timur</td>
-                        <td><input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" ></td>
-                      </tr>
-                      <tr>
-                        <td>Domestik</td>
-                        <td><input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" ></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
+            <!-- /.box-header -->
+            <div class="box-body "> 
+              <table id="example1" class="table table-bordered table-striped table-condensed">
+                <thead>
+                <tr>
+                  <th>No. Bidder List</th>
+                  <th>No. Contract</th>
+                  <th>Judul Pekerjaan</th>
+                  <th>Status</th>
+                  <th>Tanggal Dibuat</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td><a href="p2cdraft.php">BL-17001</a></td>
+                  <td>CB-17001</td>
+                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
+                  <td class="text-center"><span class="label label-primary">Draft</span></td>
+                  <td>20-Jan-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p2capproved.php">BL-17002</a></td>
+                  <td>CC-17001</td>
+                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
+                  <td class="text-center"><span class="label label-info">Approved</span></td>
+                  <td>21-Feb-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p2caborted.php">BL-17003</a></td>
+                  <td>CA-17003</td>
+                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
+                  <td class="text-center"><span class="label label-danger">Aborted</span></td>
+                  <td>22-Feb-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p2chold.php">BL-17004</a></td>
+                  <td>CA-17002</td>
+                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
+                  <td class="text-center"><span class="label label-warning">Hold</span></td>
+                  <td>23-Apr-2017</td>
+                </tr>
+                <tr>
+                  <td><a href="p2cpublished.php">BL-17005</a></td>
+                  <td>CA-17001</td>
+                  <td>STEAM CONDENSATE LINE</td>
+                  <td class="text-center"><span class="label label-success">Published</span></td>
+                  <td>24-Apr-2017</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <!-- <tr>
+                  <th>Bidder List No</th>
+                  <th>Contract No</th>
+                  <th>Subject</th>
+                  <th>Status</th>
+                  <th>Date</th>
+                </tr> -->
+                </tfoot>
+              </table>
             </div>
             <!-- /.box-body -->
-
-            <div class="box-footer ">
-              <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
-              <a href="p2cdraft.php" class="btn btn-success pull-right btn-sm">Generate Bidder List</a>
+            <div class="box-footer">
+              <h4>Keterangan status</h4>
+              <ul>
+                <li><span class="label label-primary">Draft</span> : Bidder list di-draft</li>
+                <li><span class="label label-warning">Hold</span> : Bidder list di-hold</li>
+                <li><span class="label label-danger">Aborted</span> : Contract Order di-abort</li>
+                <li><span class="label label-info">Approved</span> : Bidder list di-approve</li>
+                <li><span class="label label-success">Published</span> : Bidder list di-publish</li>
+              </ul>
             </div>
-            <!-- /.box-footer -->
- 
           </div>
           <!-- /.box -->
         </div>
-        <!--/.col (right) -->
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
 
-      </form>
-    </div>
-    <!-- /.row -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
+    reserved.
+  </footer>
 
-  </section>
-  <!-- /.content -->
-</div>
-<!-- /.content-wrapper -->
-
-<footer class="main-footer">
-  <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
-  reserved.
-</footer>
-
-
+  
 </div>
 <!-- ./wrapper -->
 
@@ -246,10 +159,6 @@
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-<!-- iCheck 1.0.1 -->
-<script src="../../plugins/iCheck/icheck.min.js"></script>
-<!-- bootstrap datepicker -->
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -262,10 +171,6 @@
 <script>
   $(function () {
     $("#example1").DataTable();
-    //Date picker
-    $('#datepicker').datepicker({
-      autoclose: true
-    });
   });
 </script>
 </body>
