@@ -21,7 +21,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#">Dashboard</a></li>
+          <li><a href="index.php">Dashboard</a></li>
           <li class="active"><a href="#">Contract Order</a></li>
           <li><a href="#">Badak Service Order</a></li>
         </ul>
