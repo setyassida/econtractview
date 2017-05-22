@@ -20,6 +20,8 @@
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
 
+  <link rel="stylesheet" href="../../resources/css/custom-style.css">
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -42,12 +44,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Reporting
-        <small>CSMS dan Tenaga Kerja</small>
+        Laporan CSMS dan Tenaga Kerja
+        <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">CSMS dan Tenaga Kerja</li>
+        <li><a href="p20.php">CSMS dan Tenaga Kerja</a></li>
+        <li class="active">CA-17001</li>
       </ol>
     </section>
 
@@ -56,77 +59,157 @@
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
       <div class="box">
-        
+        <form class="form-horizontal">
+        <div class="box-header with-border">
+          
+        </div>
         <!-- /.box-header -->
         <div class="box-body">
-          <table id="dataTable" class="table table-bordered table-condensed table-hover">
-            <thead>
-            <tr>
-              <th>Nama Perusahaan</th>
-              <th style="width:50px">Nomor Kontrak</th>
-              <th>Judul Pekerjaan</th>
-              <th>Durasi</th>
-              <th>Departemen/Section</th>
-              <th>Status</th>
-              <th>Lihat Laporan</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td>PT MAJU JAYA</td>
-              <td>CA-17001</td>
-              <td>REGULAR INSPECTION OF LIFTING GEARSR</td>
-              <td>2 Bulan</td>
-              <td>Departemen A</td>
-              <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></td>
-              <td>
-                <div class="text-center"><a href="p20-view-submitted.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
-              </td>
-            </tr>
-            <tr>
-              <td>PT MAJU JAYA</td>
-              <td>CA-17002</td>
-              <td>PTR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-              <td>3 Bulan</td>
-              <td>Departemen B</td>
-              <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></td>
-              <td>
-                <div class="text-center"><a href="p20-view-submitted.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
-              </td>
-            </tr>
-            <tr>
-              <td>PT MAJU JAYA</td>
-              <td>CA-17003</td>
-              <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-              <td>5 Bulan</td>
-              <td>Departemen C</td>
-              <td><div class="text-center"><span class="label label-success">Submitted</span></div></div></div></td>
-              <td>
-                <div class="text-center"><a href="p20-view-submitted.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
-              </td>
-            </tr>
-            <tr>
-              <td>PT MAJU JAYA</td>
-              <td>CA-17004</td>
-              <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-              <td>2 Bulan</td>
-              <td>Departemen D</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></td>
-              <td>
-                <div class="text-center"><a href="#"><button type="button" class="btn btn-default btn-xs" disabled><span class="glyphicon glyphicon-eye-open"></span> Lihat Laporan</button></a></div>
-              </td>
-            </tr>
-            
-            <tbody>
-          </table>
+
+          <div class="col-md-12">
+            <div class="box">
+              <div class="box-header with-border">
+                <h4>Informasi Umum</h4></div>
+              <div class="box-body">
+                
+                <div class="form-group no-margin">
+                  <label class="control-label col-md-2">Nama Perusahaan :</label>
+                  <div class="form-control-static col-md-10">
+                    PT MAJU JAYA
+                  </div>
+                </div>
+                
+                <div class="form-group no-margin">
+                  <label class="control-label col-md-2">Nomor Kontrak :</label>
+                  <div class="form-control-static col-md-10">
+                    CA-17001
+                  </div>
+                </div>
+
+                <div class="form-group no-margin">
+                  <label class="control-label col-md-2">Judul Pekerjaan :</label>
+                  <div class="form-control-static col-md-10">
+                    REGULAR INSPECTION OF LIFTING GEARSR
+                  </div>
+                </div>
+
+                <div class="form-group no-margin">
+                  <label class="control-label col-md-2">Durasi  :</label>
+                  <div class="form-control-static col-md-10">
+                    4 Bulan
+                  </div>
+                </div>
+
+
+                <div class="form-group no-margin">
+                  <label class="control-label col-md-2">Departemen/Section :</label>
+                  <div class="form-control-static col-md-10">
+                    Departemen A
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="box">
+              <div class="box-header">
+                <h4>Laporan CSMS dan Tenaga Kerja Per Bulan</h4>
+              </div>
+              <div class="box-body">
+                <table id="" class="table table-bordered table-condensed table-hover">
+                <thead>
+                <tr>
+                  <th style="width:50px">Nomor</th>
+                  <th>Bulan</th>
+                  <th style="width:100px">Status</th>
+                  
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>1</td>
+                  <td><a href="p20-view-bulan.php">Januari</a></td>
+                  <td><div class="text-center"><span class="label label-success">Submitted</span></div></td>
+                  
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td><a href="p20-view-bulan.php">Februari</a></td>
+                  <td><div class="text-center"><span class="label label-success">Submitted</span></div></td>
+                  
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td><a href="p20-view-bulan.php">Maret</a></td>
+                  <td><div class="text-center"><span class="label label-success">Submitted</span></div></td>
+                  
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td><a href="p20-view-bulan.php">April</a></td>
+                  <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
+                  
+                </tr>
+                
+                <tbody>
+              </table>
+              </div>
+
+            </div>
+          </div>
 
         </div>
+
         <!-- /.box-body -->
         <div class="box-footer">
-          Keterangan Status : <br>
-          <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Laporan sedang dibuat oleh Supplier</div>
-          <div class="col-md-1"><span class="label label-success">Submitted</span></div> <div class="col-md-11">: Laporan telah selesei dibuat</div>
+          <!-- <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button> -->
+          <!-- <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#saveModal"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button> -->
+          <!-- <a href="p20.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px"> Back</button></a> -->
+
+          <div id="submitModal" class="modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-green">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Are You Sure to Submit?</h4>
+                </div>
+                <div class="modal-body">
+                  Proses ini akan menyerahkan Laporan CSMS dan Tenaga Kerja ke Project Coordinator. Anda <span class="text-red">TIDAK DAPAT</span> merubah data setelah proses ini.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                  <button type="submit" value="submit" class="btn btn-success btn-sm">Yes, I Want to Submit It</button>
+                </div>
+              </div>
+                <!-- /.modal-content -->
+            </div>
+          </div>
+
+          <div id="saveModal" class="modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-gray">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Are You Sure to Save?</h4>
+                </div>
+                <div class="modal-body">
+                  Proses ini hanya akan menyimpan data yang telah Anda masukkan <span class="text-red">TANPA</span> menyerahkan Laporan CSMS dan Tenaga ke Project Coordinator. Anda masih dapat memperbarui data yang dimasukkan.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                  <button type="submit" value="submit" class="btn btn-default btn-sm">Yes, Save It</button>
+                </div>
+              </div>
+                <!-- /.modal-content -->
+            </div>
+          </div>
+
         </div>
+        </form>
       </div>
       <!-- /.box -->
 	</section>

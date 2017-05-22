@@ -39,12 +39,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Teknis</small>
+        Evaluasi Teknis
+        <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Evaluasi Teknis</li>
+        <li><a href="p6.php">Evaluasi Teknis</a></li>
+        <li class="active">CA-17001</li>
       </ol>
     </section>
 
@@ -52,99 +53,146 @@
 
     <section class="content">
       <!-- SELECT2 EXAMPLE -->
-      <div class="box
-      ">
-        
-        <!-- /.box-header -->
-        <div class="box-body">
-
-
-            <!-- main column-->
-          
-
-          <table id="dataTable" class="table table-bordered table-condensed table-hover">
-            <thead>
-            <tr>
-              <th style="width:75px">Nomor Kontrak</th>
-              <th >Judul Pekerjaan</th>
-              <th style="width:100px">Status Evaluasi Teknis</th>
-              <!--<th style="width:50px">Edit/Lihat Evaltek </th>-->
-              <th style="width:60px">Lihat Evaltek </th>
-              <!--<th style="width:60px">Lihat Evaltek </th>-->
-              <!--<th style="width:75px">Upload Hasil Scan </th>-->
-              <th style="width:50px">Dokumen Hasil Scan </th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td>CA-17001</td>
-              <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <!--<td><div class="text-center"><a href="p6-edit.php"><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>-->
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <!--<th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>-->
-              <!--<td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>-->
-              <td><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td>CA-17002</td>
-              <td>PTR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <!--<td><div class="text-center"><a href="p6-edit.php"><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>-->
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <!--<th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>-->
-              <!--<td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>-->
-              <td><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td>CA-17003</td>
-              <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <!--<td><div class="text-center"><a href="p6-edit.php" hidden><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>-->
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <!--<th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>-->
-              <!--<td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>-->
-              <td><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td>CA-17004</td>
-              <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-              <td><div class="text-center"><span class="label label-primary">To be approved</span></div></td>
-              <!--<td><div class="text-center"><a href="p6-edit.php" hidden><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>-->
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <!--<th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>-->
-              <!--<td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>-->
-              <td><button type="button" class="btn btn-xs btn-default" disabled><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
-            <tr>
-              <td>CA-17005</td>
-              <td>STEAM CONDENSATE LINE</td>
-              <td><div class="text-center"><span class="label label-success">Approved</span></div></td>
-              <!--<td><div class="text-center"><a href="p6-edit.php" hidden><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cog"></span> Edit</button></a></div></td>-->
-              <td><div class="text-center"><a href="p6-view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></td>
-              <!--<th><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat Evaltek</button></a></div></th>-->
-              <!--<td><div class="text-center"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>-->
-              <td><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              
-            </tr>
+      <div class="box box-danger">
+          <form class="form-horizontal" action="p6-edit-next.php">
+          <div class="box-header with-border">
+            <h4>Form Evaluasi Teknis</h4>
+          </div>
+          <!-- /.box-header -->
+          <div class="box-body">
             
-            <tbody>
-          </table>
+              <div class="form-group"> 
+                <label class="control-label col-md-2">Nomor Kontrak : </label>
+                <div class="form-control-static col-md-10">
+                  CA-17001
+                </div>
+                
+              </div>
+              
+            
 
+            <div class="col-md-12">
+              
 
-        </div>
-        <!-- /.box-body -->
-        <div class="box-footer">
-          Keterangan Status : <br>
-          <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
-          <div class="col-md-1"><span class="label label-warning">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Project Coordinator / Contract Organizator</div>
-          <div class="col-md-1"><span class="label label-success">Approved</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
-        </div>
+              <table class="table table-bordered table-condensed table-stripped">
+                <thead>
+                  <tr>
+                    <td style="width:25px">No.</td>
+                    <td >Nama Rekanan</td>
+                    <td style="width:75px">Score</td>
+                    <!-- <td>Keterangan Singkat</td> -->
+                    <td style="width:150px">Dokumen Hasil Evaltek</td>
+                    <!-- <td style="width:150px">Dokumen Klarifikasi</td> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>PT MAJU JAYA</td>
+                    <td><input type="number" class="form-control input-sm" required></td>
+                    
+                    <!-- <td>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
+                    <td>
+                      <input type="file" class="input-sm" required>
+                    </td>
+                    <!-- <td>
+                      <input type="file" class="input-sm" style="width:175px" required>
+                    </td> -->
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>PT HARAPAN BANGSA</td>
+                    <td><input type="number" class="form-control input-sm" required></td>
+                    
+                    <!-- <td>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
+                    <td>
+                      <input type="file" class="input-sm" required>
+                    </td>
+                    <!-- <td>
+                      <input type="file" class="input-sm" style="width:175px" required>
+                    </td> -->
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>PT KARYA MAS</td>
+                    <td><input type="number" class="form-control input-sm" required></td>
+                    
+                    <!-- <td>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
+                    <td>
+                      <input type="file" class="input-sm" required>
+                    </td>
+                    <!-- <td>
+                      <input type="file" class="input-sm" style="width:175px" required>
+                    </td> -->
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>PT CAHAYA TERANG</td>
+                    <td><input type="number" class="form-control input-sm" required></td>
+                    
+                    <!-- <td>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
+                    <td>
+                      <input type="file" class="input-sm" required>
+                    </td>
+                    <!-- <td>
+                      <input type="file" class="input-sm" style="width:175px" required>
+                    </td> -->
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>PT MAKMUR ABADI</td>
+                    <td><input type="number" class="form-control input-sm" required></td>
+                    
+                    <!-- <td>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
+                    <td>
+                      <input type="file" class="input-sm" required>
+                    </td>
+                    <!-- <td>
+                      <input type="file" class="input-sm" style="width:175px" required>
+                    </td> -->
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>PT HAN WOK STEEL</td>
+                    <td><input type="number" class="form-control input-sm" required></td>
+                    
+                    <!-- <td>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
+                    <td>
+                      <input type="file" class="input-sm" required>
+                    </td>
+                    <!-- <td>
+                      <input type="file" class="input-sm" style="width:175px" required>
+                    </td> -->
+                  </tr>
+                </tbody>
+              </table>
+
+              
+            </div>
+          </div>
+          <!-- /.box-body -->
+          <div class="box-footer">
+
+            <a href="p6-edit-next.php"><button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"> Next</button></a>
+            <!-- <button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#saveModal" style="margin-right:5px"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button> -->
+            <!-- <a href="p6.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px">Back</button></a> -->
+            
+          </div>
+          </form>
       </div>
+      <!-- /.box -->
   </section>
 
     <!-- /.content -->
