@@ -161,13 +161,12 @@
               <div class="col-md-4">
                 <div class="form-group">
                   <label class="control-label col-md-4">Jam Kerja Hilang:</label>
-                  <div class="col-md-8">
-                    <div class="input-group">
-                      <input type="number" class="form-control input-sm">
-                      <div class="input-group-addon">
-                        Jam
-                      </div>
-                    </div>
+                  <div class="col-md-4">
+                    <input type="number" class="form-control input-sm" placeholder="izin">
+                    
+                  </div>
+                  <div class="col-md-4">
+                    <input type="number" class="form-control input-sm" placeholder="sakit">
                     
                   </div>
                 </div>
@@ -186,22 +185,25 @@
               <div class="col-md-4">
                 <div class="form-group">
                   <label class="control-label col-md-4">Golongan:</label>
-                  <div class="col-md-8">
-                    <input type="text" class="form-control input-sm">
+                   <div class="col-md-4">
+                    <select class="form-control input-sm">
+                      <option>Daily</option>
+                      <option>Shift</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <input type="number" class="form-control input-sm">
                   </div>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="form-group">
-                  <label class="control-label col-md-4">Total Jam Kerja:</label>
-                  <div class="col-md-8">
-                    <div class="input-group">
-                      <input type="number" class="form-control input-sm">
-                      <div class="input-group-addon">
-                        Jam
-                      </div>
-                    </div>
-                    
+                  <label class="control-label col-md-4"></label>
+                  <div class="col-md-4">
+                    <input type="number" class="form-control input-sm" placeholder="cuti">
+                  </div>
+                  <div class="col-md-4">
+                    <input type="number" class="form-control input-sm" placeholder="dinas">
                   </div>
                 </div>
               </div>
@@ -229,15 +231,14 @@
               </div>
               <div class="col-md-4">
                 <div class="form-group">
-                  <label class="control-label col-md-4">Durasi Kerja (Jam):</label>
-                  <div class="col-md-8">
-                    <div class="input-group">
-                      <input type="number" class="form-control input-sm">
-                      <div class="input-group-addon">
-                        Jam
-                      </div>
-                    </div>
+                  <label class="control-label col-md-4">Durasi Kerja :</label>
+                  <div class="col-md-4">
+                    <input type="text" class="form-control input-sm" id="datepicker2" placeholder="start..">
                     
+                  </div>
+
+                  <div class="col-md-4">
+                    <input type="text" class="form-control input-sm" id="datepicker3" placeholder="end..">
                   </div>
                 </div>
               </div>
@@ -252,15 +253,38 @@
               </div>
               <div class="col-md-4">
                 <div class="form-group">
-                  <label class="control-label col-md-4">Masa Kerja (Bulan):</label>
-                  <div class="col-md-8">
-                    <div class="input-group">
-                      <input type="number" class="form-control input-sm">
-                      <div class="input-group-addon">
-                        Bulan
-                      </div>
-                    </div>
-                    
+                  <label class="control-label col-md-4">Masa Kerja :</label>
+                  <div class="col-md-4">
+                    <select class="form-control input-sm">
+                      <option>Jan</option>
+                      <option>Feb</option>
+                      <option>Mar</option>
+                      <option>Apr</option>
+                      <option>Mei</option>
+                      <option>Jun</option>
+                      <option>Jul</option>
+                      <option>Agu</option>
+                      <option>Sep</option>
+                      <option>Okt</option>
+                      <option>Nov</option>
+                      <option>Des</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <select class="form-control input-sm">
+                      <option>Jan</option>
+                      <option>Feb</option>
+                      <option>Mar</option>
+                      <option>Apr</option>
+                      <option>Mei</option>
+                      <option>Jun</option>
+                      <option>Jul</option>
+                      <option>Agu</option>
+                      <option>Sep</option>
+                      <option>Okt</option>
+                      <option>Nov</option>
+                      <option>Des</option>
+                    </select>
                   </div>
                 </div>
               </div>
@@ -292,7 +316,7 @@
         <!-- /.box-body -->
         <div class="box-footer">
           <button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#saveModal"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
-          <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#backModal"> Back</button>
+          <button type="button" class="btn btn-default btn-sm" style="margin-right:5px" data-toggle="modal" data-target="#backModal"> Back</button>
 
           <div id="backModal" class="modal">
             <div class="modal-dialog">
@@ -307,7 +331,7 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                  <a href="p20-view.php"><button type="button" class="btn btn-default btn-sm">Yes</button></a>
+                  <a href="p20-view-bulan.php"><button type="button" class="btn btn-default btn-sm">Yes</button></a>
                 </div>
               </div>
                 <!-- /.modal-content -->
@@ -379,6 +403,14 @@
     $('[data-toggle="abort"]').tooltip();
       //Date picker
     $('#datepicker').datepicker({
+      autoclose: true
+    });
+
+    $('#datepicker2').datepicker({
+      autoclose: true
+    });
+
+    $('#datepicker3').datepicker({
       autoclose: true
     });
 
