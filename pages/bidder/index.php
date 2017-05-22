@@ -124,21 +124,21 @@
           <div class="col-md-6">
             <div class="box box-default">
               <div class="box-header">
-                Outstanding CO
+                Notification
               </div>
               <!-- /. box-header -->
               <div class="box-body">
                 <div class="alert alert-info alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <i class="icon fa fa-check"></i> You Have Bidding Invitation !
+                  <i class="icon fa fa-check"></i> You have MOM Prebid
                 </div>
                 <div class="alert alert-warning alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <i class="icon fa fa-check"></i> Your NPWP will be Expired !
+                  <i class="icon fa fa-check"></i> You have Bidding Messages
                 </div>
                 <div class="alert alert-danger alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <i class="icon fa fa-check"></i> Your SKT has been Expired !
+                  <i class="icon fa fa-check"></i> You have MOM Kick off
                 </div>
                 <table class="table table-condensed input-sm table-striped table-bordered">
                   <thead class="bg-primary">
@@ -149,20 +149,20 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <th>You Have MOM Prebid</th>
+                      <th>You Have Bidding Invitation</th>
                       <td class="text-center">1</td>
                     </tr>
                     <tr>
-                      <th>You have Bidding Messages</th>
+                      <th>Your SKT has been Expired</th>
                       <td class="text-center">3</td>
                     </tr> 
                     <tr>
-                      <th>You have MOM Kick Off</th>
-                      <td class="text-center">2</td>
+                      <th>Your (SRP/SIO/TDP/SIUP/SITU/PKP/MIGS/TDR/APDR/PMA/NPWP) has been Expired</th>
+                      <td class="text-center">3</td>
                     </tr> 
                     <tr>
-                      <th>You have New Penalty</th>
-                      <td class="text-center">1</td>
+                      <th>Your (SKT/SRP/SIO/TDP/SIUP/SITU/PKP/MIGS/TDR/APDR/PMA/NPWP) will be expired in less than 3 months</th>
+                      <td class="text-center">2</td>
                     </tr> 
 
                   </tbody>
@@ -181,17 +181,6 @@
                 </div>
                 <!-- /. box-header -->
                 <div class="box-body">
-                  <div class="alert alert-warning alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    <i class="icon fa fa-pencil"></i> CO Need Your Quotation !
-                  </div>
-
-                  <div class="alert alert-warning alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    <i class="icon fa fa-file"></i> Contract Need CSMS Report ! 
-                  </div>
-
-
                   <table class="table table-condensed input-sm table-striped table-bordered">
                     <thead class="bg-primary">
                       <tr>
@@ -201,17 +190,29 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <th>Bid Opening</th>
-                        <td class="text-center"><button class="btn btn-default btn-xs"><span class="fa fa-eye"></span> detail</button> </td>
+                        <th>CO Need Your Quotation</th>
+                        <td class="text-center">3</td>
+                      </tr>
+                      <tr>
+                        <th>Bid Closing/Opening</th>
+                        <td class="text-center">0</td>
                       </tr>
                       <tr>
                         <th>Hold Bidding</th>
-                        <td class="text-center"><button class="btn btn-default btn-xs"><span class="fa fa-eye"></span>detail</button> </td>
+                        <td class="text-center">1</td>
+                      </tr>
+                      <tr>
+                        <th>Resume Bidding</th>
+                        <td class="text-center">3</td>
                       </tr>
                       <tr>
                         <th>Sanggah</th>
-                        <td class="text-center"><button class="btn btn-default btn-xs"> <span class="fa fa-eye"></span>detail</button> </td>
-                      </tr> 
+                        <td class="text-center">0</td>
+                      </tr>
+                      <tr>
+                        <th>Contract Need CSMS Report</th>
+                        <td>1</td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
