@@ -31,19 +31,19 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p13header.php') ?>
+  <?php @include('p8header.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <section class="content-header">
+        <section class="content-header">
       <h1>
-        Certification Of Completion
-        <!-- <small>Evaluasi Komersial</small> -->
+        Evaluasi Komersial
+       
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <!-- <li class="active">Contract Order</li> -->
-        <li class="active">  Certification Of Completion</li>
+        <li class="active">Evaluasi Komersial</li>
+        <li class="active">Browse Evaluasi Komersial</li>
       </ol>
     </section>
 
@@ -54,71 +54,54 @@
         <div class="box box-danger">
             <div class="box-header">
               <!-- <h3 class="box-title">Result</h3> -->
-              <!-- <a href="p8b.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a> -->
+              <!-- <a href="p8_2.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a> -->
             </div>
             <!-- /.box-header -->
             <div class="box-body "> 
-              <h3>Judul Pekerjaan</h3>
-              <h4>REGULAR INSPECTION OF LIFTING GEARS</h4>
-              <table id="example1" class="table table-bordered table-striped table-condensed text-center">
-                <thead>
-                <tr>
-                  <th style="width: 100px;">Tagihan Ke-</th>
-                  <th style="width: 100px;">Tanggal Tagihan</th>
-                  <th style="width: 100px;">Progress</th>
-                  <th style="width: 100px;">Liat Detail</th>
-                  <!-- <th style="width: 100px;">Download COC</th>
-                  <th style="width: 100px;">Uplaod COC</th> -->
-                  <!-- <th>Tanggal Dikeluarkan</th> -->
-<!--                   <th style="width:10px">Download Evalkom</th>
-                  <th style="width:50px">Upload Evalkom</th>
-                  <th style="width:10px">Download BCR</th>
-                  <th style="width:50px">Upload BCR</th>  -->                 
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>17-Jan-2017</td>
-                  <td>25%</td>
-                  <td><a href="p13c.php"><button type="button" class="btn btn-default btn-xs"><span class="fa fa-eye"></span> Detail</button></a></td>
-
-                  
-                </tr>
-                <tr>
-                  <td>2</a></td>
-                  <td>17-Jan-2018</td>
-                  <td> - </td>
-                  <td><a href="p13b.php"><button type="button" class="btn btn-default btn-xs"><span class="fa fa-eye"></span> Detail</button></td></a>
-                </tr>
-                
-             
-             
-                </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
-              </table>
-            </div>
+                <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE1">No Kontrak</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE2">Judul Pekerjaan</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="REGULAR INSPECTION OF LIFTING GEARS" disabled>
+                    </div>
+                </div>
+                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE3">Durasi</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE3" placeholder="2 Bulan" disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE4">Jenis Kontrak</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="harga satuan" disabled>
+                    </div>
+                  </div>
+                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE4">Tanggal Pembukaan</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="17 - Maret - 2015" disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE4">Budget</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="Rp 1.5 M" disabled>
+                    </div>
+                  </div>                      
+              </div>
             <!-- /.box-body -->
-            <!-- <div class="box-footer">
-              <h4>Keterangan status</h4>
-              <ul>
-                <li><span class="label label-warning">Segera diisi</span> : Supplier diharapkan segera mengisi COC</li>
-                <li><span class="label label-primary">Draft</span> : COC di-draft</li>
-                <li><span class="label label-success">Approved</span> : COC di-approve</li>
-              </ul>
-            </div> -->
+          <div class="box-footer ">
+              <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
+              <a href="p8c.php" class="btn btn-success pull-right btn-sm">Next</a>
+
           </div>
+            </div>
+
           <!-- /.box -->
         </div>
-
 
 
 <!--  content wrapper-->
@@ -171,3 +154,6 @@
 
 </body>
 </html>
+
+
+

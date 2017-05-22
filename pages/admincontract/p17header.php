@@ -17,6 +17,16 @@
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
         <span class="sr-only">Toggle navigation</span>
       </a>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.php">Dashboard</a></li>
+          <li class="active"><a href="#">Contract Order</a></li>
+          <li><a href="#">Badak Service Order</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
@@ -41,7 +51,7 @@
                 </p>
               </li>
               <!-- Menu Body -->
-              
+
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
@@ -73,32 +83,10 @@
           
         </div>
       </div>
-      <!-- search form -->
-<!--       <form action="#" method="get" class="sidebar-form">
-        <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
-              <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-                </button>
-              </span>
-        </div>
-      </form> -->
-      <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
+        <li class="header text-center"><h3>CA-17001</h3></li>
         <li class="header">Menu Process</li>
-        <li class=" treeview">
-
-          <!-- menu dashboard -->
-      
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-
-        </li>
 
         <!-- menu contract order  -->
         <li class="treeview">
@@ -111,18 +99,18 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="p1.php"><i class="fa fa-circle-o"></i> Contract</a></li>
-            <li><a href="p2a.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
+            <li><a href="p2.php"><i class="fa fa-circle-o"></i> Bidder List</a></li>
             <li><a href="p3.php"><i class="fa fa-circle-o"></i> Prebid Meeting</a></li>
             <li><a href="p4.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri</a></li>
             <li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>
             <li><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
-            <li><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li ><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
-            <li><a href="p10_adminContract.php"><i class="fa fa-circle-o"></i> Kick-off-meeting</a></li>
+            <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
             <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
-            <li><a href="p13.php"><i class="fa fa-circle-o"></i> CoC</a></li> 
+            <li ><a href="p13.php"><i class="fa fa-circle-o"></i> CoC</a></li> 
           </ul>
         </li>
 

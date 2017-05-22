@@ -12,10 +12,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
   <!-- jvectormap -->
   <link rel="stylesheet" href="../../plugins/jvectormap/jquery-jvectormap-1.2.2.css">
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -32,36 +33,32 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p8header2.php') ?>
+  <?php @include('p17header.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Komersial</small>
+        Evaluasi Komersial VO
+        <small>Negosiasi</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Contract Order</li>
-        <li class="active">Evaluasi Komersial</li>
+        <li class="active">Evaluasi Komersial VO</li>
+        <li class="active">Negosiasi</li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
       <!-- Info boxes -->
-
-  <div class="row">
-    <div class="col-md-12">
-        <div class="box box-success">
+      <div class="row">
+            <div class="col-md-12">
+                      <div class="box box-success">
           <form class="form-horizontal">
             <div class="box-header with-border">
-              <h3 class="box-title">Hasil Evaluasi Teknis</h3>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                  <i class="fa fa-minus"></i></button>
-              </div>
+              <h3 class="box-title">Negosiasi</h3>
+              
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -71,88 +68,48 @@
 
                       <!-- /.box-header -->
                       <div class="box-body">
-                        <table class="table table-bordered text-center">
+                        <table class="table table-bordered table-condensed">
                           <tr>
-                            <th style="width: 10px" rowspan="2" >No</th>
-                            <th style="width: 100px" rowspan="2" >Penawar</th>
-                            <th style="width: 100px" rowspan="2" >Score</th>
-                            <th style="width: 100px" colspan="2" >PT Badak NGL</th>
-                            
-                          </tr>
-                          <tr>
-                            <th style="width: 200px" >Penjelasan</th>
-                            <th style="width: 200px" >Kesimpulan</th>
-                            
-                          </tr>
-                          <tr>
-                            <td>1.</td>
-                            <td>PT Hasanah Sumber Utama</td>
-                            <td>78,04</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Lulus</td>
-                            
-                          </tr>
-                          <tr>
-                            <td>2.</td>
-                            <td>PT Aimindo Adie Perkasa</td>
-                            <td>84,73</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Lulus</td>
-                          </tr>
-                          <tr>
-                            <td>3.</td>
-                            <td>PT harta</td>
-                            <td>85,00</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Lulus</td>
-                          </tr>
-                          <tr>
-                            <td>4.</td>
-                            <td>PT Sumedang Jaya Lestari</td>
-                            <td>85,00</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Lulus</td>
-                          </tr>
-                          <tr>
-                            <td>5.</td>
-                            <td>PT Tiya Sejahtera</td>
-                            <td>0</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Tidak Lulus</td>
-                          </tr>
-                          <tr>
-                            <td>6.</td>
-                            <td>PT Central Teknindo Persada</td>
-                            <td>80</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
-                            <td>Tidak Lulus</td>
-                          </tr>
-                        </table>
+                            <th style="width: 200px">Nama Kontraktor</th>
+                            <th style="width: 200px">Nilai Kontrak</th>
+                            <th style="width: 200px">Nilai Penawaran</th>
+                            <th style="width: 200px">Nilai Setelah Negosiasi</th>
+                            <th style="width: 200px">Hasil Negosiasi</th>
+                            <th style="width: 200px">Upload Dokumen Risalah Nego</th>
 
+                          </tr>
+                          <tr>
+                            <td>PT Hasanah Sumber Utama</td>
+                            <td>Rp 5.000.000.000</td>
+                            <td>Rp 4.500.000.000</td>
+                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
+                          </tr>
+                          
+                        </table>
                       </div>
-                     
 
                 </div>
-
-
+              </div>
+              <div class="col-md-12" style="text-align: right;">
+                <a href="p17c.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Kembali ke menu evaluasi komersial VO">Re Evaluasi</button></a>   
+                <a href="p17.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
               </div>
             </div>
           </form>
         </div>    
 
+            </div>
+      </div>
 
-    </div>
+    <div class="row">
 
-
-
-  </div>
-
-  <div class="row">
-    <div class="col-md-12">
+      <div class="col-md-12">
         <div class="box box-success">
           <form class="form-horizontal">
             <div class="box-header with-border">
-              <h3 class="box-title">Hasil Evaluasi Komersial</h3>
+              <h3 class="box-title">Penilaian Hasil Evaluasi</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
                   <i class="fa fa-minus"></i></button>
@@ -166,55 +123,29 @@
 
                       <!-- /.box-header -->
                       <div class="box-body">
-                        <table class="table table-bordered text-center">
+                        <table class="table table-bordered">
                           <tr>
-                            <th style="width: 10px">No</th>
                             <th>Penawar</th>
                             <th style="width: 200px">Penawaran Asli (Rp)</th>
                             <th style="width: 200px">Penawaran Terkoreksi (RP)</th>
                             <th style="width: 100px">Nilai Negosiasi (RP)</th>
-                            <th style="width: 10px">Ranking Asli</th>
-                            <th style="width: 10px">Ranking Koreksi</th>
+                            <th style="width: 10px">Hasil Evaluasi Ke - </th>
                             <th>Administrasi</th>
                             <th>Teknis</th>
                             <th>Komersial</th>
                           </tr>
                           <tr>
-                            <td>1.</td>
+
                             <td>PT Hasanah Sumber Utama</td>
                             <td>1.150.000.000</td>
                             <td>950.000.000</td>
                             <td>950.000.000</td>
                             <td> 2 </td>
-                            <td> 1 </td>
                             <td> Lulus </td>
                             <td> Lulus </td>
                             <td> Wajar </td>
                           </tr>
-                          <tr>
-                            <td>2.</td>
-                            <td>PT Aimindo Adie Perkasa</td>
-                            <td>1.050.000.000</td>
-                            <td>1.200.000.000</td>
-                            <td>950.000.000</td>
-                            <td> 1 </td>
-                            <td> 2 </td>
-                            <td> Lulus </td>
-                            <td> Lulus </td>
-                            <td> Wajar </td>
-                          </tr>
-                          <tr>
-                            <td>3.</td>
-                            <td>PT Abdi Jati</td>
-                            <td>1.250.000.000</td>
-                            <td>950.000.000</td>
-                            <td>0</td>
-                            <td> 3 </td>
-                            <td> 3 </td>
-                            <td> Lulus </td>
-                            <td> Lulus </td>
-                            <td> Wajar </td>
-                          </tr>
+                          
                         </table>
 
                       </div>
@@ -230,26 +161,30 @@
 
 
     </div>
-
-
-
-  </div>
-
-
-
-  <div class="row">
+    <!-- batas hasil evaluasi -->
     <div class="col-md-12">
       <div class="box box-primary">
         <div class="box-header with-border">
         </div>
         <!-- /.box-header -->
         <div class="box-body">
-          <div class="well well-sm">
-            <h4>Hasil evaluasi komersial telah selesai</h4>
-            
-            
+          <!-- <div class="well well-sm">
+            <h4>Nilai penawaran terendah(setelah hasil negosiasi atau hasil koreksi) wajar lebih besar dari total budget cost commitment <span class="fa fa-close"></span></h4>
+            <h4>Perlu dimasukkan budget rate setiap tahun <span class="fa fa-close"></span></h4>
+            <h5>Masukan batas waktu konfirmasi</h5>
+            <div class="input-group date col-md-3">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+                  <input type="text" class="form-control pull-right" id="datepicker">
+
+            </div>
             <br>
-          
+          <a href="p17_pcb.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim Ketersediaan Anggaran Ke Project Coordinator"><span class="fa fa-send"></span> Kirim Form Ketersediaan</button></a>
+          </div> -->
+          <div class="well well-sm">
+            <h4>Hasil Evaluasi Komersial Variation Order <span class="fa fa-check"></span></h4>
+                      
           </div>
       
             
@@ -257,7 +192,7 @@
         </div>
         <div class="box-footer">
         
-           <a href="p8.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Finish</button></a>
+           <a href="p17.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Finish</button></a>
         </div>
 
         </div>
@@ -266,13 +201,10 @@
 
     </div>
     
-
-
-  
-<!--  content wrapper-->
-      </div>
-
     </section>
+    
+<!--  content wrapper-->
+  </div>
 
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
