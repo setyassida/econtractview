@@ -75,7 +75,23 @@
                   </div>
 
                   <div class="form-group">
+                    <label for="pickedByCE1">Pilih CE</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
+                      <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
                     <label for="pickedByCE1">Pilih SPVE</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
+                      <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="pickedByCE1">Pilih Estimator</label>
                     <div class="input-group">
                       <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
                       <span class="input-group-addon"><i class="fa fa-search"></i></span>
