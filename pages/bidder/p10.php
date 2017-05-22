@@ -17,7 +17,7 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
+  folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
@@ -30,108 +30,94 @@
   <![endif]-->
 </head>
 <body class="hold-transition skin-red sidebar-mini">
-<div class="wrapper">
-  <?php include "p10header.php" ?>
+  <div class="wrapper">
+    <?php include "p10header.php" ?>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Kick of Meeting
-        <small></small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
-        <li class="active">Letter of Award</li>
-      </ol>
-    </section>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      Detail Data Kick off Meeting
+      <small></small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
+      <li>Kick off Meeting</li>
+      <li>View</li>
+      <li class="active">CA-17001</li>
+    </ol>
+  </section>
 
-    <!-- Main content -->
+  <!-- Main content -->
 
-    <section class="content">
-      <!-- SELECT2 EXAMPLE -->
-      <div class="box">
-        <div class="box-header">
+  <section class="content">
 
+    <div class="box">
+      <div class="box-header with-border">
+        <h3 class="box-title">Detail Dokumen</h3>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+            <i class="fa fa-minus"></i></button>
+          </div>
         </div>
-        <!-- /.box-header -->
         <div class="box-body">
+          <div class="col-md-4">
+            <dt>Nomor Kontrak</dt>
+            <dd>CO-17001</dd> <br>
+            <dt>Judul Pekerjaan </dt>
+            <dd>Pengadaan Sistem Informasi Kepegawaian</dd> <br>
+            <dt>Jenis Kontrak</dt>
+            <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
+            <dt>Durasi Kontrak</dt>
+            <dd>Durasi : 4 Bulan</dd>
+            <dd>Mulai : 17 September 2016 </dd>
+            <dd>Selesai : 10 Januari 2017 </dd> <br>
+            <dt>Nilai Kontrak</dt>
+            <dd>Rp. 400.000.000,- </dd> <br>
+          </div>
 
+          <div class="col-md-4">
+            <dt>Laporan CSMS</dt>
+            <dd><div class="checkbox">
+              <label>
+                <input type="checkbox" checked="true" disabled="true">
+                Ya
+              </label>
+            </div></dd> <br>
+            <dt>Performance Bond <span class="small"><i>(5% dari nilai kontrak dan belum termasuk PPN 10%)</i></span></dt>
+            <dd>Rp. 16.000.000,- </dd> <br>
+            <dt>Nilai SI (Standing Instruction) </dt>
+            <dd>87</dd> <br>
+            <dt>Penangguhan Pembayaran <span class="small"><i>(0-100%)</i></span> </dt>
+            <dd>0 % </dd> <br>
+          </div>
 
-            <!-- main column-->
+          <div class="col-md-4">
+            <dl>
 
-          <table id="dataTable" class="table table-bordered table-condensed table-hover">
-            <thead>
-            <tr>
-              <th style="width:75px">Nomor Kontrak</th>
-              <th >Judul Pekerjaan</th>
-              <th class="text-center" style="width:90px">Status</th>
-              <th class="text-center" style="width:110px">Action</th>
-              <th class="text-center" style="width:110px">Upload</th>
-              <th class="text-center" style="width:90px">Download</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td><a href="p10_createKoM.php">CA-17001</a></td>
-              <td>PENGADAAN SISTEM INFORMASI</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p10_view.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-            </tr>
-            <tr>
-              <td><a href="#">CA-17002</a></td>
-              <td>PERBAIKAN INFRASTRUKTUR</td>
-              <td><div class="text-center"><span class="label label-default">Wait</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-            </tr>
-            <tr>
-              <td><a href="#">CA-17003</a></td>
-              <td>PENGADAAN PERANGKAT LUNAK</td>
-              <td><div class="text-center"><span class="label label-primary">TBSigned</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
-            </tr>
-            <tr>
-              <td><a href="#">CA-17004</a></td>
-              <td>PEMELIHARAAN</td>
-              <td><div class="text-center"><span class="label label-success">Created</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
-            </tr>
-            <tr>
-              <td><a href="#">CA-17005</a></td>
-              <td>KEBERSIHAN</td>
-              <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-              <td><div class="text-center"><a href="p6-approve.php"><button type="button" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-eye-open"></span> Lihat Dokumen</button></a></div></td>
-              <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
-              <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-
-            </tr>
-            <tbody>
-          </table>
-
-
+              <dt>Tanggal Kick of Meeting</dt>
+              <dd>17 Agustus 2017</dd> <br>
+              <dt>Nama Bank</dt>
+              <dd>MANDIRI</dd> <br>
+              <dt>Nomor Rekening</dt>
+              <dd>900853426</dd> <br>
+            </dl>
+          </div>
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          Keterangan Status : <br>
-          <div class="col-md-1"><span class="label label-primary">To be approved</span></div> <div class="col-md-11">: Sedang dalam tahap persetujuan oleh Approver</div>
-          <div class="col-md-1"><span class="label label-warning">Wait</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-          <div class="col-md-1"><span class="label label-default">Draft</span></div> <div class="col-md-11">: Sedang dalam tahap pembuatan oleh Estimator</div>
-          <div class="col-md-1"><span class="label label-success">Created</span></div> <div class="col-md-11">: Telah disetujui oleh Approver</div>
+          <div class="pull-right" style="margin-right: 2rem">
+            <button type="button" class="btn btn-default btn-sm pull right"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+          </div>
+
         </div>
       </div>
       <!-- /.box -->
-  </section>
+
+
+
+    </section>
 
     <!-- /.content -->
   </div>
@@ -144,39 +130,60 @@
     <strong>Copyright &copy; 2017 <a href="http://badaklng.co.id">PT Badak NGL</a>.</strong> All rights reserved.
   </footer>
 
-<!-- ./wrapper -->
+  <div id="publishModal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+        </div>
+        <div class="modal-body">
+          <h4 class="modal-title">Apakah anda yakin untuk menyimpan formulir ini?</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+          <button type="submit" class="btn btn-success">Ya</button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  </div>
 
-<!-- jQuery 2.2.3 -->
-<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
-<!-- Bootstrap 3.3.6 -->
-<script src="../../bootstrap/js/bootstrap.min.js"></script>
-<!-- FastClick -->
-<script src="../../plugins/fastclick/fastclick.js"></script>
-<!-- AdminLTE App -->
-<script src="../../dist/js/app.min.js"></script>
-<!-- Sparkline -->
-<script src="../../plugins/sparkline/jquery.sparkline.min.js"></script>
-<!-- jvectormap -->
-<script src="../../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="../../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<!-- SlimScroll 1.3.0 -->
-<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<!-- ChartJS 1.0.1 -->
-<script src="../../plugins/chartjs/Chart.min.js"></script>
-<!-- DataTables -->
-<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
 
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<!-- <script src="../../dist/js/pages/dashboard2.js"></script> -->
-<!-- AdminLTE for demo purposes -->
-<script src="../../dist/js/demo.js"></script>
+  <!-- ./wrapper -->
 
-<script>
+  <!-- jQuery 2.2.3 -->
+  <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+  <!-- Bootstrap 3.3.6 -->
+  <script src="../../bootstrap/js/bootstrap.min.js"></script>
+  <!-- FastClick -->
+  <script src="../../plugins/fastclick/fastclick.js"></script>
+  <!-- AdminLTE App -->
+  <script src="../../dist/js/app.min.js"></script>
+  <!-- Sparkline -->
+  <script src="../../plugins/sparkline/jquery.sparkline.min.js"></script>
+  <!-- jvectormap -->
+  <script src="../../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+  <script src="../../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+  <!-- SlimScroll 1.3.0 -->
+  <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+  <!-- ChartJS 1.0.1 -->
+  <script src="../../plugins/chartjs/Chart.min.js"></script>
+  <!-- DataTables -->
+  <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+  <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
+
+  <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+  <!-- <script src="../../dist/js/pages/dashboard2.js"></script> -->
+  <!-- AdminLTE for demo purposes -->
+  <script src="../../dist/js/demo.js"></script>
+
+  <script>
   $(function () {
     $("#dataTable").DataTable();
+
+    //Initialize Select2 Elements
+    $(".select2").select2();
   });
-</script>
+  </script>
 
 </body>
 </html>
