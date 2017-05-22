@@ -31,19 +31,19 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p13header.php') ?>
+  <?php @include('p17header.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Certification Of Completion
-        <!-- <small>Evaluasi Komersial</small> -->
+        Evaluasi Komersial VO
+        <small>Browse Evalkom VO</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <!-- <li class="active">Contract Order</li> -->
-        <li class="active">  Certification Of Completion</li>
+        <li class="active">Evaluasi Komersial VO</li>
+        <li class="active">Browse evalkom VO</li>
       </ol>
     </section>
 
@@ -54,22 +54,17 @@
         <div class="box box-danger">
             <div class="box-header">
               <!-- <h3 class="box-title">Result</h3> -->
-              <!-- <a href="p8b.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a> -->
+              <a href="p17b.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a>
             </div>
             <!-- /.box-header -->
             <div class="box-body "> 
-              <h3>Judul Pekerjaan</h3>
-              <h4>REGULAR INSPECTION OF LIFTING GEARS</h4>
               <table id="example1" class="table table-bordered table-striped table-condensed text-center">
                 <thead>
                 <tr>
-                  <th style="width: 100px;">Tagihan Ke-</th>
-                  <th style="width: 100px;">Tanggal Tagihan</th>
-                  <th style="width: 100px;">Progress</th>
-                  <th style="width: 100px;">Liat Detail</th>
-                  <!-- <th style="width: 100px;">Download COC</th>
-                  <th style="width: 100px;">Uplaod COC</th> -->
-                  <!-- <th>Tanggal Dikeluarkan</th> -->
+                  <th>No. Contract</th>
+                  <th>Judul Pekerjaan</th>
+                  <th>Status</th>
+                  <th>Tanggal Dikeluarkan</th>
 <!--                   <th style="width:10px">Download Evalkom</th>
                   <th style="width:50px">Upload Evalkom</th>
                   <th style="width:10px">Download BCR</th>
@@ -78,22 +73,67 @@
                 </thead>
                 <tbody>
                 <tr>
-                  <td>1</td>
-                  <td>17-Jan-2017</td>
-                  <td>25%</td>
-                  <td><a href="p13c.php"><button type="button" class="btn btn-default btn-xs"><span class="fa fa-eye"></span> Detail</button></a></td>
-
+                  <td><a href="p17c.php">CB-17001</a></td>
+                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
+                  <td class="text-center"><span class="label label-primary">Draft</span></td>
+                  <td>20-Jan-2017</td>
                   
                 </tr>
                 <tr>
-                  <td>2</a></td>
-                  <td>17-Jan-2018</td>
-                  <td> - </td>
-                  <td><a href="p13b.php"><button type="button" class="btn btn-default btn-xs"><span class="fa fa-eye"></span> Detail</button></td></a>
+                  <td><a href="#">CC-17001</a></td>
+                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
+                  <td class="text-center"><span class="label label-success">Finish</span></td>
+                  <td>21-Feb-2017</td>
+                  
+                </tr>
+                <tr>
+                  <td><a href="#">CA-17003</a></td>
+                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
+                  <td class="text-center"><span class="label label-success">Finish</span></td>
+                  <td>22-Feb-2017</td>
+                  
                 </tr>
                 
-             
-             
+                <tr>
+                  <td><a href="#">CA-17002</a></td>
+                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
+                  <td class="text-center"><span class="label label-success">Finish</span></td>
+                  <td>23-Apr-2017</td>
+                  
+                </tr>
+                
+                <tr>
+                  <td><a href="#">CA-17001</a></td>
+                  <td>STEAM CONDENSATE LINE</td>
+                  <td class="text-center"><span class="label label-success">Finish</span></td>
+                  <td>24-Apr-2017</td>
+                  
+                </tr>
+                
+                <tr>
+                  <td><a href="p17c.php">CB-17001</a></td>
+                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
+                  <td class="text-center"><span class="label label-primary">Draft</span></td>
+                  <td>20-Jan-2017</td>
+                  
+                </tr>
+                <tr>
+                  <td><a href="p17i.php">CC-17001</a></td>
+                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
+                  <td class="text-center"><span class="label label-default">Waiting BCR PP</span></td>
+                  <td>21-Feb-2017</td>
+                  
+                </tr>
+                <tr>
+                  <td><a href="#">CA-17003</a></td>
+                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
+                  <td class="text-center"><span class="label label-danger">Aborted</span></td>
+                  <td>22-Feb-2017</td>
+                  
+                </tr>
+                
+                
+                
                 </tbody>
                 <tfoot>
                 <!-- <tr>
@@ -107,14 +147,19 @@
               </table>
             </div>
             <!-- /.box-body -->
-            <!-- <div class="box-footer">
+            <div class="box-footer">
               <h4>Keterangan status</h4>
               <ul>
-                <li><span class="label label-warning">Segera diisi</span> : Supplier diharapkan segera mengisi COC</li>
-                <li><span class="label label-primary">Draft</span> : COC di-draft</li>
-                <li><span class="label label-success">Approved</span> : COC di-approve</li>
+                <li><span class="label label-primary">Draft</span> : evalkom di-draft</li>
+                <li><span class="label label-danger">Aborted</span> : evalkom di-abort</li>
+                <li><span class="label label-success">Finish</span> : evalkom di-approve</li>
+                <li><span class="label label-warning">Waiting Confirmation</span> : evalkom waiting for confirmation</li>
+                <li><span class="label label-default">Waiting BCR PP</span> : evalkom waiting for BCR Panitia Pengadaan</li>
+                <li><span class="label label-default">Waiting BCR FP</span> : evalkom waiting for BCR Fungsi Pengadaan</li>
+                <li><span class="label label-purple" style="background-color: #001F3F;">Re Bid</span> : evalkom re bid</li>
+                <li><span class="label label-purple" style="background-color: #605ca8;">Re Eval</span> : evalkom re eval</li>
               </ul>
-            </div> -->
+            </div>
           </div>
           <!-- /.box -->
         </div>

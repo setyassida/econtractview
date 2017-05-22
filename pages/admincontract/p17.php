@@ -37,159 +37,170 @@
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Evaluasi Komersial VO        
+        Evaluasi Komersial VO
+        <small>Detail Evalkom VO</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Variation Order</li>
         <li class="active">Evaluasi Komersial VO</li>
+        <li class="active">Detail evalkom VO</li>
       </ol>
     </section>
 
-    <!-- Main content -->
     <section class="content">
-      <!-- Info boxes -->
-      <div class="box-body">
-        <div class="box box-danger">
-            <div class="box-header">
-              <!-- <h3 class="box-title">Result</h3> -->
-              <!-- <a href="p17b.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a> -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body "> 
-              <table id="example1" class="table table-bordered table-striped table-condensed">
-                <thead>
-                <tr>
-                  <th>No. Contract</th>
-                  <th>Judul Pekerjaan</th>
-                  <th>Status</th>
-                  <th>Tanggal Dikeluarkan</th>
-                  <th style="width:10px">Download Evalkom</th>
-                  <th style="width:50px">Upload Evalkom</th>
-                  <th style="width:10px">Download BCR</th>
-                  <th style="width:50px">Upload BCR</th>                  
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td><a href="#">CB-17001</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>20-Jan-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button disabled="" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                <tr>
-                  <td><a href="p17b.php">CC-17001</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>21-Feb-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                <tr>
-                  <td><a href="p17b.php">CA-17003</a></td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>22-Feb-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                
-                <tr>
-                  <td><a href="p17b.php">CA-17002</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>23-Apr-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                
-                <tr>
-                  <td><a href="p17b.php">CA-17001</a></td>
-                  <td>STEAM CONDENSATE LINE</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>24-Apr-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                
-                <tr>
-                  <td><a href="#">CB-17001</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>20-Jan-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs" disabled=""><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                <tr>
-                  <td><a href="#">CC-17001</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-default">Waiting BCR</span></td>
-                  <td>21-Feb-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button disabled="" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17003</a></td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-danger">Aborted</span></td>
-                  <td>22-Feb-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" disabled=""  class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button disabled="" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
+      <div class="row">
+          <div class="col-md-4">
+             <div class="box box-success">
+                <form class="form-horizontal">
+                  <div class="box-header">
+                  <h3 class="box-title">Detail Contract</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+                   </div>
+                  </div>
+
+                  <div class="box-body">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                        <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
+                        <div class="col-md-9">
+                          <p class="form-control-static">CA-17001</p>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3" for="noKontrak">Nomor Perubahan:</label>
+                        <div class="col-md-9">
+                          <p class="form-control-static">Diambil dari VO</p>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3" for="noKontrak">Judul Pekerjaan:</label>
+                        <div class="col-md-9">
+                          <p class="form-control-static">JASA PEMBORONGAN PEKERJAAN SIPIL DAN PEMELIHARAAN BANGUNAN AREA LANT, MARINE & PSF DI PT BADAK NGL</p>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3" for="noKontrak">Durasi:</label>
+                        <div class="col-md-9">
+                          <p class="form-control-static">Jadwal Asli : 16 - Oct - 2016 sampai 17 - Apr - 2017</p>
+                          <p class="form-control-static">Jadwal Perubahan : 16 - Oct - 2016 sampai 17 - Apr - 2017</p>
+                        </div>
+                        
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3" for="noKontrak">Jenis Kontrak :</label>
+                        <div class="col-md-9">
+                          <p class="form-control-static">Lump Sum</p>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3" for="noKontrak">Perubahan Yang Akan Dilaksanakan:</label>
+                        <div class="col-md-9">
+                          <textarea id="inputKeterangan" rows="5" placeholder="Diambil dari VO dan editable" class="form-control input-sm" style="resize:none"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-md-3" for="noKontrak">Alasan Perubahan:</label>
+                        <div class="col-md-9">
+                          <textarea id="inputKeterangan" rows="5" placeholder="Diambil dari VO dan editable" class="form-control input-sm" style="resize:none"></textarea>
+                        </div>
+                      </div>
+                        
+                  </div>
+                  
+                </div>
+
+                </form>
                 
                 
-                
-                </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
-              </table>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <h4>Keterangan status</h4>
-              <ul>
-                <li><span class="label label-primary">Draft</span> : evalkom di-draft</li>
-                <li><span class="label label-danger">Aborted</span> : evalkom di-abort</li>
-                <li><span class="label label-success">Finish</span> : evalkom di-approve</li>
-                
-                <li><span class="label label-default">Waiting BCR</span> : evalkom waiting for BCR process</li>
-                <li><span class="label label-purple" style="background-color: #605ca8;">Re Eval</span> : evalkom re eval</li>
-              </ul>
-            </div>
+
+
+
+             </div>
+
           </div>
-          <!-- /.box -->
-        </div>
+
+          <div class="col-md-8">
+             <div class="box box-success">
+                <form class="form-horizontal">
+                  <div class="box-header">
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+                   </div>
+                   <div>
+                     <a href="p17d.php"><button class="btn btn-success btn-sm" type="button"><span class="fa fa-plus"></span> Tambah rincian</button></a>
+                   </div>
+                  </div>
+
+                  <div class="box-body">
+                    <div class="col-md-12">
+                      <table class="table table-bordered">
+                                      <tr>
+                                        <th style="width: 200px;">Uraian Pekerjaan</th>
+                                        <th rowspan="2">HPS PT Badak NGL (Rp)</th>
+                                        <th style="width: 150px" rowspan="2">Penawaran PT Salebba Jaya (Rp)</th>
+                                        <th style="width: 100px" rowspan="2">Analisis Evaluasi</th>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th>Nilai Kontrak Tidak Termasuk PPN 10%</th>                                       
+                                      </tr>                                      
+                                      <tr>
+                                        
+                                        <td>Total Nilai Kontrak Terakhir</td>
+                                        <td>By sistem</td>
+                                        <td>Rp 5.000.000.000</td>
+                                        <td>Wajar</td>
+                                          <!-- <td><textarea id="inputKeterangan" rows="1" placeholder="Input here .." class="form-control input-sm" style="resize:none"></textarea></td>
+                                          <td><textarea id="inputKeterangan" rows="1" placeholder="Input here..." class="form-control input-sm" style="resize:none"></textarea></td> -->
+
+                                      </tr>
+                                      <tr>
+                                        <td>Total Nilai VO</td>
+                                        <td>HPS Most likely</td>
+                                        <td>Rp 5.000.000.000</td>
+                                        <td>Wajar</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total Nilai Kontrak Amandement</td>
+                                        <td>= SUM</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                      </tr>
+
+                                      <tr>
+                                        <td>Total Nilai Kontrak Amandement ( Nilai Termasuk PPN 10% )</td>
+                                        <td>= poin 3 * 1,1</td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                    </table>
+                        
+                  </div>
+                  
+                  
+                </div>
+                <div class="box-footer">
+                      <a href="p17e.php"><button class="pull-right btn btn-success btn-sm" type="button"><span class=""></span> Lanjut ke halaman berikutnya</button></a>
+                  </div>
+                </form>
+                
+                
 
 
+
+             </div>
+
+          </div>
+
+        
+      </div>  
+
+    </section>
 
 <!--  content wrapper-->
-      </div>
-    </section>
+  </div>
 
   <footer class="main-footer">
     <div class="pull-right hidden-xs">

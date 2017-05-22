@@ -31,176 +31,285 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php @include('p8header2.php') ?>
+  <?php @include('p8header.php') ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <section class="content-header">
+        <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Komersial</small>
+        Evaluasi Komersial
+       
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Contract Order</li>
         <li class="active">Evaluasi Komersial</li>
+        
       </ol>
     </section>
 
-    <!-- Main content -->
     <section class="content">
-      <!-- Info boxes -->
-      <div class="box-body">
-        <div class="box box-danger">
-            <div class="box-header">
-              <!-- <h3 class="box-title">Result</h3> -->
-              <!-- <a href="p8b.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a> -->
+      <div class="row">
+          <div class="col-md-4">
+             <div class="box box-success">
+                <div class="box-header">
+                  <h3 class="box-title">Detail Contract</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+                   </div>
+                </div>
+                <div class="box-body">
+                  <div class="col-md-12">
+                      <dt>Contract Order:</dt>
+                      <dd>CA-17001</dd>
+                      <dt>Judul Pekerjaan:</dt>
+                      <dd>Kontrak Jasa Penambahan Alat Berat</dd>
+                      <dt>Tanggal Pembukaan:</dt>
+                      <dd>17-Januari-2016</dd>
+                      <dt>Jenis Kontrak:</dt>
+                      <dd>Harga Satuan</dd>
+                      <dt>Durasi</dt>
+                      <dd>2 Bulan</dd>
+                      <dt>Budget</dt>
+                      <dd>Rp 1.5 M</dd>
+                      <dt>Keterangan</dt>
+                      
+                        <div class="col-md-12">
+                          <textarea id="inputKeterangan" rows="5" placeholder="Type Here.." class="form-control" style="resize:none"></textarea>
+                        </div>
+                        
+                  </div>
+                  
+                </div>
+
+
+
+             </div>
+
+          </div>
+          <div class="col-md-8">
+                      <div class="box box-success">
+                          <div class="box-header with-border">
+                            <h5>Hasil Pembukaan</h5>
+                             <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+                            </div>
+                          </div>
+                          <!-- /.box-header -->
+                          <div class="box-body">
+                            <table class="table table-bordered table-condensed">
+                              <tr>
+                                <th style="width: 10px">#</th>
+                                <th>Penawar</th>
+                                <th>Penawaran (Rp)</th>
+                                <th>Penalty Point</th>
+                                <th>Sanksi ( BL/SC )</th>
+                                <th>Evaluasi admnistrasi</th>
+                              </tr>
+                              <tr>
+                                <td>1.</td>
+                                <td>PT Aimindo Adie Perkasa</td>
+                                <td>5.000.000.000</td>
+                                <td>30</td>
+                                <td> - </td>
+                                <td> - </td>
+                              </tr>
+                              <tr>
+                                <td>2.</td>
+                                <td>PT Hasanah Sumber Utama</td>
+                                <td>5.000.000.000</td>
+                                <td>30</td>
+                                <td> - </td>
+                                <td> - </td>
+                              </tr>
+                              <tr>
+                                <td>3.</td>
+                                <td>PT Harta</td>
+                                <td>5.000.000.000</td>
+                                <td>30</td>
+                                <td> - </td>
+                                <td> - </td>
+                              </tr>
+                              <tr>
+                                <td>4.</td>
+                                <td>PT Sumedang Jaya lestari</td>
+                                <td>5.000.000.000</td>
+                                <td>30</td>
+                                <td> - </td>
+                                <td> - </td>
+                              </tr>
+                              <tr>
+                                <td>5.</td>
+                                <td>PT Sumedang Jaya lestari</td>
+                                <td>5.000.000.000</td>
+                                <td>30</td>
+                                <td> - </td>
+                                <td> - </td>
+                              </tr>
+                              <tr>
+                                <td>6.</td>
+                                <td>PT Sumedang Jaya lestari</td>
+                                <td>5.000.000.000</td>
+                                <td>30</td>
+                                <td> - </td>
+                                <td> - </td>
+                              </tr>
+                              <tr>
+                                <td>7.</td>
+                                <td>PT Sumedang Jaya lestari</td>
+                                <td>5.000.000.000</td>
+                                <td>30</td>
+                                <td> - </td>
+                                <td> - </td>
+                              </tr>
+                              <tr>
+                                <td>8.</td>
+                                <td>PT Sumedang Jaya lestari</td>
+                                <td>5.000.000.000</td>
+                                <td>30</td>
+                                <td> - </td>
+                                <td> - </td>
+                              </tr>
+
+                            </table>
+
+                            
+                          </div>
+
+                      </div>
+
+
+
+                    </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+                      <div class="box box-warning">
+                        <div class="box-header with-border">
+                          <h3 class="box-title">ESTIMASI PTB</h3>
+                          <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                          <table class="table table-bordered table-condensed">
+                            <tr>
+                              <th>HPS Minimum</th>
+                              <th>HPS Most Likely</th>
+                              <th>HPS Maksimum</th>
+                            </tr>
+                            <tr>
+                              <td> Rp 4.500.000.000 </th>
+                              <td> Rp 5.000.000.000 </th>
+                              <td> Rp 3.000.000.000 </th>
+                            </tr>
+                          </table>
+                        </div>
+
+
+                      </div>
+
+        </div> 
+      </div>    
+
+
+      <div class="row">
+          <div class="col-md-12">
+              <div class="box box-success">
+          <form class="form-horizontal">
+            <div class="box-header with-border">
+              <h3 class="box-title">Evaluasi Teknis</h3>
             </div>
             <!-- /.box-header -->
-            <div class="box-body "> 
-              <table id="example1" class="table table-bordered table-striped table-condensed">
-                <thead>
-                <tr>
-                  <th>No. Contract</th>
-                  <th>Judul Pekerjaan</th>
-                  <th>Status</th>
-                  <th>Tanggal Dikeluarkan</th>
-                  <th style="width:10px">Download Evalkom</th>
-                  <th style="width:50px">Upload Evalkom</th>
-                  <th style="width:10px">Download BCR</th>
-                  <th style="width:50px">Upload BCR</th>                  
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td><a href="#">CB-17001</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>20-Jan-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button disabled="" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                <tr>
-                  <td><a href="p8c.php">CC-17001</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>21-Feb-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                <tr>
-                  <td><a href="p8c.php">CA-17003</a></td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>22-Feb-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
+            <div class="box-body">
+                <div class="col-md-12">
+                                   <table class="table table-bordered text-center">
+                          <tr>
+                            <th style="width: 10px" rowspan="2" >No</th>
+                            <th style="width: 100px" rowspan="2" >Penawar</th>
+                            <th style="width: 100px" rowspan="2" >Score</th>
+                            <th style="width: 100px" colspan="2" >PT Badak NGL</th>
+                            
+                          </tr>
+                          <tr>
+                            <th style="width: 200px" >Penjelasan</th>
+                            <th style="width: 200px" >Kesimpulan</th>
+                            
+                          </tr>
+                          <tr>
+                            <td>1.</td>
+                            <td>PT Hasanah Sumber Utama</td>
+                            <td>78,04</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                            
+                          </tr>
+                          <tr>
+                            <td>2.</td>
+                            <td>PT Aimindo Adie Perkasa</td>
+                            <td>84,73</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>3.</td>
+                            <td>PT harta</td>
+                            <td>85,00</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>4.</td>
+                            <td>PT Sumedang Jaya Lestari</td>
+                            <td>85,00</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>5.</td>
+                            <td>PT Tiya Sejahtera</td>
+                            <td>0</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Tidak Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>6.</td>
+                            <td>PT Central Teknindo Persada</td>
+                            <td>80</td>
+                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <td>Tidak Lulus</td>
+                          </tr>
+                        </table>
+                </div>
+
                 
-                <tr>
-                  <td><a href="p8c.php">CA-17002</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>23-Apr-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                
-                <tr>
-                  <td><a href="p8c.php">CA-17001</a></td>
-                  <td>STEAM CONDENSATE LINE</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>24-Apr-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                
-                <tr>
-                  <td><a href="#">CB-17001</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>20-Jan-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs" disabled=""><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                <tr>
-                  <td><a href="#">CC-17001</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-default">Waiting BCR</span></td>
-                  <td>21-Feb-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button disabled="" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                <tr>
-                  <td><a href="p8b.php">CA-17003</a></td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-danger"> Aborted </span></td>
-                  <td>22-Feb-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" disabled=""  class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button disabled="" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17002</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                  <td class="text-center"><span class="label label-warning">Waiting Confirmation</span></td>
-                  <td>23-Apr-2017</td>
-                  <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-              <td><button disabled="" type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-                </tr>
-                
-                
-                </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
-              </table>
             </div>
+            <div class="box-footer" style="text-align: right;">
+                        <div class="col-md-12">
+                        <!-- <a href="p8b.php">
+                                    <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;">
+                                    Back
+                                  </button>               
+                          </a> -->
+                          
+                          <a href="p8d.php"><button type="button" class="btn btn-success btn-sm">Lanjut ke rincian bidder</button></a>
+
+                        </div>
+
+                </div>
             <!-- /.box-body -->
-            <div class="box-footer">
-              <h4>Keterangan status</h4>
-              <ul>
-                <li><span class="label label-primary">Draft</span> : evalkom di-draft</li>
-                <li><span class="label label-danger">Aborted</span> : evalkom di-abort</li>
-                <li><span class="label label-success">Finish</span> : evalkom di-approve</li>
-                <li><span class="label label-warning">Waiting Confirmation</span> : evalkom waiting for confirmation</li>
-                <li><span class="label label-default">Waiting BCR</span> : evalkom waiting for BCR process</li>
-                <li><span class="label label-purple" style="background-color: #001F3F;">Re Bid</span> : evalkom re bid</li>
-                <li><span class="label label-purple" style="background-color: #605ca8;">Re Eval</span> : evalkom re eval</li>
-              </ul>
-            </div>
-          </div>
-          <!-- /.box -->
+
+          </form>
         </div>
 
+          </div>
 
+      </div>
+
+    </section>
 
 <!--  content wrapper-->
-      </div>
-    </section>
+  </div>
 
   <footer class="main-footer">
     <div class="pull-right hidden-xs">

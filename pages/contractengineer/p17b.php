@@ -183,7 +183,7 @@
                 <label class="control-label col-md-1" for="noKontrak">Action</label>
                 <div class="col-md-5">
                   <!-- <a href="p17abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a> -->
-                  <a href="p17CE.php"><button type="button" class="btn btn-default btn-sm"></span> Back </button></a>
+                  <a href="p17.php"><button type="button" class="btn btn-default btn-sm"></span> Back </button></a>
                   <a href="p17abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a>
                   <!-- <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a> -->
                  

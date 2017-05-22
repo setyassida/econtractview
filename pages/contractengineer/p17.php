@@ -146,7 +146,7 @@
               <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
                 </tr>
                 <tr>
-                  <td><a href="p17abort.php">CA-17003</a></td>
+                  <td><a href="p17b.php">CA-17003</a></td>
                   <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
                   <td class="text-center"><span class="label label-danger"> Aborted </span></td>
                   <td>22-Feb-2017</td>
