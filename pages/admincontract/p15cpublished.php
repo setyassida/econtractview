@@ -137,6 +137,12 @@
                             <td>3</td>
                           </tr>
                         </tbody>
+                        <tfoot>
+                            <tr>
+                              <th>Total</th>
+                              <th>6</th>
+                            </tr>
+                          </tfoot>
                       </table>
                     </dl>
                   </div>
@@ -145,7 +151,7 @@
               <div class="box-footer">
                 <div class="row">
                   <div class="col-md-12">
-                    <div class="pull-right" style="margin-left: 1rem">
+                    <div class="pull-left" style="margin-left: 1rem">
                       <button class="btn btn-sm "><i class="fa fa-print"></i> Print Bidder List</button>
                     </div>
                     <!-- <div class="pull-right" style="margin-left: 1rem">

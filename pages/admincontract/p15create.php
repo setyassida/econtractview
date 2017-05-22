@@ -63,55 +63,7 @@
         <div class="row">
           <form class="form-horizontal">
             <!-- right column -->
-            <div class="col-md-12">
-              <!-- Horizontal Form -->
-              <div class="box box-info">
-                <div class="box-header with-border">
-                  <h3 class="box-title">Contract Order Reference</h3>
-                </div>
-                <!-- /.box-header -->
-                <!-- form start -->
-
-                <div class="box-body">
-
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="pickedByCE1">Contract Order</label>
-                      <div class="input-group">
-                        <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="pickedByCE2">Judul Pekerjaan</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="REGULAR INSPECTION OF LIFTING GEARS" disabled>
-                    </div>
-                  </div>
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="pickedByCE3">Durasi</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE3" placeholder="2 Bulan" disabled>
-                    </div>
-                    <div class="form-group">
-                      <label for="pickedByCE4">Jenis Jasa</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="Pemborongan Pekerjaan" disabled>
-                    </div>
-                  </div>
-                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
-                    <div class="form-group">
-                      <label for="pickedByCE4">Kualifikasi Syarat Peserta Pengadaan</label>
-                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="M (Rp. 500 Juta <= NK <= Rp. 10 M)" disabled>
-                    </div>
-                  </div>                      
-                  
-                </div>
-                <!-- /.box-body -->
-
-              </div>
-              <!-- /.box -->
-            </div>
-            <!--/.col (right) -->
-
+            
             <div class="col-md-12">
               <!-- Horizontal Form -->
               <div class="box box-danger">

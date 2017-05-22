@@ -46,78 +46,208 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li class="active"><a href="p15b.php">Penawaran VO</a></li>
+        <li><a href="p15b.php">Penawaran VO</a></li>
+        <li class="active"><a href="p15bviewawaitquote.php">Detail VO</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-      <div class="row">
-        <div class="col-md-12">
-
-        <!-- box bidder list -->
-          <div class="box box-danger">
-            <div class="box-header">
-              <h3 class="box-title">List Tawaran</h3>
+      <form class="form-horizontal">
+        <div class="nav-tabs-custom">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab_1" data-toggle="tab">Detail Tawaran</a></li>
+            <li><a href="#tab_2" data-toggle="tab">Dokumen Terkait Contract Order</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="text-center">
+              <h3 class="box-title">STATUS : <span class="mark text-warning">AWAIT QUOTE</span></h3>
             </div>
-            <!-- /.box-header -->
-            <div class="box-body "> 
-              <table id="example1" class="table table-bordered table-striped table-condensed table-hover">
-                <thead>
-                  <tr>
-                    <th style="width:100px">Nomor Kontrak</th>
-                    <th >Judul Pekerjaan</th>
-                    <th style="width:100px">Status</th>
-                    <th style="width:100px"></th>                    
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>CA-17001</td>
-                    <td>STEAM CONDENSATE LINE</td>
-                    <td class="text-center"><span class="label label-warning">Await Quote</span></td>
-                    <td class="text-center"><a href="p15bviewawaitquote.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
-                  </tr>
-                  <tr>
-                    <td>CA-17002</td>
-                    <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                    <td class="text-center"><span class="label label-success">Quote</span></td>
-                    <td class="text-center"><a href="p15bviewquote.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
-                  </tr>
-                  <tr>
-                    <td>CA-17003</td>
-                    <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                    <td class="text-center"><span class="label label-danger">Not Quote</span></td>
-                    <td class="text-center"><a href="p15bviewnotquote.php"><button class="btn btn-xs btn-default">Lihat Detail</button></a></td>
-                  </tr>
-
-                </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
-              </table>
+            <!-- tab1 -->
+            <div class="tab-pane active" id="tab_1">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="box box-solid">
+                    <div class="box-body">
+                      <div class="row">
+                        <!-- kol kiri -->
+                        <div class="col-md-6">
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Nomor Kontrak :</label>
+                            <div class="form-control-static col-md-8">
+                              CA-17001
+                            </div>
+                          </div>
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Judul Pekerjaan :</label>
+                            <div class="form-control-static col-md-8">
+                              STEAM CONDENSATE LINE
+                            </div>
+                          </div>
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Jenis Jasa :</label>
+                            <div class="form-control-static col-md-8">
+                              Jasa Pemborongan Pekerjaan
+                            </div>
+                          </div>
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Durasi Pekerjaan :</label>
+                            <div class="form-control-static col-md-8">
+                              3 Bulan
+                            </div>
+                          </div>
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Jenis Kontrak :</label>
+                            <div class="form-control-static col-md-8">
+                              Lump Sum
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ./kol kiri -->
+                        <!-- kol kanan -->
+                        <div class="col-md-6">
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Bid Closing/<br>Opening Date :</label>
+                            <div class="form-control-static col-md-8">
+                              30-Mei-2017
+                            </div>
+                          </div>
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Status Contract Order :</label>
+                            <div class="form-control-static col-md-8">
+                              Resumed 22-Apr-2017
+                            </div>
+                          </div>
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Nama <br>Contract Engineer :</label>
+                            <div class="form-control-static col-md-8">
+                              J. J. Thompson
+                            </div>
+                          </div>
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Email :</label>
+                            <div class="form-control-static col-md-8">
+                              jthomp@econ.com
+                            </div>
+                          </div>
+                          <div class="form-group" style="margin-bottom: 0">
+                            <label class="control-label col-md-4">Nomor Telepon Kantor :</label>
+                            <div class="form-control-static col-md-8">
+                              031-38429577
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ./kol kanan -->
+                      </div>
+                      <!-- ./row -->
+                    </div>
+                    <!-- ./box-body -->
+                  </div>
+                  <!-- ./box -->
+                </div>
+                <!-- ./col -->
+              </div>
+              <!-- ./row -->
             </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <h4>Keterangan status</h4>
-              <ul>
-                <li><span class="label label-warning">Await Quote</span> : Bidder belum menjawab penawaran</li>
-                <li><span class="label label-danger">Not Quote</span> : Bidder tidak ikut menawar</li>
-                <li><span class="label label-success">Quote</span> : Bidder ikut menawar</li>
-              </ul>
+            <!-- ./tab1 -->
+            <!-- tab2 -->
+            <div class="tab-pane" id="tab_2">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="box box-solid">
+                    <div class="box-body">
+                      <table class="table table-bordered table-condensed table-hover">
+                        <thead>
+                          <tr>
+                            <th>Judul Dokumen</th>
+                            <th style="width:75px">Tipe Dokumen</th>
+                            <th style="width:75px">Size</th>
+                            <th style="width:75px">Download</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Lampiran Contract Order 1</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lampiran Contract Order 2</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lampiran Contract Order 3</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lampiran Contract Order 4</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lampiran Contract Order 5</td>
+                            <td>PDF</td>
+                            <td>34MB</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div> 
+                </div>
+                <!-- ./col -->
+              </div>
+              <!-- ./row -->
+            </div>
+            <!-- ./tab2 -->
+            
+            <div class="row" style="padding-bottom: 0.5rem">
+              <div class="col-md-12 text-right">
+                <a href="p15bnotquote.php" class="btn btn-sm btn-danger"><i class="fa fa-times"></i> Not Quote</a>
+                <a href="p15bquote.php" class="btn btn-sm btn-success"><i class="fa fa-check"></i> Quote</a>
+              </div>
             </div>
           </div>
-          <!-- /.box -->
+          <!-- ./tabs content -->
         </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
+        <!-- ./div tabs -->
+      </form>
     </section>
     <!-- /.content -->
   </div>

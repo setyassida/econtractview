@@ -41,7 +41,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <?php include "p2headerLCE.php" ?>
+  <?php include "p2header.php" ?>
 
   <!-- =============================================== -->
 

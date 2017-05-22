@@ -74,36 +74,36 @@
               </div>
               <!-- /. box-header -->
               <div class="box-body">
-                <div class="col-md-12">
-                  <div class="panel panel-default">
+                <div class="col-md-4">
+                  <div class="panel panel-primary">
                     <div class="panel-heading">
                       Jumlah Contract Order
                     </div>
                     <div class="panel-body">
-                      <div class="col-md-6">
+                      <div class="col-md-12">
                         <div class="form-group">
-                          <div class="col-md-12">
+                          <div class="col-md-12" style="padding: 0">
                             <label>Range Bulan</label>
                           </div>
-                          <div class="col-md-4 col-md-offset-1">
+                          <div class="col-md-5" style="padding:0">
                             <select class="form-control select2 input-sm" style="width: 100%;">
                               <option selected="selected">Januari</option><option>Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
                             </select>
                           </div>
-                          <div class="col-md-1" style="padding-top: 1rem;padding-left: 0.8rem">
-                            <span>dan</span>
+                          <div class="col-md-2" style="padding-top: 1rem;">
+                            <span>to</span>
                           </div>
-                          <div class="col-md-4">
+                          <div class="col-md-5" style="padding: 0">
                             <select class="form-control select2 input-sm" style="width: 100%;">
                               <option>Januari</option><option selected="selected">Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
                             </select>
                           </div>
-                          <div class="col-md-4 col-md-offset-4" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
+                          <div class="col-md-12 text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
                           <!-- /.input group -->
                         </div>
                         <!-- /.form group -->
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-12">
                         <div class="form-group">
                           <label>Year To Date</label>
                           <div class="input-group date">
@@ -120,36 +120,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="panel panel-default">
+                <div class="col-md-4">
+                  <div class="panel panel-primary">
                     <div class="panel-heading">
                       Jumlah Kontrak dari Bidder List
                     </div>
                     <div class="panel-body">
-                      <div class="col-md-6">
+                      <div class="col-md-12">
                         <div class="form-group">
-                          <div class="col-md-12">
+                          <div class="col-md-12" style="padding: 0">
                             <label>Range Bulan</label>
                           </div>
-                          <div class="col-md-4 col-md-offset-1">
+                          <div class="col-md-5" style="padding:0">
                             <select class="form-control select2 input-sm" style="width: 100%;">
                               <option selected="selected">Januari</option><option>Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
                             </select>
                           </div>
-                          <div class="col-md-1" style="padding-top: 1rem;padding-left: 0.8rem">
-                            <span>dan</span>
+                          <div class="col-md-2" style="padding-top: 1rem;">
+                            <span>to</span>
                           </div>
-                          <div class="col-md-4">
+                          <div class="col-md-5" style="padding: 0">
                             <select class="form-control select2 input-sm" style="width: 100%;">
                               <option>Januari</option><option selected="selected">Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
                             </select>
                           </div>
-                          <div class="col-md-4 col-md-offset-4" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
+                          <div class="col-md-12 text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
                           <!-- /.input group -->
                         </div>
                         <!-- /.form group -->
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-12">
                         <div class="form-group">
                           <label>Year To Date</label>
                           <div class="input-group date">
@@ -166,36 +166,36 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="panel panel-default">
+                <div class="col-md-4">
+                  <div class="panel panel-primary">
                     <div class="panel-heading">
                       Jumlah Peserta Penyedia
                     </div>
                     <div class="panel-body">
-                      <div class="col-md-6">
+                      <div class="col-md-12">
                         <div class="form-group">
-                          <div class="col-md-12">
+                          <div class="col-md-12" style="padding: 0">
                             <label>Range Bulan</label>
                           </div>
-                          <div class="col-md-4 col-md-offset-1">
+                          <div class="col-md-5" style="padding:0">
                             <select class="form-control select2 input-sm" style="width: 100%;">
                               <option selected="selected">Januari</option><option>Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
                             </select>
                           </div>
-                          <div class="col-md-1" style="padding-top: 1rem;padding-left: 0.8rem">
-                            <span>dan</span>
+                          <div class="col-md-2" style="padding-top: 1rem;">
+                            <span>to</span>
                           </div>
-                          <div class="col-md-4">
+                          <div class="col-md-5" style="padding: 0">
                             <select class="form-control select2 input-sm" style="width: 100%;">
                               <option>Januari</option><option selected="selected">Februari</option><option>Maret</option><option>April</option><option>Mei</option><option>Juni</option><option>Juli</option><option>Agustus</option><option>September</option><option>Oktober</option><option>November</option><option>Desember</option>
                             </select>
                           </div>
-                          <div class="col-md-4 col-md-offset-4" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
+                          <div class="col-md-12 text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
                           <!-- /.input group -->
                         </div>
                         <!-- /.form group -->
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-12">
                         <div class="form-group">
                           <label>Year To Date</label>
                           <div class="input-group date">
