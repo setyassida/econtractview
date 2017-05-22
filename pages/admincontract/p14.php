@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
@@ -17,7 +21,7 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
+  folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,108 +34,111 @@
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
 <body class="hold-transition skin-red fixed sidebar-mini">
-<!-- Site wrapper -->
-<div class="wrapper">
+  <!-- Site wrapper -->
+  <div class="wrapper">
 
-  <?php include "p14header.php" ?>
+    <?php include "p14header.php" ?>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Browse Variation Order
+    <!-- =============================================== -->
 
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-        <li><a href="#"> Variation Order</a></li>
-        <li class="active"><a href="p2a.php">Browse</a></li>
-      </ol>
-    </section>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          Create Variation Order
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li ><a href="p2a.php">Variation Order</a></li>
+          <li class="active"><a href="p2b.php">Create</a></li>
+        </ol>
+      </section>
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="row">
-        <div class="col-md-12">
+      <!-- Main content -->
+      <section class="content">
 
-        <!-- box bidder list -->
-          <div class="box box-danger">
-            <div class="box-header">
-              <!-- <h3 class="box-title">Result</h3> -->
-              <a href="p14a.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Variation Order Baru</button></a>
+
+        <div class="row">
+          <form class="form-horizontal">
+            <!-- right column -->
+            <div class="col-md-12">
+              <!-- Horizontal Form -->
+              <div class="box box-info">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Contract Order Reference</h3>
+                </div>
+                <!-- /.box-header -->
+                <!-- form start -->
+
+                <div class="box-body">
+
+                  <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE1">No. Kontrak</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE2">Judul Pekerjaan</label>
+                      <textarea type="text" class="form-control input-sm" name="name" rows="3" cols="45" placeholder="" disabled>REGULAR INSPECTION OF LIFTING GEARS</textarea>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE2">Tanggal Mulai</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="17-08-2016" disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE2">Tanggal Selesai</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="17-04-2017" disabled>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE3">Kode Pembebanan Biaya</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE3" placeholder="#" disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE4">No. Perubahan Amandemen Kontrak</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="CA-17001#02" disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE4">Tanggal Pembuatan VO</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="10-11-2016" disabled>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE4">Kontraktor</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="Supplier A" disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="pickedByCE4">Jenis Kontrak</label>
+                      <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS" disabled>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.box-body -->
+
+                <div class="box-footer ">
+                  <a href="p14b_amandemenRL.php" class="btn btn-success pull-right btn-sm">Amandemen Kontrak</a>
+                </div>
+
+              </div>
+              <!-- /.box -->
             </div>
-            <!-- /.box-header -->
-            <div class="box-body ">
-              <table id="example1" class="table table-bordered table-striped table-condensed">
-                <thead>
-                <tr>
-                  <th>No. Perubahan Kontrak</th>
-                  <th>Judul Pekerjaan</th>
-                  <th>Kontraktor</th>
-                  <th>Kode Pembebanan Biaya</th>
-                  <th>Tanggal Dibuat</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td><a href="#">CB-17001#1</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td>Perusahaan A</td>
-                  <td>#</td>
-                  <td>20-Jan-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="#">CC-17002#2</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td>Perusahaan B</td>
-                  <td>#</td>
-                  <td>21-Feb-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17003#1</a></td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td>Perusahaan C</td>
-                  <td>#</td>
-                  <td>22-Feb-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17002#2</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                  <td>Perusahaan SA</td>
-                  <td>#</td>
-                  <td>23-Apr-2017</td>
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17001#3</a></td>
-                  <td>STEAM CONDENSATE LINE</td>
-                  <td>Perusahaan DC</td>
-                  <td>#</td>
-                  <td>24-Apr-2017</td>
-                </tr>
+            <!--/.col (right) -->
 
-                </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
-              </table>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-
-            </div>
           </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
+          <!--/.col (right) -->
+
+        </form>
       </div>
       <!-- /.row -->
+
     </section>
     <!-- /.content -->
   </div>
@@ -142,199 +149,7 @@
     reserved.
   </footer>
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Create the tabs -->
-    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-      <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
-      <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
-    </ul>
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <!-- Home tab content -->
-      <div class="tab-pane" id="control-sidebar-home-tab">
-        <h3 class="control-sidebar-heading">Recent Activity</h3>
-        <ul class="control-sidebar-menu">
-          <li>
-            <a href="javascript:void(0)">
-              <i class="menu-icon fa fa-birthday-cake bg-red"></i>
 
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
-
-                <p>Will be 23 on April 24th</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
-              <i class="menu-icon fa fa-user bg-yellow"></i>
-
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
-
-                <p>New phone +1(800)555-1234</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
-              <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
-
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
-
-                <p>nora@example.com</p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
-              <i class="menu-icon fa fa-file-code-o bg-green"></i>
-
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
-
-                <p>Execution time 5 seconds</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-        <!-- /.control-sidebar-menu -->
-
-        <h3 class="control-sidebar-heading">Tasks Progress</h3>
-        <ul class="control-sidebar-menu">
-          <li>
-            <a href="javascript:void(0)">
-              <h4 class="control-sidebar-subheading">
-                Custom Template Design
-                <span class="label label-danger pull-right">70%</span>
-              </h4>
-
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
-              <h4 class="control-sidebar-subheading">
-                Update Resume
-                <span class="label label-success pull-right">95%</span>
-              </h4>
-
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-success" style="width: 95%"></div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
-              <h4 class="control-sidebar-subheading">
-                Laravel Integration
-                <span class="label label-warning pull-right">50%</span>
-              </h4>
-
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)">
-              <h4 class="control-sidebar-subheading">
-                Back End Framework
-                <span class="label label-primary pull-right">68%</span>
-              </h4>
-
-              <div class="progress progress-xxs">
-                <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
-              </div>
-            </a>
-          </li>
-        </ul>
-        <!-- /.control-sidebar-menu -->
-
-      </div>
-      <!-- /.tab-pane -->
-      <!-- Stats tab content -->
-      <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
-      <!-- /.tab-pane -->
-      <!-- Settings tab content -->
-      <div class="tab-pane" id="control-sidebar-settings-tab">
-        <form method="post">
-          <h3 class="control-sidebar-heading">General Settings</h3>
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Report panel usage
-              <input type="checkbox" class="pull-right" checked>
-            </label>
-
-            <p>
-              Some information about this general settings option
-            </p>
-          </div>
-          <!-- /.form-group -->
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Allow mail redirect
-              <input type="checkbox" class="pull-right" checked>
-            </label>
-
-            <p>
-              Other sets of options are available
-            </p>
-          </div>
-          <!-- /.form-group -->
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Expose author name in posts
-              <input type="checkbox" class="pull-right" checked>
-            </label>
-
-            <p>
-              Allow the user to show his name in blog posts
-            </p>
-          </div>
-          <!-- /.form-group -->
-
-          <h3 class="control-sidebar-heading">Chat Settings</h3>
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Show me as online
-              <input type="checkbox" class="pull-right" checked>
-            </label>
-          </div>
-          <!-- /.form-group -->
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Turn off notifications
-              <input type="checkbox" class="pull-right">
-            </label>
-          </div>
-          <!-- /.form-group -->
-
-          <div class="form-group">
-            <label class="control-sidebar-subheading">
-              Delete chat history
-              <a href="javascript:void(0)" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
-            </label>
-          </div>
-          <!-- /.form-group -->
-        </form>
-      </div>
-      <!-- /.tab-pane -->
-    </div>
-  </aside>
-  <!-- /.control-sidebar -->
-  <!-- Add the sidebar's background. This div must be placed
-       immediately after the control sidebar -->
-  <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
 
@@ -345,6 +160,10 @@
 <!-- DataTables -->
 <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
+<!-- iCheck 1.0.1 -->
+<script src="../../plugins/iCheck/icheck.min.js"></script>
+<!-- bootstrap datepicker -->
+<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- SlimScroll -->
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
@@ -355,9 +174,13 @@
 <script src="../../dist/js/demo.js"></script>
 <!-- page script -->
 <script>
-  $(function () {
-    $("#example1").DataTable();
+$(function () {
+  $("#example1").DataTable();
+  //Date picker
+  $('#datepicker').datepicker({
+    autoclose: true
   });
+});
 </script>
 </body>
 </html>
