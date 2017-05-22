@@ -67,8 +67,9 @@
                 <thead>
                 <tr>
                   <th>No. Kontrak</th>
-                  <th>Perubahan Kontrak</th>
                   <th>Judul Pekerjaan</th>
+                  <th>Perubahan Kontrak</th>
+                  <th>Keterangan Perubahan</th>
                   <th>Kontraktor</th>
                   <th>Kode Pembebanan Biaya</th>
                   <th>Tanggal Dibuat</th>
@@ -77,8 +78,9 @@
                 <tbody>
                 <tr>
                   <td><a href="p14_view.php">CB-17001</a></td>
-                  <td>#1</td>
                   <td>REGULAR INSPECTION OF LIFTING GEARS</td>
+                  <td>#1</td>
+                  <td>Ruang Lingkup</td>
                   <td>Perusahaan A</td>
                   <td>#</td>
                   <td>20-Jan-2017</td>
