@@ -102,7 +102,7 @@
                   <td>23-Apr-2017</td>
                 </tr>
                 <tr>
-                  <td><a href="#">CA-17001</a></td>
+                  <td><a href="p1_approver.php">CA-17001</a></td>
                   <td>STEAM CONDENSATE LINE</td>
                   <td class="text-center"><span class="label label-success">Published</span></td>
                   <td>Bidder List</td>

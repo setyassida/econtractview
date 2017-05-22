@@ -67,39 +67,29 @@
           <h3 class="box-title">Pilih Metode Pengadaan</h3>
         </div>
         <div class="box-body">
-          <div class="col-md-6">
+          <div class="col-md-6 col-md-offset-3">
             <a href="p1_pemilihanLangsung.php">
               <div class="callout callout-warning">
                 <h4><b>PEMILIHAN LANGSUNG</b></h4>
-                <ul>
-                  <li>Nilai Kontrak &#8805 25 Juta</li>
-                  <li>Jumlah Bidder > 1</li>
-                </ul>
               </div>
             </a>
 
             <a href="p1d_pengadaanLangsung.php">
               <div class="callout callout-warning">
                 <h4><b>PENGADAAN LANGSUNG</b></h4>
-                <ul>
-                  <li>25 Juta &#8804 Nilai Kontrak < 100 Juta</li>
-                  <li>Jumlah Bidder > 1 (Bisa pilih atau isi nama rekanan)</li>
-                </ul>
+              </div>
+            </a>
+
+            <a href="p1c_penunjukkanLangsung.php">
+              <div class="callout callout-warning">
+                <h4><b>PENUNJUKKAN LANGSUNG</b></h4>
               </div>
             </a>
 
 
           </div>
           <div class="col-md-6">
-            <a href="p1c_penunjukkanLangsung.php">
-              <div class="callout callout-warning">
-                <h4><b>PENUNJUKKAN LANGSUNG</b></h4>
-                <ul>
-                  <li><b>Nilai Kontrak </b> &#8805 100 Juta</li>
-                  <li><b>Jumlah Bidder =</b> 1 (Pilih Rekanan)</li>
-                </ul>
-              </div>
-            </a>
+
 
           </div>
         </div>
