@@ -39,18 +39,17 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Variation Order
-        <small>Harga Perkiraan Sendiri</small>
+        Harga Perkiraan Sendiri
+        <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active"><a href="p16.php">Harga Perkiraan Sendiri</a></li>
+        <li class="active"><a href="p16.php">Harga Perkiraan Sendiri VO</a></li>
         <li>0001/HPS/2017</li>
       </ol>
     </section>
 
     <section class="content">
-      
       <div class="row">
         <div class="col-md-3">
           <div class="info-box">
@@ -65,13 +64,25 @@
             <!-- /.info-box-content -->
           </div>
         </div>
-        
+        <div class="col-md-3">
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Approver 2</span>
+              <strong>Katniss Everdeen</strong>
+              <br><br>
+              <div class="text-right text-success"><i class="fa fa-check"></i></div>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+        </div>
         <div class="col-md-3">
           <div class="info-box" style="box-shadow: 0 0 3px 3px rgba(0, 140, 186, 0.5)">
             <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Approver 2</span>
+              <span class="info-box-text">Approver 3</span>
               <strong>Peeta Mellark</strong>
               <br><br>
               <div class="text-right text-success"><i class="fa fa-clock-o"></i></div>
@@ -79,138 +90,243 @@
             <!-- /.info-box-content -->
           </div>
         </div>
-        
+        <div class="col-md-3">
+          <div class="info-box">
+            <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Approver 4</span>
+              <strong>Jack Sparrow</strong>
+              <br><br>
+              <div class="text-right text-success"><i class="fa fa-clock-o"></i></div>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+        </div>
       </div>
 
       
       <div class="box">
         <form class="form-horizontal">
           <div class="box-header with-border">
-            <h4>Informasi HPS</h4>
+            
           </div>
           <div class="box-body">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label class="control-label col-md-4">Nomor HPS :</label>
-                <div class="form-control-static col-md-8">
-                  0001/HPS/2017
+            <div class="box">
+                <div class="box-header with-border">
+                  <h4>Informasi Umum</h4>
                 </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-md-4">Tanggal Opening :</label>
-                <div class="form-control-static col-md-8">
-                  01-11-2017
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-md-4">Nomor Kontrak :</label>
-                <div class="form-control-static col-md-8">
-                  <a href="#">CA-17001</a>
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-md-4">Judul Pekerjaan :</label>
-                <div class="form-control-static col-md-8">
-                  PEMELIHARAAN INFRASTRUKTUR
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-md-4">Durasi Pekerjaan :</label>
-                <div class="form-control-static col-md-8">
-                  50 Hari
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-md-4">Jenis Jasa :</label>
-                <div class="form-control-static col-md-8">
-                  Jasa Pemborongan Pekerjaan, Jasa Penyedia Tenaga Kerja
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-md-4">Klasifikasi Pemilihan :</label>
-                <div class="form-control-static col-md-8">
-                  nilai antara bidang M-Z
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="control-label col-md-4">Bobot Nilai CO :</label>
-                <div class="form-control-static col-md-8">
 
-                </div>
-              </div>
-            </div>
 
-            <div class="col-md-6">
-              <div style="margin-top:20px">
-              </div>
-              <div class="box box-solid" >
+
                 <div class="box-body">
-                  <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                    Nilai HPS yang ditentukan oleh Estimator    
-                  </p>
 
-                  <div class="form-group">
-                    <label class="control-label col-md-4">HPS Minimum :</label>
-                    <div class="form-control-static col-md-8">
-                      Rp 1.000.000.000,00
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-4">HPS Most Likely :</label>
-                    <div class="form-control-static col-md-8">
-                      Rp 3.500.000.000,00
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-4">HPS Maximum :</label>
-                    <div class="form-control-static col-md-8">
-                      Rp 5.000.000.000,00
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-md-4">Dokumen Pendukung HPS :</label>
-                    <div class="form-control-static col-md-8">
-                      <button class="btn btn-default btn-xs" style="margin-right:5px"><span class="glyphicon glyphicon-download-alt"></span></button>sample_document.docx
-                    </div>
-                  </div>
-                   
-                  
-                  <div id="uploadModal" class="modal">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header bg-green">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title">Are You Sure to Upload?</h4>
-                        </div>
-                        <div class="modal-body">
-                          <div class="form-group">
-                            <label class="control-label col-md-4">Upload File Hasil Scan :</label>
-                            <div class="col-md-6">
-                              <input type="file" class="form-control input-sm" required>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
-                          <button type="submit" class="btn btn-default btn-sm">Yes, Upload This File</button>
-                        </div>
+                  <div class="col-md-6">
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Nomor HPS :</label>
+                      <div class="form-control-static col-md-8">
+                        0001/HPS/2017
                       </div>
-                        <!-- /.modal-content -->
+                    </div>
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Tanggal Opening :</label>
+                      <div class="form-control-static col-md-8">
+                        01-Nov-2017
+                      </div>
+                    </div>
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Nomor Kontrak :</label>
+                      <div class="form-control-static col-md-8">
+                        <a href="#">CA-17001</a>
+                      </div>
+                    </div>
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Judul Pekerjaan :</label>
+                      <div class="form-control-static col-md-8">
+                        PEMELIHARAAN INFRASTRUKTUR
+                      </div>
+                    </div>
+                    <div class="form-group no-margin"> 
+                      <label class="control-label col-md-4">Durasi Pekerjaan :</label>
+                      <div class="form-control-static col-md-8">
+                        50 Hari
+                      </div>
+                    </div>
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Jenis Jasa :</label>
+                      <div class="form-control-static col-md-8">
+                        Jasa Pemborongan Pekerjaan, Jasa Penyedia Tenaga Kerja
+                      </div>
+                    </div>
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Klasifikasi Pemilihan :</label>
+                      <div class="form-control-static col-md-8">
+                        nilai antara bidang M-Z
+                      </div>
+                    </div>
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Bobot Nilai CO :</label>
+                      <div class="form-control-static col-md-8">
+
+                      </div>
                     </div>
                   </div>
 
-                  
+                  <div class="col-md-6">
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Metode Pengadaan :</label>
+                      <div class="form-control-static col-md-8">
+                        Pemilihan Langsung
+                      </div>
+                    </div>
+
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Kontrak Rutin :</label>
+                      <div class="form-control-static col-md-8">
+                        Ya
+                      </div>
+                    </div>
+
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Jenis Kontrak :</label>
+                      <div class="form-control-static col-md-8">
+                        Lump Sum (LS)/Harga Satuan (HS)/Gabungan LS & HS
+                      </div>
+                    </div>
+
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Klasifikasi Pemilihan :</label>
+                      <div class="form-control-static col-md-8">
+                        nilai antara bidang M-Z
+                      </div>
+                    </div>
+
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Kualifikasi :</label>
+                      <div class="form-control-static col-md-8">
+                        K (kecil) atau NK (non-kecil)
+                      </div>
+                    </div>
+
+                    <div class="form-group no-margin">
+                      <label class="control-label col-md-4">Tingkat Risiko :</label>
+                      <div class="form-control-static col-md-8">
+                        Rendah, Sedang, atau Tinggi
+                      </div>
+                    </div>
+
+                    <label class="control-label col-md-4">Dokumen Terkait Contract Order :</label>
+                    <div class="col-md-8">
+
+                      <table class="table table-bordered table-condensed table-hover">
+                        <thead>
+                          <tr>
+                            <th>Judul Dokumen</th>
+                            <th style="width:75px">Download</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Lampiran Contract Order 1</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lampiran Contract Order 2</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lampiran Contract Order 3</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lampiran Contract Order 4</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lampiran Contract Order 5</td>
+                            <td>
+                              <div class="text-center">
+                                <button type="button" class="btn btn-xs btn-default" >
+                                  <span class="glyphicon glyphicon-download-alt"></span>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
 
                 </div>
               </div>
-            </div>
+
+
+
+
+              <div class="box">
+                <div class="box-header with-border">
+                  <h4>Informasi HPS</h4>
+                </div>
+                <div class="box-body">                          
+                  <div class="form-group"> 
+                    <label class="control-label col-md-2">HPS Minimum (Rp) :</label>
+                    <div class="form-control-static col-md-3">
+                      Rp 150.000.000
+                    </div>
+                  </div>
+                  <div class="form-group"> 
+                    <label class="control-label col-md-2">HPS Most Likely (Rp) :</label>
+                    <div class="form-control-static col-md-3">
+                      Rp 350.000.000
+                    </div>
+                  </div>
+                  <div class="form-group"> 
+                    <label class="control-label col-md-2">HPS Maximum (Rp) :</label>
+                    <div class="col-md-3">
+                      Rp 450.000.000
+                    </div>
+                  </div>
+                  <div class="form-group"> 
+                    <label class="control-label col-md-2">Dokumen Pendukung :</label>
+                    <div class="col-md-3">
+                      <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
           </div>
           <div class="box-footer">
             <div class="row">
               <div class="col-md-12">
-                <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px"><span class="glyphicon glyphicon-download-alt"></span> Download Template PDF</button>
-                <a href="p16.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px">Back</button></a>
+                 
+                <a href="p16.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px">Back</button></a>
+                <!-- <button type="button" class="btn btn-default btn-sm" style="margin-right:5px"><span class="glyphicon glyphicon-download-alt"></span> Download Template PDF</button> -->
               </div>
             </div>
           </div>
