@@ -56,7 +56,7 @@
       <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.php">Dashboard</a></li>
-          <li><a href="p3.php">Contract Order</a></li>
+          <li><a href="p1.php">Contract Order</a></li>
           <li><a href="#">Badak Service Order</a></li>
         </ul>
       </div>
@@ -71,16 +71,16 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="../../resources/images/avatar/icon2.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">Bidder</span>
+              <img src="../../resources/images/avatar/icon1.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">Originator</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="../../resources/images/avatar/icon2.png" class="img-circle" alt="User Image">
+                <img src="../../resources/images/avatar/icon1.png" class="img-circle" alt="User Image">
 
                 <p>
-                    Bidder
+                 Originator
             
                 </p>
               </li>
@@ -124,22 +124,27 @@
           <div class="col-md-6">
             <div class="box box-default">
               <div class="box-header">
-                Notification
+                Outstanding CO
               </div>
               <!-- /. box-header -->
               <div class="box-body">
                 <div class="alert alert-info alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <i class="icon fa fa-check"></i> You have MOM Prebid
+                  <i class="icon fa fa-close"></i> CO incomplete ( CA - 17001 )! 
                 </div>
                 <div class="alert alert-warning alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <i class="icon fa fa-check"></i> You have Bidding Messages
+                  <i class="icon fa fa-pencil"></i> CO Need Approval
                 </div>
-                <div class="alert alert-danger alert-dismissible">
+                <div class="alert alert-warning alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <i class="icon fa fa-check"></i> You have MOM Kick off
+                  <i class="icon fa fa-file"></i> CO Need Evaltek !
                 </div>
+                <div class="alert alert-warning alert-dismissible">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                  <i class="icon fa fa-money"></i> CO Need Budget Confirmation !
+                </div>
+
                 <table class="table table-condensed input-sm table-striped table-bordered">
                   <thead class="bg-primary">
                     <tr>
@@ -149,22 +154,29 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <th>You Have Bidding Invitation</th>
-                      <td class="text-center">1</td>
+                      <th>You Have MOM Prebid</th>
+                      <td class="text-center">3</td>
                     </tr>
                     <tr>
-                      <th>Your SKT has been Expired</th>
-                      <td class="text-center">3</td>
-                    </tr> 
-                    <tr>
-                      <th>Your (SRP/SIO/TDP/SIUP/SITU/PKP/MIGS/TDR/APDR/PMA/NPWP) has been Expired</th>
-                      <td class="text-center">3</td>
-                    </tr> 
-                    <tr>
-                      <th>Your (SKT/SRP/SIO/TDP/SIUP/SITU/PKP/MIGS/TDR/APDR/PMA/NPWP) will be expired in less than 3 months</th>
+                      <th>Rebid CO</th>
                       <td class="text-center">2</td>
                     </tr> 
-
+                    <tr>
+                      <th>You Have Mom Kick Off</th>
+                      <td class="text-center">3</td>
+                    </tr> 
+                    <tr>
+                      <th>You have LOA</th>
+                      <td class="text-center">6</td>
+                    </tr> 
+                    <tr>
+                      <th>Hold CO </th>
+                      <td class="text-center">2</td>
+                    </tr> 
+                    <tr>
+                      <th>Aborted CO</th>
+                      <td class="text-center">5</td>
+                    </tr> 
                   </tbody>
                 </table>
               </div>
@@ -173,49 +185,59 @@
             <!-- /.box -->
           </div>
           <div class="col-md-6">
-            
             <div class="col-md-12">
               <div class="box box-default">
                 <div class="box-header">
-                  Outstanding Items
+                  Outstanding Contract Agreement
                 </div>
                 <!-- /. box-header -->
                 <div class="box-body">
-                  <table class="table table-condensed input-sm table-striped table-bordered">
-                    <thead class="bg-primary">
-                      <tr>
-                        <th>Category</th>
-                        <th class="text-center">Info</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th>CO Need Your Quotation</th>
-                        <td class="text-center">3</td>
-                      </tr>
-                      <tr>
-                        <th>Bid Closing/Opening</th>
-                        <td class="text-center">0</td>
-                      </tr>
-                      <tr>
-                        <th>Hold Bidding</th>
-                        <td class="text-center">1</td>
-                      </tr>
-                      <tr>
-                        <th>Resume Bidding</th>
-                        <td class="text-center">3</td>
-                      </tr>
-                      <tr>
-                        <th>Sanggah</th>
-                        <td class="text-center">0</td>
-                      </tr>
-                      <tr>
-                        <th>Contract Need CSMS Report</th>
-                        <td>1</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="alert alert-warning alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <i class="icon fa fa-child"></i> COC Need Approval
+                  </div>                  
                 </div>
+                <div class="box-body">
+                  <div class="alert alert-warning alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <i class="icon fa fa-hourglass"></i> Contract Agreement Need Performance Semester Evaluation !
+                  </div>                  
+                </div>
+                <div class="box-body">
+                  <div class="alert alert-warning alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <i class="fa fa-file"></i> Contract Agreement Need Performance Final Evaluation !
+                  </div>                  
+                </div>
+                <div class="box-body">
+                  <div class="alert alert-info alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <i class="icon fa fa-info"></i> Reminder Expire CO !
+                  </div>                  
+                </div>
+                <!-- /.box-body -->
+              </div>            
+            </div>
+            <div class="col-md-12">
+              <div class="box box-default">
+                <div class="box-header">
+                  Outstanding VO
+                </div>
+                <!-- /. box-header -->
+                <div class="box-body">
+                  <div class="alert alert-info alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <i class="icon fa fa-close"></i> Incomplete VO !
+                  </div>
+                  <div class="alert alert-warning alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <i class="icon fa fa-pencil"></i> VO Need Approval !
+                  </div>
+                  <div class="alert alert-success alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <i class="icon fa fa-check"></i> Amendement Complete !
+                  </div>
+               </div>
                 <!-- /.box-body -->
               </div>            
             </div>

@@ -76,10 +76,9 @@
                   <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
                     <div class="form-group">
                       <label for="pickedByCE1">No. Kontrak</label>
-                      <div class="input-group">
-                        <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="Pilih Contract Order">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                      </div>
+
+                        <input type="text" class="form-control input-sm" id="pickedByCE1" placeholder="CA-17001" disabled="">
+
                     </div>
                     <div class="form-group">
                       <label for="pickedByCE2">Judul Pekerjaan</label>
