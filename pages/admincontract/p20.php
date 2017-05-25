@@ -123,34 +123,39 @@
                 <tr>
                   <th style="width:50px">Nomor</th>
                   <th>Bulan</th>
+                  <th>Tahun</th>
                   <th style="width:100px">Status</th>
-                  
+                  <th style="width:100px">Lihat Laporan</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td><a href="p20-view-bulan.php">Januari</a></td>
+                  <td>Januari</td>
+                  <td>2017</td>
                   <td><div class="text-center"><span class="label label-success">Submitted</span></div></td>
-                  
+                  <td><div class="text-center"><a href="p20-view-bulan.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat</button></a></div></td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td><a href="p20-view-bulan.php">Februari</a></td>
+                  <td>Februari</td>
+                  <td>2017</td>
                   <td><div class="text-center"><span class="label label-success">Submitted</span></div></td>
-                  
+                  <td><div class="text-center"><a href="p20-view-bulan.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat</button></a></div></td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td><a href="p20-view-bulan.php">Maret</a></td>
+                  <td>Maret</td>
+                  <td>2017</td>
                   <td><div class="text-center"><span class="label label-success">Submitted</span></div></td>
-                  
+                  <td><div class="text-center"><a href="p20-view-bulan.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat</button></a></div></td>
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td><a href="p20-view-bulan.php">April</a></td>
+                  <td>April</td>
+                  <td>2017</td>
                   <td><div class="text-center"><span class="label label-warning">Draft</span></div></td>
-                  
+                  <td><div class="text-center"><a href="p20-view-bulan.php"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span> Lihat</button></a></div></td>
                 </tr>
                 
                 <tbody>

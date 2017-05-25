@@ -74,16 +74,17 @@
             <div class="col-md-12">
               
 
-              <table class="table table-bordered table-condensed table-stripped">
+              <table class="table table-bordered table-condensed table-stripped table-hover">
                 <thead>
                   <tr>
                     <td style="width:25px">No.</td>
-                    <td style="width:200px">Nama Rekanan</td>
+                    <td style="width:150px">Nama Rekanan</td>
                     <td style="width:75px">Score</td>
-                    <td style="width:75px">Kesimpulan</td>
-                    <td style="width:500px">Keterangan Singkat</td>
+                    <td>Kesimpulan</td>
+                    <td>Dokumen Hasil Evaltek</td>
+                    <td style="width:300px">Keterangan Singkat</td>
 
-                    <td style="width:200px">Dokumen Klarifikasi</td>
+                    <td>Dokumen Klarifikasi</td>
                   </tr>
                 </thead>
                 <tbody>
@@ -98,6 +99,9 @@
                     <td>
                       <span class="text-green">Lulus</span>
                     </td>
+                    <td>
+                      <input type="file" class="input-sm" style="width:180px" required>
+                    </td>
                     <td></td>
                     <td></td>
                     <!-- <td>
@@ -108,25 +112,28 @@
                     <td>2</td>
                     <td>PT HARAPAN BANGSA</td>
                     <td><div class="text-center">69</div></td>
-                    
-                    
                     <td>
                       <span class="text-red">Tidak Lulus</span>
+                    </td>
+                    <td>
+                      <input type="file" class="input-sm" style="width:180px" required>
                     </td>
                     <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" required></textarea>
                     </td>
                     <td>
-                      <input type="file" class="input-sm" required>
+                      <input type="file" class="input-sm" style="width:180px" required>
                     </td>
                   </tr>
                   <tr>
                     <td>3</td>
                     <td>PT KARYA MAS</td>
                     <td><div class="text-center">76</div></td>
-                    
                     <td>
                       <span class="text-green">Lulus</span>
+                    </td>
+                    <td>
+                      <input type="file" class="input-sm" style="width:180px" required>
                     </td>
                     <td></td>
                     <td></td>
@@ -138,13 +145,15 @@
                     <td>4</td>
                     <td>PT CAHAYA TERANG</td>
                     <td><div class="text-center">87</div></td>
-                    
-                    <!-- <td>
-                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
-                    </td> -->
                     <td>
                       <span class="text-green">Lulus</span>
                     </td>
+                    <td>
+                      <input type="file" class="input-sm" style="width:180px" required>
+                    </td>
+                    <!-- <td>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
                     <td></td>
                     <td></td>
                     <!-- <td>
@@ -155,13 +164,15 @@
                     <td>5</td>
                     <td>PT MAKMUR ABADI</td>
                     <td><div class="text-center">92</div></td>
-                    
-                    <!-- <td>
-                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
-                    </td> -->
                     <td>
                       <span class="text-green">Lulus</span>
                     </td>
+                    <td>
+                      <input type="file" class="input-sm" style="width:180px" required>
+                    </td>
+                    <!-- <td>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
                     <td></td>
                     <td></td>
                     <!-- <td>
@@ -172,18 +183,20 @@
                     <td>6</td>
                     <td>PT HAN WOK STEEL</td>
                     <td><div class="text-center">58</div></td>
-                    
-                    <!-- <td>
-                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
-                    </td> -->
                     <td>
                       <span class="text-red">Tidak Lulus</span>
                     </td>
                     <td>
+                      <input type="file" class="input-sm" style="width:180px" required>
+                    </td>
+                    <!-- <td>
+                      <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
+                    </td> -->
+                    <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" required></textarea>
                     </td>
                     <td>
-                      <input type="file" class="input-sm" required>
+                      <input type="file" class="input-sm" style="width:180px" required>
                     </td>
                   </tr>
                 </tbody>
@@ -197,7 +210,7 @@
 
             <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button>
             <!-- <button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#saveModal" style="margin-right:5px"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button> -->
-            <a href="p6.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px">Back</button></a>
+            <!-- <a href="p6.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px">Back</button></a> -->
             
             <div id="submitModal" class="modal">
               <div class="modal-dialog">

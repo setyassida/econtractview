@@ -245,39 +245,147 @@
                 <div class="box-header with-border">
                   <h4>Form HPS</h4>
                 </div>
-                <div class="box-body">                          
-                  <div class="form-group"> 
-                    <label class="control-label col-md-2">HPS Minimum (Rp) :</label>
-                    <div class="col-md-3">
-                      <span class="">
-                        <input type="number" class="form-control input-sm" required>
-                      </span>
+                <div class="box-body">
+                  <div class="col-md-6">                          
+                    <div class="form-group"> 
+                      <label class="control-label col-md-4">HPS Minimum (Rp) :</label>
+                      <div class="col-md-6">
+                        <span class="">
+                          <input type="number" class="form-control input-sm" required>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="form-group"> 
+                      <label class="control-label col-md-4">HPS Most Likely (Rp) :</label>
+                      <div class="col-md-6">
+                        <span class="">
+                          <input type="number" class="form-control input-sm" required>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="form-group"> 
+                      <label class="control-label col-md-4">HPS Maximum (Rp) :</label>
+                      <div class="col-md-6">
+                        <span class="">
+                          <input type="number" class="form-control input-sm" required>
+                        </span>
+                      </div>
                     </div>
                   </div>
-                  <div class="form-group"> 
-                    <label class="control-label col-md-2">HPS Most Likely (Rp) :</label>
-                    <div class="col-md-3">
-                      <span class="">
-                        <input type="number" class="form-control input-sm" required>
-                      </span>
+                  <div class="col-md-6">
+                    <table class="table table-hover table-condensed table-bordered">
+                      <thead>
+                        <tr>
+                          <td>Judul Dokumen</td>
+                          <td>Upload</td>
+                          <td>Uploaded Files</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Dokumen Pendukung</td>
+                          <td><div class="text-center"><button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                          <td><a data-toggle="modal" data-target="#filesModal" style="cursor:pointer">3 Files</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div id="uploadModal" class="modal">
+                      <form class="form-horizontal">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header bg-green">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title">Upload Dokumen</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                                Maksimum ukuran tiap file yang diupload adalah <span class="text-red">50MB</span>!    
+                              </p>
+                              <div class="form-group">
+                                <label class="control-label col-md-3">Judul :</label>
+                                <div class="col-md-8">
+                                  <input type="text" class="form-control input-sm">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="control-label col-md-3">Dokumen :</label>
+                                <div class="col-md-8">
+                                  <input type="file" class="form-control input-sm">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="control-label col-md-3">Keterangan :</label>
+                                <div class="col-md-8">
+                                  <textarea class="form-control input-sm" rows="4" style="resize:none"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+                              <button type="submit" class="btn btn-sm btn-success">Upload</button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
                     </div>
-                  </div>
-                  <div class="form-group"> 
-                    <label class="control-label col-md-2">HPS Maximum (Rp) :</label>
-                    <div class="col-md-3">
-                      <span class="">
-                        <input type="number" class="form-control input-sm" required>
-                      </span>
+
+                    <div id="filesModal" class="modal">
+                      <form class="form-horizontal">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header bg-green">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title">Dokumen Pendukung</h4>
+                            </div>
+                            <div class="modal-body">
+
+                              <table class="table table-hover table-bordered table-condensed">
+                                <thead>
+                                  <tr>
+                                    <td>No.</td>
+                                    <td>Judul Dokumen</td>
+                                    <td>Keterangan Dokumen</td>
+                                    <td>Download</td>
+                                    <td>Action</td>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>1.</td>
+                                    <td>Judul Dokumen Pertama</td>
+                                    <td>Dokumen tambahan pertama</td>
+                                    <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                                    <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+                                  </tr>
+                                  <tr>
+                                    <td>2.</td>
+                                    <td>Judul Dokumen Kedua</td>
+                                    <td>Dokumen tambahan kedua</td>
+                                    <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                                    <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+                                  </tr>
+                                  <tr>
+                                    <td>3.</td>
+                                    <td>Judul Dokumen Ketiga</td>
+                                    <td>Dokumen tambahan ketiga</td>
+                                    <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                                    <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Kembali</button>  
+                            </div>
+                          </div>
+                        </div>
+                      </form>
                     </div>
+
                   </div>
-                  <div class="form-group"> 
-                    <label class="control-label col-md-2">Dokumen Pendukung :</label>
-                    <div class="col-md-3">
-                      <span class="">
-                        <input type="file" class="input-sm" required>
-                      </span>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>  
 

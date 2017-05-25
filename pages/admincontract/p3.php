@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="../../bootstrap/css/custom.css"
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -128,63 +129,210 @@
                     <div class="row">
                       <div class="col-md-12">
                         <div class="box-body">
-                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                          Maksimum ukuran tiap file yang diupload adalah <span class="text-red">50MB</span>!    
-                        </p>
-
-                        <table id="dataTable" class="table table-bordered table-condensed table-hover">
-                          <thead>
-                            <tr>
-                              <th>Judul Dokumen</th>
-                              <th style="width:250px">Filename</th>
-                              <th style="width:40px">Act</th>
-                              <th style="display:none">Keterangan</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>Risalah Pre-Bid Meeting</td>
-                              <td><input type="file" id="" accept=".pdf"></td>
-                              <td></td>
-                              <td style="display:none"></td>
-                            </tr>
-                            <tr>
-                              <td>Breakdown Penawaran</td>
-                              <td><input type="file" id="" accept=".pdf"></td>
-                              <td></td>
-                              <td style="display:none"></td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <div style="height:20px">
-                        </div>
-
-                        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
-                          Tambahkan dokumen pendukung lainnya melalui kolom berikut.   
-                        </p>
-                        <div class="form-group">
-                          <label class="control-label col-md-4">Judul Dokumen : </label>
-                          <div class="col-md-8">
-                            <input id="inputJudulDokumen" type="text" class="input-sm form-control">
+                          <table id="dataTable" class="table table-bordered table-condensed table-hover">
+                            <thead>
+                              <tr>
+                                <th>Judul Dokumen</th>
+                                <th>Upload</th>
+                                <th>Uploaded Files</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Risalah Pre-Bid Meeting</td>
+                                <td><div class="text-center"><button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                                <td><a data-toggle="modal" data-target="#filesModal-1" style="cursor:pointer">1 Files</a></td>
+                                
+                                
+                              </tr>
+                              <tr>
+                                <td>Breakdown Penawaran</td>
+                                <td><div class="text-center"><button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                                <td><a data-toggle="modal" data-target="#filesModal-2" style="cursor:pointer">1 Files</a></td>
+                              </tr>
+                              <tr>
+                                <td>Dokumen Pendukung</td>
+                                <td><div class="text-center"><button type="button" class="btn btn-success btn-xs" data-toggle="modal" data-target="#uploadModal"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></td>
+                                <td><a data-toggle="modal" data-target="#filesModal-3" style="cursor:pointer">3 Files</a></td>
+                                
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div id="uploadModal" class="modal">
+                            <form class="form-horizontal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header bg-green">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Upload Dokumen</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                                      Maksimum ukuran tiap file yang diupload adalah <span class="text-red">50MB</span>!    
+                                    </p>
+                                    <div class="form-group">
+                                      <label class="control-label col-md-3">Judul :</label>
+                                      <div class="col-md-8">
+                                        <input type="text" class="form-control input-sm">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label class="control-label col-md-3">Dokumen :</label>
+                                      <div class="col-md-8">
+                                        <input type="file" class="form-control input-sm">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label class="control-label col-md-3">Keterangan :</label>
+                                      <div class="col-md-8">
+                                        <textarea class="form-control input-sm" rows="4" style="resize:none"></textarea>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn btn-sm btn-success">Upload</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
                           </div>
-                        </div>
-                        <div class="form-group">
-                          <label class="control-label col-md-4">Filename : </label>
-                          <div class="col-md-8">
-                            <input id="inputFile" type="file" class="input-sm">
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label class="control-label col-md-4">Keterangan : </label>
-                          <div class="col-md-8">
-                            <textarea id="inputKeterangan" rows="5" placeholder="Type Here.." class="form-control" style="resize:none"></textarea>
-                          </div>
-                        </div>
-                        <button type="button" class="btn btn-primary btn-xs pull-right" id="btnAdd"><span class="glyphicon glyphicon-plus"></span> Add</button>
-                        
-                        
 
+                          <div id="filesModal-1" class="modal">
+                            <form class="form-horizontal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header bg-green">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Risalah Pre-Bid Meeting</h4>
+                                  </div>
+                                  <div class="modal-body">
+
+                                    <table class="table table-hover table-bordered table-condensed">
+                                      <thead>
+                                        <tr>
+                                          <td>No.</td>
+                                          <td>Judul Dokumen</td>
+                                          <td>Keterangan Dokumen</td>
+                                          <td>Download</td>
+                                          <td>Action</td>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>1.</td>
+                                          <td>Judul Dokumen Pertama</td>
+                                          <td>Dokumen tambahan pertama</td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+                                        </tr>
+                                        
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Kembali</button>  
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+
+                          <div id="filesModal-2" class="modal">
+                            <form class="form-horizontal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header bg-green">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Breakdown Penawaran</h4>
+                                  </div>
+                                  <div class="modal-body">
+
+                                    <table class="table table-hover table-bordered table-condensed">
+                                      <thead>
+                                        <tr>
+                                          <td>No.</td>
+                                          <td>Judul Dokumen</td>
+                                          <td>Keterangan Dokumen</td>
+                                          <td>Download</td>
+                                          <td>Action</td>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>1.</td>
+                                          <td>Judul Dokumen Pertama</td>
+                                          <td>Dokumen tambahan pertama</td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+                                        </tr>
+                                        
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Kembali</button>  
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div id="filesModal-3" class="modal">
+                            <form class="form-horizontal">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header bg-green">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Dokumen Pendukung</h4>
+                                  </div>
+                                  <div class="modal-body">
+
+                                    <table class="table table-hover table-bordered table-condensed">
+                                      <thead>
+                                        <tr>
+                                          <td>No.</td>
+                                          <td>Judul Dokumen</td>
+                                          <td>Keterangan Dokumen</td>
+                                          <td>Download</td>
+                                          <td>Action</td>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>1.</td>
+                                          <td>Judul Dokumen Pertama</td>
+                                          <td>Dokumen tambahan pertama</td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+                                        </tr>
+                                        <tr>
+                                          <td>2.</td>
+                                          <td>Judul Dokumen Kedua</td>
+                                          <td>Dokumen tambahan kedua</td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+                                        </tr>
+                                        <tr>
+                                          <td>3.</td>
+                                          <td>Judul Dokumen Ketiga</td>
+                                          <td>Dokumen tambahan ketiga</td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                                          <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Kembali</button>  
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
 
                         </div>
                       </div>
@@ -205,8 +353,8 @@
             <!-- /.box-body -->
             <div class="box-footer">
               
-              <button type="button" class="btn btn-success btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#uploadModal">
-              <span class="glyphicon glyphicon-cloud-upload"></span> Upload
+              <button type="button" class="btn btn-success btn-sm pull-right" style="margin-right: 5px;" data-toggle="modal" data-target="#submitModal">
+              <span class="glyphicon glyphicon-cloud-upload"></span> Submit
               </button>
 
               
@@ -216,7 +364,7 @@
               <!-- <a href="p3.php"><button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;"> Back</button></a> -->
               <a href="#"><button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;"><span class="glyphicon glyphicon-download-alt"></span> Download Template</button></a>
 
-              <div id="uploadModal" class="modal">
+              <div id="submitModal" class="modal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header bg-green">

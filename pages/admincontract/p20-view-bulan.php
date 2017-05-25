@@ -458,7 +458,14 @@
                   <div class="col-md-3">
                     <input type="text" class="form-control input-sm">
                   </div>
+                  <div class="col-md-3">
+                    <button type="button" class="btn btn-default btn-sm">Save</button>
+                  </div>
                 </div>
+
+                <!-- <div class="col-md-5">
+                  <button type="button" class="btn btn-default btn-sm">Save</button>
+                </div> -->
               </div>
 
             </div>

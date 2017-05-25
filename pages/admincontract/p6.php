@@ -74,14 +74,14 @@
             <div class="col-md-12">
               
 
-              <table class="table table-bordered table-condensed table-stripped">
+              <table class="table table-bordered table-condensed table-stripped table-hover">
                 <thead>
                   <tr>
                     <td style="width:25px">No.</td>
                     <td >Nama Rekanan</td>
                     <td style="width:75px">Score</td>
                     <!-- <td>Keterangan Singkat</td> -->
-                    <td style="width:150px">Dokumen Hasil Evaltek</td>
+                    <!-- <td style="width:150px">Dokumen Hasil Evaltek</td> -->
                     <!-- <td style="width:150px">Dokumen Klarifikasi</td> -->
                   </tr>
                 </thead>
@@ -94,9 +94,9 @@
                     <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td> -->
-                    <td>
+                    <!-- <td>
                       <input type="file" class="input-sm" required>
-                    </td>
+                    </td> -->
                     <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
                     </td> -->
@@ -109,9 +109,9 @@
                     <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td> -->
-                    <td>
+                    <!-- <td>
                       <input type="file" class="input-sm" required>
-                    </td>
+                    </td> -->
                     <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
                     </td> -->
@@ -124,9 +124,9 @@
                     <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td> -->
-                    <td>
+                    <!-- <td>
                       <input type="file" class="input-sm" required>
-                    </td>
+                    </td> -->
                     <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
                     </td> -->
@@ -139,9 +139,9 @@
                     <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td> -->
-                    <td>
+                    <!-- <td>
                       <input type="file" class="input-sm" required>
-                    </td>
+                    </td> -->
                     <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
                     </td> -->
@@ -154,9 +154,9 @@
                     <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td> -->
-                    <td>
+                    <!-- <td>
                       <input type="file" class="input-sm" required>
-                    </td>
+                    </td> -->
                     <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
                     </td> -->
@@ -169,9 +169,9 @@
                     <!-- <td>
                       <textarea class="form-control input-sm" rows="2" style="resize:none" placeholder="Wajib isi jika tidak lulus..."></textarea>
                     </td> -->
-                    <td>
+                    <!-- <td>
                       <input type="file" class="input-sm" required>
-                    </td>
+                    </td> -->
                     <!-- <td>
                       <input type="file" class="input-sm" style="width:175px" required>
                     </td> -->
@@ -185,7 +185,7 @@
           <!-- /.box-body -->
           <div class="box-footer">
 
-            <a href="p6-edit-next.php"><button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"> Next</button></a>
+            <a href="p6-edit-next.php"><button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"> Save</button></a>
             <!-- <button type="button" class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target="#saveModal" style="margin-right:5px"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button> -->
             <!-- <a href="p6.php"><button type="button" class="btn btn-default btn-sm" style="margin-right:5px">Back</button></a> -->
             
