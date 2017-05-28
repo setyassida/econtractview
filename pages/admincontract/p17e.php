@@ -89,7 +89,10 @@
                             <td>Rp 5.000.000.000</td>
                             <td>Rp 4.500.000.000</td>
                             <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><select class="btn btn-sm btn-default">
+                              <option>Berhasil</option>
+                              <option>Gagal</option>
+                            </select></td>
                             <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                           </tr>
                           
@@ -99,8 +102,8 @@
                 </div>
               </div>
               <div class="col-md-12" style="text-align: right;">
-                <a href="p17c.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Kembali ke menu evaluasi komersial VO">Re Evaluasi</button></a>   
-                <a href="p17f.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
+                <!-- <a href="p17c.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Kembali ke menu evaluasi komersial VO">Re Evaluasi</button></a> -->   
+                <a href="p17f.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Save</button></a>
               </div>
             </div>
           </form>

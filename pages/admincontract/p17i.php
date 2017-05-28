@@ -37,12 +37,12 @@
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Evalkom Pengadaan dan Penunjukan Langsung</small>
+        Variation Order
+        <small>Evaluasi Komersial</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Contract Order</li>
+        <li class="active">Variation Order</li>
         <li class="active">Evaluasi Komersial</li>
       </ol>
     </section>
@@ -68,6 +68,8 @@
                     <label class="control-label col-md-3" for="noKontrak">Nomor Kontrak:</label>
                     <div class="col-md-9">
                       <p class="form-control-static">CA-17001</p>
+                      <p class="form-control-static">#nomor kontrak VO</p>
+                      
                     </div>
                   </div>
                   <div class="form-group">
@@ -220,12 +222,12 @@
               </div>
               
               <div class="form-group">
-                <label class="control-label col-md-1" for="noKontrak">Action</label>
+                
                 <div class="col-md-5">
                   <!-- <a href="p8abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a> -->
-                  <a href="p8d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a>
+                  <a href="p17d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a>
                   <!-- <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a> -->
-                  <a href="p8.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Submit </button></a>
+                  <a href="p17.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Submit </button></a>
                  
                 </div>
                 <!-- <div class="col-md-6" style="text-align: right;">

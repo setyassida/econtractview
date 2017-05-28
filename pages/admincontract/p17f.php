@@ -83,7 +83,10 @@
                             <td>Rp 5.000.000.000</td>
                             <td>Rp 4.500.000.000</td>
                             <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><select disabled="" class="btn btn-sm btn-default">
+                              <option>Berhasil</option>
+                              <option>Gagal</option>
+                            </select></td>
                             <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                           </tr>
                           
@@ -93,8 +96,8 @@
                 </div>
               </div>
               <div class="col-md-12" style="text-align: right;">
-                <a href="p17c.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Kembali ke menu evaluasi komersial VO">Re Evaluasi</button></a>   
-                <a href="p17.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
+               <!--  <a href="p17c.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Kembali ke menu evaluasi komersial VO">Re Evaluasi</button></a>  -->  
+                <a href="p17.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Save</button></a>
               </div>
             </div>
           </form>
@@ -105,70 +108,15 @@
 
     <div class="row">
 
-      <div class="col-md-12">
-        <div class="box box-success">
-          <form class="form-horizontal">
-            <div class="box-header with-border">
-              <h3 class="box-title">Penilaian Hasil Evaluasi</h3>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                  <i class="fa fa-minus"></i></button>
-              </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <div class="row">
-                <!-- left column -->
-                <div class="col-md-12">
-
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table class="table table-bordered">
-                          <tr>
-                            <th>Penawar</th>
-                            <th style="width: 200px">Penawaran Asli (Rp)</th>
-                            <th style="width: 200px">Penawaran Terkoreksi (RP)</th>
-                            <th style="width: 100px">Nilai Negosiasi (RP)</th>
-                            <th style="width: 10px">Hasil Evaluasi Ke - </th>
-                            <th>Administrasi</th>
-                            <th>Teknis</th>
-                            <th>Komersial</th>
-                          </tr>
-                          <tr>
-
-                            <td>PT Hasanah Sumber Utama</td>
-                            <td>1.150.000.000</td>
-                            <td>950.000.000</td>
-                            <td>950.000.000</td>
-                            <td> 2 </td>
-                            <td> Lulus </td>
-                            <td> Lulus </td>
-                            <td> Wajar </td>
-                          </tr>
-                          
-                        </table>
-
-                      </div>
-                     
-
-                </div>
-
-
-              </div>
-            </div>
-          </form>
-        </div>    
-
-
-    </div>
+    
     <!-- batas hasil evaluasi -->
     <div class="col-md-12">
       <div class="box box-primary">
         <div class="box-header with-border">
         </div>
         <!-- /.box-header -->
-        <div class="box-body">
-          <!-- <div class="well well-sm">
+        <div class="box-body">     
+        <div class="well well-sm">
             <h4>Nilai penawaran terendah(setelah hasil negosiasi atau hasil koreksi) wajar lebih besar dari total budget cost commitment <span class="fa fa-close"></span></h4>
             <h4>Perlu dimasukkan budget rate setiap tahun <span class="fa fa-close"></span></h4>
             <h5>Masukan batas waktu konfirmasi</h5>
@@ -180,19 +128,12 @@
 
             </div>
             <br>
-          <a href="p17_pcb.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim Ketersediaan Anggaran Ke Project Coordinator"><span class="fa fa-send"></span> Kirim Form Ketersediaan</button></a>
-          </div> -->
-          <div class="well well-sm">
-            <h4>Hasil Evaluasi Komersial Variation Order <span class="fa fa-check"></span></h4>
-                      
-          </div>
-      
-            
-            
+          <a href="#!"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim Ketersediaan Anggaran Ke Project Coordinator"><span class="fa fa-send"></span> Kirim Form Ketersediaan</button></a>
+          </div>     
         </div>
         <div class="box-footer">
         
-           <a href="p17.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Finish</button></a>
+           <a href="p17i.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Submit</button></a>
         </div>
 
         </div>

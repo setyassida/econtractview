@@ -102,7 +102,7 @@
                 <div class="col-md-6">
                   <div class="box box-warning">
                     <div class="box-header with-border">
-                      <h3 class="box-title">HPS Tidak Termasuk PPN 10%</h3>
+                      <h3 class="box-title">HPS</h3>
                     </div>
                     <div class="box-body">
                       <table class="table table-bordered">
@@ -128,19 +128,25 @@
                       <!-- /.box-header -->
                       <div class="box-body">
                         <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Contract Existing Termasuk PPN 10%</label>
+                          <label class="control-label col-md-5" for="noKontrak">Contract Existing Termasuk PPN 10% / 1.1</label>
                           <div class="col-md-6">
                             <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none"></textarea>
                           </div>
                         </div>
                         <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Durasi</label>
+                          <label class="control-label col-md-5" for="noKontrak">Contract Existing Tidak Termasuk PPN 10% / 1.1</label>
                           <div class="col-md-6">
                             <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none"></textarea>
                           </div>
                         </div>
                         <div class="form-group">
-                          <label class="control-label col-md-3" for="noKontrak">Jumlah TK</label>
+                          <label class="control-label col-md-5" for="noKontrak">Durasi</label>
+                          <div class="col-md-6">
+                            <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-5" for="noKontrak">Jumlah TK</label>
                           <div class="col-md-6">
                             <textarea id="inputKeterangan" rows="1" placeholder="0" class="form-control input-sm" style="resize:none"></textarea>
                           </div>
@@ -292,19 +298,19 @@
               
 
               <div class="form-group">
-                <label class="control-label col-md-1" for="noKontrak">Action</label>
                 <div class="col-md-5">
                   <!-- <a href="p8abort.php"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-remove"> </span> Abort </button></a> -->
                   <a href="p8d.php"><button type="button" class="btn bg-purple btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Evaluasi </button></a>
+                  <a href="p8rebid.php"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-repeat"> </span> Re Bid </button></a>
                   <!-- <a href="#"><button type="button" class="btn bg-navy btn-sm"><span class="glyphicon glyphicon-retweet"> </span> Re Bid </button></a> -->
                   <a href="p8.php"><button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"> </span> Submit </button></a>
                  
                 </div>
-                <!-- <div class="col-md-6" style="text-align: right;">
-                  <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
-                  <a href="#!"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a>
+                <div class="col-md-6" style="text-align: right;">
+                  <!-- <button type="button" disabled="" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button>
+                  <a href="#!"><button type="button" disabled="" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a> -->
 
-                </div> -->
+                </div>
               </div>
             </div>
             <!-- /.box-body -->

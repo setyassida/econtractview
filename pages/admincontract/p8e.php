@@ -199,7 +199,7 @@
                           <tbody>
                         </table>
                         <dir class="col-md-12 box-footer" style="text-align: right;">
-                          <a href="p8e.php"><button type="button" class="btn btn-info btn-sm">Simpan</button></a>
+                          <a href="p8e.php"><button type="button" class="btn btn-info btn-sm">Save</button></a>
                         </dir>
                       </div>
                   </div>

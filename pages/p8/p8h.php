@@ -36,15 +36,15 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <section class="content-header">
+        <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Komersial</small>
+        Evaluasi Komersial
+       
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Contract Order</li>
         <li class="active">Evaluasi Komersial</li>
+        
       </ol>
     </section>
 
@@ -54,7 +54,9 @@
       <div class="box box-success">
           <form class="form-horizontal">
             <div class="box-header with-border">
-              <h3 class="box-title">Negosiasi</h3>
+              <!-- <div class="well well-sm">
+                  <p>Terdapat proses negosiasi yang berhasil. Maka proses reevaluasi tidak diperlukan</p>
+              </div> -->
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
                   <i class="fa fa-minus"></i></button>
@@ -68,30 +70,49 @@
 
                       <!-- /.box-header -->
                       <div class="box-body">
-                        <table class="table table-bordered">
+                        <table class="table table-bordered table-condensed">
                           <tr>
                             <th style="width: 200px">Nama Kontraktor</th>
-                            <th style="width: 200px">Nilai Negosiasi</th>
+                            <th style="width: 200px">Nilai Kontrak</th>
+                            <th style="width: 200px">Nilai Penawaran</th>
+                            <th style="width: 200px">Nilai Setelah Negosiasi</th>
                             <th style="width: 200px">Hasil Negosiasi</th>
                             <th style="width: 200px">Upload Dokumen Risalah Nego</th>
 
                           </tr>
                           <tr>
                             <td>PT Hasanah Sumber Utama</td>
-                            <td>Rp 1.150.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td>Rp 5.000.000.000</td>
+                            <td>Rp 4.500.000.000</td>
+                            <td><textarea id="inputKeterangan" disabled="" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><select disabled="" class="btn btn-sm btn-default">
+                              <option>Berhasil</option>
+                              <option>Gagal</option>
+                            </select></td>
                             <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                           </tr>
                           <tr>
                             <td>PT Aimindo Adie Perkasa</td>
-                            <td>Rp 1.050.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td>Rp 5.000.000.000</td>
+                            <td>Rp 4.500.000.000</td>
+                            <td><textarea id="inputKeterangan" disabled="" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><select disabled="" class="btn btn-sm btn-default">
+                              <option>Berhasil</option>
+                              <option>Gagal</option>
+                            </select></td>
+
                             <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                           </tr>
                           <tr>
                             <td>PT Abdi Jati</td>
-                            <td>Rp 1.250.000.000</td>
-                            <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td>Rp 5.000.000.000</td>
+                            <td>Rp 4.500.000.000</td>
+                            <td><textarea id="inputKeterangan" disabled="" rows="1" placeholder="Status.." class="form-control input-sm" style="resize:none"></textarea></td>
+                            <td><select disabled="" class="btn btn-sm btn-default">
+                              <option>Berhasil</option>
+                              <option>Gagal</option>
+                            </select></td>
+
                             <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
                           </tr>
                         </table>
@@ -100,8 +121,8 @@
                 </div>
               </div>
               <div class="col-md-12" style="text-align: right;">
-                <a href="p8d.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Ambil 3 bidder terendah berikutnya">Re Evaluasi</button></a>   
-                <a href="p8h.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a>
+                <!-- <a href="p8d.php"><button type="button" class="btn btn-warning btn-sm" data-toggle="hold" title="Ambil 3 bidder terendah berikutnya">Re Evaluasi</button></a>    -->
+                <!-- <a href="p8h.php"><button type="button" class="btn btn-info btn-sm" data-toggle="hold" title="Simpan">Simpan</button></a> -->
 
               </div>
             </div>
@@ -218,7 +239,7 @@
 
             </div>
             <br>
-          <a href="p8_pcb.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim Ketersediaan Anggaran Ke Project Coordinator"><span class="fa fa-send"></span> Kirim Form Ketersediaan</button></a>
+          <a href="#!"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kirim Ketersediaan Anggaran Ke Project Coordinator"><span class="fa fa-send"></span> Kirim Form Ketersediaan</button></a>
           </div>
       
             
@@ -226,7 +247,7 @@
         </div>
         <div class="box-footer">
         
-           <a href="p8.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Finish</button></a>
+           <a href="p8i.php"><button type="button" class="btn btn-success btn-sm" data-toggle="hold" title="Kembali ke menu browse"><span class="glyphicon glyphicon-ok-circle"></span> Submit</button></a>
         </div>
 
         </div>
