@@ -58,15 +58,7 @@
       <!-- Main content -->
       <section class="content">
 
-        <div style="margin-bottom:20px; margin-top:10px;" class="col-md-4 input-sm pull-right">
-          <div class="form-group">
-            <select class="form-control">
-              <option selected="true">Amandemen Ruang Linkup</option>
-              <option>Amandemen Jadwal</option>
-              <option>Nilai Kontrak</option>
-            </select>
-          </div>
-        </div>
+
 
         <div class="row">
           <form class="form-horizontal">
@@ -147,6 +139,10 @@
               <div class="box box-info">
                 <div class="box-header with-border">
                   <h3 class="box-title">Amandemen Ruang Lingkup</h3>
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                      <i class="fa fa-minus"></i></button>
+                    </div>
                 </div>
                 <!-- /.box-header -->
                 <!-- form start -->
@@ -176,12 +172,126 @@
                 <!-- /.box-body -->
 
                 <div class="box-footer ">
-                  <button type="button" class="btn btn-success pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#amandemenModal"> Amandemen Ruang Lingkup</button>
                 </div>
 
               </div>
               <!-- /.box -->
-            </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="box box-info">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Amandemen Nilai Kontrak</h3>
+                    <div class="box-tools pull-right">
+                      <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                        <i class="fa fa-minus"></i></button>
+                      </div>
+                  </div>
+                  <!-- /.box-header -->
+                  <!-- form start -->
+
+                  <div class="box-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
+                          <div class="form-group">
+                            <label for="pickedByCE2">Nilai Kontrak Asli</label>
+                            <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="Rp. 400.000.000,-" disabled>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
+                          <div class="form-group">
+                            <label for="pickedByCE2">Nilai Kontrak Perubahan</label>
+                            <input type="number" class="form-control input-sm" id="pickedByCE2" placeholder="Isi dengan nilai kontrak yang baru" >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-12">
+                        <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
+                          <div class="form-group">
+                            <label for="pickedByCE2">Nilai Kontrak Setelah Perubahan</label>
+                            <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="Rp. 300.000.000,-" disabled>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+                  </div>
+                  <!-- /.box-body -->
+
+                  <div class="box-footer ">
+                  </div>
+
+                </div>
+                <!-- /.box -->
+              </div>
+
+              <div class="col-md-6">
+                <div class="box box-info">
+                  <div class="box-header with-border">
+                    <h3 class="box-title">Amandemen Jadwal</h3>
+                    <div class="box-tools pull-right">
+                      <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                        <i class="fa fa-minus"></i></button>
+                      </div>
+                  </div>
+                  <!-- /.box-header -->
+                  <!-- form start -->
+
+                  <div class="box-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
+                          <div class="form-group">
+                            <label for="pickedByCE2">Tanggal Mulai</label>
+                            <div class="input-group date">
+                              <div class="input-group-addon">
+                                <i class="fa fa-calendar"></i>
+                              </div>
+                              <input type="text" class="form-control pull-right" id="datepicker" placeholder="17-08-2016">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                          <div class="form-group">
+                            <label for="pickedByCE2">Durasi (Dalam Bulan)</label>
+                            <input type="number" class="form-control input-sm" id="pickedByCE2" placeholder="(Dalam Bulann)">
+                          </div>
+
+                        </div>
+
+
+
+                        <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
+                          <div class="form-group">
+                            <label for="pickedByCE2">Tanggal Selesai</label>
+                            <input type="text" class="form-control input-sm" id="pickedByCE2" placeholder="17-04-2017" disabled>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <!-- /.box-body -->
+
+                  <div class="box-footer ">
+                  </div>
+
+                </div>
+                <!-- /.box -->
+              </div>
+              <br><br>
+              <button type="button" class="btn btn-success pull-right btn-sm" style="margin-right: 25px;" data-toggle="modal" data-target="#amandemenModal"> Submit</button>
+
+
 
           </div>
           <!--/.col (right) -->
@@ -213,7 +323,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-success">Ya, saya setuju untuk amandemen kontrak </button>
+          <a href="p14_assign.php"><button type="submit" class="btn btn-success">Ya, saya setuju untuk amandemen kontrak </button></a>
         </div>
       </div>
         <!-- /.modal-content -->

@@ -86,14 +86,14 @@
                   <td>20-Jan-2017</td>
                 </tr>
                 <tr>
-                  <td><a href="#">CC-17002</a></td>
+                  <td><a href="#">CB-17001</a></td>
+                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
                   <td>#2</td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
+                  <td>Nilai Kontrak</td>
                   <td>Perusahaan B</td>
                   <td>#</td>
                   <td>21-Feb-2017</td>
                 </tr>
-
 
                 </tbody>
                 <tfoot>

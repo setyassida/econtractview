@@ -33,191 +33,224 @@
   <div class="wrapper">
     <?php include "p10header.php" ?>
 
-<!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper">
-  <!-- Content Header (Page header) -->
-  <section class="content-header">
-    <h1>
-      Formulir Risalah Kick off Meeting
-      <small></small>
-    </h1>
-    <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
-      <li>Kick off Meeting</li>
-      <li class="active">CA-17001</li>
-    </ol>
-  </section>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          Formulir Risalah Kick off Meeting
+          <small></small>
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-dashboard"></i> Contract Order</a></li>
+          <li>Kick off Meeting</li>
+          <li class="active">CA-17001</li>
+        </ol>
+      </section>
 
-  <!-- Main content -->
+      <!-- Main content -->
 
-  <section class="content">
+      <section class="content">
 
-    <div class="box">
-      <div class="box-header">
-      </div>
-      <div class="box-body">
-        <div class="col-md-12">
-          <div class="form-group">
-            <label class="control-label col-md-2">Nama Bank :</label>
-            <div class="col-md-10">
-              <div class="col-md-6">
-                <select class="form-control select2 input-sm" style="width: 100%;">
-                  <option selected="selected">Mandiri</option>
-                  <option>BNI</option>
-                  <option>BRI</option>
-                  <option>Danamon</option>
-                  <option>BCA</option>
-                </select>
+        <div class="box">
+          <div class="box-header">
+          </div>
+          <div class="box-body">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="control-label col-md-2">Nama Bank :</label>
+                <div class="col-md-10">
+                  <div class="col-md-6">
+                    <select class="form-control select2 input-sm" style="width: 100%;">
+                      <option selected="selected">Mandiri</option>
+                      <option>BNI</option>
+                      <option>BRI</option>
+                      <option>Danamon</option>
+                      <option>BCA</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <div class="form-group">
+                <label class="control-label col-md-2">Nomor Rekening :</label>
+                <div class="col-md-10">
+                  <div class="col-md-6">
+                    <input type="number" class="form-control input-sm" required>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <br><br>
-          <div class="form-group">
-            <label class="control-label col-md-2">Nomor Rekening :</label>
-            <div class="col-md-10">
-              <div class="col-md-6">
-                <input type="number" class="form-control input-sm" required>
+          <!-- /.box-body -->
+          <div class="box-footer">
+          </div>
+        </div>
+        <!-- /.box -->
+
+        <div class="box">
+          <div class="box-header with-border">
+            <h3 class="box-title">Detail Dokumen</h3>
+            <div class="box-tools pull-right">
+              <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                <i class="fa fa-minus"></i></button>
               </div>
             </div>
+            <div class="box-body">
+              <div class="col-md-4">
+                <dt>Nomor Kontrak</dt>
+                <dd>CO-17001</dd> <br>
+                <dt>Judul Pekerjaan </dt>
+                <dd>Pengadaan Sistem Informasi Kepegawaian</dd> <br>
+                <dt>Jenis Kontrak</dt>
+                <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
+                <dt>Durasi Kontrak</dt>
+                <dd>Durasi : 4 Bulan</dd>
+                <dd>Mulai : 17 September 2016 </dd>
+                <dd>Selesai : 10 Januari 2017 </dd> <br>
+                <dt>Nilai Kontrak</dt>
+                <dd>Rp. 400.000.000,- </dd> <br>
+              </div>
+
+              <div class="col-md-4">
+                <dt>Laporan CSMS</dt>
+                <dd><div class="checkbox">
+                  <label>
+                    <input type="checkbox" checked="true" disabled="true">
+                    Ya
+                  </label>
+                </div></dd> <br>
+                <dt>Performance Bond <span class="small"><i>(5% dari nilai kontrak dan belum termasuk PPN 10%)</i></span></dt>
+                <dd>Rp. 16.000.000,- </dd> <br>
+
+                <dt><input type="checkbox" id="checkbox1"/> Nilai SI (Standing Instruction)</dt>
+                <div id="divNilai" style="display: none;">
+                  <dd style="text-indent: 2em"> 87  </dd>
+                </div>
+                <br>
+
+                <dt><input type="checkbox" id="checkbox2" /> Penangguhan Pembayaran <span class="small"><i>(0-100%)</i></span> </dt>
+                <div id="divPenangguhan" style="display:none;">
+                  <dd style="text-indent: 2em">0 % </dd> <br>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <dl>
+                  <dt>Nomor PR Service</dt>
+                  <dd>0001/BB41/2017-532</dd> <br>
+                  <dt>Tanggal Kick of Meeting</dt>
+                  <dd>17 Agustus 2017</dd> <br>
+                </dl>
+              </div>
+
+
+
+
+
+
+
+
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+              <div class="pull-right" style="margin-right: 2rem">
+                <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Finish</button>
+                <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#saveModal"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
+                <a href="p4.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;"> Back</button></a>
+              </div>
+
+            </div>
           </div>
+          <!-- /.box -->
+
+
+
+        </section>
+
+        <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
+
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          <b>Version</b> 2.3.12
+        </div>
+        <strong>Copyright &copy; 2017 <a href="http://badaklng.co.id">PT Badak NGL</a>.</strong> All rights reserved.
+      </footer>
+
+      <div id="publishModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+              <h4 class="modal-title">Apakah anda yakin untuk menyimpan formulir ini?</h4>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+              <button type="submit" class="btn btn-success">Ya</button>
+            </div>
+          </div>
+          <!-- /.modal-content -->
         </div>
       </div>
-      <!-- /.box-body -->
-      <div class="box-footer">
-      </div>
-    </div>
-    <!-- /.box -->
-
-    <div class="box">
-      <div class="box-header with-border">
-        <h3 class="box-title">Detail Dokumen</h3>
-        <div class="box-tools pull-right">
-          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-            <i class="fa fa-minus"></i></button>
-          </div>
-      </div>
-      <div class="box-body">
-        <div class="col-md-4">
-          <dt>Nomor Kontrak</dt>
-          <dd>CO-17001</dd> <br>
-          <dt>Judul Pekerjaan </dt>
-          <dd>Pengadaan Sistem Informasi Kepegawaian</dd> <br>
-          <dt>Jenis Kontrak</dt>
-          <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
-          <dt>Durasi Kontrak</dt>
-          <dd>Durasi : 4 Bulan</dd>
-          <dd>Mulai : 17 September 2016 </dd>
-          <dd>Selesai : 10 Januari 2017 </dd> <br>
-          <dt>Nilai Kontrak</dt>
-          <dd>Rp. 400.000.000,- </dd> <br>
-        </div>
-
-            <div class="col-md-4">
-              <dt>Laporan CSMS</dt>
-              <dd><div class="checkbox">
-                 <label>
-                   <input type="checkbox" checked="true" disabled="true">
-                   Ya
-                 </label>
-               </div></dd> <br>
-               <dt>Performance Bond <span class="small"><i>(5% dari nilai kontrak dan belum termasuk PPN 10%)</i></span></dt>
-               <dd>Rp. 16.000.000,- </dd> <br>
-               <dt>Nilai SI (Standing Instruction) </dt>
-               <dd>87</dd> <br>
-               <dt>Penangguhan Pembayaran <span class="small"><i>(0-100%)</i></span> </dt>
-               <dd>0 % </dd> <br>
-            </div>
-
-            <div class="col-md-4">
-              <dl>
-                 <dt>Nomor PR Service</dt>
-                 <dd>0001/BB41/2017-532</dd> <br>
-                 <dt>Tanggal Kick of Meeting</dt>
-                 <dd>17 Agustus 2017</dd> <br>
-               </dl>
-            </div>
-      </div>
-      <!-- /.box-body -->
-      <div class="box-footer">
-        <div class="pull-right" style="margin-right: 2rem">
-          <button type="button" class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#submitModal"><span class="glyphicon glyphicon-edit"></span> Submit</button>
-          <button type="button" class="btn btn-default btn-sm pull-right" style="margin-right:5px" data-toggle="modal" data-target="#saveModal"><span class="glyphicon glyphicon-floppy-disk"></span> Save</button>
-          <a href="p4.php"><button type="button" class="btn btn-default btn-sm pull-right" style="margin-right: 5px;"> Back</button></a>
-							</div>
-
-      </div>
-    </div>
-    <!-- /.box -->
 
 
+      <!-- ./wrapper -->
 
-  </section>
+      <!-- jQuery 2.2.3 -->
+      <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+      <!-- Bootstrap 3.3.6 -->
+      <script src="../../bootstrap/js/bootstrap.min.js"></script>
+      <!-- FastClick -->
+      <script src="../../plugins/fastclick/fastclick.js"></script>
+      <!-- AdminLTE App -->
+      <script src="../../dist/js/app.min.js"></script>
+      <!-- Sparkline -->
+      <script src="../../plugins/sparkline/jquery.sparkline.min.js"></script>
+      <!-- jvectormap -->
+      <script src="../../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+      <script src="../../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+      <!-- SlimScroll 1.3.0 -->
+      <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+      <!-- ChartJS 1.0.1 -->
+      <script src="../../plugins/chartjs/Chart.min.js"></script>
+      <!-- DataTables -->
+      <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+      <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
 
-  <!-- /.content -->
-</div>
-<!-- /.content-wrapper -->
+      <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+      <!-- <script src="../../dist/js/pages/dashboard2.js"></script> -->
+      <!-- AdminLTE for demo purposes -->
+      <script src="../../dist/js/demo.js"></script>
 
-<footer class="main-footer">
-  <div class="pull-right hidden-xs">
-    <b>Version</b> 2.3.12
-  </div>
-  <strong>Copyright &copy; 2017 <a href="http://badaklng.co.id">PT Badak NGL</a>.</strong> All rights reserved.
-</footer>
+      <script>
+      $(function () {
+        $("#dataTable").DataTable();
 
-<div id="publishModal" class="modal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					</div>
-					<div class="modal-body">
-						<h4 class="modal-title">Apakah anda yakin untuk menyimpan formulir ini?</h4>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
-						<button type="submit" class="btn btn-success">Ya</button>
-					</div>
-				</div>
-				<!-- /.modal-content -->
-			</div>
-		</div>
+        //Initialize Select2 Elements
+        $(".select2").select2();
+      });
 
 
-<!-- ./wrapper -->
+      $('#checkbox1').change(function(){
+        if (this.checked) {
+          $('#divNilai').show();
+        } else {
+          $('#divNilai').hide();
+        }
+      });
 
-<!-- jQuery 2.2.3 -->
-<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
-<!-- Bootstrap 3.3.6 -->
-<script src="../../bootstrap/js/bootstrap.min.js"></script>
-<!-- FastClick -->
-<script src="../../plugins/fastclick/fastclick.js"></script>
-<!-- AdminLTE App -->
-<script src="../../dist/js/app.min.js"></script>
-<!-- Sparkline -->
-<script src="../../plugins/sparkline/jquery.sparkline.min.js"></script>
-<!-- jvectormap -->
-<script src="../../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="../../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<!-- SlimScroll 1.3.0 -->
-<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
-<!-- ChartJS 1.0.1 -->
-<script src="../../plugins/chartjs/Chart.min.js"></script>
-<!-- DataTables -->
-<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
+      $('#checkbox2').change(function(){
+        if (this.checked) {
+          $('#divPenangguhan').show();
+        } else {
+          $('#divPenangguhan').hide();
+        }
+      });
 
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<!-- <script src="../../dist/js/pages/dashboard2.js"></script> -->
-<!-- AdminLTE for demo purposes -->
-<script src="../../dist/js/demo.js"></script>
+      </script>
 
-<script>
-$(function () {
-  $("#dataTable").DataTable();
-
-  //Initialize Select2 Elements
-  $(".select2").select2();
-});
-</script>
-
-</body>
-</html>
+    </body>
+    </html>

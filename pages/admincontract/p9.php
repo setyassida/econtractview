@@ -132,6 +132,7 @@
 														<th>Alasan Sanggah</th>
 														<th>Bukti Transfer</th>
 														<th>Dokumen Sanggahan</th>
+														<th>Action</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -140,8 +141,9 @@
 														<td>Perusahaan D</td>
 														<td>Rp. 700.000.000,-</td>
 														<td>70</td>
-														<td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-														<td class="text-center"><button type="button" class="btn btn-default btn-xs text-center"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+														<td><a data-toggle="modal" data-target="#filesModal-1" style="cursor:pointer">1 Files</a></td>
+														<td><a data-toggle="modal" data-target="#filesModal-2" style="cursor:pointer">3 Files</a></td>
+														<td class="text-center"><button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#verifyModal">Verify</button></td>
 													</tr>
 												</tbody>
 											</table>
@@ -162,7 +164,7 @@
 								</div>
 
 								<div class="pull-right" style="margin-right: 2rem">
-									<button type="button" class="btn pull-right btn-sm" data-toggle="modal" data-target="#rebidModal">Ignore</button>
+
 								</div>
 							</div>
 
@@ -232,6 +234,27 @@
 					<!-- /.modal-content -->
 				</div>
 			</div>
+
+			<div id="verifyModal" class="modal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title">Verify Documents?</h4>
+							</div>
+							<div class="modal-body">
+								<p>Verify Dokumen sanggahan</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-success btn-sm" data-dismiss="modal">Verify</button>
+								<button type="submit" class="btn btn-warning pull-left btn-sm">Rebid LOA</button>
+							</div>
+						</div>
+						<!-- /.modal-content -->
+					</div>
+				</div>
+
 			<div id="rebidModal" class="modal">
 				<div class="modal-dialog">
 					<div class="modal-content">
@@ -260,6 +283,102 @@
 						<!-- /.modal-content -->
 					</div>
 				</div>
+
+				<div id="filesModal-1" class="modal">
+	        <form class="form-horizontal">
+	          <div class="modal-dialog">
+	            <div class="modal-content">
+	              <div class="modal-header bg-green">
+	                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	                  <span aria-hidden="true">&times;</span></button>
+	                <h4 class="modal-title">Bukti Transfer</h4>
+	              </div>
+	              <div class="modal-body">
+
+	                <table class="table table-hover table-bordered table-condensed">
+	                  <thead>
+	                    <tr>
+	                      <td>No.</td>
+	                      <td>Judul Dokumen</td>
+	                      <td>Keterangan Dokumen</td>
+	                      <td>Download</td>
+	                      <td>Action</td>
+	                    </tr>
+	                  </thead>
+	                  <tbody>
+	                    <tr>
+	                      <td>1.</td>
+	                      <td>Judul Dokumen Pertama</td>
+	                      <td>Dokumen tambahan pertama</td>
+	                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+	                      <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+	                    </tr>
+
+	                  </tbody>
+	                </table>
+	              </div>
+	              <div class="modal-footer">
+	                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Kembali</button>
+	              </div>
+	            </div>
+	          </div>
+	        </form>
+	      </div>
+
+				<div id="filesModal-2" class="modal">
+	        <form class="form-horizontal">
+	          <div class="modal-dialog">
+	            <div class="modal-content">
+	              <div class="modal-header bg-green">
+	                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	                  <span aria-hidden="true">&times;</span></button>
+	                <h4 class="modal-title">Dokumen Sanggahan</h4>
+	              </div>
+	              <div class="modal-body">
+
+	                <table class="table table-hover table-bordered table-condensed">
+	                  <thead>
+	                    <tr>
+	                      <td>No.</td>
+	                      <td>Judul Dokumen</td>
+	                      <td>Keterangan Dokumen</td>
+	                      <td>Download</td>
+	                      <td>Action</td>
+	                    </tr>
+	                  </thead>
+	                  <tbody>
+	                    <tr>
+	                      <td>1.</td>
+	                      <td>Judul Dokumen Pertama</td>
+	                      <td>Dokumen tambahan pertama</td>
+	                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+	                      <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+	                    </tr>
+	                    <tr>
+	                      <td>2.</td>
+	                      <td>Judul Dokumen Kedua</td>
+	                      <td>Dokumen tambahan kedua</td>
+	                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+	                      <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+	                    </tr>
+	                    <tr>
+	                      <td>3.</td>
+	                      <td>Judul Dokumen Ketiga</td>
+	                      <td>Dokumen tambahan ketiga</td>
+	                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+	                      <td><div class="text-center"><button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> </button></div></td>
+	                    </tr>
+	                  </tbody>
+	                </table>
+	              </div>
+	              <div class="modal-footer">
+	                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Kembali</button>
+	              </div>
+	            </div>
+	          </div>
+	        </form>
+	      </div>
+
 			</div>
 
 			<!-- ./wrapper -->

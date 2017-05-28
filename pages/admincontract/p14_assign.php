@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
@@ -33,7 +37,7 @@
   <!-- Site wrapper -->
   <div class="wrapper">
 
-    <?php include "p1headerbaru.php" ?>
+    <?php include "p14header.php" ?>
 
     <!-- =============================================== -->
 
@@ -42,19 +46,16 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Contract Order
-          <small>CA-17001</small>
+          Assign LCE & SPVE
         </h1>
         <ol class="breadcrumb">
-          <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-          <li><a href="p2a.php">Contract Order</a></li>
-          <li class=""><a href="#">CA-17001</a></li>
-          <li class="active"><a href="#">Assign</a></li>
-
+          <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li ><a href="p2a.php">Variation Order</a></li>
+          <li class="active"><a href="p2b.php">Create Variation Order</a></li>
         </ol>
       </section>
 
-      <!-- Main content -->
+
       <section class="content">
 
         <div class="row">
@@ -104,6 +105,10 @@
 
       </section>
       <!-- /.content -->
+
+
+
+
     </div>
     <!-- /.content-wrapper -->
 
@@ -112,34 +117,58 @@
       reserved.
     </footer>
 
-  </div>
-  <!-- ./wrapper -->
+    <div id="amandemenModal" class="modal ">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-green">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Anda yakin untuk Amandemen Kontrak?</h4>
+            </div>
+            <div class="modal-body">
+              <p>Proses ini akan melakukan amandemen kontrak pada bagian ruang lingkup, <b>dokumen ruang lingkup akan diperbarui.</b></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+              <a href="p14_assign"><button type="submit" class="btn btn-success">Ya, saya setuju untuk amandemen kontrak </button></a>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+      </div>
 
 
-  <!-- jQuery 2.2.3 -->
-  <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
-  <!-- Bootstrap 3.3.6 -->
-  <script src="../../bootstrap/js/bootstrap.min.js"></script>
-  <!-- DataTables -->
-  <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
-  <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
-  <!-- SlimScroll -->
-  <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
-  <!-- FastClick -->
-  <script src="../../plugins/fastclick/fastclick.js"></script>
-  <!-- AdminLTE App -->
-  <script src="../../dist/js/app.min.js"></script>
-  <!-- AdminLTE for demo purposes -->
-  <script src="../../dist/js/demo.js"></script>
-  <!-- page script -->
-  <script>
-  $(document).ready(function(){
-    $('[data-toggle="abort"]').tooltip();
-  });
-  $(function () {
-    $("#example1").DataTable();
-    $('#example2').DataTable();
-  });
-  </script>
-</body>
-</html>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery 2.2.3 -->
+    <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+    <!-- DataTables -->
+    <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
+    <!-- iCheck 1.0.1 -->
+    <script src="../../plugins/iCheck/icheck.min.js"></script>
+    <!-- bootstrap datepicker -->
+    <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+    <!-- SlimScroll -->
+    <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="../../plugins/fastclick/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/app.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js"></script>
+    <!-- page script -->
+    <script>
+    $(function () {
+      $("#example1").DataTable();
+      //Date picker
+      $('#datepicker').datepicker({
+        autoclose: true
+      });
+    });
+    </script>
+  </body>
+  </html>

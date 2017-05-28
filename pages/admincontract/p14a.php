@@ -107,9 +107,7 @@
                       <label for="pickedByCE4">Tanggal Pembuatan VO</label>
                       <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="10-11-2016" disabled>
                     </div>
-                  </div>
 
-                  <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
                     <div class="form-group">
                       <label for="pickedByCE4">Kontraktor</label>
                       <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="Supplier A" disabled>
@@ -119,11 +117,35 @@
                       <input type="text" class="form-control input-sm" id="pickedByCE4" placeholder="Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS" disabled>
                     </div>
                   </div>
+
+                  <div class="col-md-4" style="margin-left: 1rem;margin-right: 1rem">
+                    <div class="form-group">
+                      <label for="pickedByCE4"><h3>Pilih Jenis Amandemen</h3></label>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox">
+                          Ruang Lingkup
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox">
+                          Nilai Kontrak
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox">
+                          Jadwal Kontrak
+                        </label>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <!-- /.box-body -->
 
                 <div class="box-footer ">
-                  <a href="p14b_amandemenRL.php" class="btn btn-success pull-right btn-sm">Amandemen Kontrak</a>
+                  <a href="p14b_amandemenForm.php" class="btn btn-success pull-right btn-sm">Amandemen Kontrak</a>
                 </div>
 
               </div>
