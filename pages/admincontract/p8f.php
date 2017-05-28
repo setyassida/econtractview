@@ -90,9 +90,9 @@
                                       <tr>
                                         <th style="width: 200px">Uraian Pekerjaan</th>
                                         <th colspan="2" style="width: 200px;">HPS Most Likely</th>
-                                        <th colspan="2" style="width: 200px;">PT Aimindo Adie P Rp</th>
-                                        <th colspan="2" style="width: 200px;">PT Hasanah Sumber Utama Rp</th>
-                                        <th colspan="2" style="width: 200px;">PT Abdi Jati Rp</th>                                        
+                                        <th colspan="2" style="width: 200px;">PT Aimindo Adie P</th>
+                                        <th colspan="2" style="width: 200px;">PT Hasanah Sumber Utama</th>
+                                        <th colspan="2" style="width: 200px;">PT Abdi Jati</th>                                        
                                       </tr>
                                       <tr>
                                         <th></th>
@@ -166,26 +166,27 @@
                                       </tr>
                                       <tr>
                                         <td>Overhead (b)</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
                                       </tr>
                                       <tr>
                                         <td>Profit (c)</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
 
                                       </tr>
                                       <tr>
@@ -201,7 +202,7 @@
                                       </tr>
                                       </table>         
                                     <div class="col-md-12 box-footer" style="text-align: left;">
-                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Save</button></a>
                             </div>           
 
                 </div>
@@ -418,7 +419,7 @@
                                         <th style="width: 50px">Analisa Evaluasi</th>
                                         
                                       </tr>
-                                      <tr>
+                                      <!-- <tr>
                                         <th style="width: 10px"></th>
                                         <th style="width: 100px"></th>
                                         <th style="width: 100px">a</th>
@@ -427,7 +428,7 @@
                                         <th style="width: 100px">d = b - c</th>
                                         <th style="width: 150px"> + / -</th>
                                         <th style="width: 50px"> wajar / tidak wajar</th>
-                                      </tr>                                      
+                                      </tr>  -->                                     
                                       <tr>
                                         <td>1.</td>
                                         <td>Biaya Jasa</td>
@@ -497,7 +498,7 @@
 
                           </div>
                            <div class="col-md-12 box-footer" style="text-align: left;">
-                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Save</button></a>
                             </div>
                         </div>
                       </form>
@@ -535,7 +536,7 @@
                                         <th style="width: 50px">Analisa Evaluasi</th>
                                         
                                       </tr>
-                                      <tr>
+                                     <!--  <tr>
                                         <th style="width: 10px"></th>
                                         <th style="width: 100px"></th>
                                         <th style="width: 100px">a</th>
@@ -544,7 +545,7 @@
                                         <th style="width: 100px">d = b - c</th>
                                         <th style="width: 150px"> + / -</th>
                                         <th style="width: 50px"> wajar / tidak wajar</th>
-                                      </tr>                                      
+                                      </tr>  -->                                     
                                       <tr>
                                         <td>1.</td>
                                         <td>Biaya Jasa</td>
@@ -614,7 +615,7 @@
 
                           </div>
                            <div class="col-md-12 box-footer" style="text-align: left;">
-                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Save</button></a>
                             </div>
                         </div>
                       </form>
@@ -651,7 +652,7 @@
                                         <th style="width: 50px">Analisa Evaluasi</th>
                                         
                                       </tr>
-                                      <tr>
+                                     <!--  <tr>
                                         <th style="width: 10px"></th>
                                         <th style="width: 100px"></th>
                                         <th style="width: 100px">a</th>
@@ -660,7 +661,7 @@
                                         <th style="width: 100px">d = b - c</th>
                                         <th style="width: 150px"> + / -</th>
                                         <th style="width: 50px"> wajar / tidak wajar</th>
-                                      </tr>                                      
+                                      </tr>      -->                                 
                                       <tr>
                                         <td>1.</td>
                                         <td>Biaya Jasa</td>
@@ -730,12 +731,12 @@
                           </div>
                            <div class="col-md-12 box-footer">
                               <div class="col-md-6">
-                                    <a href="p8f.php"><button style="text-align: left;" type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                                    <a href="p8f.php"><button style="text-align: left;" type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Save</button></a>
                                     <a href="p8d.php">
                               </div>
                               <div class="col-md-6" style="text-align: right;">
                                    <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px; text-align: right;">Back</button> </a>
-                                    <a href="p8g.php"><button style="text-align: right;" type="button" class="btn btn-success btn-sm" title="Lanjut Rincian Penawaran">Lanjut Hasil Evaluasi</button></a>
+                                    <a href="p8g.php"><button style="text-align: right;" type="button" class="btn btn-success btn-sm" title="Lanjut Rincian Penawaran">Submit</button></a>
 
                               </div>
                             </div>

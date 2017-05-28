@@ -103,7 +103,7 @@
                                 <th>Penawaran (Rp)</th>
                                 <th>Penalty Point</th>
                                 <th>Sanksi ( BL/SC )</th>
-                                <th>Evaluasi admnistrasi</th>
+                                <th>Evaluasi administrasi</th>
                               </tr>
                               <tr>
                                 <td>1.</td>
@@ -111,7 +111,7 @@
                                 <td>5.000.000.000</td>
                                 <td>30</td>
                                 <td> - </td>
-                                <td> - </td>
+                                <td> Lulus </td>
                               </tr>
                               <tr>
                                 <td>2.</td>
@@ -119,7 +119,8 @@
                                 <td>5.000.000.000</td>
                                 <td>30</td>
                                 <td> - </td>
-                                <td> - </td>
+                                <td> Lulus </td>
+
                               </tr>
                               <tr>
                                 <td>3.</td>
@@ -127,7 +128,8 @@
                                 <td>5.000.000.000</td>
                                 <td>30</td>
                                 <td> - </td>
-                                <td> - </td>
+                                <td> Lulus </td>
+
                               </tr>
                               <tr>
                                 <td>4.</td>
@@ -135,7 +137,8 @@
                                 <td>5.000.000.000</td>
                                 <td>30</td>
                                 <td> - </td>
-                                <td> - </td>
+                                <td> Lulus </td>
+
                               </tr>
                               <tr>
                                 <td>5.</td>
@@ -143,7 +146,8 @@
                                 <td>5.000.000.000</td>
                                 <td>30</td>
                                 <td> - </td>
-                                <td> - </td>
+                                <td> Lulus </td>
+
                               </tr>
                               <tr>
                                 <td>6.</td>
@@ -151,7 +155,8 @@
                                 <td>5.000.000.000</td>
                                 <td>30</td>
                                 <td> - </td>
-                                <td> - </td>
+                                <td> Lulus </td>
+
                               </tr>
                               <tr>
                                 <td>7.</td>
@@ -159,7 +164,8 @@
                                 <td>5.000.000.000</td>
                                 <td>30</td>
                                 <td> - </td>
-                                <td> - </td>
+                                <td> Lulus </td>
+
                               </tr>
                               <tr>
                                 <td>8.</td>
@@ -167,7 +173,8 @@
                                 <td>5.000.000.000</td>
                                 <td>30</td>
                                 <td> - </td>
-                                <td> - </td>
+                                <td> Lulus </td>
+
                               </tr>
 
                             </table>
@@ -186,7 +193,7 @@
         <div class="col-md-4">
                       <div class="box box-warning">
                         <div class="box-header with-border">
-                          <h3 class="box-title">ESTIMASI PTB</h3>
+                          <h3 class="box-title">Estimasi PTB</h3>
                           <div class="box-tools pull-right">
                                 <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
                             </div>
@@ -209,13 +216,9 @@
 
                       </div>
 
-        </div> 
-      </div>    
-
-
-      <div class="row">
-          <div class="col-md-12">
-              <div class="box box-success">
+        </div>
+        <div class="col-md-8">
+          <div class="box box-success">
           <form class="form-horizontal">
             <div class="box-header with-border">
               <h3 class="box-title">Evaluasi Teknis</h3>
@@ -228,55 +231,55 @@
                             <th style="width: 10px" rowspan="2" >No</th>
                             <th style="width: 100px" rowspan="2" >Penawar</th>
                             <th style="width: 100px" rowspan="2" >Score</th>
-                            <th style="width: 100px" colspan="2" >PT Badak NGL</th>
-                            
-                          </tr>
-                          <tr>
-                            <th style="width: 200px" >Penjelasan</th>
                             <th style="width: 200px" >Kesimpulan</th>
                             
                           </tr>
                           <tr>
+                            
+                            
+                            
+                          </tr>
+                          <tr style="background-color: #88fc95;">
                             <td>1.</td>
                             <td>PT Hasanah Sumber Utama</td>
                             <td>78,04</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <!-- <td>Penawaran sesuai dengan segi teknis</td> -->
                             <td>Lulus</td>
                             
                           </tr>
-                          <tr>
+                          <tr style="background-color: #88fc95;">
                             <td>2.</td>
                             <td>PT Aimindo Adie Perkasa</td>
                             <td>84,73</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <!-- <td>Penawaran sesuai dengan segi teknis</td> -->
                             <td>Lulus</td>
                           </tr>
-                          <tr>
+                          <tr style="background-color: #88fc95;">
                             <td>3.</td>
                             <td>PT harta</td>
                             <td>85,00</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <!-- <td>Penawaran sesuai dengan segi teknis</td> -->
                             <td>Lulus</td>
                           </tr>
-                          <tr>
+                          <tr style="background-color: #88fc95;">
                             <td>4.</td>
                             <td>PT Sumedang Jaya Lestari</td>
                             <td>85,00</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <!-- <td>Penawaran sesuai dengan segi teknis</td> -->
                             <td>Lulus</td>
                           </tr>
-                          <tr>
+                          <tr style="background-color: #fc8888;">
                             <td>5.</td>
                             <td>PT Tiya Sejahtera</td>
                             <td>0</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <!-- <td>Penawaran sesuai dengan segi teknis</td> -->
                             <td>Tidak Lulus</td>
                           </tr>
-                          <tr>
+                          <tr style="background-color: #fc8888;">
                             <td>6.</td>
                             <td>PT Central Teknindo Persada</td>
                             <td>80</td>
-                            <td>Penawaran sesuai dengan segi teknis</td>
+                            <!-- <td>Penawaran sesuai dengan segi teknis</td> -->
                             <td>Tidak Lulus</td>
                           </tr>
                         </table>
@@ -301,6 +304,14 @@
 
           </form>
         </div>
+
+        </div> 
+      </div>    
+
+
+      <div class="row">
+          <div class="col-md-12">
+          
 
           </div>
 
