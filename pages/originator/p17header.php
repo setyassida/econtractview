@@ -89,7 +89,7 @@
         <li class="header">Menu Process</li>
 
         <!-- menu contract order  -->
-        <li class="active treeview">
+        <li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
             <span>Contract Order</span>
@@ -105,17 +105,16 @@
             <!--<li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>-->
             <li><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <!--<li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>-->
-            <li  class="active"><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <li><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <!--<li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>-->
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>
             <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li>
-            <li><a href="p13.php"><i class="fa fa-circle-o"></i> COC</a></li>
           </ul>
         </li>
 
                 <!-- VO menu -->
-        <li class="treeview">
+        <li class="treeview active">
           <a href="#">
             <i class="fa fa-edit"></i>
             <span>Variation Order</span>
@@ -128,7 +127,7 @@
             <!-- <li><a href="p15.php"><i class="fa fa-circle-o"></i> Bidder List VO</a></li> -->
             <!-- <li><a href="p15b.php"><i class="fa fa-circle-o"></i> Penawaran VO</a></li> -->
             <!-- <li><a href="p16.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri VO</a></li> -->
-            <li><a href="p17.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial VO</a></li>
+            <li class="active"><a href="p17.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial VO</a></li>
             <li><a href="p18.php"><i class="fa fa-circle-o"></i> Amandemen Kontrak VO</a></li>
           </ul>
         </li>

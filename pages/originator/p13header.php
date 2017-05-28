@@ -4,7 +4,7 @@
     <!-- Logo -->
     <a href="#" class="logo" style="padding-top: 0.25rem">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-     
+
       <img src="../../resources/images/logo_mini.png" class="logo-lg">
 
       <!-- logo for regular state and mobile devices -->
@@ -17,23 +17,13 @@
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
         <span class="sr-only">Toggle navigation</span>
       </a>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="index.php">Dashboard</a></li>
-          <li class="active"><a href="#">Contract Order</a></li>
-          <li><a href="#">Badak Service Order</a></li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
-            
+
           <!-- Notifications: style can be found in dropdown.less -->
-          
+
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -47,7 +37,7 @@
 
                 <p>
                  Originator
-            
+
                 </p>
               </li>
               <!-- Menu Body -->
@@ -80,13 +70,35 @@
         </div>
         <div class="pull-left info">
           <p>Originator</p>
-          
+
         </div>
       </div>
+      <!-- search form -->
+<!--       <form action="#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form> -->
+      <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
-        <li class="header text-center"><h3>CA-17001</h3></li>
         <li class="header">Menu Process</li>
+        <li class=" treeview">
+
+          <!-- menu dashboard -->
+
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+
+        </li>
 
         <!-- menu contract order  -->
         <li class="active treeview">
@@ -105,12 +117,12 @@
             <!--<li><a href="p5.php"><i class="fa fa-circle-o"></i> Opening Evaluasi Administrasi</a></li>-->
             <li><a href="p6.php"><i class="fa fa-circle-o"></i> Evaluasi Teknis</a></li>
             <!--<li><a href="p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>-->
-            <li  class="active"><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
+            <!--<li><a href="p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>-->
             <!--<li><a href="p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>-->
             <li><a href="p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
             <li><a href="p11.php"><i class="fa fa-circle-o"></i> LoI</a></li>
             <li><a href="p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li>
-            <li><a href="p13.php"><i class="fa fa-circle-o"></i> COC</a></li>
+            <li class="active"><a href="p13.php"><i class="fa fa-circle-o"></i> COC</a></li>
           </ul>
         </li>
 
@@ -128,7 +140,7 @@
             <!-- <li><a href="p15.php"><i class="fa fa-circle-o"></i> Bidder List VO</a></li> -->
             <!-- <li><a href="p15b.php"><i class="fa fa-circle-o"></i> Penawaran VO</a></li> -->
             <!-- <li><a href="p16.php"><i class="fa fa-circle-o"></i> Harga Perkiraan Sendiri VO</a></li> -->
-            <li><a href="p17.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial VO</a></li>
+            <!-- <li><a href="p17.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial VO</a></li> -->
             <li><a href="p18.php"><i class="fa fa-circle-o"></i> Amandemen Kontrak VO</a></li>
           </ul>
         </li>

@@ -31,14 +31,13 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-  <?php include('p8header.php') ?>
-
+<?php include('p8header.php') ?>
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <section class="content-header">
       <h1>
         Evaluasi Komersial
-        <!-- <small>Evaluasi Komersial</small> -->
+        <small>Konfirmasi Ketersediaan Anggaran</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -53,139 +52,140 @@
       <div class="box-body">
         <div class="box box-danger">
             <div class="box-header">
-              <!-- <h3 class="box-title">Result</h3> -->
-              <!-- <a href="p8_2.php"><button class="btn btn-sm btn-success"><span class="fa fa-plus"></span> Buat Evaluasi Komersial Baru</button></a> -->
+              <div class="row">
+                      <div class="col-md-3">
+                        <dt>Contract Order:</dt>
+                        <dd>CA-17001</dd>
+                      </div>
+                      <div class="col-md-4">
+                        <dt>Judul Pekerjaan:</dt>
+                         <dd>Kontrak Jasa Penambahan Alat Berat</dd>
+                      </div>
+                      <div class="col-md-4">
+                        <dt>Kurs Dollar:</dt>
+                         <dd>Rp 13.400</dd>
+                      </div>
+
+                  </div>
             </div>
             <!-- /.box-header -->
             <div class="box-body "> 
-              <table id="example1" class="table text-center table-bordered table-striped table-condensed">
-                <thead>
-                <tr>
-                  <th>No. Contract</th>
-                  <th>Judul Pekerjaan</th>
-                  <th>Status</th>
-                  <th style="width:50px">Tanggal Dikeluarkan</th>
-                  <!-- <th style="width:100px">Download Form Ketersediaan Anggaran</th>
-                  <th style="width:100px">Upload <br> Form Ketersediaan Anggaran</th> -->
-                 
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>CB-17001</td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>20-Jan-2017</td>
+               <div class="col-md-12">
                   
-              
-                </tr>
-                <tr>
-                  <td><a href="#">CC-17001</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>21-Feb-2017</td>
-                  <!-- <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
-              
-                </tr>
-                <tr>
-                  <td><a href="#">CA-17003</a></td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>22-Feb-2017</td>
-                  <!-- <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-               -->
-                </tr>
-                
-                <tr>
-                  <td><a href="#">CA-17002</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>23-Apr-2017</td>
-                  <!-- <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td>
-               -->
-                </tr>
-                
-                <tr>
-                  <td><a href="#">CA-17001</a></td>
-                  <td>STEAM CONDENSATE LINE</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>24-Apr-2017</td>
-                  <!-- <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
-              
-                </tr>
-                
-                <tr>
-                  <td>CB-17001</td>
-                  <td>REGULAR INSPECTION OF LIFTING GEARS</td>
-                  <td class="text-center"><span class="label label-primary">Draft</span></td>
-                  <td>20-Jan-2017</td>
-                  <!-- <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
-              
-                </tr>
-                <tr>
-                  <td><a href="#">CC-17001</a></td>
-                  <td>TR-G DEAD LEGS UNDER INSULATION LINE SURVEY</td>
-                  <td class="text-center"><span class="label label-success">Finish</span></td>
-                  <td>21-Feb-2017</td>
-                  <!-- <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
-             
-                </tr>
-                <tr>
-                  <td>CA-17003</td>
-                  <td>SPRING SUPPORT INSPECTION PROGRAM 2016</td>
-                  <td class="text-center"><span class="label label-danger">Aborted</span></td>
-                  <td>22-Feb-2017</td>
-                  <!-- <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" disabled=""  class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
-             
-                </tr>
-                <tr>
-                  <td><a href="p8b.php">CA-17002</a></td>
-                  <td>REGULAR INSPECTION OF LIFTING APPLIANCE</td>
-                  <td class="text-center"><span class="label label-warning">Waiting Confirmation</span></td>
-                  <td>23-Apr-2017</td>
-                  <!-- <td><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
-              <td><div class="text-center"><a href="p3-upload.php?no=C0-17001"><button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></div></td> -->
-              
-                </tr>
-                
-                
-                </tbody>
-                <tfoot>
-                <!-- <tr>
-                  <th>Bidder List No</th>
-                  <th>Contract No</th>
-                  <th>Subject</th>
-                  <th>Status</th>
-                  <th>Date</th>
-                </tr> -->
-                </tfoot>
-              </table>
+                      
+                                            
+                </div>
+
+              <table class="table table-bordered table-condensed">
+                                      <tr>
+                                        <th style="width: 100px" colspan="2">Cost Commitment</th>
+                                        
+                                        <th style="width: 200px" colspan="2">HPS PT. Badak NGL Belum Termasuk PPN 10%</th>
+                                        <th style="width: 200px" colspan="2">Penawaran Rekanan Belum Termausk PPN 10%</th>
+                                        <th style="width: 100px" colspan="3">Kekurangan Anggaran</th>
+<!--                                         <th style="width: 10px">Ranking Asli</th>
+                                        <th style="width: 10px">Ranking Koreksi</th> -->
+                                        <th>Keterangan</th>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th style="width: 100px">USD</th>
+                                        
+                                        <th style="width: 200px">Rp. (1)</th>
+                                        <th style="width: 200px">Min</th>
+                                        <th style="width: 100px">Max</th>
+                                        <th style="width: 100px">Min</th>
+                                        <th style="width: 100px">Max</th>
+                                        <th style="width: 100px">USD</th>
+                                        <th style="width: 100px">Rp. (3)</th>
+                                        <th> % </th>
+                                        <th> </th>
+                                        
+                                      </tr>                                      
+                                     <tr>
+                                        <td>$ 32.200</td>
+                                        <td>$ 32.200</td>
+                                        
+                                        <td>$ 45.552,09</td>
+                                        <td>$ 46.722,09</td>
+                                        <td>$ 48.667,16</td>
+                                        
+                                        <td>$ 59.104,48</td>
+                                        <td>###### </td>
+                                        <td> -51,141% </td>
+                                        <td> -51,141% </td>
+                                        <td> harga tersebut merupakan hasil negosiasi maximum </td>
+                                        <!-- <td><textarea id="inputKeterangan" rows="1" placeholder="Status.." class="form-control" style="resize:none"></textarea></td> -->
+                                      </tr>
+                                      
+                                    </table>
+                                    <br>
+                              <div class="row">
+                                <div class="col-md-12">
+                                   <div class="form-group">
+                                      <div class="row">
+                                          <label class="control-label col-md-3" for="noKontrak">Opsi Originator:</label>
+                                      </div>
+                                      <div class="row col-md-12">
+                                        <div class="radio">
+                                          <label>
+                                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                                            Anggaran tersedia dan pekerjaan diperlukan, pengadaan dapat diproses lanjut
+                                          </label>
+                                        </div>
+                                        <div class="radio">
+                                          <label>
+                                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                            Anggaran tidak tersedia, rebid dengan terlebih dulu revisi scope of work
+                                          </label>
+                                        </div>
+                                        <div class="radio">
+                                          <label>
+                                            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                                            Anggaran tidak tersedia, pengadaan dibatalkan
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                </div>
+
+                              </div>
+
+
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <div class="well well-sm">
+                                        <h5>Konfirmasi ketersediaan ini kami tunggu hingga tanggal <strong> 24 Maret 2017</strong></h5>
+                                        <h5>Melewati tanggal tersebut kami anggap tidak bersedia dan proses pengadaan tidak dilanjutkan</h5>
+                                  </div>
+
+                                </div>
+                                
+
+                              </div>                 
+                                      
             </div>
             <!-- /.box-body -->
-            <div class="box-footer">
-              <h4>Keterangan status</h4>
-              <ul>
-                <li><span class="label label-primary">Draft</span> : evalkom di-draft</li>
-                <li><span class="label label-danger">Aborted</span> : evalkom di-abort</li>
-                <li><span class="label label-success">Finish</span> : evalkom di-approve</li>
-                <li><span class="label label-warning">Waiting Confirmation</span> : evalkom waiting for confirmation</li>
-                <li><span class="label label-default">Waiting BCR PP</span> : evalkom waiting for BCR Panitia Pengadaan</li>
-                <li><span class="label label-default">Waiting BCR FP</span> : evalkom waiting for BCR Fungsi Pengadaan</li>
-                <li><span class="label label-purple" style="background-color: #001F3F;">Re Bid</span> : evalkom re bid</li>
-                <li><span class="label label-purple" style="background-color: #605ca8;">Re Eval</span> : evalkom re eval</li>
-              </ul>
-            </div>
+          <div class="box-footer col-md-12" style="text-align: right;">
+              <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
+              <div class="col-md-6" style="text-align: left;">
+                <a href="p8.php"><button type="button" class="btn btn-default btn-sm">Back</button></a>
+              <a href="p8.php" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"></span>Submit</a>
+              </div>
+
+
+              <div class="col-md-6" style="text-align: right;">
+                <td><button type="button" class="btn btn-default btn-xs" disabled=""><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+              <td><a href="p3-upload.php?no=C0-17001"><button disabled="" type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></a></td>
+              </div>
+              
+
           </div>
+            </div>
+
           <!-- /.box -->
         </div>
-
 
 
 <!--  content wrapper-->
@@ -238,3 +238,6 @@
 
 </body>
 </html>
+
+
+

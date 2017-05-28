@@ -31,7 +31,7 @@
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
 
-<?php include('p8header.php') ?>
+<?php include('p17header.php') ?>
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <section class="content-header">
@@ -170,8 +170,8 @@
           <div class="box-footer col-md-12" style="text-align: right;">
               <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
               <div class="col-md-6" style="text-align: left;">
-                <a href="p8.php"><button type="button" class="btn btn-default btn-sm">Back</button></a>
-              <a href="p8.php" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"></span>Submit</a>
+                <a href="p17.php"><button type="button" class="btn btn-default btn-sm">Back</button></a>
+              <a href="p17.php" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"></span>Submit</a>
               </div>
 
 
