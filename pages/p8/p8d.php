@@ -35,15 +35,15 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <section class="content-header">
+        <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Komersial</small>
+        Evaluasi Komersial
+       
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Contract Order</li>
         <li class="active">Evaluasi Komersial</li>
+        
       </ol>
     </section>
 
@@ -93,12 +93,12 @@
                         <table id="dataTable" class="table table-bordered table-condensed table-hover">
                           <thead>
                           <tr>
-                            <th style="width:150px" class="text-center">PENAWAR</th>
-                            <th style="width:80px">PENAWARAN ASLI (RP)</th>
-                            <th style="width:1px">RANKING ASLI</th>
-                            <th style="width:80px">PENAWARAN TERKOREKSI (RP)</th>
-                            <th style="width:1px">RANGKING KOREKSI</th>
-                            <th style="width:200px">PENJELASAN</th>
+                            <th style="width:150px" class="text-center">Penawar</th>
+                            <th style="width:80px">Penawaran Asli (RP)</th>
+                            <th style="width:1px">Ranking Asli</th>
+                            <th style="width:80px">Penawaran Terkoreksi (RP)</th>
+                            <th style="width:1px">Ranking Terkoreksi</th>
+                            <th style="width:200px">Penjelasan</th>
                             <!-- <th style="width:50px">Action</th> -->
                           </tr>
                           </thead>
@@ -199,7 +199,7 @@
                           <tbody>
                         </table>
                         <dir class="col-md-12 box-footer" style="text-align: right;">
-                          <a href="p8e.php"><button type="button" class="btn btn-info btn-sm">Simpan</button></a>
+                          <a href="p8e.php"><button type="button" class="btn btn-info btn-sm">Save</button></a>
                         </dir>
                       </div>
                   </div>
@@ -299,7 +299,7 @@
 
                           </div>
                            <div class="col-md-12 box-footer" style="text-align: right;">
-                                     <a href="p8c.php">
+                                     <a href="p8.php">
                                     <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;">
                                     Back
                                   </button>               

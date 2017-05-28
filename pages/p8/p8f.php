@@ -35,15 +35,15 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <section class="content-header">
+        <section class="content-header">
       <h1>
-        Contract Order
-        <small>Evaluasi Komersial</small>
+        Evaluasi Komersial
+       
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Contract Order</li>
         <li class="active">Evaluasi Komersial</li>
+        
       </ol>
     </section>
 
@@ -78,13 +78,149 @@
     <section class="content">
       <!-- Info boxes -->
       <div class="row">
-            <div class="col-md-3">
+            <!-- box pertama awal -->
+
+            <div class="col-md-12">
+              <div class="box box-primray">
+                <div class="box-header with-border">
+                  <h5>Rincian Bidder</h5>
+                </div>
+                <div class="box-body">
+                          <table class="text-center table table-bordered table-condensed">
+                                      <tr>
+                                        <th style="width: 200px">Uraian Pekerjaan</th>
+                                        <th colspan="2" style="width: 200px;">HPS Most Likely</th>
+                                        <th colspan="2" style="width: 200px;">PT Aimindo Adie P</th>
+                                        <th colspan="2" style="width: 200px;">PT Hasanah Sumber Utama</th>
+                                        <th colspan="2" style="width: 200px;">PT Abdi Jati</th>                                        
+                                      </tr>
+                                      <tr>
+                                        <th></th>
+                                        <th>Lumpsum</th>
+                                        <th>Satuan</th>
+                                        <th>Lumpsum</th>
+                                        <th>Satuan</th>
+                                        <th>Lumpsum</th>
+                                        <th>Satuan</th>
+                                        <th>Lumpsum</th>
+                                        <th>Satuan</th>
+                                      </tr>                                      
+                                      <tr>
+                                        <td>Biaya Jasa</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Biaya Alat</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Biaya Material</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Biaya Lainnya</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Sub Total (a)</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Overhead (b)</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Profit (c)</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 100px"></textarea></td>
+
+                                      </tr>
+                                      <tr>
+                                        <td>Total</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      </table>         
+                                    <div class="col-md-12 box-footer" style="text-align: left;">
+                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Save</button></a>
+                            </div>           
+
+                </div>
+
+              </div>
+
+            
+            </div>
+
+
+
+            <!-- box pertama akhir -->
+<!--             <div class="col-md-3">
                     <div class="box box-success">
                       <div class="box-header with-border">
 
                         <h5> HPS Most Likely </h5>
                       </div>
-                      <!-- /.box-header -->
                       <div class="box-body">
                           <dt>Biaya Jasa</dt>
                           <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
@@ -110,7 +246,6 @@
                           <dd>a + b + c</dd>
                           <dt>Total Harga</dt>
                           <dd>Akan divalidasi dengan HPS most likely</dd>
-                          <!-- main column-->
 
                         
                         <div class="col-md-12 box-footer" style="text-align: right;">
@@ -120,14 +255,13 @@
                   </div>
 
             </div>
-
-            <div class="col-md-3">
+ -->
+<!--             <div class="col-md-3">
                     <div class="box box-success">
                       <div class="box-header with-border">
 
                         <h5> Rincian Penawaran Bidder 1  </h5>
                       </div>
-                      <!-- /.box-header -->
                       <div class="box-body">
                             <dt>Biaya Jasa</dt>
                           <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
@@ -155,7 +289,6 @@
                           <dd>Akan divalidasi dengan penawaran asli</dd>
 
 
-                          <!-- main column-->
 
                         
                         <div class="col-md-12 box-footer" style="text-align: right;">
@@ -165,15 +298,14 @@
                   </div>
 
                 </div>
-
+ -->
                 <!-- bidder 2 -->
-            <div class="col-md-3">
+<!--             <div class="col-md-3">
                     <div class="box box-success">
                       <div class="box-header with-border">
 
                         <h5> Rincian Penawaran Bidder 2 </h5>
                       </div>
-                      <!-- /.box-header -->
                       <div class="box-body">
                             <dt>Biaya Jasa</dt>
                           <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
@@ -200,7 +332,6 @@
                           <dt>Total Harga</dt>
                           <dd>Akan divalidasi dengan penawaran asli</dd>
 
-                          <!-- main column-->
 
                         
                         <div class="col-md-12 box-footer" style="text-align: right;">
@@ -210,16 +341,15 @@
                   </div>
 
                 </div>
-                <!-- closed bidder 2 -->
+ -->                <!-- closed bidder 2 -->
 
                 <!-- bidder 3 -->
-            <div class="col-md-3">
+<!--             <div class="col-md-3">
                     <div class="box box-success">
                       <div class="box-header with-border">
 
                         <h5> Rincian Penawaran Bidder 3 </h5>
                       </div>
-                      <!-- /.box-header -->
                       <div class="box-body">
                             <dt>Biaya Jasa</dt>
                           <dd><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea>
@@ -246,7 +376,6 @@
                           <dt>Total Harga</dt>
                           <dd>Akan divalidasi dengan penawaran asli</dd>
 
-                          <!-- main column-->
 
                         
                         <div class="col-md-12 box-footer" style="text-align: right;">
@@ -256,7 +385,7 @@
                   </div>
 
             </div>
-                <!-- closed bidder 4 -->
+ -->                <!-- closed bidder 4 -->
         
 
       </div>
@@ -290,7 +419,7 @@
                                         <th style="width: 50px">Analisa Evaluasi</th>
                                         
                                       </tr>
-                                      <tr>
+                                      <!-- <tr>
                                         <th style="width: 10px"></th>
                                         <th style="width: 100px"></th>
                                         <th style="width: 100px">a</th>
@@ -299,7 +428,7 @@
                                         <th style="width: 100px">d = b - c</th>
                                         <th style="width: 150px"> + / -</th>
                                         <th style="width: 50px"> wajar / tidak wajar</th>
-                                      </tr>                                      
+                                      </tr>  -->                                     
                                       <tr>
                                         <td>1.</td>
                                         <td>Biaya Jasa</td>
@@ -332,7 +461,7 @@
                                       </tr>
                                       <tr>
                                         <td>4.</td>
-                                        <td>Profit</td>
+                                        <td>Overhead</td>
                                         <td>100</td>
                                         <td>60</td>
                                         <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
@@ -342,6 +471,16 @@
                                       </tr>
                                       <tr>
                                         <td>5.</td>
+                                        <td>Profit</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
                                         <td>Total</td>
                                         <td>100</td>
                                         <td>60</td>
@@ -358,8 +497,8 @@
                             </div>
 
                           </div>
-                           <div class="col-md-12 box-footer" style="text-align: right;">
-                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                           <div class="col-md-12 box-footer" style="text-align: left;">
+                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Save</button></a>
                             </div>
                         </div>
                       </form>
@@ -385,7 +524,7 @@
                                   <div class="box-body"> 
                                     
                                       
-                                    <table class="table table-bordered table-condensed">
+                                                                        <table class="table table-bordered table-condensed">
                                       <tr>
                                         <th style="width: 10px" rowspan="1">No</th>
                                         <th style="width: 100px">Pekerjaan</th>
@@ -397,7 +536,7 @@
                                         <th style="width: 50px">Analisa Evaluasi</th>
                                         
                                       </tr>
-                                      <tr>
+                                     <!--  <tr>
                                         <th style="width: 10px"></th>
                                         <th style="width: 100px"></th>
                                         <th style="width: 100px">a</th>
@@ -406,7 +545,7 @@
                                         <th style="width: 100px">d = b - c</th>
                                         <th style="width: 150px"> + / -</th>
                                         <th style="width: 50px"> wajar / tidak wajar</th>
-                                      </tr>                                      
+                                      </tr>  -->                                     
                                       <tr>
                                         <td>1.</td>
                                         <td>Biaya Jasa</td>
@@ -439,7 +578,7 @@
                                       </tr>
                                       <tr>
                                         <td>4.</td>
-                                        <td>Profit</td>
+                                        <td>Overhead</td>
                                         <td>100</td>
                                         <td>60</td>
                                         <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
@@ -449,6 +588,16 @@
                                       </tr>
                                       <tr>
                                         <td>5.</td>
+                                        <td>Profit</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
                                         <td>Total</td>
                                         <td>100</td>
                                         <td>60</td>
@@ -465,8 +614,8 @@
                             </div>
 
                           </div>
-                           <div class="col-md-12 box-footer" style="text-align: right;">
-                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                           <div class="col-md-12 box-footer" style="text-align: left;">
+                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Save</button></a>
                             </div>
                         </div>
                       </form>
@@ -503,7 +652,7 @@
                                         <th style="width: 50px">Analisa Evaluasi</th>
                                         
                                       </tr>
-                                      <tr>
+                                     <!--  <tr>
                                         <th style="width: 10px"></th>
                                         <th style="width: 100px"></th>
                                         <th style="width: 100px">a</th>
@@ -512,7 +661,7 @@
                                         <th style="width: 100px">d = b - c</th>
                                         <th style="width: 150px"> + / -</th>
                                         <th style="width: 50px"> wajar / tidak wajar</th>
-                                      </tr>                                      
+                                      </tr>      -->                                 
                                       <tr>
                                         <td>1.</td>
                                         <td>Biaya Jasa</td>
@@ -545,7 +694,7 @@
                                       </tr>
                                       <tr>
                                         <td>4.</td>
-                                        <td>Profit</td>
+                                        <td>Overhead</td>
                                         <td>100</td>
                                         <td>60</td>
                                         <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
@@ -555,6 +704,16 @@
                                       </tr>
                                       <tr>
                                         <td>5.</td>
+                                        <td>Profit</td>
+                                        <td>100</td>
+                                        <td>60</td>
+                                        <td><textarea id="inputKeterangan" rows="1" placeholder="Input nominal.." class="form-control input-sm" style="resize: none; width: 200px"></textarea></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
                                         <td>Total</td>
                                         <td>100</td>
                                         <td>60</td>
@@ -563,22 +722,23 @@
                                         <td> </td>
                                         <td> </td>
                                       </tr>
-                                      </table>
-                                      
+                                      </table>                                      
 
                                   </div>
 
                             </div>
 
                           </div>
-                           <div class="col-md-12 box-footer" style="text-align: right;">
-                                    <a href="p8f.php"><button type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Simpan</button></a>
+                           <div class="col-md-12 box-footer">
+                              <div class="col-md-6">
+                                    <a href="p8f.php"><button style="text-align: left;" type="button" class="btn btn-info btn-sm" title="Lanjut Rincian Penawaran">Save</button></a>
                                     <a href="p8d.php">
-                                    <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;">
-                                    Back
-                                  </button>               
-                          </a>
-                                    <a href="p8g.php"><button type="button" class="btn btn-success btn-sm" title="Lanjut Rincian Penawaran">Lanjut Halaman Negosiasi</button></a>
+                              </div>
+                              <div class="col-md-6" style="text-align: right;">
+                                   <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px; text-align: right;">Back</button> </a>
+                                    <a href="p8g.php"><button style="text-align: right;" type="button" class="btn btn-success btn-sm" title="Lanjut Rincian Penawaran">Submit</button></a>
+
+                              </div>
                             </div>
                         </div>
                       </form>
