@@ -39,10 +39,10 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-red fixed sidebar-mini">
+<body class="hold-transition skin-red fixed layout-top-nav">
 <!-- Site wrapper -->
 <div class="wrapper">
-  <?php include "p1header.php" ?>
+  <?php include "p1headerkosong.php" ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -67,33 +67,36 @@
           <h3 class="box-title">Pilih Metode Pengadaan</h3>
         </div>
         <div class="box-body">
-          <div class="col-md-6 col-md-offset-3">
-            <a href="p1_pemilihanLangsung.php">
-              <div class="callout callout-warning">
-                <h4><b>PEMILIHAN LANGSUNG</b></h4>
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <!-- radio -->
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    PEMILIHAN LANGSUNG
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    PENGADAAN LANGSUNG
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                    PENUNJUKKAN LANGSUNG
+                  </label>
+                </div>
               </div>
-            </a>
-
-            <a href="p1d_pengadaanLangsung.php">
-              <div class="callout callout-warning">
-                <h4><b>PENGADAAN LANGSUNG</b></h4>
-              </div>
-            </a>
-
-            <a href="p1c_penunjukkanLangsung.php">
-              <div class="callout callout-warning">
-                <h4><b>PENUNJUKKAN LANGSUNG</b></h4>
-              </div>
-            </a>
-
-
-          </div>
-          <div class="col-md-6">
-
-
+            </div>
           </div>
         </div>
         <!-- /.box-body -->
+        <div class="box-footer">
+          <a href="p1_pemilihanLangsung.php"><button type="submit" class="btn btn-default btn-sm pull-right">Next <span class="fa fa-arrow-right"></span> </button></a>
+        </div>
       </div>
       <!-- /.box -->
     </section>

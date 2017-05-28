@@ -39,11 +39,11 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-red fixed sidebar-mini">
+<body class="hold-transition skin-red fixed layout-top-nav">
   <!-- Site wrapper -->
   <div class="wrapper">
 
-    <?php include "p1header.php" ?>
+    <?php include "p1headerkosong.php" ?>
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -199,7 +199,7 @@
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">
-                  <a href="p1_assignment.php"><button type="button" class="btn btn-default pull-right"><span class="glyphicon glyphicon-floppy-disk"></span>Next </button></a>
+                  <a href="p1_assignment.php"><button type="submit" class="btn btn-default btn-sm pull-right">Next <span class="fa fa-arrow-right"></span> </button></a>
                 </div>
                 <!-- /.box-footer -->
               </form>
