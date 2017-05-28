@@ -57,91 +57,6 @@
 
         <!-- Info boxes -->
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 1</span>
-                <strong>Scott Summers</strong>
-                <br><br>
-                <div class="text-right text-success"><i class="fa fa-check"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 2</span>
-                <strong>Jean Grey</strong>
-                <br><br>
-                <div class="text-right text-success"><i class="fa fa-check"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-
-          <!-- fix for small devices only -->
-          <div class="clearfix visible-sm-block"></div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 3</span>
-                <strong>Bobby Drake</strong>
-                <br><br>
-                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 4</span>
-                <strong>Kitty Pryde</strong>
-                <br><br>
-                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <!-- fix for small devices only -->
-          <div class="clearfix visible-sm-block"></div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 5</span>
-                <strong>James Howlett</strong>
-                <br><br>
-                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-        </div>
-        <!-- ./row approver -->
-        <div class="row">
           <div class="col-md-4">
             <div class="box box-primary">
               <div class="box-header">
@@ -175,7 +90,7 @@
               </div>
             </div>
           </div>
-
+          <!-- /. data contract order -->
           <div class="col-md-8">
             <div class="box box-info">
               <div class="box-header">
@@ -230,8 +145,8 @@
                       </table>
                     </dl>
                   </div>
-                  </div>
                 </div>
+              </div>
               <div class="box-footer">
                 <div class="row">
                   <div class="col-md-12">
@@ -246,157 +161,155 @@
 
                 </div>
               </div>
-              <!-- box bidder list -->
-
-              </div>
-                <!-- /.col -->
-              </div>
-              <!-- /.row -->
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="box box-success">
-                    <div class="box-header">
-                      <h3 class="box-title">Active Bidder</h3>
-                      <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                          <i class="fa fa-minus"></i></button>
-                      </div>
-                    </div>
-                    <div class="box-body">
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table id="example1" class="table table-bordered table-striped table-condensed">
-                          <thead>
-                            <tr>
-                              <th>No</th>
-                              <th>Penawar</th>
-                              <th>Masa SIO</th>
-                              <th>Penalti Poin</th>
-                              <th>Sanksi</th>
-                              <th>Added By</th>
-                              <th>Added Date</th>
-                              <th></th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td>Perusahaan A</td>
-                              <td>1 Bulan</td>
-                              <td>0</td>
-                              <td>-</td>
-                              <td>System</td>
-                              <td>22-Apr-2017</td>
-                              <td>
-                                <div class="text-center">
-                                  <span class="fa fa-ban"></span>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>2</td>
-                              <td>Perusahaan B</td>
-                              <td>2 Bulan</td>
-                              <td>0</td>
-                              <td>-</td>
-                              <td>Approver</td>
-                              <td>22-Apr-2017</td>
-                              <td>
-                                <div class="text-center">
-                                  <a href="#">
-                                    <button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Remove this bidder"><span class="fa fa-times"></span></button>
-                                  </a>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>3 </td>
-                              <td>Perusahaan C</td>
-                              <td>1 Bulan</td>
-                              <td>0</td>
-                              <td>-</td>
-                              <td>CE</td>
-                              <td>22-Apr-2017</td>
-                              <td>
-                                <div class="text-center">
-                                  <a href="#">
-                                    <button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Remove this bidder"><span class="fa fa-times"></span></button>
-                                  </a>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                      <!-- /.box-body -->
-                    <div class="box-footer">
-                      <div class="pull-right">
-                        <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span> Add Bidder</a>
-                      </div>
-                    </div>
-                  </div>
-                    <!-- /.box -->
-
-                    <!-- box bidder list -->
-                  <div class="box box-danger">
-                      <div class="box-header">
-                        <h3 class="box-title">Removed Bidder</h3>
-                        <div class="box-tools pull-right">
-                          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                            <i class="fa fa-minus"></i></button>
-                        </div>
-                      </div>
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table id="example2" class="table table-bordered table-striped table-condensed">
-                          <thead>
-                            <tr>
-                              <th>No</th>
-                              <th>Penawar</th>
-                              <th>Added By</th>
-                              <th>Added Date</th>
-                              <th>Removed By</th>
-                              <th>Removed Date</th>
-                              <th>Alasan Remove</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td>Perusahaan D</td>
-                              <td>CE</td>
-                              <td>22-Apr-2017</td>
-                              <td>Approver</td>
-                              <td>23-Apr-2017</td>
-                              <td>Terkena Sanksi</td>
-                            </tr>
-                            <tr>
-                              <td>2</td>
-                              <td>Perusahaan E</td>
-                              <td>CE</td>
-                              <td>22-Apr-2017</td>
-                              <td>Approver</td>
-                              <td>23-Apr-2017</td>
-                              <td>Terkena Sanksi</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                        <!-- /.box-body -->
-                  </div>
-                    <!-- /.box -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box box-success">
+              <div class="box-header">
+                <h3 class="box-title">Active Bidder</h3>
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                    <i class="fa fa-minus"></i></button>
                 </div>
               </div>
-            </section>
-            <!-- /.content -->
-          </div>
-          <!-- /.content-wrapper -->
+              <div class="box-body">
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <table id="example1" class="table table-bordered table-striped table-condensed">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Penawar</th>
+                        <th>Masa SIO</th>
+                        <th>Penalti Poin</th>
+                        <th>Sanksi</th>
+                        <th>Added By</th>
+                        <th>Added Date</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Perusahaan A</td>
+                        <td>1 Bulan</td>
+                        <td>0</td>
+                        <td>-</td>
+                        <td>System</td>
+                        <td>22-Apr-2017</td>
+                        <td>
+                          <div class="text-center">
+                            <span class="fa fa-ban"></span>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Perusahaan B</td>
+                        <td>2 Bulan</td>
+                        <td>0</td>
+                        <td>-</td>
+                        <td>Approver</td>
+                        <td>22-Apr-2017</td>
+                        <td>
+                          <div class="text-center">
+                            <a href="#">
+                              <button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Remove this bidder"><span class="fa fa-times"></span></button>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3 </td>
+                        <td>Perusahaan C</td>
+                        <td>1 Bulan</td>
+                        <td>0</td>
+                        <td>-</td>
+                        <td>CE</td>
+                        <td>22-Apr-2017</td>
+                        <td>
+                          <div class="text-center">
+                            <a href="#">
+                              <button type="button" class="btn btn-danger btn-xs" data-toggle="abort" title="Remove this bidder"><span class="fa fa-times"></span></button>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+                <!-- /.box-body -->
+              <div class="box-footer">
+                <div class="pull-right">
+                  <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span> Add Bidder</a>
+                </div>
+              </div>
+            </div>
+              <!-- /.box -->
 
-          <footer class="main-footer">
-            <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
-            reserved.
-          </footer>
+              <!-- box bidder list -->
+            <div class="box box-danger">
+                <div class="box-header">
+                  <h3 class="box-title">Removed Bidder</h3>
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                      <i class="fa fa-minus"></i></button>
+                  </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <table id="example2" class="table table-bordered table-striped table-condensed">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Penawar</th>
+                        <th>Added By</th>
+                        <th>Added Date</th>
+                        <th>Removed By</th>
+                        <th>Removed Date</th>
+                        <th>Alasan Remove</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Perusahaan D</td>
+                        <td>CE</td>
+                        <td>22-Apr-2017</td>
+                        <td>Approver</td>
+                        <td>23-Apr-2017</td>
+                        <td>Terkena Sanksi</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Perusahaan E</td>
+                        <td>CE</td>
+                        <td>22-Apr-2017</td>
+                        <td>Approver</td>
+                        <td>23-Apr-2017</td>
+                        <td>Terkena Sanksi</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                  <!-- /.box-body -->
+            </div>
+              <!-- /.box -->
+          </div>
+        </div>
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <footer class="main-footer">
+      <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
+      reserved.
+    </footer>
 
 </div>
 <!-- ./wrapper -->

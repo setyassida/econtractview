@@ -110,7 +110,7 @@
                             <div class="input-group-addon">
                               <i class="fa fa-calendar"></i>
                             </div>
-                            <input type="text" class="form-control pull-right input-sm" id="datepicker">
+                            <input type="text" class="form-control pull-right input-sm datepicker2" >
                           </div>
                           <div class="text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
                           <!-- /.input group -->
@@ -156,7 +156,7 @@
                             <div class="input-group-addon">
                               <i class="fa fa-calendar"></i>
                             </div>
-                            <input type="text" class="form-control pull-right input-sm" id="datepicker">
+                            <input type="text" class="form-control pull-right input-sm datepicker2" >
                           </div>
                           <div class="text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
                           <!-- /.input group -->
@@ -202,7 +202,7 @@
                             <div class="input-group-addon">
                               <i class="fa fa-calendar"></i>
                             </div>
-                            <input type="text" class="form-control pull-right input-sm" id="datepicker">
+                            <input type="text" class="form-control pull-right input-sm datepicker2" >
                           </div>
                           <div class="text-center" style="padding-top: 1rem"><button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div>
                           <!-- /.input group -->
@@ -254,13 +254,50 @@
 <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
 <!-- page script -->
 <script>
-  $(function () {
-    $("#example1").DataTable();
+  $(function() {
+    $('.date-picker').datepicker({
+      dateFormat: "mm/yy",
+      changeMonth: true,
+      changeYear: true,
+      showButtonPanel: true,
+      onClose: function(dateText, inst) {
+        function isDonePressed(){
+          return ($('#ui-datepicker-div').html().indexOf('ui-datepicker-close ui-state-default ui-priority-primary ui-corner-all ui-state-hover') > -1);
+        }
+        if (isDonePressed()){
+          var month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
+          var year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
+          $(this).datepicker('setDate', new Date(year, month, 1)).trigger('change');
+          
+          $('.date-picker').focusout()//Added to remove focus from datepicker input box on selecting date
+        }
+      },
+      beforeShow : function(input, inst) {
+        inst.dpDiv.addClass('month_year_datepicker')
+        if ((datestr = $(this).val()).length > 0) {
+          year = datestr.substring(datestr.length-4, datestr.length);
+          month = datestr.substring(0, 2);
+          $(this).datepicker('option', 'defaultDate', new Date(year, month-1, 1));
+          $(this).datepicker('setDate', new Date(year, month-1, 1));
+          $(".ui-datepicker-calendar").hide();
+        }
+      }
+    })
+    //Date picker
+    $('.datepicker1').datepicker({
+      autoclose: true
+    });
+    $('.datepicker2').datepicker({
+      autoclose: true
+    });
   });
-  //Date picker
-  $('#datepicker').datepicker({
-    autoclose: true
-  });
+
+  
 </script>
+<style type="text/css">
+  .ui-datepicker-calendar {
+      display: none;
+      }
+</style>
 </body>
 </html>

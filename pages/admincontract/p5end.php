@@ -51,7 +51,7 @@
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
         <li><a href="p5.php">Opening</a></li>
-        <li class="active"><a href="p5end.php">Data Opening</a></li>
+        <li class="active"><a href="p5end.php">Hasil Opening</a></li>
       </ol>
     </section>
 
@@ -92,24 +92,24 @@
                 </div>
                 <!-- /.col-md-12 -->
                 <div class="col-md-12">
-                  <h3>Unggah  Dokumen Kelangkapan</h3>
+                  <h3>Unggah  Dokumen Kelengkapan</h3>
                   <table class="table table-hover table-condensed input-sm">
                     <thead>
                       <tr>
                         <th>Nama Dokumen</th>
-                        <th class="text-center">Download Dokumen</th>
+                        <th class="text-center">Download Dokumen Template</th>
                         <th class="text-center">Upload Dokumen</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Data Opening</td>
-                        <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div></th>
+                        <td>Hasil Opening</td>
+                        <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download Template</button></div></th>
                         <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
                       </tr>
                       <tr>
                         <td>Hasil Harga Perkiraan Sendiri</td>
-                        <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download</button></div></th>
+                        <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download Template</button></div></th>
                         <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
                       </tr>
                     </tbody>

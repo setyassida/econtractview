@@ -119,10 +119,10 @@
             <li><a href="../p7/p7.php"><i class="fa fa-circle-o"></i> Opening Komersial</a></li>
             <li><a href="../p8/p8.php"><i class="fa fa-circle-o"></i> Evaluasi Komersial</a></li>
             <li><a href="../p9/p9.php"><i class="fa fa-circle-o"></i> LoA</a></li>
-            <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-of-meeting</a></li>
+            <li><a href="../p10/p10.php"><i class="fa fa-circle-o"></i> Kick-off-meeting</a></li>
             <li><a href="../p11/p11_createLOI.php"><i class="fa fa-circle-o"></i> LoI</a></li>     
             <li><a href="../p12/p12.php"><i class="fa fa-circle-o"></i> Kontrak</a></li> 
-            <li><a href="#"><i class="fa fa-circle-o"></i> CoC</a></li> 
+            <li><a href="../p13/p13.php"><i class="fa fa-circle-o"></i> CoC</a></li> 
           </ul>
         </li>
 

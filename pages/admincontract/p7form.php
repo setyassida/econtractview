@@ -98,72 +98,147 @@
                   </div>
                 </div>
                 <!-- /.kolom kanan -->
-                <div class="col-md-12" style="margin-top: 2rem">
-                  <div class="box box-primary">
-                    <div class="box-header">
-                      <h3 class="box-title">Evaluasi Administrasi</h3>
-                    </div>
-                    <div class="box-body table-responsive no-padding">
-                      <table class="table table-hover table-bordered">
-                        <thead>
-                          <th>No</th>
-                          <th>Penawar</th>
-                          <th>Penawaran (IDR)</th>
-                          <th>Evaluasi Administrasi</th>
-                        </thead>
-                        <tr>
-                          <td>1</td>
-                          <td>PT Maju Jaya</td>
-                          <td class="text-right">
-                            989000000
-                            <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
-                          </td>
-                          <td>Lulus</td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>PT Akan Jaya</td>
-                          <td class="text-right">
-                            922000
-                            <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
-                          </td>
-                          <td>Lulus</td>
-                        </tr>
-                      </table>
-                      <div id="editModal" class="modal fade">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header bg-aqua">
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span></button>
-                              <h4 class="modal-title">Ubah Jumlah Penawaran?</h4>
+                <div class="row">
+                  <div class="col-md-12" style="margin-top: 2rem">
+                    <div class="box box-primary">
+                      <div class="box-header">
+                        <h3 class="box-title">Evaluasi Komersial</h3>
+                      </div>
+                      <div class="box-body table-responsive no-padding">
+                        <table class="table table-hover table-bordered">
+                          <thead>
+                            <th>No</th>
+                            <th>Penawar</th>
+                            <th>Penawaran (IDR)</th>
+                            <th>Evaluasi Administrasi</th>
+                          </thead>
+                          <tr>
+                            <td>1</td>
+                            <td>PT Maju Jaya</td>
+                            <td class="text-right">
+                              989.000.000
+                              <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
+                            </td>
+                            <td>Lulus</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>PT Akan Jaya</td>
+                            <td class="text-right">
+                              922.000
+                              <button class="btn btn-default btn-xs" type="button" data-toggle="modal" data-target="#editModal"><i class="fa fa-edit"></i></button>
+                            </td>
+                            <td>Lulus</td>
+                          </tr>
+                        </table>
+                        <div id="editModal" class="modal fade">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header bg-aqua">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Ubah Jumlah Penawaran?</h4>
+                              </div>
+                              <div class="modal-body">
+                                <p>Proses ini akan merubah jumlah penawaran yang terkait dengan penawar dan data akan disimpan oleh sistem.</p>
+                                <div class="form-group col-md-12">
+                                  <label >Jumlah Penawaran</label>
+                                  <input type="text" class="form-control input-sm" placeholder="Jumlah dalam rupiah">
+                                </div>                              
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-info">Ya, Ubah Jumlah</button>
+                              </div>
                             </div>
-                            <div class="modal-body">
-                              <p>Proses ini akan merubah jumlah penawaran yang terkait dengan penawar dan data akan disimpan oleh sistem.</p>
-                              <div class="form-group col-md-12">
-                                <label >Jumlah Penawaran</label>
-                                <input type="text" class="form-control input-sm" placeholder="Jumlah dalam rupiah">
-                              </div>                              
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
-                              <button type="submit" class="btn btn-info">Ya, Ubah Jumlah</button>
-                            </div>
+                              <!-- /.modal-content -->
                           </div>
-                            <!-- /.modal-content -->
+                        </div>
+                        <!-- /.modal -->
+                      </div>
+                      <!-- /.box-body -->
+                      <div class="box-footer">
+                        <div class="pull-right">
+                          <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-save"></i> Save</button>
                         </div>
                       </div>
-                      <!-- /.modal -->
+                      <!-- /.box footer -->
                     </div>
-                    <!-- /.box-body -->
+                    <!-- /.box -->
                   </div>
-                  <!-- /.box -->
                 </div>
+                <!-- /. row evaluasi komersial -->
+                <div class="row">
+                  <div class="col-md-12">
+                  <!-- box -->
+                    <div class="box box-primary">
+                      <div class="box-body"> 
+                        <div class="col-md-12">
+                          <h3>Peserta Opening</h3>
+                          <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-condensed input-sm">
+                              <thead>
+                                <tr>
+                                  <th>Nomor</th>
+                                  <th>Perusahaan</th>
+                                  <th>Nama Jelas</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>PT MJ</td>
+                                  <td>James Morrison</td>
+                                </tr>
+                                <tr>
+                                  <td>2</td>
+                                  <td>PT DJ</td>
+                                  <td>George Lucas</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- /.table-responsive -->
+                        </div>
+                        <!-- /.col-md-12 -->
+                        <div class="col-md-12">
+                          <h3>Unggah  Dokumen Kelengkapan</h3>
+                          <table class="table table-hover table-condensed input-sm">
+                            <thead>
+                              <tr>
+                                <th>Nama Dokumen</th>
+                                <th class="text-center">Download Dokumen Template</th>
+                                <th class="text-center">Upload Dokumen</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Hasil Opening</td>
+                                <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download Template</button></div></th>
+                                <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
+                              </tr>
+                              <tr>
+                                <td>Hasil Harga Perkiraan Sendiri</td>
+                                <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-download"></span> Download Template</button></div></th>
+                                <th><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-cloud-upload"></span> Upload</button></div></th>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <!-- /.row -->
+                <!-- /.row dokumen -->
               </div>
               <!-- /.box-body -->
               <div class="box-footer">
                 <div class="text-right col-md-12">
-                  <a href="p7end.php" class="btn btn-success "><i class="fa fa-check"></i> Open Penawaran</a>
+                  <a href="#" class="btn btn-success btn-sm"><i class="fa fa-check"></i> Submit</a>
                 </div>
               </div>
             </div>

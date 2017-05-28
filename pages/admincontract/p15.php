@@ -57,24 +57,33 @@
 
         <!-- Info boxes -->
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="box box-primary">
               <div class="box-header">
-                <h3 class="box-title">Data Contract Order</h3>
+                <h3 class="box-title">Data Variation Order</h3>
+                <div class="mark pull-right"><strong>VO Number:</strong> 2</div>
               </div>
               <div class="box-body">
-                <dl>
-                  <dt>Contract Order</dt>
-                  <dd>CA-17001</dd>
-                  <dt>Judul Pekerjaan</dt>
-                  <dd>REGULAR INSPECTION OF LIFTING GEARS</dd>
-                  <dt>Durasi</dt>
-                  <dd>2 Bulan</dd>
-                  <dt>Jenis Jasa</dt>
-                  <dd>Pemborongan Pekerjaan</dd>
-                  <dt>Kualifikasi Syarat Peserta Pengadaan</dt>
-                  <dd>M (Rp. 500 Juta <= NK <= Rp. 10 M)</dd>
-                </dl>
+                <div class="row">
+                  <div class="col-md-6">
+                    <dl>
+                      <dt>Nomor Contract Order</dt>
+                      <dd>CA-17001</dd>
+                      <dt>Amandemen ke</dt>
+                      <dd>#2</dd>
+                      <dt>Tanggal Dibuat</dt>
+                      <dd>20-Jan-2017</dd>                      
+                    </dl>
+                  </div>
+                  <div class="col-md-6">
+                    <dl>
+                      <dt>Judul Pekerjaan</dt>
+                      <dd>REGULAR INSPECTION OF LIFTING GEARS</dd>
+                      <dt>Keterangan Perubahan</dt>
+                      <dd>Ruang Lingkup</dd>
+                    </dl>
+                  </div>
+                </div>
               </div>
               <!-- /.box-body -->
               <!-- <div class="box-footer">
@@ -83,7 +92,7 @@
             </div>
           </div>
 
-          <div class="col-md-8">
+          <div class="col-md-6">
             <div class="box box-info">
               <div class="box-header">
                 <h3 class="box-title">Data Bidder List</h3>
@@ -91,7 +100,7 @@
               </div>
               <div class="box-body">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-6">
                     <dl>
                       <dt>Nomor Bidder List</dt>
                       <dd>BL-17001</dd>
@@ -99,129 +108,145 @@
                       <dd>22-Apr-2017</dd>
                       <dt>Waktu Dibuat</dt>
                       <dd>13:30</dd>
+                    </dl>
+                  </div>
+                  <div class="col-md-6">
+                    <dl>
                       <dt>Klasifikasi</dt>
                       <dd>M</dd>
                       <dt>Kualifikasi</dt>
                       <dd>Kecil</dd>
-                      <dt>
                     </dl>
-                  </div>
-                  <div class="col-md-4">
-                    <dl>
-                      <dt>Tingkat Risiko</dt>
-                      <dd>Sedang</dd>
-                      <dt>Publish Date</dt>
-                      <dd>22-Sep-2017</dd>
-                      <dt>Kuota Area</dt>
-                      <table class="table table-condensed table-bordered">
-                        <tbody>
-                          <tr>
-                            <td>Bontang</td>
-                            <td>2</td>
-                          </tr>
-                          <tr>
-                            <td>Kalimantan Timur</td>
-                            <td>1</td>
-                          </tr>
-                          <tr>
-                            <td>Domestik</td>
-                            <td>3</td>
-                          </tr>
-                        </tbody>
-                        <tfoot>
-                          <tr>
-                            <th>Total</th>
-                            <th>6</th>
-                          </tr>
-                        </tfoot>
-                      </table>
-                    </dl>
-                  </div>
                   </div>
                 </div>
+              </div>
+              <!-- /. box body  -->
+            </div>
+            <!-- box bidder list -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box box-success">
+              <div class="box-header">
+                <h3 class="box-title">Active Bidder</h3>
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                    <i class="fa fa-minus"></i></button>
+                </div>
+              </div>
+              <div class="box-body">
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <table id="example1" class="table table-bordered table-striped table-condensed">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Penawar</th>
+                        <th>Masa SIO</th>
+                        <th>Penalti Poin</th>
+                        <th>Sanksi</th>
+                        <th>Added By</th>
+                        <th>Added Date</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Perusahaan A</td>
+                        <td>1 Bulan</td>
+                        <td>0</td>
+                        <td>-</td>
+                        <td>System</td>
+                        <td>22-Apr-2017</td>
+                        <td>
+                          <div class="text-center">
+                            <span class="fa fa-ban"></span>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+                <!-- /.box-body -->
+              <!-- <div class="box-footer">
+                <div class="pull-right">
+                  <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span> Add Bidder</a>
+                </div>
+              </div> -->
+              <!-- /.box-footer -->
+            </div>
+              <!-- /.box -->
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box box-primary">
+              <div class="box-body">
+                <div class="col-md-12">
+                  <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                    Untuk melanjutkan proses, Anda wajib mengisi kolom berikut.    
+                  </p>
+                  <div class="form-group" style="margin-bottom: 0.5rem">
+                    <label>No. Undangan Pengadaan:</label>
+                    <input type="text" class="form-control input-sm" id="generatedBySystem2" placeholder="0001/BB43/2017-040" disabled>
+                  </div>
+                  <div class="form-group" style="margin-bottom: 0.5rem">
+                    <label>Pesan Invitation Note:</label>
+                    <textarea class="form-control" rows="3" placeholder="Keterangan Tambahan" style="resize:none" required></textarea>
+                  </div>
+                  
+                </div>
+              </div>
+              <!-- /.box body -->
               <div class="box-footer">
                 <div class="row">
                   <div class="col-md-12">
-                    <div class="pull-right" style="margin-left: 1rem">
-                      <a href="p15-invitation.php"><button class="btn btn-success pull-right btn-sm">Publish</button></a>
+                    <button type="button" class="btn btn-primary pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#sendModal">
+                    <span class="glyphicon glyphicon-send"></span> Publish
+                    </button>
+
+                    <div id="sendModal" class="modal fade">
+                      <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                          <div class="modal-header bg-blue">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Anda yakin?</h4>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn pull-left" data-dismiss="modal">Tidak</button>
+                            <button type="submit" class="btn btn-primary">Ya</button>
+                          </div>
+                        </div>
+                          <!-- /.modal-content -->
+                      </div>
                     </div>
                   </div>
                 </div>
-
-                </div>
-              </div>
-              <!-- box bidder list -->
-
-              </div>
-                <!-- /.col -->
-              </div>
-              <!-- /.row -->
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="box box-success">
-                    <div class="box-header">
-                      <h3 class="box-title">Active Bidder</h3>
-                      <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                          <i class="fa fa-minus"></i></button>
-                      </div>
-                    </div>
-                    <div class="box-body">
-                      <!-- /.box-header -->
-                      <div class="box-body">
-                        <table id="example1" class="table table-bordered table-striped table-condensed">
-                          <thead>
-                            <tr>
-                              <th>No</th>
-                              <th>Penawar</th>
-                              <th>Masa SIO</th>
-                              <th>Penalti Poin</th>
-                              <th>Sanksi</th>
-                              <th>Added By</th>
-                              <th>Added Date</th>
-                              <th></th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td>Perusahaan A</td>
-                              <td>1 Bulan</td>
-                              <td>0</td>
-                              <td>-</td>
-                              <td>System</td>
-                              <td>22-Apr-2017</td>
-                              <td>
-                                <div class="text-center">
-                                  <span class="fa fa-ban"></span>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                      <!-- /.box-body -->
-                    <!-- <div class="box-footer">
-                      <div class="pull-right">
-                        <a href="#" class="btn btn-info pull-right btn-sm"><span class="fa fa-plus"></span> Add Bidder</a>
-                      </div>
-                    </div> -->
-                    <!-- /.box-footer -->
-                  </div>
-                    <!-- /.box -->
-
-                </div>
-              </div>
-            </section>
-            <!-- /.content -->
+              </div> 
+              <!-- /.box-footer -->
+            </div>
+            <!-- /.box -->
           </div>
-          <!-- /.content-wrapper -->
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
 
-          <footer class="main-footer">
-            <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
-            reserved.
-          </footer>
+    <footer class="main-footer">
+      <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
+      reserved.
+    </footer>
 
 </div>
 <!-- ./wrapper -->

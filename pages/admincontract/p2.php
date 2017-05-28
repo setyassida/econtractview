@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="../../plugins/select2/select2.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -105,7 +107,9 @@
                   <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
                    <div class="form-group">
                      <label for="inputByCE1">Klasifikasi</label>
-                     <input type="text" class="form-control input-sm" id="inputByCE1" placeholder="M-Z">
+                     <select class="form-control select2" multiple="multiple" data-placeholder="Pilih Klasifikasi" style="width: 100%;">
+                       <option>M</option><option>N</option><option>O</option><option>P</option><option>Q</option><option>R</option><option>S</option><option>T</option><option>U</option><option>V</option><option>W</option><option>X</option><option>Y</option><option>Z</option>
+                     </select>
                    </div>
 
                    <div class="form-group">
@@ -207,14 +211,20 @@
 <script src="../../dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
+<!-- Select2 -->
+<script src="../../plugins/select2/select2.full.min.js"></script>
 <!-- page script -->
 <script>
   $(function () {
+    //Initialize Select2 Elements
+    $(".select2").select2();
+    //Data Table
     $("#example1").DataTable();
     //Date picker
     $('#datepicker').datepicker({
       autoclose: true
     });
+
   });
 </script>
 </body>

@@ -57,91 +57,6 @@
 
         <!-- Info boxes -->
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 1</span>
-                <strong>Scott Summers</strong>
-                <br><br>
-                <div class="text-right text-success"><i class="fa fa-check"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 2</span>
-                <strong>Jean Grey</strong>
-                <br><br>
-                <div class="text-right text-success"><i class="fa fa-check"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-
-          <!-- fix for small devices only -->
-          <div class="clearfix visible-sm-block"></div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-red"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 3</span>
-                <strong>Bobby Drake</strong>
-                <br><br>
-                <div class="text-right text-danger"><i class="fa fa-times"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 4</span>
-                <strong>Kitty Pryde</strong>
-                <br><br>
-                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <!-- fix for small devices only -->
-          <div class="clearfix visible-sm-block"></div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 5</span>
-                <strong>James Howlett</strong>
-                <br><br>
-                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-        </div><!--row approver-->
-
-        <div class="row">
           <div class="col-md-4">
             <div class="box box-primary">
               <div class="box-header">
@@ -363,6 +278,87 @@
                     <!-- /.box -->
                 </div>
               </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="box box-info">
+                    <div class="box-header">
+                      <h3 class="box-title">Approver</h3>
+                    </div>
+                    <div class="box-body">
+                      <div class="col-md-12">
+                        <div class="col-md-2 col-xs-2 col-md-offset-1 col-xs-offset-1">
+                          <div class="panel panel-success">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 1 <i class="fa fa-check pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>Scott Summers</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-xs-2">
+                          <div class="panel panel-success">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 2 <i class="fa fa-check pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>Jean Grey</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-xs-2">
+                          <div class="panel panel-success">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 3 <i class="fa fa-check pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>Bobby Drake</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-xs-2">
+                          <div class="panel panel-default">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 4 <i class="fa fa-clock-o pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>Kitty Pryde</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-xs-2">
+                          <div class="panel panel-default">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 5 <i class="fa fa-clock-o pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>James Howlett</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                      </div>
+                      <!-- /. col approver -->
+                    </div>
+                    <!-- /.box body -->
+                    <div class="box-footer no-print">
+                      <div class="pull-left">
+                        <a href="javascript:window.print()"><button type="button" class="btn btn-default pull-left"/><i class="fa fa-print"></i> Cetak</button></a>
+                      </div>
+                      <div class="pull-right" style="margin-left: 1rem">
+                        <a href="#"><button type="button" class="btn btn-primary">Submit</button></a>
+                      </div>
+                      <div class="pull-right" style="margin-left: 1rem">
+                        <a href="#"><button type="button" class="btn btn-default">Cancel</button></a>
+                      </div>
+                      <div class="pull-right" style="margin-left: 1rem">
+                        <a href="p2-abort.php"><button type="button" class="btn btn-danger">Abort</button></a>
+                      </div>
+                      <div class="pull-right" style="margin-left: 1rem">
+                        <a href="p2-hold.php"><button type="button" class="btn btn-warning">Hold</button></a>
+                      </div>
+                    </div>
+                    <!-- /.box footer -->
+                  </div>
+                  <!-- /. box -->
+                </div>
+                <!-- /.col box -->
+              </div>
+              <!-- ./row approver -->
             </section>
             <!-- /.content -->
           </div>

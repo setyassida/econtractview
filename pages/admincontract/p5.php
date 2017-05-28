@@ -92,7 +92,7 @@
                     <tbody>
                       <tr>
                         <td>Quote</td>
-                        <td>3</td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>Not Quote</td>
@@ -109,7 +109,7 @@
               </div>
               <!-- /.box-body -->
               <div class="box-footer">
-                <button type="button" class="btn btn-primary pull-right " data-toggle="modal" style="margin-right: 5px;"data-target="#extendModal">Extend</button>
+                <button type="button" class="btn btn-primary pull-right " data-toggle="modal" style="margin-right: 5px;" data-target="#extendModal">Extend</button>
 
                 <div id="extendModal" class="modal fade">
                   <div class="modal-dialog">
@@ -157,7 +157,30 @@
                   </div>
                 </div>
                 <!-- /.modal -->
-                <a href="p5form.php" class="btn pull-right btn-success" style="margin-right: 5px;">Open</a>
+
+                <button type="button" class="btn btn-success pull-right " data-toggle="modal" style="margin-right: 5px;" data-target="#openModal">Open</button>
+
+                <div id="openModal" class="modal fade">
+                  <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                      <div class="modal-header bg-blue">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Open Evaluai Administrasi?</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Anda mencoba membuka kontrak yang jumlah biddernya hanya 1.</p>
+                          <!-- /.bid closing / opening date -->
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn pull-left" data-dismiss="modal">Close</button>
+                        <a href="p5form.php" class="btn pull-right btn-success" style="margin-right: 5px;">Open</a>
+                      </div>
+                    </div>
+                      <!-- /.modal-content -->
+                  </div>
+                </div>
+                <!-- /.modal -->
               </div>
             </div>
             <!-- /.box -->

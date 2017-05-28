@@ -170,7 +170,8 @@
                             <label>Sistem Penawaran:</label>
                             <select class="form-control select2" style="width: 100%;">
                               <option selected="selected">1 Sampul</option>
-                              <option>2 Sampul / 2 Tahap</option>
+                              <option>2 Sampul</option>
+                              <option>2 Tahap</option>
                             </select>
                           </div>
                           <div class="form-group" style="margin-bottom: 0rem">
@@ -250,7 +251,7 @@
                 <span class="glyphicon glyphicon-send"></span> Send Invitation Note
                 </button>
 
-                <div id="sendModal" class="modal ">
+                <div id="sendModal" class="modal">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header bg-blue">
