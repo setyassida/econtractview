@@ -116,6 +116,14 @@
                 <span class="fa fa-check"></span> Approve
                 </button>
 
+                <button type="button" class="btn btn-warning   pull-right btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#ApproveModal">
+                <span class="fa fa-check"></span> Reject
+                </button>
+
+                <button type="button" class="btn btn-default btn-sm" style="margin-right: 5px;" data-toggle="modal" data-target="#ApproveModal">
+                <span class="fa fa-check"></span> Print
+                </button>
+
                 <div id="ApproveModal" class="modal ">
                   <div class="modal-dialog">
                     <div class="modal-content">
@@ -153,6 +161,74 @@
         <!-- /.col -->
       </div>
       <!-- /.row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box box-info">
+            <div class="box-header">
+              <h3 class="box-title">Approver</h3>
+            </div>
+            <div class="box-body">
+              <div class="col-md-12">
+                <div class="col-md-2 col-xs-2 col-md-offset-1 col-xs-offset-1">
+                  <div class="panel panel-success">
+                    <div class="panel-heading"><h5 style="margin: 0">Approver 1 <i class="fa fa-check pull-right"></i></h5></div>
+                    <div class="panel-body">
+                      <strong>Scott Summers</strong>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-md-2 col-xs-2">
+                  <div class="panel panel-success">
+                    <div class="panel-heading"><h5 style="margin: 0">Approver 2 <i class="fa fa-check pull-right"></i></h5></div>
+                    <div class="panel-body">
+                      <strong>Jean Grey</strong>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-md-2 col-xs-2">
+                  <div class="panel panel-success">
+                    <div class="panel-heading"><h5 style="margin: 0">Approver 3 <i class="fa fa-check pull-right"></i></h5></div>
+                    <div class="panel-body">
+                      <strong>Bobby Drake</strong>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-md-2 col-xs-2">
+                  <div class="panel panel-default">
+                    <div class="panel-heading"><h5 style="margin: 0">Approver 4 <i class="fa fa-clock-o pull-right"></i></h5></div>
+                    <div class="panel-body">
+                      <strong>Kitty Pryde</strong>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-md-2 col-xs-2">
+                  <div class="panel panel-default">
+                    <div class="panel-heading"><h5 style="margin: 0">Approver 5 <i class="fa fa-clock-o pull-right"></i></h5></div>
+                    <div class="panel-body">
+                      <strong>James Howlett</strong>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /. col approver -->
+            </div>
+            <!-- /.box body -->
+            <div class="box-footer no-print">
+              
+            </div>
+            <!-- /.box footer -->
+          </div>
+          <!-- /. box -->
+        </div>
+        <!-- /.col box -->
+      </div>
+      <!-- ./row approver -->
     </section>
     <!-- /.content -->
   </div>
