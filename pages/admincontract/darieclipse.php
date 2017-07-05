@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
@@ -32,15 +34,13 @@
 <body class="hold-transition skin-red fixed sidebar-mini">
   <!-- Site wrapper -->
   <div class="wrapper">
-
-
     <header class="main-header">
 
       <!-- Logo -->
       <a href="#" class="logo" style="padding-top: 0.25rem">
         <!-- mini logo for sidebar mini 50x50 pixels -->
 
-        <img src="../../resources/images/logo_mini.png" class="logo-lg">
+        <img src="resources/images/logo_mini.png" class="logo-lg">
 
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg"><b>e</b>Contract</span>
@@ -72,7 +72,7 @@
             <!-- User Account: style can be found in dropdown.less -->
             <li class="dropdown user user-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="../../resources/images/avatar/icon5.png" class="user-image" alt="User Image">
+                <img src="resources/images/avatar/icon5.png" class="user-image" alt="User Image">
                 <span class="hidden-xs">Admin Contract</span>
               </a>
               <ul class="dropdown-menu">
@@ -111,7 +111,7 @@
         <!-- Sidebar user panel -->
         <div class="user-panel">
           <div class="pull-left image">
-            <img src="../../resources/images/avatar/icon5.png" class="img-circle" alt="User Image">
+            <img src="resources/images/avatar/icon5.png" class="img-circle" alt="User Image">
           </div>
           <div class="pull-left info">
             <p>Admin Contract</p>
@@ -187,7 +187,163 @@
       </section>
       <!-- /.sidebar -->
     </aside>
-  </div>
 
 
     <!-- =============================================== -->
+
+
+    <!-- Main content -->
+    <section class="content">
+
+      <div class="row">
+        <form class="form-horizontal">
+          <!-- right column -->
+
+          <div class="col-md-12">
+            <!-- Horizontal Form -->
+            <div class="box box-danger">
+              <div class="box-header with-border">
+                <h3 class="box-title">Bidder List Form</h3>
+              </div>
+              <!-- /.box-header -->
+              <!-- form start -->
+
+              <div class="box-body">
+                <!-- kol 1 -->
+                <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                  <div class="form-group">
+                    <label for="generatedBySystem1">Nomor Bidder List</label>
+                    <input type="text" class="form-control input-sm" id="generatedBySystem1" placeholder="BL-17001" disabled>
+                  </div>
+                  <div class="form-group">
+                    <label for="generatedBySystem2">Tanggal Dibuat</label>
+                    <input type="text" class="form-control input-sm" id="generatedBySystem2" placeholder="17-Feb-2017" disabled>
+                  </div>
+                  <!-- <div class="form-group">
+                  <label for="generatedBySystem3">Waktu</label>
+                  <input type="text" class="form-control input-sm" id="generatedBySystem3" placeholder="13:30" disabled>
+                </div> -->
+                <!-- Date -->
+                <div class="form-group">
+                  <label>Publish Date Bidder List</label>
+                  <div class="input-group date">
+                    <input type="text" class="form-control pull-right input-sm" id="datepicker">
+                    <div class="input-group-addon">
+                      <i class="fa fa-calendar"></i>
+                    </div>
+                  </div>
+                  <!-- /.input group -->
+                </div>
+                <!-- /.form group -->
+              </div>
+              <!-- kol 1 end -->
+              <!-- kol 2 -->
+              <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                <div class="form-group">
+                  <label for="inputByCE1">Klasifikasi</label>
+                  <select class="form-control select2" multiple="multiple" data-placeholder="Pilih Klasifikasi" style="width: 100%;">
+                    <option>M</option><option>N</option><option>O</option><option>P</option><option>Q</option><option>R</option><option>S</option><option>T</option><option>U</option><option>V</option><option>W</option><option>X</option><option>Y</option><option>Z</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label>Kualifikasi</label>
+                  <div class="col-md-12">
+                    <label class="radio-inline" >
+                      <input type="radio" name="optradio1" checked>Kecil
+                    </label>
+                    <label class="radio-inline" >
+                      <input type="radio" name="optradio1">Non-Kecil
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Tingkat Risiko</label>
+                  <div class="col-md-12">
+                    <label class="radio-inline" >
+                      <input type="radio" name="optradio2" checked>Rendah
+                    </label>
+                    <label class="radio-inline" >
+                      <input type="radio" name="optradio2">Sedang
+                    </label>
+                    <label class="radio-inline" >
+                      <input type="radio" name="optradio2">Tinggi
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- kol 2 end -->
+
+              <div class="col-md-3" style="margin-left: 1rem;margin-right: 1rem">
+                <label>Kuota Area</label>
+                <table class="table table-condensed table-bordered table-hover">
+                  <tbody>
+                    <tr>
+                      <td>Bontang</td>
+                      <td><input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" ></td>
+                    </tr>
+                    <tr>
+                      <td>Kalimantan Timur</td>
+                      <td><input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" ></td>
+                    </tr>
+                    <tr>
+                      <td>Domestik</td>
+                      <td><input type="number" min="0" class="form-control input-sm" id="pickedByCE4" placeholder="0" ></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+            <!-- /.box-body -->
+
+            <div class="box-footer ">
+              <!-- <button type="submit" class="btn btn-info pull-right">Generate Bidder List</button> -->
+              <a href="p2cdraft.php" class="btn btn-success pull-right btn-sm">Generate Bidder List</a>
+            </div>
+            <!-- /.box-footer -->
+
+          </div>
+          <!-- /.box -->
+        </div>
+        <!--/.col (right) -->
+
+      </form>
+    </div>
+    <!-- /.row -->
+
+  </section>
+  <!-- /.content -->
+
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2017 <a href="http://www.badaklng.co.id"> PT Badak NGL</a>.</strong> All rights
+    reserved.
+  </footer>
+
+
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 2.2.3 -->
+<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
+<!-- DataTables -->
+<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
+<!-- SlimScroll -->
+<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="../../plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/app.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+<!-- page script -->
+<script>
+$(function () {
+  $("#example1").DataTable();
+});
+</script>
+</body>
+</html>

@@ -29,11 +29,11 @@
 </head>
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
-<body class="hold-transition skin-red fixed sidebar-mini">
+<body class="hold-transition skin-red fixed layout-top-nav">
   <!-- Site wrapper -->
   <div class="wrapper">
 
-    <?php include "p1headerbaru.php" ?>
+    <?php include "p1headerkosong.php" ?>
 
     <!-- =============================================== -->
 
@@ -43,107 +43,46 @@
       <section class="content-header">
         <h1>
           Contract Order
-          <small>CA-17001</small>
+          <small>CO-17001</small>
         </h1>
         <ol class="breadcrumb">
-          <li><a href="#"><i class="fa fa-list"></i> Home</a></li>
-          <li><a href="p2a.php">Contract Order</a></li>
-          <li class=""><a href="#">CA-17001</a></li>
-          <li class="active"><a href="#">Approve</a></li>
+          <li><a href="/ecp01001">Contract Order</a></li>
+          <li class=""><strong>CO-17001</strong></li>
 
         </ol>
       </section>
 
       <!-- Main content -->
       <section class="content">
-
-        <!-- Info boxes -->
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 1</span>
-                <strong>Scott Summers</strong>
-                <br><br>
-                <div class="text-right text-success"><i class="fa fa-check"></i></div>
+        <div class="col-md-6">
+            <div class="box box-primary">
+              <div class="box-header">
+                <h3 class="box-title">Data Contract Order</h3>
               </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-green"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 2</span>
-                <strong>Jean Grey</strong>
-                <br><br>
-                <div class="text-right text-success"><i class="fa fa-check"></i></div>
+              <div class="box-body">
+                <dl>
+                  <dt>Nomor PR Service</dt>
+                  <dd>CO-17001</dd> <br>
+                  <dt>Judul Pekerjaan</dt>
+                  <dd>Jasa Pemborongan Pekerjaan Pembuangan Sampah, Drum Bekas, Pemeliharaan Taman dan Kebersihan Lingkungan di Area Zone-I & II di PT Badak NGL Bontang, Paket “B” Tahun 2017” </dd> <br>
+                  <dt>Jenis Kontrak</dt>
+                  <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
+                  <dt>Harga Kontrak <span class="small"><i>(Termasuk PPN 10%)</i></span></dt>
+                  <dd>Rp. 400.000.000,- </dd> <br>
+                  <dt>Durasi Kontrak</dt>
+                  <dd>Durasi : 4 Bulan</dd>
+                  <dd>Mulai : 17 September 2016 </dd>
+                  <dd>Selesai : 10 Januari 2017 </dd> <br>
+                </dl>
               </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-
-          <!-- fix for small devices only -->
-          <div class="clearfix visible-sm-block"></div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 3</span>
-                <strong>Bobby Drake</strong>
-                <br><br>
-                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
+              <div class="box-footer">
+                <div class="row">
+                  
+                </div>
               </div>
-              <!-- /.info-box-content -->
             </div>
-            <!-- /.info-box -->
           </div>
-          <!-- /.col -->
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 4</span>
-                <strong>Kitty Pryde</strong>
-                <br><br>
-                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-          <!-- fix for small devices only -->
-          <div class="clearfix visible-sm-block"></div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="info-box">
-              <span class="info-box-icon bg-gray"><i class="fa fa-user"></i></span>
-
-              <div class="info-box-content">
-                <span class="info-box-text">Approver 5</span>
-                <strong>James Howlett</strong>
-                <br><br>
-                <div class="text-right text-info"><i class="fa fa-clock-o"></i></div>
-              </div>
-              <!-- /.info-box-content -->
-            </div>
-            <!-- /.info-box -->
-          </div>
-          <!-- /.col -->
-        </div>
-        <!-- ./row approver -->
-        <div class="row">
           <div class="col-md-6">
             <div class="box box-primary">
               <div class="box-header">
@@ -160,63 +99,63 @@
                   <tbody>
                     <tr>
                       <td class=" ">Cost Commitment*</td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-1" style="cursor:pointer">1 Files</a></td>
                     </tr>
                     <tr>
                       <td class=" ">Evaluasi Kinerja Kontraktor*</td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-2" style="cursor:pointer">1 Files</a></td>
 
                     </tr>
                     <tr>
                       <td class=" ">Form Evaltek*</td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-3" style="cursor:pointer">1 Files</a></td>
                     </tr>
                     <tr>
                       <td class=" ">Justifikasi PR Service*</td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-4" style="cursor:pointer">1 Files</a></td>
 
                     </tr>
                     <tr>
                       <td class=" ">Lingkup Kerja*</td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-5" style="cursor:pointer">1 Files</a></td>
 
                     </tr>
                     <tr>
                       <td class=" ">Penilaian Resiko* </td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-6" style="cursor:pointer">1 Files</a></td>
 
                     </tr>
                     <tr>
                       <td class="">SHEQ Notice*</td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-7" style="cursor:pointer">1 Files</a></td>
 
                     </tr>
                     <tr>
                       <td>Daftar Material </td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-8" style="cursor:pointer">1 Files</a></td>
 
 
                     </tr>
                     <tr>
                       <td>Gambar </td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-9" style="cursor:pointer">1 Files</a></td>
 
 
                     </tr>
                     <tr>
                       <td>Request For Proposal (RFP) </td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-10" style="cursor:pointer">1 Files</a></td>
 
                     </tr>
                     <tr>
                       <td>Spesifikasi Teknis </td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-11" style="cursor:pointer">1 Files</a></td>
 
                     </tr>
 
                     <tr>
                       <td>Lain-lain </td>
-                      <td class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></td>
+                      <td class="text-center"><a data-toggle="modal" data-target="#filesModal-12" style="cursor:pointer">3 Files</a></td>
 
                     </tr>
                   </tbody>
@@ -226,49 +165,93 @@
 
           </div>
         </div>
-          <div class="col-md-6">
-            <div class="box box-primary">
-              <div class="box-header">
-                <h3 class="box-title">Data Contract Order</h3>
-              </div>
-              <div class="box-body">
-                <dl>
-                  <dt>Nomor Kontrak</dt>
-                  <dd>CA-17001</dd> <br>
-                  <dt>Judul Pekerjaan</dt>
-                  <dd>Jasa Pemborongan Pekerjaan Pembuangan Sampah, Drum Bekas, Pemeliharaan Taman dan Kebersihan Lingkungan di Area Zone-I & II di PT Badak NGL Bontang, Paket “B” Tahun 2017” </dd> <br>
-                  <dt>Jenis Kontrak</dt>
-                  <dd>Lump Sum (LS), Harga Satuan (HS), Gabungan LS & HS </dd> <br>
-                  <dt>Harga Kontrak <span class="small"><i>(Termasuk PPN 10%)</i></span></dt>
-                  <dd>Rp. 400.000.000,- </dd> <br>
-                  <dt>Durasi Kontrak</dt>
-                  <dd>Durasi : 4 Bulan</dd>
-                  <dd>Mulai : 17 September 2016 </dd>
-                  <dd>Selesai : 10 Januari 2017 </dd> <br>
-                </dl>
-              </div>
-              <div class="box-footer">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="pull-right" style="margin-left: 1rem">
-                      <a href="p1_approve.php"><button class="btn btn-success pull-right btn-sm">Approve</button></a>
-                    </div>
-                    <div class="pull-right" style="margin-left: 1rem">
-                      <a href="p1_reject.php"><button type="button" class="btn btn-danger pull-right btn-sm">Reject</button></a>
-                    </div>
-                    <div class="pull-right" style="margin-left: 1rem">
-                      <a href="p1_cancel.php"><button type="button" class="btn btn-warning pull-right btn-sm">Cancel</button></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
 
           <!-- /.col -->
         </div>
         <!-- /.row -->
+
+        <div class="row">
+                <div class="col-md-12">
+                  <div class="box box-primary">
+                    <div class="box-header">
+                      <h3 class="box-title">Approver</h3>
+                    </div>
+                    <div class="box-body">
+                      <div class="col-md-12">
+                        <div class="col-md-2 col-xs-2 col-md-offset-1 col-xs-offset-1">
+                          <div class="panel panel-success">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 1 <i class="fa fa-check pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>Scott Summers</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-xs-2">
+                          <div class="panel panel-success">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 2 <i class="fa fa-check pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>Jean Grey</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-xs-2">
+                          <div class="panel panel-success">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 3 <i class="fa fa-check pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>Bobby Drake</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-xs-2">
+                          <div class="panel panel-default">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 4 <i class="fa fa-clock-o pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>Kitty Pryde</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-2 col-xs-2">
+                          <div class="panel panel-default">
+                            <div class="panel-heading"><h5 style="margin: 0">Approver 5 <i class="fa fa-clock-o pull-right"></i></h5></div>
+                            <div class="panel-body">
+                              <strong>James Howlett</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                      </div>
+                      <!-- /. col approver -->
+                    </div>
+                    <!-- /.box body -->
+                    <div class="box-footer no-print">
+                      <div class="pull-left">
+                        <a href="javascript:window.print()"><button type="button" class="btn btn-default pull-left btn-sm"/><i class="fa fa-download"></i> Download</button></a>
+                      </div>
+                        
+                    <div class="pull-right" style="margin-left: 1rem">
+                      <button class="btn btn-success pull-right btn-sm" data-toggle="modal" data-target="#approveModal">Approve</button>
+                    </div>
+                    <div class="pull-right" style="margin-left: 1rem">
+                      <button type="button" class="btn btn-danger pull-right btn-sm" data-toggle="modal" data-target="#rejectModal">Reject</button>
+                    </div>
+                    <div class="pull-right" style="margin-left: 1rem">
+                      <button type="button" class="btn btn-warning pull-right btn-sm" data-toggle="modal" data-target="#cancelModal">Cancel</button>
+                    </div>
+                  
+                    </div>
+                    <!-- /.box footer -->
+                  </div>
+                  <!-- /. box -->
+                </div>
+                <!-- /.col box -->
+              </div>
+              <!-- ./row approver -->
 
       </section>
       <!-- /.content -->
@@ -282,6 +265,551 @@
 
   </div>
   <!-- ./wrapper -->
+
+  <div id="approveModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <form class="form-horizontal">
+                      <div class="modal-header bg-green">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Anda Yakin?</h4>
+                      </div>
+                      <div class="modal-body">
+                        
+                          <p class="well well-sm o-shadow">Apakah anda yakin untuk memberikan APPROVE pada contract order berikut?</p>                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-sm btn-success">Yes</button>
+                      </div>
+                    </form>
+                  </div>
+                    <!-- /.modal-content -->
+                </div>
+              </div>
+              <div id="rejectModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <form class="form-horizontal">
+                      <div class="modal-header bg-red">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Anda Yakin?</h4>
+                      </div>
+                      <div class="modal-body">
+                        
+                          <p class="well well-sm o-shadow">Apakah anda yakin untuk melakukan REJECT pada contract order berikut?</p>                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-sm btn-danger">Yes</button>
+                      </div>
+                    </form>
+                  </div>
+                    <!-- /.modal-content -->
+                </div>
+              </div>
+              <div id="cancelModal" class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <form class="form-horizontal">
+                      <div class="modal-header bg-yellow">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Anda Yakin?</h4>
+                      </div>
+                      <div class="modal-body">
+                        
+                          <p class="well well-sm o-shadow">Apakah anda yakin untuk melakukan CANCEL pada contract order berikut?</p>                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-sm btn-warning">Yes</button>
+                      </div>
+                    </form>
+                  </div>
+                    <!-- /.modal-content -->
+                </div>
+              </div>
+
+              <div id="filesModal-1" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Cost Commitment</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-2" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Evaluasi Kinerja Kontraktor</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-3" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Form Evaltek</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-4" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Justifikasi PR Service</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-5" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Lingkup Kerja</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-6" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Penilaian Resiko</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-7" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">SHEQ Notice</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-8" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Daftar Material</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-9" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Gambar</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-10" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Request For Proposal (RFP)</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-11" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Spesifikasi Teknis</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="filesModal-12" class="modal">
+        <form class="form-horizontal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-green">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Dokumen Lain-Lain</h4>
+              </div>
+              <div class="modal-body">
+
+                <table class="table table-hover table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                      <td>No.</td>
+                      <td>Judul Dokumen</td>
+                      <td>Keterangan Dokumen</td>
+                      <td>Download</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Judul Dokumen Pertama</td>
+                      <td>Dokumen tambahan pertama</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+                    <tr>
+                      <td>2.</td>
+                      <td>Judul Dokumen Kedua</td>
+                      <td>Dokumen tambahan kedua</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+                    <tr>
+                      <td>3.</td>
+                      <td>Judul Dokumen Ketiga</td>
+                      <td>Dokumen tambahan ketiga</td>
+                      <td><div class="text-center"><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-download-alt"></span> Download</button></div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm pull-left" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
 
 
   <!-- jQuery 2.2.3 -->
