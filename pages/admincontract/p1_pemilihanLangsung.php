@@ -1148,7 +1148,8 @@
 
       //Date picker
       $('#datepicker').datepicker({
-        autoclose: true
+        autoclose: true,
+        format: 'dd-M-yyyy'
       });
 
       //iCheck for checkbox and radio inputs
